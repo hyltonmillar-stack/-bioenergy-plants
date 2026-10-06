@@ -18730,6 +18730,89 @@
   "summary": "Waste wood plant in Mannheim run by MVV Umwelt Asset GmbH, a 100% subsidiary of MVV Energie AG, matching the register row; two minor fires found (2011, 2021). Date of ownership, plant-specific financing and any group debt covering the plant were not found."
  },
  {
+  "plant_id": 5686,
+  "parent_owner": "Indaver (Katoen Natie group)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2008-08-01",
+  "owner_since_confidence": "likely",
+  "locality": "Biebesheim am Rhein",
+  "postcode": "64584",
+  "owners": [
+   {
+    "owner": "State of Hesse (28.05%), E.ON Kraftwerke Beteiligungs-GmbH (35.22%), Infraserv Verwaltungs-GmbH (16.31%), EAM Energie AG (5.96%) and others",
+    "to": "2006-01-01",
+    "note": "Shareholders of HIM (Hessische Industriemüll GmbH) until 2006, when the State of Hesse and others sold to Arcadia.",
+    "url": "https://de.wikipedia.org/wiki/HIM_GmbH",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/HIM_GmbH",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Arcadia Beteiligungen (Hamburg financial investor), via SAV-Beteiligungs GmbH",
+    "from": "2006-01-01",
+    "to": "2008-08-01",
+    "note": "Combined HIM with AVG Hamburg under a holding company; sold to Indaver and NIBC in Aug 2008.",
+    "url": "https://de.wikipedia.org/wiki/HIM_GmbH",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/HIM_GmbH",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Indaver (Belgium)",
+    "stake": 51,
+    "from": "2008-08-01",
+    "note": "Acquired 51% of SAV-Beteiligungs GmbH (HIM and AVG); NIBC European Infrastructure Fund took 49%. Whether Indaver later bought out NIBC was not found. Riedstadt municipal page describes HIM as a company of the Indaver group. Indaver itself has been majority owned by Katoen Natie since the 2015 purchase of Delta's 74.99% stake (EUWID, opened, paywalled after headline).",
+    "url": "https://www.juve.de/deals/indaver-und-nibc-erwerben-deutsche-sav/",
+    "source_type": "url_page",
+    "source_ref": "https://www.juve.de/deals/indaver-und-nibc-erwerben-deutsche-sav/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "NIBC European Infrastructure Fund",
+    "stake": 49,
+    "from": "2008-08-01",
+    "note": "Minority investor in SAV-Beteiligungs GmbH from 2008. Current status of this stake not found; may have been sold to Indaver.",
+    "url": "https://www.juve.de/deals/indaver-und-nibc-erwerben-deutsche-sav/",
+    "source_type": "url_page",
+    "source_ref": "https://www.juve.de/deals/indaver-und-nibc-erwerben-deutsche-sav/",
+    "confidence": "unverified"
+   },
+   {
+    "owner": "Indaver group (Katoen Natie majority)",
+    "from": "2015-03-06",
+    "note": "Katoen Natie agreed to buy Delta NV's 74.99% of Indaver NV in March 2015, so the ultimate parent of HIM is likely Katoen Natie (Huts family). Inferred; HIM's own shareholder register not opened.",
+    "url": "https://www.euwid-recycling.com/news/business/logistics-concern-katoen-to-acquire-majority-stake-in-indaver/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.com/news/business/logistics-concern-katoen-to-acquire-majority-stake-in-indaver/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-03-13",
+    "type": "fire",
+    "summary": "Fire in a c.6 cubic metre container in the hazardous waste incineration plant at Biebesheim; extinguished after about three hours, no injuries, residents told to keep windows shut, cause unclear.",
+    "severity": "medium",
+    "url": "https://www.hessenschau.de/panorama/grossbrand-feuer-in-biebesheimer-muellverbrennungsanlage-geloescht-v5,brand-biebesheim-112.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.hessenschau.de/panorama/grossbrand-feuer-in-biebesheimer-muellverbrennungsanlage-geloescht-v5,brand-biebesheim-112.html",
+    "confidence": "verified"
+   },
+   {
+    "date": "1986-05-06",
+    "type": "explosion",
+    "summary": "Explosion from a flammable gas-air mixture caused at least 1 million DM damage and several weeks of shutdown.",
+    "severity": "low",
+    "url": "https://de.wikipedia.org/wiki/HIM_GmbH",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/HIM_GmbH",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The row is the energy-recovery turbine at HIM GmbH's hazardous waste incineration plant (SAV, two lines, c.130,000 t/yr) in Biebesheim; HIM is the owner-operator, part of the Indaver group (Katoen Natie majority) since 2008. Not found: HIM's current shareholder split (NIBC 49% stake status), any financing, and turbine-specific details."
+ },
+ {
   "plant_id": 5687,
   "parent_owner": "Bayer AG",
   "parent_owner_confidence": "likely",
@@ -18765,6 +18848,44 @@
    }
   ],
   "summary": "Register row is a 1968 back-pressure steam turbine (4.2 MWe) at Bayer's Bergkamen pharma site, run on the company-owned gas-fired site power plant, so it is captive industrial CHP and not energy from waste (category looks wrong); the nearby E.ON wood-fired biomass CHP is a different plant. The turbine itself, owner entity and any financing or incidents specific to it were not found."
+ },
+ {
+  "plant_id": 5701,
+  "parent_owner": "Rethmann SE & Co. KG (REMONDIS group)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Staßfurt",
+  "postcode": "39418",
+  "permit_tonnes_pa": 380000,
+  "heat_offtaker": "Sodawerk Staßfurt (process steam)",
+  "owners": [
+   {
+    "owner": "Rethmann SE & Co. KG (formerly Rethmann AG & Co. KG), shareholder of EVZA Energie- und Verwertungszentrale GmbH Anhalt, renamed REMONDIS Thermische Abfallverwertung GmbH in April 2014",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "North Data register extract (Amtsgericht Stendal HRB 112609) shows the shareholder entry for Rethmann AG & Co. KG in 2008 and 2010, and Rethmann SE & Co. KG in Jan 2011. Start date and stake not shown; the 2014 rename to REMONDIS suggests continued group ownership but no later shareholder list was seen.",
+    "url": "https://www.northdata.de/REMONDIS%20Thermische%20Abfallverwertung%20GmbH,%20Sta%C3%9Ffurt/Amtsgericht%20Stendal%20HRB%20112609",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.de/REMONDIS%20Thermische%20Abfallverwertung%20GmbH,%20Sta%C3%9Ffurt/Amtsgericht%20Stendal%20HRB%20112609",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2022-07-22",
+    "type": "fire",
+    "summary": "Fire in the waste bunker at the Staßfurt plant, with eight fire brigades attending (article headline and lead only; rest paywalled). Extent of damage and outage not seen.",
+    "severity": "medium",
+    "url": "https://www.volksstimme.de/lokal/stassfurt/grosseinsatz-muellbunker-in-stassfurt-brennt-feuerwehr-im-einsatz-3413052",
+    "source_type": "url_page",
+    "source_ref": "https://www.volksstimme.de/lokal/stassfurt/grosseinsatz-muellbunker-in-stassfurt-brennt-feuerwehr-im-einsatz-3413052",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row is the Remondis waste-to-energy plant at Butterwecker Weg 6, Staßfurt (formerly EVZA), supplying steam to the neighbouring soda works; it was confirmed by the Landesverwaltungsamt inspection report (13 Dec 2023, no deficiencies found) and is c. 380,000 t/a permitted capacity per search snippets. Shareholder is the Rethmann group (last register entry seen 2011); date of acquisition, current shareholder list and any financing were not found, and the 2022 bunker fire is the only incident found (the register COD of 2007 differs from a snippet saying official opening was May 2008)."
  },
  {
   "plant_id": 5724,
@@ -18849,6 +18970,65 @@
   "summary": "The register row matches the Jessen (Elster) biogas site that BALANCE (VNG AG 51%, CVC DIF 49%) agreed to buy from DBV in Oct 2025; ownership is rated likely as the exact legal owner and closing date were not confirmed. No outages, enforcement or insolvency found, and no financing found; the site is subject to the Stoerfall regulations and a 2022 permit change application (seen only in a search snippet)."
  },
  {
+  "plant_id": 5745,
+  "parent_owner": "GETEC Group (G+E GETEC Holding GmbH, now Golf Investment Holding GmbH; controlled by Infrastructure Investments Fund, advised by J.P. Morgan Investment Management)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2022-04-12",
+  "owner_since_confidence": "likely",
+  "locality": "Borken",
+  "postcode": "46325",
+  "owners": [
+   {
+    "owner": "GETEC heat & power AG / GETEC AG (via GETEC heat & power GmbH, later GETEC Energie Holding GmbH)",
+    "stake": null,
+    "from": null,
+    "to": "2018-01-01",
+    "note": "North Data lists GETEC heat & power AG and then GETEC Energie Holding GmbH as shareholder in register filings from 2009 to 2018. Stake size not visible (North Data ownership detail is premium only). Exact end date not found; 2018 used as the last filing shown.",
+    "url": "https://www.northdata.com/Borchers%20Biomassekraftwerk%20GmbH,%20Borken/Amtsgericht%20Coesfeld%20HRB%204566",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Borchers%20Biomassekraftwerk%20GmbH,%20Borken/Amtsgericht%20Coesfeld%20HRB%204566",
+    "confidence": "verified"
+   },
+   {
+    "owner": "G+E GETEC Holding GmbH (EQT Infrastructure III and GETEC Energie Holding, then IIF)",
+    "stake": null,
+    "from": "2018-01-01",
+    "to": "2024-01-01",
+    "note": "North Data shows G+E GETEC Holding GmbH as shareholder from filings in 2018 to 2023. EQT and GEH sold G+E GETEC Holding to IIF; completion 12 April 2022 (EUWID). Link between the plant company and the 2022 sale is by inference from the holding name.",
+    "url": "https://eqtgroup.com/news/eqt-infrastructure-and-geh-to-sell-getec-to-iif-2021-11-19",
+    "source_type": "url_page",
+    "source_ref": "https://eqtgroup.com/news/eqt-infrastructure-and-geh-to-sell-getec-to-iif-2021-11-19; https://www.euwid-paper.com/news/markets/news-in-brief-xxx-270422-1/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Golf Investment Holding GmbH (GETEC Group, shareholder IIF Int'l Alisa S.a r.l.)",
+    "stake": null,
+    "from": "2024-01-01",
+    "to": null,
+    "note": "North Data shows Golf Investment Holding GmbH as shareholder in a filing dated 22 Feb 2024 and a shareholder list filed 1 Oct 2025. That Golf Investment Holding is the GETEC Group parent and IIF-owned comes from a search result only, not opened. Opening the Golf Investment Holding annual report (Bundestag lobby register PDF) would confirm.",
+    "url": "https://www.northdata.com/Borchers%20Biomassekraftwerk%20GmbH,%20Borken/Amtsgericht%20Coesfeld%20HRB%204566",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Borchers%20Biomassekraftwerk%20GmbH,%20Borken/Amtsgericht%20Coesfeld%20HRB%204566",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-01-29",
+    "type": "regulatory inspection",
+    "summary": "Bezirksregierung Muenster environmental inspection of the biomass power plant and waste wood processing site found no defects (report published 8 April 2025). Not a problem, recorded as a clean compliance record.",
+    "severity": "low",
+    "url": "https://www.bezreg-muenster.de/system/files/media/document/file/53_uib_bor_borken_borchers_kreislaufwirtschaft_gmbh_biomassekraftwerk.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.bezreg-muenster.de/system/files/media/document/file/53_uib_bor_borken_borchers_kreislaufwirtschaft_gmbh_biomassekraftwerk.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "heat_offtaker": null,
+  "summary": "Waste wood (A1-A4) biomass plant at Hansestrasse 44, Borken, commissioned June 2006, operated on site with Borchers Kreislaufwirtschaft GmbH (the site operator in the inspection report); the plant company Borchers Biomassekraftwerk GmbH (HRB 4566) has a GETEC group shareholder, now apparently Golf Investment Holding GmbH under IIF/J.P. Morgan. Operator website states 9.6 MW electrical against 12.896 MW in the register, so the register figure may be gross or include another unit; stake size, financing and outages not found."
+ },
+ {
   "plant_id": 5758,
   "parent_owner": "Entsorgungsverband Saar (EVS), municipal association of 52 Saarland municipalities (owns the plant; holds 51% of operator AVA Velsen GmbH via EVS GAV mbH)",
   "parent_owner_confidence": "verified",
@@ -18911,5 +19091,1290 @@
    }
   ],
   "summary": "Register row matches the operating company of the Velsen waste-fired CHP in Saarbrücken (MaStR shows Saarland, no locality); the plant is owned by EVS and run by AVA Velsen GmbH (EVS GAV mbH 51%, EEW 49%). Waste bunker fire in Jan 2026; no financing found and date EEW became shareholder not found."
+ },
+ {
+  "plant_id": 5759,
+  "parent_owner": "B+T Group (Igneo Infrastructure Partners, 90%, First Sentier Investors)",
+  "parent_owner_confidence": "unverified",
+  "owner_since": "2020-01-01",
+  "owner_since_confidence": "verified",
+  "locality": "Horn-Bad Meinberg",
+  "postcode": "32805",
+  "owners": [
+   {
+    "owner": "Glunz Holzwerkstoffproduktions-GmbH (Sonae Arauco S.A.)",
+    "to": "2020-01-01",
+    "note": "Seller of the Horn-Bad Meinberg biomass power station; only the headline and first lines were readable (subscription page).",
+    "url": "https://www.euwid-wood-products.com/news/companies/b-t-group-wants-to-keep-glunz-power-station-running-181219/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-wood-products.com/news/companies/b-t-group-wants-to-keep-glunz-power-station-running-181219/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "B+T Group (Alsfeld)",
+    "from": "2020-01-01",
+    "note": "EUWID states B+T Group takes over the plant on 1 Jan 2020. Link between the operator Kraftwerk Horn GmbH and B+T is inferred, not seen stated; a Handelsregister entry would confirm it.",
+    "url": "https://www.euwid-wood-products.com/news/companies/b-t-group-wants-to-keep-glunz-power-station-running-181219/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-wood-products.com/news/companies/b-t-group-wants-to-keep-glunz-power-station-running-181219/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Igneo Infrastructure Partners (First Sentier Investors): 90% of B+T Group",
+    "stake": 90,
+    "from": "2025-01-01",
+    "note": "Majority acquisition of the B+T Group, approvals granted Feb 2025. Indirect holder of this plant if it still sits in B+T Group.",
+    "url": "https://www.euwid-recycling.com/news/business/igneo-infrastructure-partners-completes-acquisition-of-majority-stake-in-b-t-group-030325/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.com/news/business/igneo-infrastructure-partners-completes-acquisition-of-majority-stake-in-b-t-group-030325/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-06-19",
+    "type": "dust explosion",
+    "summary": "Dust explosion in a warehouse on the premises of a wood-fired power plant at Wilberger Strasse, Horn-Bad Meinberg; c.50 responders, no injuries, fire brought under control. The report does not name the operator, so the link to this plant is by location only.",
+    "severity": "medium",
+    "url": "https://dustsafetyscience.com/?p=16055",
+    "source_type": "url_page",
+    "source_ref": "https://dustsafetyscience.com/?p=16055",
+    "confidence": "likely"
+   },
+   {
+    "date": "2024-11-18",
+    "type": "dust explosion",
+    "summary": "A search result mentioned a second dust explosion at a wood heating power plant in Horn-Bad Meinberg on 18 Nov 2024; the page was not opened and it could be the other (Stadtwerke Detmold) plant.",
+    "severity": "medium",
+    "url": null,
+    "source_type": "snippet",
+    "source_ref": "WebSearch result for BMHKW Horn-Bad Meinberg Betreiber Stoerung, Nov 2024",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "The plant was taken over by B+T Group from Glunz/Sonae Arauco on 1 Jan 2020, and B+T has been 90% owned by Igneo since early 2025; the tie from Kraftwerk Horn GmbH to B+T and the current shareholders are not confirmed. A June 2023 warehouse dust explosion was found; no financing found."
+ },
+ {
+  "plant_id": 5772,
+  "parent_owner": "Landeshauptstadt Erfurt (via Stadtwerke Erfurt Gruppe, SWE Stadtwerke Erfurt GmbH)",
+  "owner_since": null,
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": null,
+  "locality": "Erfurt",
+  "postcode": "99087",
+  "permit_tonnes_pa": null,
+  "heat_offtaker": "Erfurt district heating and electricity networks (SWE)",
+  "owners": [
+   {
+    "owner": "Landeshauptstadt Erfurt (100% shareholder of Stadtwerke Erfurt)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Wikipedia states the city has been 100% shareholder of Stadtwerke Erfurt since 1991. The SWE site lists SWE UmweltService GmbH as a Konzern company, and search results say SWE Stadtwerke Erfurt GmbH holds profit transfer and control rights, so the city is the ultimate owner by inference. No page opened states the direct shareholding of SWE UmweltService.",
+    "url": "https://de.wikipedia.org/wiki/Stadtwerke_Erfurt",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/Stadtwerke_Erfurt",
+    "confidence": "likely"
+   },
+   {
+    "owner": "SWE UmweltService GmbH (operator, Stadtwerke Erfurt Gruppe)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Operates the plant (RABA Erfurt-Ost) on behalf of the city. Company is HRB 113628, Amtsgericht Jena. The Wikipedia plant page says it operates on behalf of the city of Erfurt. Wikipedia also says the TUS Thüringer UmweltService GmbH was founded in 2005 to run the plant, which looks like the earlier name.",
+    "url": "https://www.stadtwerke-erfurt.de/pb/die_swe/die+swe/unternehmen/swe+umweltservice+gmbh",
+    "source_type": "url_page",
+    "source_ref": "https://www.stadtwerke-erfurt.de/pb/die_swe/die+swe/unternehmen/swe+umweltservice+gmbh",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Municipal plant: RABA Erfurt-Ost (mechanical treatment plus waste-to-energy and sludge drying, built 2006, c.85,000 t/yr residual waste and c.25,000 t/yr sludge) is operated by SWE UmweltService GmbH, part of the city-owned Stadtwerke Erfurt Group. The register's 5 MWe fits a plant of this kind but was not confirmed; no acquisition date, financing, permit tonnage or operating incidents were found."
+ },
+ {
+  "plant_id": 5786,
+  "parent_owner": "GMVA Niederrhein GmbH, owned by Wirtschaftsbetriebe Duisburg (35.82%), Stadtwerke Oberhausen (15.18%) and Remondis (49%)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2002-01-01",
+  "owner_since_confidence": "likely",
+  "locality": "Oberhausen",
+  "postcode": "46049",
+  "owners": [
+   {
+    "owner": "Cities of Duisburg and Oberhausen (via Wirtschaftsbetriebe Duisburg and Stadtwerke Oberhausen)",
+    "stake": 100,
+    "to": "2002-01-01",
+    "note": "Plant created from the former Concordia colliery power plant and originally 100% owned by the two cities. Year of the private partner entry is from a secondary press summary.",
+    "url": "https://www.udo-leuschner.de/energie-chronik/140711.htm",
+    "source_type": "url_page",
+    "source_ref": "https://www.udo-leuschner.de/energie-chronik/140711.htm",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Remondis (private waste company)",
+    "stake": 49,
+    "from": "2002-01-01",
+    "note": "Private partner since 2002 (one search snippet gives 2001 for the privatisation; the opened page says 2002). Stake confirmed in EUWID 2014 and 2025.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/jahresueberschuss-der-gmva-um-die-haelfte-gesunken-040925/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/jahresueberschuss-der-gmva-um-die-haelfte-gesunken-040925/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Wirtschaftsbetriebe Duisburg",
+    "stake": 35.82,
+    "from": null,
+    "note": "Municipal shareholder (Duisburg), current stake per EUWID report on 2024 results.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/jahresueberschuss-der-gmva-um-die-haelfte-gesunken-040925/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/jahresueberschuss-der-gmva-um-die-haelfte-gesunken-040925/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Stadtwerke Oberhausen GmbH",
+    "stake": 15.18,
+    "from": null,
+    "note": "Municipal shareholder (Oberhausen), current stake per EUWID report on 2024 results.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/jahresueberschuss-der-gmva-um-die-haelfte-gesunken-040925/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/jahresueberschuss-der-gmva-um-die-haelfte-gesunken-040925/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-08-11",
+    "type": "fire",
+    "summary": "Automatic fire alarm triggered in a waste bunker; smoke and odour led to a resident warning and fire brigade work until c.20:00. Police investigated the cause.",
+    "severity": "medium",
+    "url": "https://www.radiooberhausen.de/artikel/brand-in-der-muellverbrennungsanlage-2407147",
+    "source_type": "url_page",
+    "source_ref": "https://www.radiooberhausen.de/artikel/brand-in-der-muellverbrennungsanlage-2407147",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-09-04",
+    "type": "inspection",
+    "summary": "Bezirksregierung Düsseldorf environmental inspection on 27 Aug 2024 under section 52 BImSchG found no deficiencies.",
+    "severity": "low",
+    "url": "https://www.brd.nrw.de/umweltinspektionsberichte/Stadt-Oberhausen/OB-012-Muellverbrennungsanlage",
+    "source_type": "register_entry",
+    "source_ref": "Bezirksregierung Düsseldorf Umweltinspektionsbericht OB-012, inspection 2024-08-27",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-12-31",
+    "type": "financial",
+    "summary": "2024 net profit roughly halved to EUR 13.8m after first national CO2 levy; a EUR 5.7m provision was made for a possible electricity price brake windfall levy repayment.",
+    "severity": "low",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/jahresueberschuss-der-gmva-um-die-haelfte-gesunken-040925/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/jahresueberschuss-der-gmva-um-die-haelfte-gesunken-040925/",
+    "confidence": "verified"
+   }
+  ],
+  "permit_tonnes_pa": null,
+  "summary": "The register row 'Turbosatz 2' (49.5 MWe, 1991) is a turbine set at the GMVA waste-to-energy site at Buschhausener Str. 156, Oberhausen, owned 49% by Remondis and 51% by Duisburg and Oberhausen municipal companies. No financing found; permit tonnage not found and the ultimate owner is shared, so no single controlling parent exists."
+ },
+ {
+  "plant_id": 5788,
+  "parent_owner": "Swiss Life AG (Swiss Life Asset Managers, via FORTE I and FORTE II infrastructure funds)",
+  "owner_since": null,
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": null,
+  "locality": "Cuxhaven",
+  "postcode": "27472",
+  "heat_offtaker": "Cuxhaven district heating network (FORTE Energie)",
+  "owners": [
+   {
+    "owner": "Swiss Life AG (FORTE I and FORTE II funds), main shareholder and largest investor",
+    "stake": null,
+    "from": null,
+    "note": "NABU paper says the company was called Holzheizkraftwerke Cuxhaven GmbH until early 2024 and the new name FORTE Energie comes from its shareholder and main financier Swiss Life AG, investing via two funds. Exact stake and acquisition date not found; the paper does not say Swiss Life owns 100 percent. Handelsregister shareholder list not opened.",
+    "url": "https://www.nabu.de/imperia/md/content/nabude/energie/biomasse/240806-infopapier_forte_energie.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.nabu.de/imperia/md/content/nabude/energie/biomasse/240806-infopapier_forte_energie.pdf",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-03-12",
+    "type": "delayed commissioning / technical problems",
+    "summary": "Environmental groups state that after five years of construction (from early 2020) the plant had still not entered regular operation and was only run temporarily on a trial basis, with the cause of the delays never disclosed. The register shows COD 2023-08-21 and status Operational, which may overstate actual operation; current status in late 2026 not confirmed.",
+    "severity": "medium",
+    "url": "https://www.biofuelwatch.org.uk/2025/cuxhaven-offener-brief/",
+    "source_type": "url_page",
+    "source_ref": "https://www.biofuelwatch.org.uk/2025/cuxhaven-offener-brief/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-08-06",
+    "type": "permit / regulatory",
+    "summary": "NABU says the permit was granted without public participation because boiler capacity was planned just under 50 MW, but the installed boilers reportedly exceed that threshold. This is a claim by an environmental group, not a regulator finding.",
+    "severity": "medium",
+    "url": "https://www.nabu.de/imperia/md/content/nabude/energie/biomasse/240806-infopapier_forte_energie.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.nabu.de/imperia/md/content/nabude/energie/biomasse/240806-infopapier_forte_energie.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row matches the Cuxhaven wood-fired CHP (17 MW) run by FORTE Energie (formerly Holzheizkraftwerke Cuxhaven GmbH); Swiss Life AG funds are named as main shareholder, but stake and date are not confirmed. Campaigners reported in March 2025 that it was still only in trial operation despite the register showing 2023 COD; no financing found and current operating status unknown."
+ },
+ {
+  "plant_id": 5792,
+  "parent_owner": "LEG Immobilien SE (LEG Immobilien Group)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Liebenscheid",
+  "postcode": "56479",
+  "heat_offtaker": "Local district heating network supplying Siegerland Airport and the adjacent industrial estate",
+  "owners": [
+   {
+    "owner": "LEG Immobilien Group, via LEG Standort- und Projektentwicklung Köln GmbH (limited partner, liability contribution EUR 1,897.10, c.95% of the two listed contributions)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "LEG says the plant is its subsidiary and that it built it with Ökotech GmbH in 2005/2006 on the former airport site it bought in 1999. The share percentage is derived from a search snippet of the register data and was not seen on an opened page.",
+    "url": "https://www.leg-wohnen.de/en/corporation/leg-group/associated-companies/biomasse-heizkraftwerk-siegerland-gmbh-co-kg",
+    "source_type": "url_page",
+    "source_ref": "https://www.leg-wohnen.de/en/corporation/leg-group/associated-companies/biomasse-heizkraftwerk-siegerland-gmbh-co-kg",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Biomasse Beteiligung Siegerland UG (haftungsbeschränkt) (limited partner, liability contribution EUR 102.90, c.5%)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Second limited partner in the Handelsregister (Montabaur HRA 21838); registercheck.de, which I opened, lists it as Kommanditist (entry of 28 Mar 2022). The amount comes from a snippet. Who owns this UG is not known.",
+    "url": "https://www.registercheck.de/companies/biomasse-heizkraftwerk-siegerland-gmbh-co-kg-21838",
+    "source_type": "url_page",
+    "source_ref": "https://www.registercheck.de/companies/biomasse-heizkraftwerk-siegerland-gmbh-co-kg-21838",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2022-01-01",
+    "type": "operational disturbance",
+    "summary": "The 2022 self-monitoring report to the Rhineland-Palatinate environment authority (SGD Nord) reportedly records a fault in the wood conveying system that cut fuel supply and output, and several disturbances affecting emissions compliance.",
+    "severity": "low",
+    "url": "https://sgdnord.rlp.de/fileadmin/sgdnord/Abteilung_2/Dokumente/Immissionsschutz/Referat_31/Berichte_geschwaerzt/Jahresbericht_BHKW_Siegerland_2022.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://sgdnord.rlp.de/fileadmin/sgdnord/Abteilung_2/Dokumente/Immissionsschutz/Referat_31/Berichte_geschwaerzt/Jahresbericht_BHKW_Siegerland_2022.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Waste-wood CHP plant at the former Siegerland Airport (Liebenscheid), a LEG Immobilien Group subsidiary; the register row matches (operator, locality, c.15 to 20 MWe) and the plant is operating. No acquisition date, financing or insolvency found; the 2022 fault report could not be opened (404), and LEG's exact share and the owner of the minority UG are not confirmed."
+ },
+ {
+  "plant_id": 5793,
+  "parent_owner": "E.ON SE (via E.ON Energy Projects GmbH)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 230000,
+  "heat_offtaker": "UPM paper mill Hürth-Knapsack (steam and power)",
+  "locality": "Hürth (Knapsack)",
+  "owners": [
+   {
+    "owner": "E.ON Energy Projects GmbH (100% shareholder; profit transfer and control agreement filed May 2019), ultimately E.ON SE",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "North Data register extract lists E.ON Energy Projects GmbH as sole shareholder (list dated 13 Jan 2026) and an earlier shareholder entry for E.ON SE (2023). Company was formed in 2012 as EEP 2. Beteiligungsgesellschaft mbH; date E.ON took ownership not established. Entry for E.ON SE is the older register reading.",
+    "url": "https://www.northdata.com/GSH+Green+Steam+H%C3%BCrth+GmbH,+M%C3%BCnchen/HRB+202678",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/GSH+Green+Steam+H%C3%BCrth+GmbH,+M%C3%BCnchen/HRB+202678",
+    "confidence": "verified"
+   },
+   {
+    "owner": "E.ON (operator, confirmed on request by E.ON to trade press)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "E.ON said it will operate the Green Steam plant on the UPM site and supply the mill with power and steam.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/eon-nimmt-biomassekraftwerk-huerth-in-betrieb-190124/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/eon-nimmt-biomassekraftwerk-huerth-in-betrieb-190124/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-12-01",
+    "type": "construction defect",
+    "summary": "A crack was found in the fuel bunker and the boiler stood for five weeks until it was sealed and a structural engineer cleared commissioning. Start-up was originally planned for Q1 2022, so it ran about two years late.",
+    "severity": "medium",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/eon-nimmt-biomassekraftwerk-huerth-in-betrieb-190124/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/eon-nimmt-biomassekraftwerk-huerth-in-betrieb-190124/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-06-18",
+    "type": "ramp-up problems",
+    "summary": "Plant still not at full load in June 2024 because of technical difficulties; E.ON expected the turbine to be fully in service by end of June 2024. Only the teaser was readable (paywall).",
+    "severity": "medium",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/biomassekraftwerk-green-steam-laeuft-noch-nicht-unter-volllast-180624/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/biomassekraftwerk-green-steam-laeuft-noch-nicht-unter-volllast-180624/",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "Waste-wood biomass CHP (20 MWe, 87 MW thermal, c.EUR 110m planned investment, 230kt/yr fuel) on the UPM Hürth-Knapsack paper mill site, 100% held by E.ON via E.ON Energy Projects GmbH. Commissioning ran c.2 years late with a bunker crack and ramp-up problems; the register COD of 2025-04-01 is later than the actual 2024 start-up, and the date E.ON acquired the company, any debt financing and the postcode were not found. Permit tonnage and capacity come from the 2019 announcement (snippet-level, search result for umweltdialog.de page opened), not a permit document."
+ },
+ {
+  "plant_id": 5794,
+  "parent_owner": "Stadt Neumünster (via SWN Stadtwerke Neumünster Beteiligungen GmbH)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Neumünster",
+  "postcode": "24534",
+  "permit_tonnes_pa": null,
+  "heat_offtaker": "Neumünster district heating network (SWN)",
+  "owners": [
+   {
+    "owner": "Stadt Neumünster (sole shareholder of SWN Stadtwerke Neumünster Beteiligungen GmbH, which holds SWN Stadtwerke Neumünster GmbH)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "SWN states the city is sole owner; the operator named in the register, SWN Stadtwerke Neumünster GmbH, is a wholly owned subsidiary. Municipal utility since the 2002 split into GmbHs.",
+    "url": "https://swn.net/ueber-uns/konzernstruktur-zahlen-fakten",
+    "source_type": "url_page",
+    "source_ref": "https://swn.net/ueber-uns/konzernstruktur-zahlen-fakten",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "T6 is the new steam turbine (c.23 MWe, c.EUR 15m, commissioned 2014) at SWN's Heizkraftwerk Bismarckstraße in Neumünster, installed in the hall of a former 1970s coal boiler; it is a unit within a larger municipal CHP site that also has the 2005 waste-fuel plant (TEV) and gas boilers, and is wholly owned by the city of Neumünster via SWN. No incidents, financing or ownership change found; exact date the turbine started operating and any plant-specific debt were not found, and the Konzernanhang 2023 was only skimmed for loans."
+ },
+ {
+  "plant_id": 5799,
+  "parent_owner": "Pfleiderer Group (controlled by Strategic Value Partners; SVP reported to be selling to holders of the 2021 bonds)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "heat_offtaker": "Pfleiderer Neumarkt chipboard plant (process heat and electricity from site residues)",
+  "locality": "Neumarkt i.d. OPf.",
+  "postcode": "92318",
+  "owners": [
+   {
+    "owner": "Pfleiderer (Pfleiderer AG, now Pfleiderer Neumarkt GmbH)",
+    "note": "Opened AET reference page says the biomass CHP at the Neumarkt site is owned and operated by Pfleiderer AG; boiler commissioned 1997 and upgraded to 100 MWth in 2001. The register operator Pfleiderer Neumarkt GmbH is the current legal entity.",
+    "url": "https://www.aet-biomass.com/en-gb/home/references/biomass-fired-plants/pfleiderer-neumarkt.aspx",
+    "source_type": "url_page",
+    "source_ref": "https://www.aet-biomass.com/en-gb/home/references/biomass-fired-plants/pfleiderer-neumarkt.aspx",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Strategic Value Partners (with Atlantik S.A.), via Pfleiderer Group S.A.",
+    "note": "Search results report SVP-led takeover of Pfleiderer Group S.A. around 2017 and delisting from Warsaw. Not opened, so the stake and date are not confirmed.",
+    "url": "https://www.nordbayern.de/oberpfalz/neumarkt/finanzinvestoren-und-fonds-ubernehmen-pfleiderer-1.9460778",
+    "source_type": "snippet",
+    "source_ref": "https://www.nordbayern.de/oberpfalz/neumarkt/finanzinvestoren-und-fonds-ubernehmen-pfleiderer-1.9460778",
+    "confidence": "unverified"
+   },
+   {
+    "owner": "Holders of the PCF GmbH sustainability-linked bonds (planned)",
+    "from": null,
+    "note": "EUWID headline of 12 Aug 2026 (opened, article paywalled) says SVP intends to sell its Pfleiderer Group shares to the holders of the April 2021 bonds, with all shares to be acquired by end of 2026. Completion not confirmed.",
+    "url": "https://www.euwid-wood-products.com/news/wood-based-panels/holders-of-pfleiderer-bonds-intend-to-acquire-all-shares-by-end-of-2026-120826-1/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-wood-products.com/news/wood-based-panels/holders-of-pfleiderer-bonds-intend-to-acquire-all-shares-by-end-of-2026-120826-1/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "PCF GmbH (Pfleiderer Group financing vehicle)",
+    "lender": "Bondholders (sustainability-linked senior secured notes)",
+    "instrument": "EUR 400m 4.75% fixed and EUR 350m floating rate sustainability-linked senior secured notes, issued mid-April 2021; maturity extended from April 2026 to 15 April 2029 (approved Aug 2024)",
+    "amount": 750000000,
+    "ccy": "EUR",
+    "created": "2021-04-15",
+    "refi": "2029-04-15",
+    "refi_basis": "Maturity extended from Apr 2026 to 15 Apr 2029 by bondholder vote; group-level debt covering all Pfleiderer sites. Seen only in search result snippets (several agree); press release PDF returned 404.",
+    "url": "https://www.euwid-wood-products.com/news/wood-based-panels/pfleiderer-wants-to-extend-bond-maturity-to-2029-290824/",
+    "source_type": "snippet",
+    "source_ref": "https://www.euwid-wood-products.com/news/wood-based-panels/pfleiderer-wants-to-extend-bond-maturity-to-2029-290824/",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2026-04-07",
+    "type": "permit exemption",
+    "summary": "Local press reports Pfleiderer may exceed limits for formaldehyde and TVOC at the chipboard dryer until 2030 under an exemption. This concerns the panel plant, not the biomass CHP, whose published emissions are within limits.",
+    "severity": "low",
+    "url": "https://www.nn.de/region/neumarkt/schadstoffe-uber-neumarkt-wieso-pfleiderer-bis-2030-grenzwerte-uberschreiten-darf-1.15068890",
+    "source_type": "url_page",
+    "source_ref": "https://www.nn.de/region/neumarkt/schadstoffe-uber-neumarkt-wieso-pfleiderer-bis-2030-grenzwerte-uberschreiten-darf-1.15068890",
+    "confidence": "likely"
+   },
+   {
+    "date": "2026-08-12",
+    "type": "ownership change risk",
+    "summary": "Group owner SVP reportedly plans to hand the shares to bondholders by end 2026, so control of the group is changing.",
+    "severity": "low",
+    "url": "https://www.euwid-wood-products.com/news/wood-based-panels/holders-of-pfleiderer-bonds-intend-to-acquire-all-shares-by-end-of-2026-120826-1/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-wood-products.com/news/wood-based-panels/holders-of-pfleiderer-bonds-intend-to-acquire-all-shares-by-end-of-2026-120826-1/",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "Captive biomass CHP (100 MWth boiler, up to 12 MWe) at the Pfleiderer chipboard plant in Neumarkt; it is operating, with emissions published daily to Sep 2026. Group is SVP-controlled with EUR 750m notes due Apr 2029; the register row's 20.675 MWe may be generator nameplate versus c.12 MWe on the AET page. Direct shareholder chain (Handelsregister) not seen."
+ },
+ {
+  "plant_id": 5807,
+  "parent_owner": "Bürger family, Ostheide, Anröchte (owner-operated via Bürger GmbH & Co. KG; general partner Jörg Bürger GmbH)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Anröchte",
+  "postcode": "59609",
+  "owners": [
+   {
+    "owner": "Bürger GmbH & Co. KG (family-run operator; general partner Jörg Bürger GmbH; 4 limited partners, names not seen)",
+    "from": "2004-01-01",
+    "note": "Company site says the plant has been built up since Sep 2003, produced since 2004, and is run by the Bürger family; the operator is the Bürger GmbH & Co. KG. North Data lists 4 limited partners and 1 general partner (Jörg Bürger GmbH, general partner since Jan 2014, replacing Erneuerbare Energien Bürger Verwaltungs GmbH) but the limited partners' names and stakes are paywalled. Family ownership is implied by the company's own description, not stated as a shareholder list.",
+    "url": "https://buerger-ostheide.de/biogasbetrieb/",
+    "source_type": "url_page",
+    "source_ref": "https://buerger-ostheide.de/biogasbetrieb/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Erneuerbare Energien Bürger Verwaltungs GmbH (former general partner)",
+    "to": "2014-01-23",
+    "note": "Replaced as general partner by Jörg Bürger GmbH per the register publication of 23 Jan 2014 as summarised by North Data (opened, shareholder detail paywalled).",
+    "url": "https://www.northdata.com/B%C3%BCrger%20GmbH%20&%20Co%C2%B7%20KG,%20Anr%C3%B6chte/Amtsgericht%20Paderborn%20HRA%205842",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/B%C3%BCrger%20GmbH%20&%20Co%C2%B7%20KG,%20Anr%C3%B6chte/Amtsgericht%20Paderborn%20HRA%205842 (Amtsgericht Paderborn HRA 5842)",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Register row matches an operating food-residue biogas plant at Windweg 1, Anröchte, run by the family firm Bürger GmbH & Co. KG (HRA 5842, Paderborn), with a BImSchG modification permit granted by Bezirksregierung Arnsberg on 26 Nov 2020. The 5.162 MWe figure is likely several engine units at the site. Limited partners, stakes, financing and operating problems were not found; no incidents turned up in German searches."
+ },
+ {
+  "plant_id": 5816,
+  "parent_owner": "Zweckverband für Abfallwirtschaft Südwestthüringen (ZASt), a municipal association of the districts Schmalkalden-Meiningen, Hildburghausen, Sonneberg, Wartburgkreis (via its waste association, with Eisenach) and the cities of Suhl and Eisenach",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2007-01-01",
+  "owner_since_confidence": "likely",
+  "locality": "Zella-Mehlis",
+  "postcode": "98544",
+  "owners": [
+   {
+    "owner": "Zweckverband für Abfallwirtschaft Südwestthüringen (ZASt), operated through its own enterprise (Eigenbetrieb) at Am Schießstand 15, Zella-Mehlis",
+    "stake": 100,
+    "from": "2007-01-01",
+    "to": null,
+    "note": "ZASt is both owner and operator of the RABA Südwestthüringen (the register row 'ZASt' is the Zella-Mehlis waste-to-energy plant, 13.7 MW max electrical output per the ZASt technical data). Members decided to build it in March 2003; it was commissioned in 2007. A 2008 press report says the build contractor was due to hand the plant over to ZASt as user in Q3 2008, so the exact transfer date is not certain.",
+    "url": "https://zast.info/index.php/anlagen/raba-suedwestthueringen/",
+    "source_type": "url_page",
+    "source_ref": "https://zast.info/index.php/anlagen/raba-suedwestthueringen/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Member bodies of ZASt (Landkreis Schmalkalden-Meiningen, Landkreis Hildburghausen, Landkreis Sonneberg, Abfallwirtschaftszweckverband Wartburgkreis - Stadt Eisenach, Stadt Suhl)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Shareholding split is not published; the Verbandsversammlung has 27 seats (Wartburgkreis/Eisenach 8, Schmalkalden-Meiningen 7, Hildburghausen 5, Sonneberg 4, Suhl 3). The site text says 6 districts and cities, the member list shows five bodies because Eisenach is inside the Wartburg association.",
+    "url": "https://zast.info/",
+    "source_type": "url_page",
+    "source_ref": "https://zast.info/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2008-06-28",
+    "type": "start-up problems",
+    "summary": "Local press reported problems at the start of the new plant that prompted questions from citizens and councillors; regular operation was expected from Q3 2008. The nature of the problems was not visible in the part of the article that could be read.",
+    "severity": "low",
+    "url": "https://www.insuedthueringen.de/inhalt.suhl-zella-mehlis-das-auf-und-ab-der-muellverbrennung.e2127be2-5489-44ed-b058-569e68284e50.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.insuedthueringen.de/inhalt.suhl-zella-mehlis-das-auf-und-ab-der-muellverbrennung.e2127be2-5489-44ed-b058-569e68284e50.html",
+    "confidence": "verified"
+   },
+   {
+    "date": "2021-09-01",
+    "type": "planned outage",
+    "summary": "Annual main revision took the incinerator offline from late August to 24 September 2021, including a turbine overhaul after four years of continuous running; waste was baled and stored meanwhile. Similar planned outages occurred in 2019 (to 22 September, cost estimated at EUR 1.5 to 2.5 million).",
+    "severity": "low",
+    "url": "https://www.insuedthueringen.de/inhalt.muellverbrennung-tonnenschwere-turbine-wird-in-einzelteile-zerlegt.254fd5eb-cc38-4689-9aa4-64b1f807bee1.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.insuedthueringen.de/inhalt.muellverbrennung-tonnenschwere-turbine-wird-in-einzelteile-zerlegt.254fd5eb-cc38-4689-9aa4-64b1f807bee1.html",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The register row is the ZASt waste-to-energy plant (RABA Südwestthüringen) in Zella-Mehlis, owned and operated by the ZASt municipal association (c. 160,000 t/a design capacity, 13.7 MW max electrical). No financing, insolvency, fire or enforcement issues found; exact owner_since date, shareholder split, formal permit tonnage and heat offtaker were not found."
+ },
+ {
+  "plant_id": 5827,
+  "parent_owner": "E.ON SE (via E.ON Energy Projects GmbH)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2023-01-01",
+  "owner_since_confidence": "likely",
+  "locality": "Aschaffenburg",
+  "postcode": "63741",
+  "heat_offtaker": "DS Smith Paper Deutschland paper mill, Aschaffenburg (same site)",
+  "owners": [
+   {
+    "owner": "Previous owner or operator of the DS Smith mill CHP plant (not identified)",
+    "to": "2023-01-01",
+    "note": "DS Smith says E.ON takes over the existing CHP plant at the mill and operates it from January 2023. The previous owner is not named.",
+    "url": "https://www.dssmith.com/de/media/news-pressemitteilungen/2023/1/ds-smith-und-e.on-kooperieren-im-werk-aschaffenburg",
+    "source_type": "url_page",
+    "source_ref": "https://www.dssmith.com/de/media/news-pressemitteilungen/2023/1/ds-smith-und-e.on-kooperieren-im-werk-aschaffenburg",
+    "confidence": "unverified"
+   },
+   {
+    "owner": "Sustainable Energy Aschaffenburg GmbH (E.ON), operator",
+    "from": "2023-01-01",
+    "note": "E.ON takes over and runs the existing CHP plant from Jan 2023 and is building a new waste-fuel CHP unit on the site. The release says takeover and operation; whether E.ON also took legal ownership of the assets is not stated.",
+    "url": "https://www.dssmith.com/de/media/news-pressemitteilungen/2023/1/ds-smith-und-e.on-kooperieren-im-werk-aschaffenburg",
+    "source_type": "url_page",
+    "source_ref": "https://www.dssmith.com/de/media/news-pressemitteilungen/2023/1/ds-smith-und-e.on-kooperieren-im-werk-aschaffenburg",
+    "confidence": "likely"
+   },
+   {
+    "owner": "E.ON SE (shareholder of Sustainable Energy Aschaffenburg GmbH)",
+    "stake": 100,
+    "from": "2019-10-31",
+    "to": "2023-06-06",
+    "note": "Company formed 31 Oct 2019 as Smart Energy Plattling GmbH, renamed 2022. North Data lists E.ON SE as shareholder until mid 2023. Stake percentage not shown.",
+    "url": "https://www.northdata.com/Sustainable%20Energy%20Aschaffenburg%20GmbH,%20M%C3%BCnchen/HRB%20252469",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Sustainable%20Energy%20Aschaffenburg%20GmbH,%20M%C3%BCnchen/HRB%20252469",
+    "confidence": "likely"
+   },
+   {
+    "owner": "E.ON Energy Projects GmbH (E.ON group)",
+    "from": "2022-05-26",
+    "note": "Control and profit transfer agreement with E.ON Energy Projects GmbH registered May 2022; North Data lists it as shareholder from 2024-2026 filings. Parent chain up to E.ON SE inferred from the E.ON group naming and the earlier E.ON SE listing.",
+    "url": "https://www.northdata.com/Sustainable%20Energy%20Aschaffenburg%20GmbH,%20M%C3%BCnchen/HRB%20252469",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Sustainable%20Energy%20Aschaffenburg%20GmbH,%20M%C3%BCnchen/HRB%20252469",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-10-31",
+    "type": "expansion",
+    "summary": "The city of Aschaffenburg approved a new waste-derived fuel plant (over 100,000 t/yr) and large water boilers at the existing gas and steam turbine plant, with completion planned for H2 2025. Current commissioning status not found.",
+    "severity": "low",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/eon-erhaelt-genehmigung-fuer-ebs-kraftwerk-in-aschaffenburg-081123/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/eon-erhaelt-genehmigung-fuer-ebs-kraftwerk-in-aschaffenburg-081123/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The row looks like the existing gas and steam turbine CHP at the DS Smith paper mill in Aschaffenburg (c. 5.2 MWe, COD 2005), run by E.ON subsidiary Sustainable Energy Aschaffenburg GmbH since Jan 2023; the link of unit DT_neu to this site is inferred from operator, region and the 2022 permit application, not stated by a source. Previous owner, legal asset ownership, financing and operating problems were not found, and this is a captive mill CHP rather than a bioenergy plant in itself."
+ },
+ {
+  "plant_id": 5834,
+  "parent_owner": "Zweckverband Abfallverwertung Südhessen (ZAS), a municipal association of the City of Darmstadt, Landkreis Darmstadt-Dieburg and Müllabfuhr-Zweckverband Odenwaldkreis",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 238000,
+  "heat_offtaker": "ENTEGA AG (all heat from the plant goes to ENTEGA for the Darmstadt district heating system)",
+  "locality": "Darmstadt",
+  "owners": [
+   {
+    "owner": "Zweckverband Abfallverwertung Südhessen (ZAS)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Owner of the Müllheizkraftwerk Darmstadt. Members: Wissenschaftsstadt Darmstadt, Landkreis Darmstadt-Dieburg, Müllabfuhr-Zweckverband Odenwaldkreis. Start date of ZAS ownership not found.",
+    "url": "https://www.zas-darmstadt.de/der-zas/",
+    "source_type": "url_page",
+    "source_ref": "https://www.zas-darmstadt.de/der-zas/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "ENTEGA AG (operator on behalf of ZAS, majority owned via HEAG Holding AG by the City of Darmstadt)",
+    "stake": null,
+    "from": "1967-01-01",
+    "to": null,
+    "note": "Operator and managing agent, not owner. Has run the plant since 1967 (or via predecessors) and handles ZAS management and commercial administration.",
+    "url": "https://landwirtschaft.hessen.de/sites/landwirtschaft.hessen.de/files/2024-01/231205_p-plattform_kassel_praesentation_zas_cornelius_ohland.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://landwirtschaft.hessen.de/sites/landwirtschaft.hessen.de/files/2024-01/231205_p-plattform_kassel_praesentation_zas_cornelius_ohland.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-01-28",
+    "type": "capex",
+    "summary": "Plant is to be rebuilt by 2029 from three to two incineration lines, with a new sewage sludge mono-treatment plant (c.60,000 t/yr, total investment c.EUR 60m, state grant EUR 25.64m). Existing lines and turbine may be affected by the rebuild.",
+    "severity": "medium",
+    "url": "https://www.darmstadt.de/presseportal/pressemitteilungen/einzelansicht/bau-einer-klaerschlamm-monobehandlungsanlage-ksmb-am-muellheizkraftwerk-mhkw-darmstadt",
+    "source_type": "url_page",
+    "source_ref": "https://www.darmstadt.de/presseportal/pressemitteilungen/einzelansicht/bau-einer-klaerschlamm-monobehandlungsanlage-ksmb-am-muellheizkraftwerk-mhkw-darmstadt",
+    "confidence": "verified"
+   },
+   {
+    "date": "2017-08-01",
+    "type": "outage",
+    "summary": "First full shutdown of about six weeks for a EUR 10.5m general overhaul.",
+    "severity": "low",
+    "url": "https://de.wikipedia.org/wiki/M%C3%BCllheizkraftwerk_Darmstadt",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/M%C3%BCllheizkraftwerk_Darmstadt",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Row is Turbine 1 (10.56 MWe) at the ZAS Müllheizkraftwerk Darmstadt, the single c.10 MWe turbine of the plant, owned by the municipal association ZAS and operated by ENTEGA. No debt financing found (the sewage sludge project has a EUR 25.64m state grant, not a loan); owner_since, postcode and any recent faults not found, and the plant is being rebuilt to two lines by 2029."
+ },
+ {
+  "plant_id": 5850,
+  "parent_owner": "Beijing Enterprises Holdings (via EEW Energy from Waste)",
+  "owner_since": "2016-03-01",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 525000,
+  "locality": "Büddenstedt (TRV Buschhaus, Schöningen area)",
+  "postcode": "38372",
+  "owners": [
+   {
+    "owner": "EQT Infrastructure II (51% from Mar 2013, 100% from Apr 2015), with E.ON as earlier owner of EEW",
+    "stake": 100,
+    "from": "2015-04-01",
+    "to": "2016-03-01",
+    "note": "EQT page confirms it bought 51% in March 2013 and agreed the sale of EEW to Beijing Enterprises on 4 Feb 2016 for EUR 1,438m; the Apr 2015 purchase of the remaining 49% is from a search snippet only.",
+    "url": "https://eqtgroup.com/news/eqt-infrastructure-ii-verkauft-eew-energy-from-waste-an-beijing-enterprises-holding",
+    "source_type": "url_page",
+    "source_ref": "https://eqtgroup.com/news/eqt-infrastructure-ii-verkauft-eew-energy-from-waste-an-beijing-enterprises-holding",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Beijing Enterprises Holdings (100% of EEW Energy from Waste)",
+    "stake": 100,
+    "from": "2016-03-01",
+    "note": "EQT page states the sale agreement and expected closing end Feb 2016. The 3 Mar 2016 closing date and 100% stake come from search snippets (waste360, law.asia). The Helmstedt plant company is a subsidiary of EEW Energy from Waste GmbH (shareholder EEW Holding GmbH per North Data snippet). Not confirmed whether BEH has since changed its holding.",
+    "url": "https://eqtgroup.com/news/eqt-infrastructure-ii-verkauft-eew-energy-from-waste-an-beijing-enterprises-holding",
+    "source_type": "url_page",
+    "source_ref": "https://eqtgroup.com/news/eqt-infrastructure-ii-verkauft-eew-energy-from-waste-an-beijing-enterprises-holding",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "EEW Energy from Waste group",
+    "lender": "Bond investors (green bond)",
+    "instrument": "Green bond, first in the sector; proceeds finance and refinance sustainable projects across the group, which includes Helmstedt",
+    "amount": 555000000,
+    "ccy": "EUR",
+    "created": null,
+    "refi": null,
+    "refi_basis": "Maturity not found; issue reported 1 Jul 2021",
+    "url": "https://www.zfk.de/unternehmen/nachrichten/thermischer-abfallverwerter-eew-geht-neue-wege-in-der-finanzierung",
+    "source_type": "url_page",
+    "source_ref": "https://www.zfk.de/unternehmen/nachrichten/thermischer-abfallverwerter-eew-geht-neue-wege-in-der-finanzierung",
+    "confidence": "likely",
+    "note": "Opened ZFK article (1 Jul 2021) confirms the green bond but does not state the amount; the EUR 555m figure is from a search-result summary only. Not specific to Helmstedt."
+   }
+  ],
+  "issues": [
+   {
+    "date": "2026-10-03",
+    "type": "fire",
+    "summary": "Fire at the sewage sludge mono-incineration plant on the Buschhaus site during revision work badly damaged both flue gas scrubbers; restart expected in four to six months and damage put at a low single-digit million euros. EEW says the waste incineration plant (the register row) was not affected.",
+    "severity": "medium",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/brand-legt-klaerschlammverbrennung-von-eew-in-helmstedt-fuer-monate-still-061026",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/brand-legt-klaerschlammverbrennung-von-eew-in-helmstedt-fuer-monate-still-061026",
+    "confidence": "verified"
+   },
+   {
+    "date": "2026-03-13",
+    "type": "fire",
+    "summary": "Fire involving two lorries at the weighbridge in front of the Helmstedt waste recovery plant; no injuries, cause unclear. Rest of article is behind a paywall.",
+    "severity": "low",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/helmstedt-brand-an-zwei-lkw-vor-muellverbrennungsanlage-130326/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/helmstedt-brand-an-zwei-lkw-vor-muellverbrennungsanlage-130326/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row is the EEW waste incineration plant TRV Buschhaus (opened 1998, third line 2005, c.525 kt/yr, c.45 MW gross), owned via EEW Energy from Waste by Beijing Enterprises since 2016; the register COD of 2014 does not match the 1998/2005 history. The sludge plant fire of Oct 2026 is on the same site but a separate unit, and group-level financing beyond the green bond and the Helmstedt company's direct shareholder were not confirmed."
+ },
+ {
+  "plant_id": 5857,
+  "parent_owner": "Mark-E AG (Enervie group; Stadt Hagen 42.66%) and Kabel Premium Pulp & Paper GmbH, 50:50 through BVA Hagen-Kabel GmbH",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2005-01-01",
+  "owner_since_confidence": "likely",
+  "owners": [
+   {
+    "owner": "Mark-E AG (Enervie group)",
+    "stake": 50,
+    "from": "2005-01-01",
+    "to": null,
+    "note": "Co-owner of the operating company BVA Hagen-Kabel GmbH. Enervie says Mark-E has operated the plant since 2005. Mark-E is 100% owned by Enervie, whose largest shareholders are Stadt Hagen 42.66%, Stadt Luedenscheid 24.12% and Remondis Wasser und Energie 19.06%.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/bva-hagen-kabel-auch-2024-mit-roten-zahlen/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/bva-hagen-kabel-auch-2024-mit-roten-zahlen/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Stora Enso Kabel GmbH & Co. KG",
+    "stake": null,
+    "from": "2005-01-01",
+    "to": "2016-09-01",
+    "note": "Original paper-mill partner in the 2002 plan to build the plant (stake not stated in the 2002 article). Stora Enso sold the Kabel mill to Kabel Premium Pulp & Paper from 1 Sep 2016; the transfer of the BVA stake is inferred from that sale, not seen stated.",
+    "url": "https://www.energie-und-management.de/nachrichten/detail/mark-e-baut-biomasse-kraftwerk-in-hagen-38279",
+    "source_type": "url_page",
+    "source_ref": "https://www.energie-und-management.de/nachrichten/detail/mark-e-baut-biomasse-kraftwerk-in-hagen-38279",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Kabel Premium Pulp & Paper GmbH (in insolvency since Mar 2025)",
+    "stake": 50,
+    "from": "2016-09-01",
+    "to": null,
+    "note": "Named as 50% owner in the Oct 2025 EUWID report on the 2024 accounts. The company was wound up in 2025 and its site sold to VGP in Oct 2025; whether the BVA 50% stake has since been sold is not found.",
+    "url": "https://de.wikipedia.org/wiki/Papierfabrik_Kabel",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/bva-hagen-kabel-auch-2024-mit-roten-zahlen/ and https://de.wikipedia.org/wiki/Papierfabrik_Kabel",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-12-31",
+    "type": "outage",
+    "summary": "Much lower plant availability in 2023 caused revenue to fall to 7.3m EUR and a net loss of 4.84m EUR for BVA Hagen-Kabel GmbH (after a profit of 6.41m EUR in 2022). Only the teaser of the paywalled article was seen.",
+    "severity": "medium",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/bva-hagen-kabel-kraftwerksausfall-sorgt-fuer-umsatzeinbruch-051124/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/bva-hagen-kabel-kraftwerksausfall-sorgt-fuer-umsatzeinbruch-051124/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-10-16",
+    "type": "financial",
+    "summary": "2024 net loss of 3.5m EUR on revenue of 11.7m EUR, availability 71.4% (6,260 full-load hours against c.7,000 planned), and fuel suppliers had to be paid to deliver waste wood in 2023 and 2024. EEG support ended after 2024, with a 2025 plan of revenue 13.9m EUR and a loss before tax of 0.6m EUR.",
+    "severity": "medium",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/bva-hagen-kabel-auch-2024-mit-roten-zahlen/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/bva-hagen-kabel-auch-2024-mit-roten-zahlen/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-03-06",
+    "type": "insolvency",
+    "summary": "Co-owner and steam customer Kabel Premium Pulp & Paper (the neighbouring paper mill) filed for insolvency and was wound up by May 2025, which removes the plant's main steam offtaker (steam was 1.0m EUR of 2024 revenue). Mark-E bought c.80,000 m2 of the mill site in Jan 2026 (announced 20 Jan 2026).",
+    "severity": "high",
+    "url": "https://www.enervie-gruppe.de/Home/medien/mark-e-erwirbt-grundstuecksflaechen-von-der-insolventen-kabel-premium-pulp-paper-gmbh.aspx",
+    "source_type": "url_page",
+    "source_ref": "https://www.enervie-gruppe.de/Home/medien/mark-e-erwirbt-grundstuecksflaechen-von-der-insolventen-kabel-premium-pulp-paper-gmbh.aspx and https://de.wikipedia.org/wiki/Papierfabrik_Kabel",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The register row names Mark-E, but the plant is run by the 50:50 joint venture BVA Hagen-Kabel GmbH (Mark-E and the now-insolvent Kabel Premium paper mill); it is operating (20 MW, waste wood, c.124 GWh in 2024) but loss-making after EEG support ended and with its steam customer gone. No debt financing found, and the current holder of the Kabel Premium 50% stake is unknown.",
+  "locality": "Hagen",
+  "postcode": "58099",
+  "heat_offtaker": "Kabel Premium Pulp & Paper GmbH (neighbouring paper mill, process steam up to 25 t/h; insolvent 2025)"
+ },
+ {
+  "plant_id": 5875,
+  "parent_owner": "Uwe Ringen and Harm Drewes (private owners, via Drewes & Ringen GmbH & Co. KG)",
+  "owner_since": null,
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": null,
+  "locality": "Breddorf",
+  "postcode": "27412",
+  "heat_offtaker": "Local heat network in Breddorf (neighbourhood, sports centre, kindergarten) from a CHP unit on Ostersoder Strasse",
+  "owners": [
+   {
+    "owner": "Drewes & Ringen GmbH & Co. KG (Uwe Ringen and Harm Drewes, operators; register HRA 200259, Amtsgericht Tostedt)",
+    "stake": null,
+    "from": null,
+    "note": "Weser-Kurier (Jun 2019 and Dec 2025) names Uwe Ringen and Harm Drewes as the operators of the plant at Loehweg near Hanstedt. A search snippet on the register entry says the KG has 3 partners (2 limited partners, 1 general partner, the Drewes & Ringen Verwaltungs GmbH). Individual stakes not seen.",
+    "url": "https://www.weser-kurier.de/landkreis-rotenburg/feuer-in-hanstedt-millionenschaden-bei-biogasanlage-doc83qr5yhzh041cu93ya5c",
+    "source_type": "url_page",
+    "source_ref": "https://www.weser-kurier.de/landkreis-rotenburg/feuer-in-hanstedt-millionenschaden-bei-biogasanlage-doc83qr5yhzh041cu93ya5c",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-12-17",
+    "type": "fire",
+    "summary": "Fire in a 20 x 40 m storage hall holding c.1,500 to 2,000 cubic metres of digestate substrate for drying, one of two digestate dryers burned, damage estimated at c.EUR 1 million by police. No injuries and the biogas plant kept running; cause thought to be a technical defect, under investigation.",
+    "severity": "medium",
+    "url": "https://www.weser-kurier.de/landkreis-rotenburg/feuer-in-hanstedt-millionenschaden-bei-biogasanlage-doc83qr5yhzh041cu93ya5c",
+    "source_type": "url_page",
+    "source_ref": "https://www.weser-kurier.de/landkreis-rotenburg/feuer-in-hanstedt-millionenschaden-bei-biogasanlage-doc83qr5yhzh041cu93ya5c",
+    "confidence": "verified"
+   },
+   {
+    "date": "2019-06-23",
+    "type": "planning",
+    "summary": "Breddorf council amended development plans to allow the plant's silo to be raised from 13 to 18 m and a dry manure store to be built. A councillor raised odour concerns on a neighbouring plant; the council approved unanimously.",
+    "severity": "low",
+    "url": "https://www.weser-kurier.de/landkreis-rotenburg/gemeinde-breddorf/neue-silos-fuer-biogas-doc7e41aikrnxder3lah9x",
+    "source_type": "url_page",
+    "source_ref": "https://www.weser-kurier.de/landkreis-rotenburg/gemeinde-breddorf/neue-silos-fuer-biogas-doc7e41aikrnxder3lah9x",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The plant is run by Drewes & Ringen GmbH & Co. KG, owned by the private farmers Uwe Ringen and Harm Drewes; a large fire hit the digestate drying hall in Dec 2025. Acquisition date, exact stakes and financing not found; the register capacity of 5.262 MWe likely sums several CHP units, and a search snippet (not opened) mentioned only c.1 MW, so capacity is unconfirmed."
+ },
+ {
+  "plant_id": 5906,
+  "parent_owner": "Danpower GmbH (50%) and Chemiepark Bitterfeld-Wolfen GmbH (50%), joint venture PD energy GmbH",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2006-01-01",
+  "owner_since_confidence": "likely",
+  "locality": "Bitterfeld-Wolfen",
+  "postcode": "06749",
+  "permit_tonnes_pa": 140000,
+  "heat_offtaker": "Chemiepark Bitterfeld-Wolfen steam network and Bitterfelder Fernwaerme GmbH district heating",
+  "owners": [
+   {
+    "owner": "Danpower GmbH",
+    "stake": 50,
+    "from": "2006-01-01",
+    "note": "Equal shareholder in PD energy GmbH, which was founded in 2006 and built the plant in 2007 to 2009. The 2006 date is the company founding year, not a stated acquisition date.",
+    "url": "https://www.danpower.de/de/unternehmen/unternehmensverbund/fokus-thermische-abfallbehandlung",
+    "source_type": "url_page",
+    "source_ref": "https://www.danpower.de/de/unternehmen/unternehmensverbund/fokus-thermische-abfallbehandlung",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Chemiepark Bitterfeld-Wolfen GmbH",
+    "stake": 50,
+    "from": "2006-01-01",
+    "note": "Equal shareholder in PD energy GmbH. Chemiepark states the plant is one of its participations. Its own ultimate owner was not researched.",
+    "url": "https://www.danpower.de/kompetenz-und-service/standorte/bitterfeld-trb-anlage/",
+    "source_type": "url_page",
+    "source_ref": "https://www.danpower.de/kompetenz-und-service/standorte/bitterfeld-trb-anlage/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "The register row 'KW TRB Bitterfeld' is the thermal residual waste treatment plant (TRB) of PD energy GmbH at Oststrasse 1, Bitterfeld-Wolfen, a 50:50 joint venture of Danpower GmbH and Chemiepark Bitterfeld-Wolfen GmbH; the operator matches and the site states c. 10 MW electrical (register 11.44 MW), 140,000 t/a permit, commissioned 2009. No financing or operating problems were found, and the ultimate owners of the two shareholders were not researched."
+ },
+ {
+  "plant_id": 5912,
+  "parent_owner": "Mutares SE & Co. KGaA (via Hamberger Flooring)",
+  "owner_since": "2026-03-31",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "likely",
+  "locality": "Stephanskirchen",
+  "postcode": "83071",
+  "heat_offtaker": "Hamberger Flooring Ziegelberg site (self-supply of electricity and heat)",
+  "owners": [
+   {
+    "owner": "Hamberger Industriewerke GmbH (Hamberger family)",
+    "to": "2026-03-31",
+    "note": "Parent of the flooring business and owner-managed family firm; flooring business carved out and sold to Mutares",
+    "url": "https://innpuls.me/hamberger-flooring-verkauf-an-mutares-vereinbart/",
+    "source_type": "url_page",
+    "source_ref": "https://innpuls.me/hamberger-flooring-verkauf-an-mutares-vereinbart/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Mutares SE & Co. KGaA",
+    "from": "2026-03-31",
+    "note": "Completed acquisition of the Flooring business of Hamberger Industriewerke GmbH (HARO brand). The releases do not mention the biomass CHP, so it is not confirmed that the plant sits inside the transferred perimeter; the register operator is Hamberger Flooring GmbH & Co. KG, which suggests it does.",
+    "url": "https://www.tradingview.com/news/eqs:97e9f4da1094b:0-mutares-has-completed-the-acquisition-of-the-flooring-business-of-hamberger-industriewerke/",
+    "source_type": "url_page",
+    "source_ref": "https://www.tradingview.com/news/eqs:97e9f4da1094b:0-mutares-has-completed-the-acquisition-of-the-flooring-business-of-hamberger-industriewerke/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-03-31",
+    "type": "ownership change",
+    "summary": "Flooring business sold to private equity investor Mutares after a restructuring since 2023 with over 200 job cuts at Stephanskirchen and Rohrdorf. Mutares buys special-situation businesses and resells them after repositioning.",
+    "severity": "medium",
+    "url": "https://innpuls.me/hamberger-flooring-verkauf-an-mutares-vereinbart/",
+    "source_type": "url_page",
+    "source_ref": "https://innpuls.me/hamberger-flooring-verkauf-an-mutares-vereinbart/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Biomass CHP (11.3MWe) supplies power and heat to the Hamberger Flooring site at Ziegelberg, Stephanskirchen; operator is the flooring entity, sold to Mutares on 2026-03-31. Whether the plant transferred with the business, and any financing or plant-specific incidents, were not found."
+ },
+ {
+  "plant_id": 5927,
+  "parent_owner": "Sonae Arauco S.A. (50:50 joint venture of Sonae Indústria and Arauco)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2016-01-01",
+  "owner_since_confidence": "unverified",
+  "locality": "Beeskow",
+  "postcode": "15848",
+  "heat_offtaker": "Own Beeskow panel site; the biomass plant also sells electricity and heat to external customers (unnamed)",
+  "owners": [
+   {
+    "owner": "Sonae Arauco Deutschland GmbH, Meppen (direct shareholder; profit transfer via Sonae Arauco Holding Beeskow GmbH)",
+    "from": null,
+    "note": "Handelsregister publications on North Data (HRB 203579, Osnabrück) list Sonae Arauco Deutschland GmbH and Sonae Arauco Holding Beeskow GmbH as shareholders; stake percentages not shown.",
+    "url": "https://www.northdata.com/Sonae%20Arauco%20Beeskow%20GmbH,%20Meppen/Amtsgericht%20Osnabr%C3%BCck%20HRB%20203579",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Sonae%20Arauco%20Beeskow%20GmbH,%20Meppen/Amtsgericht%20Osnabr%C3%BCck%20HRB%20203579",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Sonae Arauco S.A. (50:50 JV of Sonae Indústria and Arauco)",
+    "stake": 100,
+    "from": "2016-01-01",
+    "note": "JV announced in 2016 with Arauco taking 50% of Tafisa, whose mills include four in Germany. Beeskow is not named in the article and the Sonae Arauco S.A. to Deutschland GmbH chain is not shown on pages opened, so this is inferred. Exact completion date not confirmed (article says first half of 2016).",
+    "url": "https://www.wbpionline.com/news/sonae-and-arauco-form-giant-joint-venture-in-the-wood-panel-industry-4759860/",
+    "source_type": "url_page",
+    "source_ref": "https://www.wbpionline.com/news/sonae-and-arauco-form-giant-joint-venture-in-the-wood-panel-industry-4759860/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-02-01",
+    "type": "fire",
+    "summary": "A fire in early February 2025 severely damaged the chip dryer at the Beeskow particleboard and MDF/HDF plant. After a provisional repair it was test-restarted around end of March 2025; the company later decided to replace it with a belt dryer (c. EUR 13m per search snippet). Impact on the biomass CHP is not stated.",
+    "severity": "medium",
+    "url": "https://www.euwid-holz.de/news/holzwerkstoffe/sonae-arauco-will-produktion-in-beeskow-wieder-starten-010425/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-holz.de/news/holzwerkstoffe/sonae-arauco-will-produktion-in-beeskow-wieder-starten-010425/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-07-09",
+    "type": "labour dispute",
+    "summary": "Two-hour warning strike stopped production at the Beeskow particleboard and MDF plant over wage and working-time talks.",
+    "severity": "low",
+    "url": "https://www.igmetall-ostbrandenburg.de/aktuelles/meldung/belegschaft-fordert-von-arbeitgeber-endlich-ein-diskutables-verhandlungsangebot",
+    "source_type": "snippet",
+    "source_ref": "https://www.igmetall-ostbrandenburg.de/aktuelles/meldung/belegschaft-fordert-von-arbeitgeber-endlich-ein-diskutables-verhandlungsangebot",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "The register row is the biomass CHP serving the Sonae Arauco Beeskow board plant (particleboard and MDF), operated by Sonae Arauco Beeskow GmbH whose shareholders are Sonae Arauco group companies; ultimate parent Sonae Arauco S.A. (Sonae Indústria and Arauco 50:50) is inferred. Acquisition date, financing and the exact current chain above Sonae Arauco Deutschland GmbH were not found; a fire hit the plant's dryer in Feb 2025."
+ },
+ {
+  "plant_id": 5943,
+  "parent_owner": "Steinbeis Holding GmbH (Steinbeis family group)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "heat_offtaker": "Steinbeis Papier GmbH recycled paper mill, Glückstadt (all process steam)",
+  "locality": "Glückstadt",
+  "postcode": "25348",
+  "owners": [
+   {
+    "owner": "Steinbeis Energie GmbH (Steinbeis-Gruppe), operator of the Glückstadt EBS heating power plant",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "EUWID calls Steinbeis Energie a company of the Steinbeis Group and sister company of Steinbeis Papier GmbH. Steinbeis Holding manages the family's assets, but the direct shareholder of Steinbeis Energie is not stated in opened sources; Handelsregister Pinneberg HRB 248 IZ would confirm.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/steinbeis-erhaelt-genehmigung-fuer-weiteren-ebs-kessel-120825/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/steinbeis-erhaelt-genehmigung-fuer-weiteren-ebs-kessel-120825/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-06-15",
+    "type": "capex",
+    "summary": "Permit granted in mid-June 2025 for a second EBS fluidised bed boiler (29.9 MW firing heat, called Kessel 7 in the application) to replace the coal boiler; total permitted firing output stays at 166 MW. Not a problem at Kessel 6, but it shows reinvestment and a fuel-supply link to EBS Concept GmbH, now 100% Steinbeis.",
+    "severity": "low",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/steinbeis-erhaelt-genehmigung-fuer-weiteren-ebs-kessel-120825/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/steinbeis-erhaelt-genehmigung-fuer-weiteren-ebs-kessel-120825/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Captive EBS and paper-sludge CHP at the Steinbeis Papier mill in Glückstadt (BLS describes a fluidised bed boiler for up to 23 MWe, built 2006 to 2009), operated by Steinbeis Energie GmbH within the family-owned Steinbeis Group. Direct shareholders and any financing were not found; a second EBS boiler was permitted in 2025."
+ },
+ {
+  "plant_id": 5961,
+  "parent_owner": "Hörger family group (WRZ Hörger, Sontheim an der Brenz)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2016-01-01",
+  "owner_since_confidence": "likely",
+  "owners": [
+   {
+    "owner": "Matthäus Sturm GmbH, Oskar von Miller GmbH (OvM, with Energieconsulting Heidelberg) and Fortum",
+    "from": "2001-12-11",
+    "to": "2016-01-01",
+    "note": "2001 press release names Sturm and OvM as shareholders of the project company; the plant history page names Sturm, Fortum and OVM/ECH as the three shareholders at commissioning on 1 Oct 2004. Split of stakes not found.",
+    "url": "https://biohkw.de/historie/",
+    "source_type": "url_page",
+    "source_ref": "https://biohkw.de/historie/ and https://www.iwrpressedienst.de/energie-themen/pm-598-biomasseheizkraftwerk-herbrechtingen-schritt-fuer-schritt-zum-erfolg",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Hörger family group (WRZ Hörger GmbH u. Co. KG; managing director Bernd Hörger)",
+    "stake": 100,
+    "from": "2016-01-01",
+    "note": "WRZ Hörger's own timeline dates the takeover to 2016; the plant website says 'since 2017'. The company page is the more specific source, so 2016 is used. Stake of 100% is from a search summary (sole shareholder) and not seen on an opened page. Exact closing date and seller terms not found.",
+    "url": "https://www.wrz-hoerger.de/unternehmen/historie",
+    "source_type": "url_page",
+    "source_ref": "https://www.wrz-hoerger.de/unternehmen/historie (2016 entry) and https://biohkw.de/historie/ (Seit 2017)",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Register row matches: 15.7 MWe wood-fired CHP at Herbrechtingen, commissioned 2004 and still run by the operator company, now owned by the Hörger family group (2016 per WRZ Hörger, 2017 per the plant site). No financing, outages or enforcement found; previous shareholders' stake split and the exact deal date are still unknown.",
+  "heat_offtaker": null,
+  "locality": "Herbrechtingen",
+  "postcode": "89542"
+ },
+ {
+  "plant_id": 5977,
+  "parent_owner": "Pfleiderer Group S.A. (Pfleiderer Deutschland GmbH; investors Strategic Value Partners funds and Atlantik S.A.)",
+  "parent_owner_confidence": "unverified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Baruth/Mark",
+  "postcode": "15837",
+  "heat_offtaker": "Pfleiderer Baruth MDF/HDF fibreboard plant (process heat and electricity, on site)",
+  "owners": [
+   {
+    "owner": "Pfleiderer Baruth GmbH (operator and plant owner)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Pfleiderer's own quality instruction (version 3.0, 10 Nov 2021) states that Pfleiderer Baruth GmbH operates the biomass CHP plant at Baruth, with Heller Holz GmbH buying the fuel. The plant is part of the fibreboard site, not a separate owner.",
+    "url": "https://www.pfleiderer.com/fileadmin/content/Images/Heller_Holz/Thermische_Verwertung_Baruth.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.pfleiderer.com/fileadmin/content/Images/Heller_Holz/Thermische_Verwertung_Baruth.pdf",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Pfleiderer Deutschland GmbH, under profit transfer and control arrangements, within Pfleiderer Group S.A.",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Seen only in search result summaries of Handelsregister and company-database listings; the agreement date and shareholder were not opened. Wikipedia (opened) says Pfleiderer was 100% owned by Atlantik S.A. from 2012 and has belonged to Pfleiderer Group (Wroclaw, Warsaw-listed) since Jan 2016. A search snippet says SVP and Atlantik acquired Pfleiderer Group fully in Oct 2019, with Atlantik as minority. Confirm via the Handelsregister Nuremberg HRB 34857 shareholder list or the Pfleiderer Group annual report.",
+    "url": "https://www.northdata.com/Pfleiderer%20Baruth%20GmbH,%20Neumarkt%20i%C2%B7%20d%C2%B7%20Oberpfalz/Amtsgericht%20N%C3%BCrnberg%20HRB%2034857",
+    "source_type": "snippet",
+    "source_ref": "https://www.northdata.com/Pfleiderer%20Deutschland%20GmbH,%20Neumarkt%20i%C2%B7%20d%C2%B7%20Oberpfalz/Amtsgericht%20N%C3%BCrnberg%20HRB%2025279",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2019-01-05",
+    "type": "fire",
+    "summary": "Fire in the night of 4 to 5 January 2019 damaged the Pfleiderer MDF/HDF fibreboard plant at Baruth; restart on 8 February 2019 ran about a week later than planned. The article is paywalled after the first lines, so it is not stated whether the biomass CHP unit was affected.",
+    "severity": "medium",
+    "url": "https://www.euwid-holz.de/news/unternehmen/pfleiderer-baruth-ist-am-8-februar-wieder-angelaufen/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-holz.de/news/unternehmen/pfleiderer-baruth-ist-am-8-februar-wieder-angelaufen/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row matches a real biomass CHP (waste wood, EEG) run by Pfleiderer Baruth GmbH as an on-site energy plant for its fibreboard works; the operator is the owner, with Pfleiderer Group S.A. above it (SVP and Atlantik per unopened snippets, unverified). No acquisition date, financing or plant-specific outage found; the Jan 2019 fire hit the MDF/HDF plant."
+ },
+ {
+  "plant_id": 6003,
+  "parent_owner": "Stadt Leverkusen (50%) and Bergischer Abfallwirtschaftsverband (50%; itself owned half each by Rheinisch-Bergischer Kreis and Oberbergischer Kreis)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Leverkusen (Bürrig)",
+  "postcode": "51373",
+  "permit_tonnes_pa": 210000,
+  "heat_offtaker": "Leverkusen district heating network (c.5,000 households and public buildings)",
+  "owners": [
+   {
+    "owner": "AVEA GmbH & Co. KG (holding), owned 50% Stadt Leverkusen and 50% Bergischer Abfallwirtschaftsverband",
+    "stake": 100,
+    "from": null,
+    "note": "Holding founded 2002 by its two municipal shareholders. The plant (Muellheizkraftwerk Leverkusen, Im Eisholz 12, built 1970) sits in AVEA Entsorgungsbetriebe GmbH & Co. KG, a 100% subsidiary of AVEA GmbH & Co. KG. Date the plant moved into AVEA not found. Returo Entsorgungs GmbH markets the plant capacity but is not the owner.",
+    "url": "https://www.spd-leverkusen.de/ag-60plus-vom-besuch-bei-der-avea-beeindruckt/",
+    "source_type": "url_page",
+    "source_ref": "https://www.spd-leverkusen.de/ag-60plus-vom-besuch-bei-der-avea-beeindruckt/ (50/50 split, quoting plant manager); https://www.carbonate-looping-carmen.de/partner/avea/ (subsidiary structure, founded 2002)",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Register row 'Turbine 3' (23.65 MWe, 2010) is one turbine at the 3-line AVEA waste-to-energy plant in Leverkusen-Buerrig (condensing turbine commissioned 2011); it is municipally owned 50:50 by Stadt Leverkusen and the Bergischer Abfallwirtschaftsverband. A new boiler 4 was permitted in 2022 and 2025 (capacity retention); no financing, incidents or acquisition date were found."
+ },
+ {
+  "plant_id": 6005,
+  "parent_owner": "Main Taunus-Recycling GmbH, MVV Umwelt GmbH and KKM Wertstoffsortiergesellschaft GmbH (one third each, via Biomasse Rhein-Main GmbH i.L.)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 120000,
+  "locality": "Flörsheim am Main",
+  "postcode": "65439",
+  "owners": [
+   {
+    "owner": "Main Taunus-Recycling GmbH (one third; administration, site and infrastructure)",
+    "stake": 33.3,
+    "from": null,
+    "to": null,
+    "note": "Shareholder of Biomasse Rhein-Main GmbH (Bioma). Gesellschafter MTR is also reported to be operator of the idle plant since 16 May 2024 (search snippet only).",
+    "url": "https://www.deponiepark.de/bioma-wird-stillgelegt/",
+    "source_type": "url_page",
+    "source_ref": "https://www.deponiepark.de/bioma-wird-stillgelegt/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "MVV Umwelt GmbH (one third; plant operator)",
+    "stake": 33.3,
+    "from": null,
+    "to": null,
+    "note": "Shareholder of Bioma and operator of the power plant before shutdown.",
+    "url": "https://www.deponiepark.de/bioma-wird-stillgelegt/",
+    "source_type": "url_page",
+    "source_ref": "https://www.deponiepark.de/bioma-wird-stillgelegt/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "KKM Wertstoffsortiergesellschaft GmbH (one third; fuel supply and processing; owned by Kilb and Meinhardt)",
+    "stake": 33.3,
+    "from": null,
+    "to": null,
+    "note": "Shareholder of Bioma.",
+    "url": "https://www.deponiepark.de/bioma-wird-stillgelegt/",
+    "source_type": "url_page",
+    "source_ref": "https://www.deponiepark.de/bioma-wird-stillgelegt/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2024-04-01",
+    "type": "closure",
+    "summary": "Shareholders shut the plant down on 1 April 2024 (last fired 16 March 2024) because of low power prices, the CO2 surcharge and high waste wood prices. Register still shows it as operational.",
+    "severity": "high",
+    "url": "https://www.deponiepark.de/bioma-wird-stillgelegt/",
+    "source_type": "url_page",
+    "source_ref": "https://www.deponiepark.de/bioma-wird-stillgelegt/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-03-19",
+    "type": "financial loss",
+    "summary": "Bioma reported a net loss of EUR 9.4m for FY2023/24 including EUR 5.5m impairments; liquidation was due to finish by end May 2025.",
+    "severity": "high",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/biomassekraftwerk-floersheim-wicker-hoher-verlust-im-letzten-betriebsjahr-190325/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/biomassekraftwerk-floersheim-wicker-hoher-verlust-im-letzten-betriebsjahr-190325/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-05-16",
+    "type": "status",
+    "summary": "Plant reported to be in rest operation under Main-Taunus-Recycling GmbH since May 2024; not confirmed by an opened page.",
+    "severity": "medium",
+    "url": "https://www.klimaenergie-frm.de/",
+    "source_type": "snippet",
+    "source_ref": "WebSearch result summary for Main-Taunus-Recycling Biomassekraftwerk Wicker (Oct 2026)",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Waste-wood biomass plant (15 MWe, 120,000 t/yr) operated by Biomasse Rhein-Main GmbH, which is in liquidation; the plant was shut down on 1 April 2024, so the register entry is out of date. No debt financing found and the current owner of the idle plant after liquidation is unconfirmed."
+ },
+ {
+  "plant_id": 6017,
+  "parent_owner": "MVV Energie AG (via MVV Umwelt GmbH and MVV Umwelt Asset GmbH)",
+  "owner_since": null,
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 120000,
+  "locality": "Königs Wusterhausen",
+  "postcode": "15711",
+  "owners": [
+   {
+    "owner": "MVV Umwelt Asset GmbH (100% owned by MVV Energie AG; Mannheim-based group, City of Mannheim is the main shareholder of MVV Energie)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "MVV's own plant page lists MVV Umwelt Asset GmbH as the plant contact and operator, with plant in service since 2003. The 100% MVV Energie holding in the asset company comes from the Global Energy Monitor page, which cites North Data; the MVV page does not state the shareholding. The City of Mannheim link is not confirmed from an opened source. Acquisition or transfer date not found.",
+    "url": "https://www.gem.wiki/E100002014199",
+    "source_type": "url_page",
+    "source_ref": "https://www.mvv.de/ueber-uns/unternehmensgruppe/mvv-umwelt/erneuerbare-energien/biomasse/bmkw-koenigs-wusterhausen and https://www.gem.wiki/E100002014199",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-10-07",
+    "type": "subsidy expiry",
+    "summary": "MVV states the EEG support period is 20 years and the plant started in Oct 2003 (register COD 2003-10-07), so fixed EEG support would have ended around Oct 2023. MVV now sells the power directly on the market. Current revenue basis not confirmed.",
+    "severity": "medium",
+    "url": "https://www.mvv.de/ueber-uns/unternehmensgruppe/mvv-umwelt/erneuerbare-energien/biomasse/bmkw-koenigs-wusterhausen",
+    "source_type": "inference",
+    "source_ref": "MVV plant page states EEG period of 20 years and commissioning 2003; end date calculated from register COD",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Operating waste-wood (grades A II to A IV) circulating fluidised bed biomass plant at Königs Wusterhausen, run by MVV Umwelt Asset GmbH, part of MVV Energie; register row matches (2003, Brandenburg, 15711). No plant-specific financing, outages or enforcement found, and the date MVV took ownership (probably original builder) is not confirmed."
+ },
+ {
+  "plant_id": 6036,
+  "parent_owner": "Sappi Limited (via Sappi Deutschland Holding GmbH)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "heat_offtaker": "Sappi Ehingen pulp and paper mill (process steam)",
+  "locality": "Ehingen (Donau)",
+  "postcode": "89584",
+  "owners": [
+   {
+    "owner": "Sappi Ehingen GmbH (direct shareholder: Sappi Deutschland Holding GmbH, under a profit transfer and control arrangement)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "North Data lists Sappi Deutschland Holding GmbH as shareholder per the Liste der Gesellschafter. The 2020 EMAS report says the mill belongs to the Sappi group, whose top company is Sappi Limited (Johannesburg). Ownership percentage and acquisition date not stated.",
+    "url": "https://www.northdata.com/Sappi+Ehingen+GmbH,+Ehingen+(Donau)/Amtsgericht+Ulm+HRB+490647",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Sappi+Ehingen+GmbH,+Ehingen+(Donau)/Amtsgericht+Ulm+HRB+490647",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Sappi Limited (ultimate parent)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Top-level parent inferred from the Sappi Deutschland Holding GmbH shareholding and the EMAS report describing the mill as part of the Sappi group with Sappi Limited as the group parent. The full chain of holding companies was not opened.",
+    "url": "https://cdn-s3.sappi.com/s3fs-public/2021_EMAS%20Uwelterkl%C3%A4rung%20Sappi%20Ehingen.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://cdn-s3.sappi.com/s3fs-public/2021_EMAS%20Uwelterkl%C3%A4rung%20Sappi%20Ehingen.pdf",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "The register row is turbine 5 (Siemens T8302, 13.2 MWe, COD 1990) in the captive power plant of the Sappi Ehingen pulp and paper mill; the plant has three back-pressure steam turbines fed mainly by black liquor, bark and wastewater biogas, so it is a unit of a larger site and not a standalone asset. The operator is a subsidiary of Sappi Deutschland Holding GmbH and ultimately Sappi Limited; owner_since, financing and operating problems were not found."
  }
 ]
