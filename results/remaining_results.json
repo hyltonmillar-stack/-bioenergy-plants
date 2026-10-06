@@ -23077,5 +23077,1324 @@
   "financing": [],
   "issues": [],
   "summary": "20 MW waste wood and RDF biomass CHP (2003) at the Robert Frank site; Statkraft Markets GmbH is the operator and, since 2013, sole shareholder after buying out E.ON's 50%. No financing or operating problems found; Statkraft applied in 2022-23 for a second 17 MWe unit (BMHKW II) on the site, and the register row shows the right plant. Ultimate parent Statkraft AS (Norwegian state-owned) was not checked on an opened page."
+ },
+ {
+  "plant_id": 6542,
+  "parent_owner": "Progroup AG (ultimately JH Holding GmbH, per Global Energy Monitor)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2016-01-01",
+  "owner_since_confidence": "verified",
+  "locality": "Eisenhüttenstadt",
+  "postcode": "15890",
+  "permit_tonnes_pa": 526000,
+  "heat_offtaker": "Progroup Paper PM2 GmbH (adjacent paper machine, steam)",
+  "owners": [
+   {
+    "owner": "EnBW Energy Solutions GmbH (EnBW)",
+    "from": "2009-01-01",
+    "to": "2015-12-31",
+    "note": "EnBW built the plant in 2009 and ran it under an operating and management contract for Progroup; sold to Progroup AG with effect from 31 Dec 2015.",
+    "url": "https://www.enbw.com/unternehmen/presse/enbw-verkauft-heizkraftwerk-eisenhuettenstadt-an-die-progroup-ag.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.enbw.com/unternehmen/presse/enbw-verkauft-heizkraftwerk-eisenhuettenstadt-an-die-progroup-ag.html",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Progroup AG (via Progroup Power 1 GmbH)",
+    "stake": 100,
+    "from": "2016-01-01",
+    "note": "Progroup Power 1 GmbH is a 100% subsidiary of Progroup AG; EMAS statement says the plant was taken over from EnBW on 1 Jan 2016. Global Energy Monitor lists JH Holding GmbH as 100% parent of Progroup AG (not independently checked in a register).",
+    "url": "https://www.emas.de/fileadmin/user_upload/ue/reg/DE-148-00032_Progroup_Power_1_GmbH.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.emas.de/fileadmin/user_upload/ue/reg/DE-148-00032_Progroup_Power_1_GmbH.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Progroup AG",
+    "lender": null,
+    "instrument": "Corporate bond used to finance the 2016 acquisition of the plant from EnBW (law firm announcement; bond size not stated on the page opened)",
+    "amount": null,
+    "ccy": "EUR",
+    "created": "2016-02-23",
+    "refi": null,
+    "refi_basis": "Bond terms not found",
+    "url": "https://blog.rittershaus.net/23-februar-2016-rittershaus-beraet-die-progroup-ag-bei-dem-durch-eine-unternehmensanleihe-finanzierten-erwerb-der-propower-gmbh-von-enbw/",
+    "source_type": "url_page",
+    "source_ref": "https://blog.rittershaus.net/23-februar-2016-rittershaus-beraet-die-progroup-ag-bei-dem-durch-eine-unternehmensanleihe-finanzierten-erwerb-der-propower-gmbh-von-enbw/",
+    "confidence": "likely"
+   },
+   {
+    "borrower": "Progroup AG (group level)",
+    "lender": null,
+    "instrument": "Senior bond 5.125% due 15 Apr 2029 (DE000A383CQ2); group-level, not plant specific; amount not seen",
+    "amount": null,
+    "ccy": "EUR",
+    "created": null,
+    "refi": "2029-04-15",
+    "refi_basis": "Bond maturity date from search result; cbonds page returned a block page when opened",
+    "url": "https://cbonds.com/bonds/1647913/",
+    "source_type": "snippet",
+    "source_ref": "https://cbonds.com/bonds/1647913/",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2022-04-23",
+    "type": "fire",
+    "summary": "Fire in the waste paper processing hall at the Progroup Eisenhüttenstadt site, controlled by the sprinklers before the fire brigade arrived. No injuries and no production stoppage. It is not clear that the power plant itself was affected.",
+    "severity": "low",
+    "url": "https://www.euwid-verpackung.de/news/unternehmen/brand-bei-der-progroup-in-eisenhuettenstadt-ohne-auswirkung-auf-die-produktion-250422/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-verpackung.de/news/unternehmen/brand-bei-der-progroup-in-eisenhuettenstadt-ohne-auswirkung-auf-die-produktion-250422/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row matches a real 32 MWe fluidised-bed substitute-fuel CHP plant (permit c.526,000 t/yr) that is 100% owned by Progroup AG and feeds steam to the adjacent PM2 paper machine; EnBW built it in 2009 and sold it to Progroup effective end 2015. No plant-specific debt facility or power-plant outage found; only group-level bonds are known and the ultimate owner JH Holding GmbH rests on one secondary source."
+ },
+ {
+  "plant_id": 6547,
+  "parent_owner": "Schwarz Group (via PreZero Deutschland KG)",
+  "owner_since": "2021-06-01",
+  "owners": [
+   {
+    "owner": "SUEZ (SUEZ Energie und Verwertung GmbH, earlier SITA Abfallverwertung GmbH)",
+    "to": "2021-06-01",
+    "note": "Earlier names of the company per North Data; SUEZ Germany recycling and recovery business sold to PreZero (Schwarz Group), completion reported June 2021. Link between this plant and the sale is inferred from the former company name.",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/PreZero+Energy+Zorbau+GmbH,+L%C3%BCtzen/Amtsgericht+Stendal+HRB+215465",
+    "url": "https://www.northdata.com/PreZero+Energy+Zorbau+GmbH,+L%C3%BCtzen/Amtsgericht+Stendal+HRB+215465",
+    "confidence": "likely"
+   },
+   {
+    "owner": "PreZero Deutschland KG (Schwarz Group)",
+    "stake": 100,
+    "from": "2021-06-01",
+    "note": "Shareholder history from a search snippet: SUEZ Recycling & Recovery Deutschland GmbH (Mar 2021), PreZero Dritte Stiftung & Co. KG (Mar 2023), PreZero Deutschland KG (Feb 2024); profit transfer agreement with PreZero Deutschland KG approved 18 Feb 2025. Stake percentage and exact acquisition date not confirmed from an opened register extract. PreZero page and North Data confirm the plant is a Schwarz Group company, but North Data shareholder detail is paywalled.",
+    "source_type": "snippet",
+    "source_ref": "https://www.northdata.com/PreZero%20Energy%20Zorbau%20GmbH,%20L%C3%BCtzen/Amtsgericht%20Stendal%20HRB%20215465",
+    "url": "https://www.northdata.com/PreZero%20Energy%20Zorbau%20GmbH,%20L%C3%BCtzen/Amtsgericht%20Stendal%20HRB%20215465",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "locality": "Lützen OT Zorbau",
+  "postcode": "06686",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "unverified",
+  "summary": "Operational two-line municipal waste EfW CHP at Zorbau (Lützen), formerly SUEZ and now PreZero Energy Zorbau GmbH of the Schwarz Group; the register row (29.7 MWe, 2005) matches the operator and region. The Sachsen-Anhalt authority inspection of 23 Jan 2024 found no defects; no incidents, financing or exact shareholder stake found."
+ },
+ {
+  "plant_id": 6552,
+  "parent_owner": "Sappi Limited (Sappi Group, Johannesburg), via Sappi Deutschland Holding GmbH",
+  "owner_since": "1992-01-01",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "likely",
+  "owners": [
+   {
+    "owner": "Hannoversche Papierfabriken Alfeld-Gronau AG (vormals Gebr. Woge), later NCB-owned per a search result",
+    "to": "1992-01-01",
+    "note": "Original mill owner; the mention of NCB ownership 1971 to 1992 is from a search snippet only.",
+    "url": "https://de.wikipedia.org/wiki/Sappi_Alfeld",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/Sappi_Alfeld",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Sappi Group (Sappi Limited, Johannesburg)",
+    "from": "1992-01-01",
+    "note": "Wikipedia says the Alfeld company was integrated into the Sappi Group in 1992; the plant was then renamed Sappi Alfeld AG and later Sappi Alfeld GmbH. Exact acquisition date and stake not stated, so 1 Jan 1992 is a year-only placeholder.",
+    "url": "https://de.wikipedia.org/wiki/Sappi_Alfeld",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/Sappi_Alfeld",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Sappi Alfeld GmbH, 100% shareholder Sappi Deutschland Holding GmbH (profit transfer and control agreement)",
+    "stake": 100,
+    "from": null,
+    "note": "North Data, citing Handelsregister HRB 110356 Hildesheim, lists Sappi Deutschland Holding GmbH as shareholder with profit transfer and control. Stake percentage and start date not shown on the page.",
+    "url": "https://www.northdata.com/Sappi%20Alfeld%20GmbH,%20Alfeld%20(Leine)/Amtsgericht%20Hildesheim%20HRB%20110356",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Sappi%20Alfeld%20GmbH,%20Alfeld%20(Leine)/Amtsgericht%20Hildesheim%20HRB%20110356",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2014-06-01",
+    "type": "emission incident",
+    "summary": "A technical defect on a container at the power plant released white ash (magnesium and calcium oxide, stated not harmful to health) at about 21:20. Day in June 2014 not confirmed.",
+    "severity": "low",
+    "url": "https://www.alfeld.de/nachrichten/ansicht/article/sappi-ascheaustritt-im-werk-alfeld.html",
+    "source_type": "snippet",
+    "source_ref": "https://www.alfeld.de/nachrichten/ansicht/article/sappi-ascheaustritt-im-werk-alfeld.html (page returned 404 when opened; seen in search result only)",
+    "confidence": "unverified"
+   }
+  ],
+  "locality": "Alfeld (Leine)",
+  "postcode": "31061",
+  "summary": "Register row is a turbine at the Sappi Alfeld paper mill's own works power plant (Muehlenmasch 1), operated by Sappi Alfeld GmbH, which is controlled by Sappi Deutschland Holding GmbH and ultimately the South African Sappi Group (in the group since 1992). No financing found; the only issue is a minor 2014 ash release seen in a search result, and the plant-specific turbine and fuel details were not confirmed."
+ },
+ {
+  "plant_id": 6558,
+  "parent_owner": "Landkreis Neu-Ulm (via its Eigenbetrieb Abfallwirtschaftsbetrieb des Landkreises Neu-Ulm)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Weißenhorn",
+  "postcode": "89264",
+  "heat_offtaker": "District heating (buyer not identified)",
+  "owners": [
+   {
+    "owner": "Landkreis Neu-Ulm (operated by its Eigenbetrieb AWB Neu-Ulm)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "AWB was set up on 1 Jan 1995 as a district-owned enterprise without its own legal personality and is tasked with operating the MHKW Weißenhorn. The plant itself dates from 1992 (register COD), so the date the district took ownership is not known.",
+    "url": "https://www.awb-neu-ulm.de/wir-ueber-uns",
+    "source_type": "url_page",
+    "source_ref": "https://www.awb-neu-ulm.de/wir-ueber-uns",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2022-01-31",
+    "type": "fire",
+    "summary": "Waste ignited in the 1,000 tonne waste bunker at c.18:45; the automatic extinguishing system in the bunker failed due to a technical problem, so the fire brigade was called and c.100 emergency staff attended. Cause unknown; one report says no property damage.",
+    "severity": "medium",
+    "url": "https://weissenhorn.feuerwehren.bayern/einsatze/bunkerbrand/",
+    "source_type": "url_page",
+    "source_ref": "https://weissenhorn.feuerwehren.bayern/einsatze/bunkerbrand/ ; https://www.new-facts.eu/blaulicht/feuerwehr/2022/02/01/weissenhorn-brand-im-muellheizkraftwerk-abfaelle-im-muellbunker-bennen/465517/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row matches: a two-line municipal waste incinerator in Weißenhorn (7.5 t/h per line, power and district heat) run by the Neu-Ulm district's own waste enterprise, so the district is the owner. Purchase date, permit tonnage and any financing were not found; the only incident found was a bunker fire in Jan 2022."
+ },
+ {
+  "plant_id": 6568,
+  "parent_owner": "Stadtwerke Köln GmbH (City of Cologne), 50.1%, with REMONDIS GmbH & Co. KG 49.9%, via AVG Köln",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "owners": [
+   {
+    "owner": "AVG Abfallentsorgungs- und Verwertungsgesellschaft Köln mbH (operator and owner of the RMVA Niehl, founded 14.05.1992)",
+    "stake": 100,
+    "from": "1992-05-14",
+    "note": "Plant owner and operator; Turbosatz 2 was installed by AVG in a new machine house in 2014-2016 (project value EUR 21m).",
+    "url": "https://www.fbi.de/projekte/projekte-bautechnik/neubau-maschinenhaus-in-restm%C3%BCllverbrennungsanlage-rmva",
+    "source_type": "url_page",
+    "source_ref": "https://www.fbi.de/projekte/projekte-bautechnik/neubau-maschinenhaus-in-restm%C3%BCllverbrennungsanlage-rmva",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Stadtwerke Köln GmbH (100% City of Cologne)",
+    "stake": 50.1,
+    "from": null,
+    "note": "Public shareholder in AVG Köln. Date the current split was set not found.",
+    "url": "https://www.stadt-koeln.de/mediaasset/content/pdf20/beteiligungsbericht/beteiligungsbericht_2023.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.stadt-koeln.de/mediaasset/content/pdf20/beteiligungsbericht/beteiligungsbericht_2023.pdf (Beteiligungsbericht 2023 der Stadt Köln, p. 44, Kapitalverhältnisse, status 31.12.2023)",
+    "confidence": "verified"
+   },
+   {
+    "owner": "REMONDIS GmbH & Co. KG",
+    "stake": 49.9,
+    "from": null,
+    "note": "Private shareholder in AVG Köln (public-private partnership). Entry date not found.",
+    "url": "https://www.stadt-koeln.de/mediaasset/content/pdf20/beteiligungsbericht/beteiligungsbericht_2023.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.stadt-koeln.de/mediaasset/content/pdf20/beteiligungsbericht/beteiligungsbericht_2023.pdf (p. 44); also https://www.avgkoeln.de/das-unternehmen/management-gremien",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "locality": "Köln-Niehl",
+  "postcode": "50735",
+  "summary": "Register row is Turbosatz 2, the second turbine/generator unit (installed 2014-2016, MaStR start 2017-05-30) at AVG Köln's four-line Niehl waste incineration plant (c.740kt/yr), so it is a unit of a larger site, not a separate plant. AVG is owned 50.1% by Stadtwerke Köln (City of Cologne) and 49.9% by Remondis; no plant-specific financing, operating problems or ownership change date found, and the city waste contract was extended to end 2035."
+ },
+ {
+  "plant_id": 6597,
+  "parent_owner": "E.ON (E.ON Bioerdgas GmbH, majority shareholder, with Bayernwerk AG)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "owners": [
+   {
+    "owner": "E.ON Bioerdgas GmbH (majority shareholder)",
+    "stake": 67,
+    "from": null,
+    "note": "Joint venture partner and majority owner of Bioerdgas Schwandorf GmbH. The Fachverband Biogas page and the dena profile (both opened) confirm the JV and the majority holding but give no percentage. The 67 percent figure comes only from a search-result summary of a company register listing and was not opened, so the stake is unverified. Company was founded in Dec 2006, so the shareholders have probably held since formation (not confirmed).",
+    "url": "https://ftp.biogas.org/edcom/webfvb.nsf/id/DE-92421_Bioerdgas-Schwandorf-GmbH",
+    "source_type": "url_page",
+    "source_ref": "https://ftp.biogas.org/edcom/webfvb.nsf/id/DE-92421_Bioerdgas-Schwandorf-GmbH; also https://www.dena.de/en/biogaspartner/partner/biogaspartner-profiles/eon-bioerdgas-gmbh/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Bayernwerk AG (formerly E.ON Bayern AG)",
+    "stake": 33,
+    "from": null,
+    "note": "Minority JV partner. Fachverband Biogas page (opened) names E.ON Bayern AG (Regensburg) as JV partner; E.ON Bayern is now Bayernwerk AG, and the company address is Bayernwerk 8, Schwandorf. The 33 percent figure is from a search snippet only; confirm with the Handelsregister HRB 3964 Amberg shareholder list.",
+    "url": "https://ftp.biogas.org/edcom/webfvb.nsf/id/DE-92421_Bioerdgas-Schwandorf-GmbH",
+    "source_type": "url_page",
+    "source_ref": "https://ftp.biogas.org/edcom/webfvb.nsf/id/DE-92421_Bioerdgas-Schwandorf-GmbH",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "grid_injection": 1,
+  "locality": "Schwandorf",
+  "postcode": "92421",
+  "summary": "Operating biomethane plant (grid injection since 2008, c.80,000 t a year of maize, grass and whole-crop silage) run by Bioerdgas Schwandorf GmbH (HRB 3964 Amberg), a joint venture majority held by E.ON Bioerdgas with Bayernwerk AG; the exact stakes, the date of any ownership change, financing and operating problems were not found."
+ },
+ {
+  "plant_id": 6611,
+  "parent_owner": "BWM Dülmen GmbH (managing directors and co-shareholders Christian Harde, Johannes Baumeister, Sebastian Strock; revis bioenergy GmbH is an operating partner, stake not found)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Dülmen",
+  "postcode": "48249",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Agrar- und Umweltservice Möllers (founder Ludger Möllers)",
+    "to": "2018-01-01",
+    "note": "Founder's business moved onto the former St. Barbara barracks site in 2012 and handed over to Harde, Baumeister and Strock in 2018; the article says the biogas plant is run jointly with revis bioenergy. Exact date of handover and BWM Dülmen stake not stated.",
+    "url": "https://duelmenplus.de/bio-methan-fuer-3-000-haushalte/",
+    "source_type": "url_page",
+    "source_ref": "https://duelmenplus.de/bio-methan-fuer-3-000-haushalte/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "BWM Dülmen GmbH (Christian Harde, Johannes Baumeister, Sebastian Strock as managing directors and co-shareholders)",
+    "from": "2018-01-01",
+    "note": "Operator and owner entity, HRB 14655 Amtsgericht Coesfeld, founded 2013. Article names Baumeister and Strock as co-shareholders; North Data shows 4 known shareholders but names are behind a paywall, so the full shareholder list and percentages are unknown. The 2018 date refers to the takeover of the Möllers business, not necessarily of BWM Dülmen shares.",
+    "url": "https://duelmenplus.de/bio-methan-fuer-3-000-haushalte/",
+    "source_type": "url_page",
+    "source_ref": "https://duelmenplus.de/bio-methan-fuer-3-000-haushalte/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "revis bioenergy GmbH (Münster), partner in construction and operation",
+    "note": "Says it built the plant together with Agrar- und Umweltservice Möllers; whether it holds shares in BWM Dülmen GmbH is not stated.",
+    "url": "https://www.revis-bioenergy.de/en/2020/04/bwm-duelmen-new-construction-project-in-duelmen/",
+    "source_type": "url_page",
+    "source_ref": "https://www.revis-bioenergy.de/en/2020/04/bwm-duelmen-new-construction-project-in-duelmen/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Manure-only biomethane plant on the former St. Barbara barracks site, first grid injection to Thyssengas on 2020-03-20 (matches the register), run by BWM Dülmen GmbH with a double-digit million euro investment; the plant is real and the row matches. Full shareholder list, ownership percentages, financing and any operating problems were not found (only a Störfallverordnung lower-tier notification, not an incident)."
+ },
+ {
+  "plant_id": 6616,
+  "parent_owner": "Palm family (Wolfgang Palm, managing partner), via Papierfabrik Palm GmbH & Co. KG",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Wörth am Rhein",
+  "postcode": "76744",
+  "grid_injection": 1,
+  "heat_offtaker": "Palm Wörth paper mill (biogas made from mill process water; biomethane fed to public gas grid)",
+  "owners": [
+   {
+    "owner": "Papierfabrik Palm GmbH & Co. KG (Palm Gruppe, Aalen), family-owned, managing partner Wolfgang Palm",
+    "from": null,
+    "to": null,
+    "note": "Captive plant on the Wörth paper mill site: raw biogas from anaerobic treatment of mill process water is upgraded and injected into the public gas grid (c.50 GWh a year). Founded 1872, still family owned per Wikipedia and Rheinpfalz (Feb 2019, Wolfgang Palm as geschäftsführender Gesellschafter). Individual shareholders in the register were not seen.",
+    "url": "https://www.rheinpfalz.de/ar.1386031",
+    "source_type": "url_page",
+    "source_ref": "https://www.rheinpfalz.de/ar.1386031",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2014-09-01",
+    "type": "outage",
+    "summary": "An electrical defect stopped paper machine 6 at the Wörth mill in early Sept 2014 (the paper machine, not the biogas plant); duration unknown.",
+    "severity": "low",
+    "url": "https://www.euwid-papier.de/news/unternehmen/palm-stillstand-der-papiermaschine-in-woerth/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-papier.de/news/unternehmen/palm-stillstand-der-papiermaschine-in-woerth/",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "fire",
+    "summary": "Search results mention a fire at the Wörth paper machine that injured seven workers, and a separate fire alarm and paper machine fire; dates and details not confirmed (ka-news page blocked). Not linked to the biomethane plant.",
+    "severity": "low",
+    "url": "http://www.ka-news.de/region/karlsruhe/Brand-in-Woerther-Papierfabrik-sieben-Arbeiter-verletzt;art6066,917248",
+    "source_type": "snippet",
+    "source_ref": "http://www.ka-news.de/region/karlsruhe/Brand-in-Woerther-Papierfabrik-sieben-Arbeiter-verletzt;art6066,917248",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Register row matches a captive biogas upgrading plant (1250 Nm3/h, start-up Nov 2016) at the Palm Wörth paper mill, owned and operated by the family-owned Papierfabrik Palm; it is a mill by-product asset, not separately transactable. No financing, acquisition date or register shareholder list found; only mill-level incidents seen."
+ },
+ {
+  "plant_id": 6619,
+  "parent_owner": "Nexogas Holding GmbH (formerly Weltec Holding GmbH; financial investors DWS Group and Meag)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "owners": [
+   {
+    "owner": "Nexogas Holding GmbH (formerly Weltec Holding GmbH), via NEXOGAS Produktion Könnern Süd GmbH",
+    "stake": null,
+    "from": null,
+    "note": "The operator name carries the NEXOGAS brand and the group says it operates biogas and biomethane plants and is backed by DWS and Meag. No page opened names the Könnern plant as a Nexogas Holding subsidiary, so the link is inferred from the name. Would be confirmed by the Handelsregister entry for the GmbH.",
+    "url": "https://www.solarserver.de/2025/07/15/weltec-holding-gmbh-wird-zu-nexogas-holding-gmbh/",
+    "source_type": "url_page",
+    "source_ref": "https://www.solarserver.de/2025/07/15/weltec-holding-gmbh-wird-zu-nexogas-holding-gmbh/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "biogeen BGA Drei GmbH & Co. KG (earlier Energielenker BGA Drei GmbH & Co. KG)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Search snippet names this company as operator of the biogas plant and upgrading unit at Südstraße 12, 06420 Könnern. Possible earlier owner or current plant-level company; relationship to the Nexogas entity not established. The biogeen PDF returned 404 when opened.",
+    "url": "https://biogeen.de/uploads/2023/08/biogeen_stoerfallverordnung_koennern.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://biogeen.de/uploads/2023/08/biogeen_stoerfallverordnung_koennern.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Operational biomethane upgrading and grid injection site at Könnern (Südstraße 12, 06420), and the operator name points to the Nexogas group (Nexogas Holding GmbH, backed by DWS and Meag); the exact shareholding and acquisition date were not found. No financing or operating problems found; a possible earlier operator, biogeen BGA Drei GmbH & Co. KG, is unconfirmed.",
+  "locality": "Könnern",
+  "postcode": "06420",
+  "grid_injection": 1
+ },
+ {
+  "plant_id": 6627,
+  "parent_owner": "Niersberger Group (Erlangen; founder Rainer Dippold)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2016-09-01",
+  "owner_since_confidence": "likely",
+  "locality": "Schuby",
+  "postcode": "24850",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Beta-Biomethan Schuby GmbH (Hofkontor AG, Buedelsdorf, and Stadtwerke Flensburg 75%)",
+    "from": "2011-01-01",
+    "to": "2016-09-01",
+    "note": "Built and operated the sugar beet biomethane plant from 2011; Stadtwerke Flensburg exited its 75% stake, Hofkontor lacked funds and filed for insolvency in May 2013. Stake split as reported by top agrar.",
+    "url": "https://www.topagrar.com/energie/news/mega-ruebenanlage-schuby-hat-neuen-besitzer-9477065.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.topagrar.com/energie/news/mega-ruebenanlage-schuby-hat-neuen-besitzer-9477065.html",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Niersberger Group via Bioenergie Schuby GmbH (Erlangen, HRB 15453 Fuerth)",
+    "from": "2016-09-01",
+    "note": "top agrar of 7 Sep 2016 reports Niersberger took over the plant from insolvent Hofkontor AG; 2023 top agrar says Bioenergie Schuby belongs to the Niersberger Group. Exact acquisition date and stake not stated; Handelsregister shows operator GmbH founded 8 Feb 2016 with one shareholder (not named in the free page). Gesellschafterliste would confirm.",
+    "url": "https://www.topagrar.com/energie/news/mega-ruebenanlage-schuby-hat-neuen-besitzer-9477065.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.topagrar.com/energie/news/mega-ruebenanlage-schuby-hat-neuen-besitzer-9477065.html ; https://www.topagrar.com/energie/news/biomethananlagen-kaempfen-ums-ueberleben-13329600.html ; https://www.online-handelsregister.de/handelsregisterauszug/by/Fuerth/HRB/15453/Bioenergie-Schuby-GmbH",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Rainer Dippold (Niersberger founder, managing director of Bioenergie Schuby GmbH)",
+    "note": "Klean Industries page names Dippold as Niersberger founder; web search summary of Handelsregister lists him as managing director. Not confirmed as the sole shareholder.",
+    "url": "https://kleanindustries.com/projects/solid-waste/bioenergie-schuby-biomethane-plant-germany/",
+    "source_type": "url_page",
+    "source_ref": "https://kleanindustries.com/projects/solid-waste/bioenergie-schuby-biomethane-plant-germany/",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2013-05-01",
+    "type": "insolvency",
+    "summary": "Original operator's parent Hofkontor AG filed for insolvency in May 2013 after the plant never exceeded 40% utilisation and Stadtwerke Flensburg left the project; the plant then fell into disrepair until Niersberger restarted it.",
+    "severity": "high",
+    "url": "https://www.topagrar.com/energie/news/mega-ruebenanlage-schuby-hat-neuen-besitzer-9477065.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.topagrar.com/energie/news/mega-ruebenanlage-schuby-hat-neuen-besitzer-9477065.html",
+    "confidence": "verified"
+   },
+   {
+    "date": "2023-03-09",
+    "type": "contract",
+    "summary": "Operator said a ten-year biomethane supply contract with a large gas trader, signed at low pre-2022 gas prices, left the plant squeezed by sharply higher beet and energy costs.",
+    "severity": "medium",
+    "url": "https://www.topagrar.com/energie/news/biomethananlagen-kaempfen-ums-ueberleben-13329600.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.topagrar.com/energie/news/biomethananlagen-kaempfen-ums-ueberleben-13329600.html",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row matches the Schuby sugar beet biomethane plant (Schleswig-Holstein); owned and operated by Bioenergie Schuby GmbH of the Niersberger Group since the 2016 takeover from insolvent Hofkontor AG. Shareholder of the GmbH, financing and current status after 2023 not confirmed."
+ },
+ {
+  "plant_id": 6648,
+  "parent_owner": "EnviTec Biogas AG",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Neuburg OT Steinhausen",
+  "postcode": "23974",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "agri.capital GmbH",
+    "to": null,
+    "note": "Began construction of the biogas and biomethane plant at Neuburg-Steinhausen in Sep 2012 (700 Nm3/h injection planned). Whether and when it passed to EnviTec was not found.",
+    "url": "https://www.iwr.de/news.php?id=22064",
+    "source_type": "url_page",
+    "source_ref": "https://www.iwr.de/news.php?id=22064",
+    "confidence": "verified"
+   },
+   {
+    "owner": "EnviTec Biogas AG (via Biogas Neuburg Steinhausen GmbH & Co. KG, Lohne, HRA 204706 Oldenburg; general partner Biogas Neuburg Steinhausen Verwaltungs-GmbH)",
+    "from": null,
+    "note": "North Data lists EnviTec Biogas AG as the known shareholder (publication of 25 Sep 2026) and EnviTec Biogas Betriebs GmbH & Co. KG as a former limited partner (3 Nov 2021). Stake size and acquisition date are behind a paywall.",
+    "url": "https://www.northdata.com/Biogas%20Neuburg%20Steinhausen%20GmbH%20&%20Co.%20KG,%20Lohne/Amtsgericht%20Oldenburg%20HRA%20204706",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Biogas%20Neuburg%20Steinhausen%20GmbH%20&%20Co.%20KG,%20Lohne/Amtsgericht%20Oldenburg%20HRA%20204706",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-04-20",
+    "type": "permit change",
+    "summary": "Approval for a significant modification: CO2 liquefaction for resale, conversion of the existing CHP to run on natural gas and blow-off gas, and injection of processed biogas into the grid. Seen only in search results.",
+    "severity": "low",
+    "url": "https://www.uvp-verbund.de/trefferanzeige?docuuid=a13f67f1-c6f0-4e65-a1bb-7261240bc7bc",
+    "source_type": "snippet",
+    "source_ref": "https://www.uvp-verbund.de/trefferanzeige?docuuid=a13f67f1-c6f0-4e65-a1bb-7261240bc7bc",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Biomethane plant at Tatower Weg 5, Neuburg OT Steinhausen, built from 2012 by agri.capital and now run by Biogas Neuburg Steinhausen GmbH & Co. KG (Lohne) with EnviTec Biogas AG as known shareholder. Date of EnviTec takeover, stake size and financing not found; the register's 'Biogas Neuburg Steinhausen' operator name matches the KG; no operating problems found."
+ },
+ {
+  "plant_id": 6669,
+  "parent_owner": "Infraserv Höchst (via Infrasite Beteiligungs GmbH) and Mainova AG, joint venture (Infranova Bioerdgas GmbH)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2009-12-01",
+  "owner_since_confidence": "likely",
+  "locality": "Frankfurt am Main",
+  "postcode": "65926",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Infrasite Beteiligungs GmbH (wholly owned by Infraserv GmbH & Co. Höchst KG)",
+    "stake": null,
+    "from": "2009-12-01",
+    "note": "Joint venture partner since formation. Infraserv Höchst page confirms Infranova is a JV of Infraserv Höchst and Mainova. Stake is 50% in one snippet and 50.1% in another; not confirmed in an opened source. Infrasite ownership by Infraserv KG is from a search snippet only.",
+    "url": "https://www.infraserv.com/de/unternehmen/ueber-uns/infraserv-hoechst-gruppe/infranova-bioerdgas-gmbh/",
+    "source_type": "url_page",
+    "source_ref": "https://www.infraserv.com/de/unternehmen/ueber-uns/infraserv-hoechst-gruppe/infranova-bioerdgas-gmbh/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Mainova AG (Mainova EnergieDienste GmbH at formation in Dec 2009; Mainova AG listed as shareholder in later annual reports)",
+    "stake": null,
+    "from": "2009-12-01",
+    "note": "Chemie.de press report of 22.12.2009 says Infranova was set up by Infraserv Höchst and Mainova EnergieDienste GmbH (a Mainova AG group company); North Data lists Mainova AG and Infrasite Beteiligungs GmbH as shareholders in the 2018 to 2024 annual reports. Mainova is itself controlled by Stadtwerke Frankfurt am Main Holding (City of Frankfurt), per North Data listing only. Stake not confirmed.",
+    "url": "https://www.chemie.de/news/111168/infranova-neues-gemeinschaftsunternehmen-von-infraserv-hoechst-und-mainova.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.chemie.de/news/111168/infranova-neues-gemeinschaftsunternehmen-von-infraserv-hoechst-und-mainova.html; https://www.northdata.com/Infranova%20Bioerdgas%20GmbH,%20Frankfurt%20a%C2%B7%20Main/Amtsgericht%20Frankfurt%20am%20Main%20HRB%2087396",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Matches the Infranova biogas upgrading plant at Industriepark Höchst (register postcode 65929; company address is 65926), a 50/50 type JV of Infraserv Höchst and Mainova AG, built 2010 to 2011 and upgrading biogas from sewage sludge and organic waste. No financing, outages or enforcement found; exact shareholding percentages (50% vs 50.1%) not confirmed."
+ },
+ {
+  "plant_id": 6674,
+  "parent_owner": "Royal Cosun U.A. (Netherlands agricultural cooperative)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2009-03-02",
+  "owner_since_confidence": "verified",
+  "locality": "Anklam",
+  "postcode": "17389",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Danisco (Danish food group)",
+    "from": "1991-05-01",
+    "to": "2009-03-02",
+    "note": "Took over the Anklam sugar factory from the Treuhandanstalt in 1991. The Federal Cartel Office required it to be sold before Danisco's sugar division went to Nordzucker. The biomethane plant was built later, in 2012 to 2013, under Cosun.",
+    "url": "https://de.wikipedia.org/wiki/Zuckerfabrik_Anklam",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/Zuckerfabrik_Anklam",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Royal Cosun U.A. (via Suiker Unie, now Cosun Beet Company GmbH & Co. KG; biomethane plant built and run by subsidiary Anklam Bioethanol GmbH, merged into the operator on 2016-08-31)",
+    "from": "2009-03-02",
+    "note": "Suiker Unie renamed Cosun Beet Company on 2020-07-02. Stake assumed 100 percent as a group company; exact shareholding not stated in the pages opened.",
+    "url": "https://de.wikipedia.org/wiki/Zuckerfabrik_Anklam",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/Zuckerfabrik_Anklam",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Royal Cosun (group; Cosun Beet Company is a subsidiary)",
+    "lender": "Arrangers BNP Paribas, Rabobank, Raiffeisen Bank International; investors not named",
+    "instrument": "ESG-linked senior unsecured Schuldschein (EUR 145m) and European private placement (EUR 60m), 3, 5, 7 and 10-year tranches; proceeds for general corporate purposes and refinancing of existing debt",
+    "amount": 205000000,
+    "ccy": "EUR",
+    "created": "2023-01-12",
+    "refi": "2026-01-12 to 2033-01-12",
+    "refi_basis": "Announced 12 Jan 2023; tranches of 3, 5, 7 and 10 years give maturities c.Jan 2026, 2028, 2030 and 2033. Split of amounts between tranches not stated.",
+    "url": "https://www.cosun.com/news/royal-cosun-successfully-issues-a-eur-60m-green-eupp-and-a-eur-145m-green-schuldschein/",
+    "source_type": "url_page",
+    "source_ref": "https://www.cosun.com/news/royal-cosun-successfully-issues-a-eur-60m-green-eupp-and-a-eur-145m-green-schuldschein/",
+    "confidence": "likely",
+    "note": "Group-level debt that covers the Anklam site only indirectly; the page does not name Anklam."
+   }
+  ],
+  "issues": [
+   {
+    "date": "2014-11-19",
+    "type": "odour",
+    "summary": "The local environment office said odour from silos storing pressed beet pulp for the biogas plant was the worst in memory, with at least two silo chambers left uncovered too long, and that the company was not doing everything to limit it.",
+    "severity": "medium",
+    "url": "https://www.nordkurier.de/regional/anklam/umweltamt-sauer-uber-gestank-aus-der-zuckerfabrik-1257252",
+    "source_type": "url_page",
+    "source_ref": "https://www.nordkurier.de/regional/anklam/umweltamt-sauer-uber-gestank-aus-der-zuckerfabrik-1257252",
+    "confidence": "verified"
+   },
+   {
+    "date": "2022-10-24",
+    "type": "equipment failure",
+    "summary": "Damage to the exhaust air treatment system of the biomethane gas upgrading unit caused odour nuisance around the factory; repair was expected to take several weeks because spare parts came from abroad, and more gas was due to be upgraded from November.",
+    "severity": "medium",
+    "url": "https://www.nordkurier.de/regional/anklam/zuckerfabrik-anklam-lost-stink-alarm-aus-1402106",
+    "source_type": "url_page",
+    "source_ref": "https://www.nordkurier.de/regional/anklam/zuckerfabrik-anklam-lost-stink-alarm-aus-1402106",
+    "confidence": "verified"
+   },
+   {
+    "date": "2015-08-31",
+    "type": "environmental incident",
+    "summary": "Ethanol from the site's bioethanol plant reached the Peene river and caused a large fish kill. This was the bioethanol plant, not the biomethane plant, but it is the same operator and site.",
+    "severity": "medium",
+    "url": "https://de.wikipedia.org/wiki/Zuckerfabrik_Anklam",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/Zuckerfabrik_Anklam",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Biomethane plant at the Anklam sugar factory (built 2012 to 2013 from beet pulp, c.13.8m m3 biomethane a year), owned by Royal Cosun since March 2009 and operated by Cosun Beet Company, which matches the register row. Recurring odour problems found (2014, 2022); financing is group-level only (Jan 2023 Schuldschein and private placement), and no plant-specific loan or exact Cosun shareholding detail was found."
+ },
+ {
+  "plant_id": 6678,
+  "parent_owner": "VERBIO SE (formerly VERBIO Vereinigte BioEnergie AG), listed company",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Zörbig",
+  "postcode": "06780",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "VERBIO SE (via VERBIO Zörbig GmbH)",
+    "from": "2010-08-13",
+    "note": "Wikipedia lists VERBIO Zörbig GmbH as a Verbio SE subsidiary and Verbio's site page says the biorefinery with biomethane was commissioned at Zörbig in 2010; neither states the exact stake. The from date is the register COD date, not an acquisition date, because the plant was built by Verbio. Confirm stake via Handelsregister or the annual report list of shareholdings.",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Verbio",
+    "confidence": "likely",
+    "url": "https://en.wikipedia.org/wiki/Verbio"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Biomethane unit at the Verbio Zörbig bioethanol biorefinery (Thura Mark 20, 06780 Zörbig, commissioned 2010), operated by VERBIO Zörbig GmbH, a subsidiary of VERBIO SE; the operator is the owner, not a contractor. No financing or operating problems found (a 2008 ethanol shutdown was an older ethanol-line matter); the exact shareholding and any group debt facilities were not confirmed."
+ },
+ {
+  "plant_id": 6679,
+  "parent_owner": "Verbio SE (listed, Leipzig/Zörbig)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Schwedt/Oder",
+  "postcode": "16303",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Verbio SE (formerly Verbio Vereinigte BioEnergie AG), via subsidiary VERBIO Schwedt GmbH",
+    "stake": null,
+    "from": null,
+    "note": "Wikipedia lists VERBIO Schwedt GmbH as an operating subsidiary of Verbio SE, the management holding. Stake percentage and acquisition date not found. The Schwedt biogas plant was built in 2009 and started in 2010/2011 as part of the group's own site, so the group has likely owned it since construction.",
+    "url": "https://en.wikipedia.org/wiki/Verbio",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Verbio",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2013-12-25",
+    "type": "accident",
+    "summary": "A 56-year-old Verbio employee died when a truck tipped over while unloading animal feed at the Verbio Ethanol Schwedt site. Police cited a technical problem with the truck as the likely cause. This was on the ethanol part of the shared site, not the biomethane plant itself.",
+    "severity": "medium",
+    "url": "https://tantower.wordpress.com/2013/12/27/update-zum-todlichen-arbeitsunfall-in-schwedt/",
+    "source_type": "url_page",
+    "source_ref": "https://tantower.wordpress.com/2013/12/27/update-zum-todlichen-arbeitsunfall-in-schwedt/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Biomethane plant at the Verbio Schwedt biorefinery, run by VERBIO Schwedt GmbH, a subsidiary of Verbio SE; Verbio describes the 2010/2011 schlempe-based plant as 30 MW, while the register row shows 100 MW gas (probably the whole site or a different basis). Acquisition date, shareholder percentage and plant-specific financing were not found."
+ },
+ {
+  "plant_id": 6686,
+  "parent_owner": "BALANCE Erneuerbare Energien GmbH (VNG AG and CVC DIF joint venture; CVC DIF holds 49%)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2025-10-17",
+  "owner_since_confidence": "likely",
+  "owners": [
+   {
+    "owner": "Deutsche Bioenergie Verbinder GmbH (DBV)",
+    "to": "2025-10-17",
+    "note": "Previous owner of the Dargun biomethane plant, sold as part of a ten-plant portfolio. Earlier operating entity may have been a Bioenergie Dargun company (seen only in search results).",
+    "url": "https://vng.de/en/newsroom/2025-10-17-balance-acquires-biogas-facility-portfolio-comprising-five-sites-eastern",
+    "source_type": "url_page",
+    "source_ref": "https://vng.de/en/newsroom/2025-10-17-balance-acquires-biogas-facility-portfolio-comprising-five-sites-eastern",
+    "confidence": "verified"
+   },
+   {
+    "owner": "BALANCE Erneuerbare Energien GmbH (VNG AG 51%, CVC DIF 49%)",
+    "stake": 100,
+    "from": "2025-10-17",
+    "note": "Press release of 17 Oct 2025 says BALANCE has acquired the DBV portfolio, subject to Bundeskartellamt approval at that date. A greenValue release of 25 Feb 2026 refers to the new owner, which suggests completion, but no completion date was found, so the date is the announcement date. CVC DIF 49% stake in BALANCE completed Aug 2025 (seen on the VNG newsroom page). The 51% VNG share is inferred from the 49% figure.",
+    "url": "https://vng.de/en/newsroom/2025-10-17-balance-acquires-biogas-facility-portfolio-comprising-five-sites-eastern",
+    "source_type": "url_page",
+    "source_ref": "https://vng.de/en/newsroom/2025-10-17-balance-acquires-biogas-facility-portfolio-comprising-five-sites-eastern",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Dargun biomethane upgrading plant (1,366 Nm3/h, c.15 MW thermal) was acquired by BALANCE (VNG AG / CVC DIF) from DBV, announced Oct 2025; completion date and Cartel Office clearance were not confirmed. No financing or operating problems found, and technical modernisation under the new owner is planned (greenValue, Feb 2026).",
+  "locality": "Dargun",
+  "postcode": "17159",
+  "grid_injection": 1
+ },
+ {
+  "plant_id": 6705,
+  "parent_owner": "Palm family (Papierfabrik Palm GmbH & Co. KG, Aalen)",
+  "owner_since": null,
+  "owners": [
+   {
+    "owner": "Papierfabrik Palm GmbH & Co. KG (Palm family, owner-managed; Dr. Wolfgang Palm managing partner)",
+    "note": "Operator and owner of the paper mill effluent biogas plant at Aalen-Neukochen. The Stadtwerke Aalen biogas feed-in unit built for Palm (peak 1,410 Nm3/h) is a separate asset of the municipal utility, so the register row may cover the Palm biogas plant and feed-in together. Acquisition date not applicable (own-built, new mill and effluent plant 2021-22).",
+    "url": "https://die-deutsche-wirtschaft.de/familienunternehmen/palm-dr-wolfgang-papierfabrik-palm-gmbh-co-kg-aalen-gf/",
+    "source_type": "url_page",
+    "source_ref": "https://die-deutsche-wirtschaft.de/familienunternehmen/palm-dr-wolfgang-papierfabrik-palm-gmbh-co-kg-aalen-gf/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-01-31",
+    "type": "odour",
+    "summary": "Residents have complained of odour since 2020. The Regierungspraesidium Stuttgart says a new odour forecast shows the new Aalen mill exceeds the TA Luft odour limit and has required Palm to act; a second chimney needs a new permit. Residents also name the biogas plant and effluent treatment as possible sources, but the main sources reported are hall exhaust air.",
+    "severity": "medium",
+    "url": "https://www.schwaebische-post.de/ostalb/aalen/unterkochen/papierfabrik-palm-aalen-geruchsbelaestigung-neue-massnahmen-94147538.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.schwaebische-post.de/ostalb/aalen/unterkochen/papierfabrik-palm-aalen-geruchsbelaestigung-neue-massnahmen-94147538.html",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "fire",
+    "summary": "Aalen fire brigade attended a fire with 25 firefighters at the Palm mill in Neukochen, reported as handled without major damage. Date and whether it involved the biogas plant not known; the page is now gone (HTTP 410).",
+    "severity": "low",
+    "url": "https://www.schwaebische.de/landkreis/ostalbkreis/aalen_artikel,-brand-in-papierfabrik-verlaeuft-glimpflich-_arid,10276863.html",
+    "source_type": "snippet",
+    "source_ref": "https://www.schwaebische.de/landkreis/ostalbkreis/aalen_artikel,-brand-in-papierfabrik-verlaeuft-glimpflich-_arid,10276863.html",
+    "confidence": "unverified"
+   }
+  ],
+  "parent_owner_confidence": "verified",
+  "owner_since_confidence": null,
+  "grid_injection": 1,
+  "locality": "Aalen",
+  "postcode": "73432",
+  "summary": "Process-wastewater biogas plant at Palm's Aalen-Neukochen paper mill (new PM 5 mill, c. EUR 500m investment), owned by the Palm family via Papierfabrik Palm; the gas is upgraded by a Stadtwerke Aalen feed-in plant mostly into the mill gas network, with grid injection for standstills. No plant-specific financing found; main issue is ongoing odour limit exceedance at the mill."
+ },
+ {
+  "plant_id": 6749,
+  "parent_owner": "Freie und Hansestadt Hamburg (via Hamburger Stadtentwässerung AöR, part of HAMBURG WASSER)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "owners": [
+   {
+    "owner": "Freie und Hansestadt Hamburg (100%, direct through institutional liability and guarantee for Hamburger Stadtentwässerung AöR)",
+    "stake": 100,
+    "note": "HAMBURG WASSER states the city owns both the wastewater company (AöR) and the water company (via HGV) in full. Operator and owner of the Köhlbrandhöft sewage works is Hamburger Stadtentwässerung AöR. Acquisition date not applicable or not found.",
+    "url": "https://www.hamburgwasser.de/unternehmen/ueber-hamburg-wasser/konzenstruktur",
+    "source_type": "url_page",
+    "source_ref": "https://www.hamburgwasser.de/unternehmen/ueber-hamburg-wasser/konzenstruktur",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "locality": "Hamburg",
+  "postcode": "20457",
+  "grid_injection": 1,
+  "heat_offtaker": "Containerterminal Tollerort (heat from the sewage works, per HAMBURG WASSER)",
+  "summary": "Site is the gas processing plant (GALA) at the Köhlbrandhöft sewage works in Hamburg harbour, run by Hamburger Stadtentwässerung AöR and wholly owned by the City of Hamburg; GALA 1 started in 2011 (350 m3/h) and GALA 2 in July 2020 (up to 1,000 m3/h), so the register's 13.5 MW likely covers both units while the 2011 COD is GALA 1 only. No financing or operating problems found; owner_since is not applicable or not found."
+ },
+ {
+  "plant_id": 6752,
+  "parent_owner": "EnviTec Biogas AG",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2021-05-21",
+  "owner_since_confidence": "likely",
+  "locality": "Güstrow",
+  "postcode": "18273",
+  "grid_injection": 1,
+  "permit_tonnes_pa": 150000,
+  "owners": [
+   {
+    "owner": "NAWARO BioEnergie AG",
+    "from": "2009-06-01",
+    "to": "2021-05-21",
+    "note": "Original developer and operator; EnviTec built the plant. Sale announced 21 May 2021, price not disclosed. Exact closing date not found.",
+    "url": "https://bioenergyinternational.com/envitec-biogas-acquires-bioenergie-park-gustrow/",
+    "source_type": "url_page",
+    "source_ref": "https://bioenergyinternational.com/envitec-biogas-acquires-bioenergie-park-gustrow/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "EnviTec Biogas AG (via EnviTec Bioenergie Güstrow GmbH, HRB 15293 Rostock)",
+    "stake": 100,
+    "from": "2021-05-21",
+    "note": "Acquisition announced 21 May 2021 (EUWID 1 Jun 2021); EnviTec describes the purchase as transferred to its own investment division. Stake percentage not stated; North Data shows one known shareholder behind the operating GmbH but the name is behind a paywall.",
+    "url": "https://www.envitec-biogas.com/references/guestrow",
+    "source_type": "url_page",
+    "source_ref": "https://www.envitec-biogas.com/references/guestrow",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-08-01",
+    "type": "register mismatch",
+    "summary": "The register row shows biomethane to grid, but EnviTec converted the site in 2023 to produce bio-LNG and liquid CO2, at a cost of more than EUR 50 million. Grid injection is still possible according to EnviTec, but the main product is now bio-LNG; the 54 MW figure is the old gas capacity and may be out of date.",
+    "severity": "medium",
+    "url": "https://www.envitec-biogas.com/references/guestrow",
+    "source_type": "url_page",
+    "source_ref": "https://www.envitec-biogas.com/references/guestrow",
+    "confidence": "verified"
+   },
+   {
+    "date": "2023-05-12",
+    "type": "permit",
+    "summary": "Permit for substantial modification granted by StALU Mittleres Mecklenburg; it lapses if normal operation of the modified plant has not begun by 1 May 2026. The plant will also become a major accident hazard facility. Objectors cited odour from silage handling.",
+    "severity": "low",
+    "url": "https://www.stalu-mv.de/mm/Service/Bekanntmachungen-nach-BImSchG/Bereich-Immissionsschutz/?processor=processor.sa.bimschbekannt&bekann_id=1283",
+    "source_type": "snippet",
+    "source_ref": "https://www.stalu-mv.de/mm/Service/Bekanntmachungen-nach-BImSchG/Bereich-Immissionsschutz/?processor=processor.sa.bimschbekannt&bekann_id=1283",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Güstrow plant matches the row (operator EnviTec Bioenergie Güstrow GmbH, built 2009); EnviTec Biogas AG bought it from NAWARO BioEnergie AG in 2021 and rebuilt it as a bio-LNG plant, so the biomethane-to-grid status is out of date. No financing found; the shareholder of the operating GmbH and exact closing date were not confirmed."
+ },
+ {
+  "plant_id": 6755,
+  "parent_owner": "VERBIO SE (formerly VERBIO Vereinigte BioEnergie AG)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2016-10-10",
+  "owner_since_confidence": "likely",
+  "owners": [
+   {
+    "owner": "VERBIO SE (formerly VERBIO Vereinigte BioEnergie AG)",
+    "stake": 100,
+    "from": "2016-10-10",
+    "note": "Sole shareholder of VERBIO Pinnow GmbH (HRB 12112, Amtsgericht Neuruppin, founded 10 Oct 2016). Control and profit transfer agreement with the AG dated 5 Dec 2016. The from date is the company founding date; the register pages seen do not state who held the shares on day one. The AG became Verbio SE on 30 Nov 2023.",
+    "url": "https://www.northdata.com/VERBIO%20Pinnow%20GmbH,%20Pinnow/Amtsgericht%20Neuruppin%20HRB%2012112",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/VERBIO%20Pinnow%20GmbH,%20Pinnow/Amtsgericht%20Neuruppin%20HRB%2012112",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "locality": "Pinnow",
+  "postcode": "16278",
+  "grid_injection": 1,
+  "summary": "The register row matches the VERBIO straw biorefinery at Industrie- und Gewerbegebiet 43a, Pinnow (operating since 2019, biomethane fed to the gas grid); the operator is a wholly owned subsidiary of VERBIO SE under a profit transfer agreement. No plant-specific financing or operating problems were found (the VERBIO Iowa write-down is a different site), and the exact date VERBIO took the shares was not confirmed."
+ },
+ {
+  "plant_id": 6757,
+  "parent_owner": "Macquarie Asset Management (Green Investment Group, Macquarie GIG Energy Transition Solutions fund) via VORN Bioenergy",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2022-11-01",
+  "owner_since_confidence": "likely",
+  "locality": "Horn-Bad Meinberg",
+  "postcode": "32805",
+  "grid_injection": 1,
+  "heat_offtaker": "Local CHP-fed heat network supplying a clinic, a senior residence and a thermal spa (per ZFK 2020)",
+  "owners": [
+   {
+    "owner": "R&S ENERGY GmbH (founder Ralph Sutter)",
+    "to": "2020-07-01",
+    "note": "Built 2007; sold to BayWa r.e. in July 2020 (announced 22 Sep 2020).",
+    "url": "https://www.energie-und-management.de/nachrichten/energieerzeugung/detail/baywa-kauft-biomethananlage-horn-bad-meinberg-138992",
+    "source_type": "url_page",
+    "source_ref": "https://www.energie-und-management.de/nachrichten/energieerzeugung/detail/baywa-kauft-biomethananlage-horn-bad-meinberg-138992",
+    "confidence": "verified"
+   },
+   {
+    "owner": "BayWa r.e. AG (via BayWa r.e. Bioenergy GmbH)",
+    "from": "2020-07-01",
+    "to": "2022-11-01",
+    "note": "Acquired plant July 2020 and planned to raise feed-in from 60 to 80 GWh a year.",
+    "url": "https://www.zfk.de/energie/gas/baywa-re-kauft-eine-der-groessten-biomethananlagen-deutschlands",
+    "source_type": "url_page",
+    "source_ref": "https://www.zfk.de/energie/gas/baywa-re-kauft-eine-der-groessten-biomethananlagen-deutschlands",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Macquarie Asset Management Green Investment Group (Macquarie GIG Energy Transition Solutions fund), operating as VORN Bioenergy",
+    "stake": 100,
+    "from": "2022-11-01",
+    "note": "GIG announced the acquisition of BayWa r.e. Bioenergy (five German plants, Horn is the largest) on 31 Oct 2022; Horn is named as a VORN site in the Feb 2023 relaunch release. Exact completion date not stated in opened pages (relaunch release says 100 days before 28 Feb 2023, so c. 20 Nov 2022); plant-level stake and the Horn plant being held by the acquired entity are inferred from the platform description. A Handelsregister or North Data shareholder check would confirm.",
+    "url": "https://www.greeninvestmentgroup.com/en/news/2023/macquarie-asset-managements-green-investment-group-launches-vorn-bioenergy.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.greeninvestmentgroup.com/en/news/2023/macquarie-asset-managements-green-investment-group-launches-vorn-bioenergy.html; https://www.esgtoday.com/macquarie-acquires-140-gwh-bioenergy-portfolio-from-baywa-r-e/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2024-08-27",
+    "type": "enforcement / permit breach",
+    "summary": "Bezirksregierung Detmold environmental inspection found minor defects (very large silage cut faces, breaching a permit condition) and significant defects (leak detection of empty digestate store 2 full of water; silage seepage through the west wall of silo 4, later reported as repaired). Operator was told to fix open defects by 1 Jan 2025.",
+    "severity": "medium",
+    "url": "https://www.bezreg-detmold.nrw.de/system/files/media/document/file/5.53_archiv-ui-2024_vorn-bioenergy-bega-horn-gmbh_2024_bf.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.bezreg-detmold.nrw.de/system/files/media/document/file/5.53_archiv-ui-2024_vorn-bioenergy-bega-horn-gmbh_2024_bf.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Plant is real and matches the row (Wilberger Str. 70, 32805 Horn-Bad Meinberg, operator VORN Bioenergy BGA Horn GmbH & Co. KG, upper-tier Störfall site, c. 3000 Nm3/h biogas; part biomethane, part two CHP units); ownership chain is R&S Energy, then BayWa r.e. (2020), then Macquarie GIG (Oct/Nov 2022). No plant-specific financing found, and the exact completion date and the KG's shareholder structure were not confirmed from a register."
+ },
+ {
+  "plant_id": 6782,
+  "parent_owner": "Stadtwerke Krefeld AG (SWK), 51% shareholder of EGK",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Krefeld",
+  "postcode": "47829",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Stadtwerke Krefeld AG (SWK)",
+    "stake": 51,
+    "note": "Limited partner (Kommanditist) of EGK with 51% of the liability amount. SWK also said it invested c. 6 million EUR in the biogas upgrading plant, which EGK builds and runs. Plant-level ownership of the upgrading unit is not stated explicitly, hence likely for the parent.",
+    "url": "https://gwf-wasser.de/branche/vom-abwasser-zum-biogas-stadtwerke-krefeld-investieren-in-biogasanlagen/",
+    "source_type": "url_page",
+    "source_ref": "https://gwf-wasser.de/branche/vom-abwasser-zum-biogas-stadtwerke-krefeld-investieren-in-biogasanlagen/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "EGK Entsorgungsgesellschaft Krefeld GmbH & Co. KG (operator)",
+    "note": "Responsible for construction and operation of the plant. Shareholders: SWK AG 51% and EGN Entsorgungsgesellschaft Niederrhein mbH, Viersen 49% (limited partners), plus EGK Verwaltungsgesellschaft mbH as general partner. EUWID describes the company as fully municipal.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/egk-krefeld-verzeichnet-2023-mengen-und-umsatzplus-210225/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/egk-krefeld-verzeichnet-2023-mengen-und-umsatzplus-210225/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Digester gas upgrading plant (hybrid membrane and cryogenic) at the EGK sewage works and waste incinerator, Parkstrasse 234, Krefeld; EGK operates it and SWK (51% owner of EGK, with EGN 49%) invested c. 6 million EUR, with Thyssengas paying a similar amount for the grid connection. Register row matches the site; no acquisition date, financing or operating problems found, and the ultimate municipal owner of SWK was not checked."
+ },
+ {
+  "plant_id": 6796,
+  "parent_owner": "Naabtaler Milchwerke GmbH & Co. KG (Privatmolkerei Bechtel), family-owned dairy",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2020-08-06",
+  "owner_since_confidence": "likely",
+  "locality": "Schwarzenfeld",
+  "postcode": "92521",
+  "grid_injection": 1,
+  "heat_offtaker": null,
+  "owners": [
+   {
+    "owner": "BG Bio-Energie GmbH (HRB 6769, Amtsgericht Amberg), subsidiary of Naabtaler Milchwerke / Privatmolkerei Bechtel",
+    "stake": null,
+    "from": "2020-08-06",
+    "to": null,
+    "note": "Company registered Aug 2020 to build and run the bio-waste digestion and biogas upgrading plant next to the dairy's sewage works. Onetz (15 Dec 2020) calls it a subsidiary of Privatmolkerei Bechtel and a 2022 Onetz subtitle says the dairy owns the plant. The commercial register shows 2 shareholders but their names and shares are behind a paywall, so the exact split is unknown. Managing director Rene Guhl also runs the dairy. Dairy shareholders (Bechtel family) not confirmed.",
+    "url": "https://www.onetz.de/oberpfalz/schwarzenfeld/naechstes-grossprojekt-molkerei-bechtel-baut-biogasanlage-id3150310.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.onetz.de/oberpfalz/schwarzenfeld/naechstes-grossprojekt-molkerei-bechtel-baut-biogasanlage-id3150310.html",
+    "confidence": "likely"
+   },
+   {
+    "owner": "BG Bio-Energie GmbH registration details",
+    "stake": null,
+    "from": "2020-08-06",
+    "to": null,
+    "note": "Register extract page opened: registered 06.08.2020, Molkereistrasse 5, 92521 Schwarzenfeld, active; purpose includes operating a waste digestion plant and upgrading biogas to natural gas quality. North Data lists 2 active shareholders and a silent partner (stille Gesellschafter) disclosure in the 2024 accounts; names not visible.",
+    "url": "https://www.online-handelsregister.de/handelsregisterauszug/by/Amberg/HRB/6769/BG-Bio-Energie-GmbH",
+    "source_type": "url_page",
+    "source_ref": "https://www.online-handelsregister.de/handelsregisterauszug/by/Amberg/HRB/6769/BG-Bio-Energie-GmbH",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Plant matches the register row: BG Bio-Energie GmbH, a subsidiary of the Naabtaler Milchwerke (Privatmolkerei Bechtel), runs a dairy sludge and whey digestion plant at Schwarzenfeld with biomethane fed to the Bayernwerk grid (test operation from spring 2022, grid link extended 2023 to 2024). Exact shareholders, financing and any operating problems were not found; the 2 shareholders and a silent partner are only visible behind a paywall."
+ },
+ {
+  "plant_id": 6803,
+  "parent_owner": "Andreas Exeler (Exeler Betriebe, Rheine)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Rheine",
+  "postcode": "48432",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Andreas Exeler (limited partner, Kommanditist, liability sum EUR 5,500,000); general partner Exeler Verwaltungsgesellschaft mbH",
+    "note": "Search-result summary of Handelsregister data (HRA 7930, Amtsgericht Steinfurt). The register page itself failed to open with a 503 error. Opening the register extract would confirm the stakes.",
+    "url": "https://www.online-handelsregister.de/handelsregisterauszug/nw/Steinfurt/HRA/7930/Bioraffinerie-Kanalhafen-GmbH-Co-KG",
+    "source_type": "snippet",
+    "source_ref": "https://www.online-handelsregister.de/handelsregisterauszug/nw/Steinfurt/HRA/7930/Bioraffinerie-Kanalhafen-GmbH-Co-KG",
+    "confidence": "unverified"
+   },
+   {
+    "owner": "Andreas Exeler (builder and owner of the plant, Exeler group)",
+    "note": "bioconstruct press release of 13 June 2024 names Andreas Exeler as Bauherr of the Rheine-Kanalhafen plant. The Exeler Energie page lists Bioraffinerie Kanalhafen GmbH & Co. KG among the Exeler group businesses, with its own plant managers.",
+    "url": "https://www.bioconstruct.de/insights/biomethananlage-rheine-kanalhafen-erfolgreiche-zusammenarbeit-setzt-sich-mit-leuchtturmprojekt-fort/",
+    "source_type": "url_page",
+    "source_ref": "https://www.bioconstruct.de/insights/biomethananlage-rheine-kanalhafen-erfolgreiche-zusammenarbeit-setzt-sich-mit-leuchtturmprojekt-fort/ and https://www.exeler-agrar.de/betriebszweige/energie/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Plant matches the register row: a large manure-based biomethane plant at Kanalhafen, Rheine, built by bioconstruct and commissioned in 2024 for the Exeler family farm group (c.120 GWh a year of biomethane, 250,000 t a year of manure and dung, food-grade CO2 recovery); the owner is Andreas Exeler, with the exact shareholding only seen in a search snippet. No acquisition date, financing or operating problems found; the Handelsregister page could not be opened."
+ },
+ {
+  "plant_id": 6804,
+  "parent_owner": "Osterby Unternehmensgruppe (managing director Oliver de Vries)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2023-11-10",
+  "owner_since_confidence": "unverified",
+  "owners": [
+   {
+    "owner": "Osterby Unternehmensgruppe, via Biomethan Osterby GmbH & Co. KG (general partner Biomethan Osterby Verwaltungsgesellschaft mbH, managed by Oliver de Vries)",
+    "stake": null,
+    "from": "2023-11-10",
+    "to": null,
+    "note": "Owner built the plant itself (c. EUR 20m, no subsidy, built 2023) so ownership dates from commissioning, taken from the register COD. Shareholder percentages are behind the North Data paywall (2 known active shareholders); the group link is from the IHK article naming de Vries as group managing director and the operator as the group's biomethane arm.",
+    "url": "https://www.ihk.de/schleswig-holstein/ihk-magazin/innovation-wissenstransfer/osterby-unternehmensgruppe-6262602",
+    "source_type": "url_page",
+    "source_ref": "https://www.ihk.de/schleswig-holstein/ihk-magazin/innovation-wissenstransfer/osterby-unternehmensgruppe-6262602",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "grid_injection": 1,
+  "locality": "Osterby",
+  "postcode": "24994",
+  "summary": "Biomethan II at Osterby (Schleswig-Holstein) is the group's second upgrading plant, built in 2023 for c. EUR 20m without subsidy and feeding up to 1,500 m3/h into the gas grid; register row matches (operator Biomethan Osterby GmbH & Co. KG, HRA 5412 FL, Hauptstr. 1). Exact shareholders, financing and any operating problems were not found; North Data ownership is paywalled."
+ },
+ {
+  "plant_id": 6813,
+  "parent_owner": "City of Spremberg and Municipality of Spreetal (via ASG Spremberg GmbH)",
+  "parent_owner_confidence": "unverified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Spremberg",
+  "postcode": "03130",
+  "grid_injection": 1,
+  "heat_offtaker": null,
+  "owners": [
+   {
+    "owner": "ASG Spremberg GmbH, described in a search result summary as a municipal company of the City of Spremberg (Brandenburg) and the Municipality of Spreetal (Saxony)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Ownership shares not found. ASG is concessionaire of the Zweckverband Industriepark Schwarze Pumpe for water and wastewater facilities. The opened 2019 UVP document names ASG as the applicant but does not state its shareholders. A Handelsregister or Bundesanzeiger entry would confirm.",
+    "url": "https://www.lkspn.de/media/file/uvp/2019/allgemeine_uvp_vorpruefung.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://www.lkspn.de/media/file/uvp/2019/allgemeine_uvp_vorpruefung.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "The register row is a biogas upgrading unit on wastewater treatment plant ABA II at Industriepark Schwarze Pumpe, operated by ASG Spremberg GmbH; a 2019 UVP pre-assessment (opened) confirms ASG planned to upgrade anaerobic-stage biogas to biomethane for the public gas grid. Shareholders appear to be the municipalities of Spremberg and Spreetal but this is unconfirmed; no ownership date, financing or operating issues found."
+ },
+ {
+  "plant_id": 6815,
+  "parent_owner": "Local farm families (Bröker, Wolters and Lenting farms, Heek-Nienborg), held through Bröker Biomethan GbR and Wolters GbR",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "grid_injection": 1,
+  "locality": "Heek",
+  "postcode": "48619",
+  "owners": [
+   {
+    "owner": "Biomethan Nienborg GmbH & Co. KG (limited partners Bröker Biomethan GbR and Wolters GbR; general partner Biomethan Nienborg Verwaltungs GmbH)",
+    "from": "2022-12-08",
+    "note": "Commercial register entry of the KG on 8 Dec 2022 (Coesfeld HRA 9586, Wext 10, Heek) lists these partners. The date is the company registration, not an asset acquisition. Managing directors are Christian Lenting (since 2022-12-01), Sebastian Bröker and Lukas Wolters (both since 2025-05-12). Percentage stakes not found (paywalled).",
+    "url": "https://www.northdata.com/Biomethan%20Nienborg%20GmbH%20&%20Co%C2%B7%20KG,%20Heek/Amtsgericht%20Coesfeld%20HRA%209586",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Biomethan%20Nienborg%20GmbH%20&%20Co%C2%B7%20KG,%20Heek/Amtsgericht%20Coesfeld%20HRA%209586",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Naturtank Westfalen GmbH & Co. KG (possible new limited partner)",
+    "from": "2026-05-27",
+    "note": "North Data lists a 27 May 2026 register mention 'Limited Partner: Naturtank Westfalen GmbH & Co. KG' on the Biomethan Nienborg KG page, but the page does not make clear whether this is a partner in this KG or a related entry. Check the Handelsregister Coesfeld HRA 9586 to confirm.",
+    "url": "https://www.northdata.com/Biomethan%20Nienborg%20GmbH%20&%20Co%C2%B7%20KG,%20Heek/Amtsgericht%20Coesfeld%20HRA%209586",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Biomethan%20Nienborg%20GmbH%20&%20Co%C2%B7%20KG,%20Heek/Amtsgericht%20Coesfeld%20HRA%209586",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Lenting, Bröker and Wolters farm biogas and upgrading project",
+    "lender": null,
+    "instrument": "Not identified; total investment c. EUR 30m in biogas plants and the upgrading plant (press report)",
+    "amount": 30000000,
+    "ccy": "EUR",
+    "created": null,
+    "refi": null,
+    "refi_basis": "No debt facility found; amount is total project investment, not debt",
+    "url": "https://www.wirtschaft-aktuell.de/news/schlichtmann-realisiert-nachhaltiges-hallenbauprojekt-in-heek",
+    "source_type": "snippet",
+    "source_ref": "https://www.wirtschaft-aktuell.de/news/schlichtmann-realisiert-nachhaltiges-hallenbauprojekt-in-heek",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [],
+  "summary": "Operational farmer-owned biomethane upgrading plant at the Lenting farm in Heek-Nienborg (Wext 10), taking raw biogas by pipeline from the Wolters and Bröker farm plants (c. 1.9 and 3 km away) and feeding the gas grid; run by Biomethan Nienborg GmbH & Co. KG with Bröker Biomethan GbR and Wolters GbR as limited partners. This is a separate project from the 45-farmer Bioenergie Heek-Ahle plant elsewhere in Heek; no lender, stake percentages or operating problems found, and a May 2026 Naturtank Westfalen limited-partner mention is unconfirmed."
+ },
+ {
+  "plant_id": 6824,
+  "parent_owner": null,
+  "parent_owner_confidence": null,
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Bersenbrück",
+  "postcode": "49593",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Burggas GmbH & Co. KG (operator and owning company; general partner Burggas Verwaltung GmbH; six limited partners, names not public)",
+    "stake": null,
+    "from": "2022-09-26",
+    "to": null,
+    "note": "Company registered 26 Sep 2022 (HRA 208286, Osnabrück, Zur Burg 6, 49593 Bersenbrück). The register page shows the general partner and six limited partners but the names and stakes are behind a paywall. Searches suggest a link to the Zühlsdorf family (S-W-Z Biogas, Bersenbrück) but no source states it, so it is not recorded as owner. A Gesellschafterliste for Burggas Verwaltung GmbH or the Handelsregister entry would confirm the owners.",
+    "url": "https://www.northdata.com/Burggas%20GmbH%20&%20Co%C2%B7%20KG,%20Bersenbr%C3%BCck/Amtsgericht%20Osnabr%C3%BCck%20HRA%20208286",
+    "source_type": "url_page",
+    "source_ref": "https://www.northdata.com/Burggas%20GmbH%20&%20Co%C2%B7%20KG,%20Bersenbr%C3%BCck/Amtsgericht%20Osnabr%C3%BCck%20HRA%20208286",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Biomethane upgrading plant at Zur Burg, Bersenbrück, run by Burggas GmbH & Co. KG (founded Sep 2022) and feeding the Nowega grid since c. 23 Jul 2024 per search snippets, which matches the register row. Ultimate owners, acquisition date, financing and operating problems were not found; shareholders are behind a paywall and the Nowega and UVP pages were blocked."
+ },
+ {
+  "plant_id": 6829,
+  "parent_owner": "AGRAVIS Raiffeisen AG and ODAS GmbH (joint venture TerraSol Wirtschaftsdünger GmbH)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2014-03-01",
+  "owner_since_confidence": "likely",
+  "owners": [
+   {
+    "owner": "Original insolvent operator (name not identified)",
+    "to": "2014-03-01",
+    "note": "Operator filed for insolvency a few months before March 2014; the plant (max 6.2 MW) was sold by the insolvency administrator in a bidding process.",
+    "url": "https://www.agrarheute.com/land-leben/agravis-uebernimmt-biogasanlage-dorsten-515416",
+    "source_type": "url_page",
+    "source_ref": "https://www.agrarheute.com/land-leben/agravis-uebernimmt-biogasanlage-dorsten-515416",
+    "confidence": "verified"
+   },
+   {
+    "owner": "TerraSol Wirtschaftsdünger GmbH (AGRAVIS Raiffeisen AG and ODAS GmbH)",
+    "from": "2014-03-01",
+    "note": "AGRAVIS won the bid in late Feb 2014 (article dated 4 Mar 2014) with ODAS as operating partner; the joint venture company TerraSol is the plant owner and operator (HRB 14203 Münster, founded Dec 2012). Exact share split not found. The from date is the award of the bid, completion date not stated.",
+    "url": "https://www.agravis.de/de/unsere-leistungen/energie/geschaeftskunden/biogas-biomethan/terrasol-wirtschaftsduenger-gmbh",
+    "source_type": "url_page",
+    "source_ref": "https://www.agravis.de/de/unsere-leistungen/energie/geschaeftskunden/biogas-biomethan/terrasol-wirtschaftsduenger-gmbh",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2014-03-04",
+    "type": "insolvency",
+    "summary": "The previous operator of the Dorsten biogas plant went insolvent in late 2013 and the plant was sold by the insolvency administrator to AGRAVIS. The current TerraSol operation is not shown as insolvent.",
+    "severity": "medium",
+    "url": "https://www.agrarheute.com/land-leben/agravis-uebernimmt-biogasanlage-dorsten-515416",
+    "source_type": "url_page",
+    "source_ref": "https://www.agrarheute.com/land-leben/agravis-uebernimmt-biogasanlage-dorsten-515416",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "TerraSol Wirtschaftsdünger GmbH is a joint venture of AGRAVIS Raiffeisen AG and ODAS GmbH that took over the insolvent Dorsten biogas plant in 2014 and now produces c.100 GWh a year of biomethane for the grid (Westnetz); the register row matches. Share split, exact completion date and any plant-level financing were not found.",
+  "grid_injection": 1,
+  "locality": "Dorsten",
+  "postcode": "46282"
+ },
+ {
+  "plant_id": 6858,
+  "parent_owner": "PHW-Gruppe (Paul Wesjohann & Co. GmbH, Oldenburg)",
+  "owner_since": null,
+  "owners": [
+   {
+    "owner": "PHW-Gruppe (via subsidiary NDEnergie GmbH & Co. KG)",
+    "from": null,
+    "note": "top agrar (13 Mar 2026) calls NDEnergie a PHW-Gruppe subsidiary and says PHW invested c. EUR 40m in the plant. Shareholder detail (Paul Wesjohann & Co. GmbH as limited partner, NDEnergie Verwaltungs GmbH as general partner, one private limited partner with EUR 50) seen only in a search-result summary of a handelsregister.ai page that returned 403 when opened. Acquisition date not found; the plant was built by the group (tenant of the port site since 2023).",
+    "url": "https://www.topagrar.com/energie/news/phw-tochterfirma-ndenergie-nimmt-biomethangasanlage-in-bohmte-in-betrieb-20024011.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.topagrar.com/energie/news/phw-tochterfirma-ndenergie-nimmt-biomethangasanlage-in-bohmte-in-betrieb-20024011.html",
+    "confidence": "likely"
+   },
+   {
+    "owner": "NDEnergie Verwaltungs GmbH (general partner, no capital stake known)",
+    "note": "Impressum of ndenergie.de names it as personally liable partner (HRB 216619, Bohmte), managing director Rainer Aschenbroich.",
+    "url": "https://ndenergie.de/impressum/",
+    "source_type": "url_page",
+    "source_ref": "https://ndenergie.de/impressum/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Real new-build biomethane plant at the port in Bohmte, operated by NDEnergie GmbH & Co. KG, a PHW-Gruppe subsidiary; commissioned March 2026 (register COD 10 Jan 2026 is earlier than the reported start-up), c. EUR 40m investment, c. 80m kWh/yr, BImSchG permit issued 18 Dec 2024 for 343 t/day feedstock (seen in search results only; PDF blocked). No financing, operating problems or ownership transfer found; shareholder percentages unknown.",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": null,
+  "grid_injection": 1,
+  "locality": "Bohmte",
+  "postcode": "49163"
+ },
+ {
+  "plant_id": 6861,
+  "parent_owner": "Bioenergie Velen GmbH consortium (local farmers, ODAS, RETERRA West (Remondis), AGRAVIS Raiffeisen AG, Stadtwerke Lünen)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2023-01-01",
+  "owner_since_confidence": "likely",
+  "locality": "Velen",
+  "postcode": "46342",
+  "grid_injection": 1,
+  "permit_tonnes_pa": 200000,
+  "owners": [
+   {
+    "owner": "NDM Naturwertstoffe GmbH (Naturdünger Münsterland), c. 90 farmer shareholders",
+    "to": "2023-01-01",
+    "note": "Original manure digestion and fertiliser plant at Nordvelen; went insolvent in April 2021. Farmers had provided c. EUR 2.3m equity and EUR 5m loans and kept their shares in the restructuring.",
+    "url": "https://www.topagrar.com/energie/news/insolvente-megabiogasanlage-vor-dem-neustart-12605662.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.topagrar.com/energie/news/insolvente-megabiogasanlage-vor-dem-neustart-12605662.html",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Bioenergie Velen GmbH (shareholders: local farmers, ODAS, RETERRA West, AGRAVIS, Stadtwerke Lünen)",
+    "from": "2023-01-01",
+    "note": "After the insolvency proceedings were lifted, NDM was renamed Bioenergie Velen GmbH with these shareholders (reported Jan 2023, date approximate). Individual stakes not published in the pages opened. RETERRA West is part of Remondis.",
+    "url": "https://www.topagrar.com/energie/news/biogasproduktion-in-velen-ist-angelaufen-20013273.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.topagrar.com/energie/news/biogasproduktion-in-velen-ist-angelaufen-20013273.html",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2021-04-01",
+    "type": "insolvency",
+    "summary": "The previous operator, NDM Naturwertstoffe / Naturdünger Münsterland, filed for insolvency after technical problems and liquidity shortages. The plant had cost c. EUR 18m, funded by grants and bank loans, and the original concept (burning digestate for fertiliser ash) was dropped.",
+    "severity": "high",
+    "url": "https://www.topagrar.com/energie/news/insolvente-megabiogasanlage-vor-dem-neustart-12605662.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.topagrar.com/energie/news/insolvente-megabiogasanlage-vor-dem-neustart-12605662.html",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Manure-to-biomethane plant at Nordvelen (c. EUR 20m rebuild) owned by Bioenergie Velen GmbH, formerly insolvent NDM Naturwertstoffe; shareholders are farmers, ODAS, RETERRA West (Remondis), AGRAVIS and Stadtwerke Lünen. Trial operation began April 2025 (a search snippet gives 2 June 2025 for full commissioning); shareholding percentages, lenders and any post-start issues were not found."
+ },
+ {
+  "plant_id": 6869,
+  "parent_owner": null,
+  "parent_owner_confidence": null,
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Biburg",
+  "postcode": "93354",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Bioenergie Biburg GmbH & Co. KG (HRA 7310, Amtsgericht Regensburg), general partner Bioenergie Biburg Beteiligungs GmbH",
+    "note": "Operator of the Biburg biogas plant at Raiffeisenstrasse 28, founded 2005. The register name 'Bioerdgas Biburg GbR' was not found anywhere; this company is the likely operator of the new Envitec upgrader because it is the only biogas operator in Biburg and the IWR item tags 'Bioenergie Biburg'. The individual shareholders (two known) are behind a paywall at North Data and were not seen. Confirm with the Handelsregister shareholder list or MaStR operator record.",
+    "url": "https://www.landkreis-kelheim.de/landratsamt/landratsamt/geschaeftsverteilung/?bioenergie-biburg-gmbh-co-kg=&orga=bf9ea24a12fce51790c199d518288c37",
+    "source_type": "url_page",
+    "source_ref": "https://www.landkreis-kelheim.de/landratsamt/landratsamt/geschaeftsverteilung/?bioenergie-biburg-gmbh-co-kg=&orga=bf9ea24a12fce51790c199d518288c37; https://www.iwr.de/ticker/envitec-betritt-erstmals-bayerischen-markt-envitec-biogas-startet-drei-neue-gasaufbereitungsprojekte-in-deutschland-artikel7963",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2019-05-07",
+    "type": "regulatory inspection",
+    "summary": "Landratsamt Kelheim inspection of the Biburg biogas plant, which already had a biogas upgrading unit, found a very foul-smelling collection pit, an emergency flare that could not be operated at the time, incomplete logging of incidents and worn flexible gas hoses, with remedial actions set.",
+    "severity": "low",
+    "url": "https://www.landkreis-kelheim.de/media/7104/bioenergie-biburg-gmbh-co-kg-19-06-13_ie-ueberwachungsbericht-2019.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.landkreis-kelheim.de/media/7104/bioenergie-biburg-gmbh-co-kg-19-06-13_ie-ueberwachungsbericht-2019.pdf",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-12-11",
+    "type": "technology replacement",
+    "summary": "Envitec was contracted to build a new membrane upgrader (1,000 Nm3/h biomethane, grid feed-in planned from July 2026); the existing pressure-water-wash upgrader is to be dismantled afterwards. The register row (COD 2026-08-06) is therefore the replacement unit at an existing biogas site, not a new site.",
+    "severity": "low",
+    "url": "https://www.iwr.de/ticker/envitec-betritt-erstmals-bayerischen-markt-envitec-biogas-startet-drei-neue-gasaufbereitungsprojekte-in-deutschland-artikel7963",
+    "source_type": "url_page",
+    "source_ref": "https://www.iwr.de/ticker/envitec-betritt-erstmals-bayerischen-markt-envitec-biogas-startet-drei-neue-gasaufbereitungsprojekte-in-deutschland-artikel7963",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The row is the new Envitec biomethane upgrader (c.1,000 Nm3/h, matching 10.74 MW) at the existing Bioenergie Biburg biogas plant, replacing an older pressure-water-wash unit; the operator is likely Bioenergie Biburg GmbH & Co. KG, not a 'Bioerdgas Biburg GbR', which was not found. Shareholders, owner_since and financing were not found (North Data shareholder data is paywalled)."
  }
 ]
