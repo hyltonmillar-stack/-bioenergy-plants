@@ -3349,6 +3349,78 @@
   "summary": "Register row is Energy Works Hull (Cleveland Street, Hull), a 24-25 MWe gasification plant that was idle from 2024 and has reportedly been sold by Evero to Ashcourt Group Capital Ltd, with restart planned for 2026 but unconfirmed. Financing details, the sale date and Evero's acquisition date were not found; the operator in the register (Spencer Group) is no longer the owner."
  },
  {
+  "plant_id": 3270,
+  "parent_owner": "Viridor Limited (KKR Global Infrastructure Investors III; Equitix minority stake)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2020-07-08",
+  "owner_since_confidence": "verified",
+  "permit_tonnes_pa": 350000,
+  "locality": "Cardiff Docks, Trident Park",
+  "postcode": "CF24 5EN",
+  "owners": [
+   {
+    "owner": "Viridor (Pennon Group)",
+    "from": "2015-03-10",
+    "to": "2020-07-08",
+    "note": "Viridor built and owned the plant, then part of Pennon Group. Operational since early 2015 per ENDS and EIB.",
+    "url": "https://www.eib.org/en/press/all/2016-058-european-investment-bank-confirms-gbp-110-million-backing-for-viridors-cardiff-energy-recovery-facility-erf",
+    "source_type": "url_page",
+    "source_ref": "https://www.eib.org/en/press/all/2016-058-european-investment-bank-confirms-gbp-110-million-backing-for-viridors-cardiff-energy-recovery-facility-erf",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Viridor Limited (Planets UK Bidco, funds advised by KKR)",
+    "from": "2020-07-08",
+    "note": "KKR completed its GBP 4.2bn acquisition of Viridor from Pennon on 8 July 2020.",
+    "url": "https://resource.co/article/viridor-acquired-kkr-42-billion",
+    "source_type": "url_page",
+    "source_ref": "https://resource.co/article/viridor-acquired-kkr-42-billion",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Equitix (substantial minority stake in Viridor Group, alongside KKR)",
+    "from": "2025-12-01",
+    "note": "Agreed late 2025 with a route to up to 50 percent; Equitix already held 35 percent of Viridor's energy division. Initial stake size not disclosed. Start date is approximate.",
+    "url": "https://www.euwid-recycling.com/news/business/equitix-confirms-acquisition-of-stake-in-british-waste-company-viridor-from-kkr-270126/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.com/news/business/equitix-confirms-acquisition-of-stake-in-british-waste-company-viridor-from-kkr-270126/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Viridor / Pennon Group (Cardiff Energy Recovery Facility)",
+    "lender": "European Investment Bank",
+    "instrument": "Long-term loan for the Cardiff ERF",
+    "amount": 110000000,
+    "ccy": "GBP",
+    "created": "2016-01-01",
+    "refi": null,
+    "refi_basis": "Maturity not stated; EIB page only says it expected to finalise the loan in the coming weeks, so signing is not confirmed. Date is approximate.",
+    "url": "https://www.eib.org/en/press/all/2016-058-european-investment-bank-confirms-gbp-110-million-backing-for-viridors-cardiff-energy-recovery-facility-erf",
+    "source_type": "url_page",
+    "source_ref": "https://www.eib.org/en/press/all/2016-058-european-investment-bank-confirms-gbp-110-million-backing-for-viridors-cardiff-energy-recovery-facility-erf",
+    "confidence": "likely"
+   },
+   {
+    "borrower": "Viridor (KKR acquisition and group refinancing)",
+    "lender": null,
+    "instrument": "c. GBP 2.5bn refinancing incl. GBP 1.585bn US private placement (2021), group level",
+    "amount": 2500000000,
+    "ccy": "GBP",
+    "created": "2021-01-01",
+    "refi": null,
+    "refi_basis": "Tenor not seen; confirm via CA-CIB newsletter Nov 2021",
+    "url": "https://www.ca-cib.com/sites/default/files/2022-03/Newsletter-November-2021.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://www.ca-cib.com/sites/default/files/2022-03/Newsletter-November-2021.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [],
+  "summary": "Trident Park (Cardiff ERF, 350kt/yr, 30MWe, Prosiect Gwyrdd 25-year contract) is owned by Viridor, sold by Pennon to KKR in July 2020 and part-sold to Equitix from late 2025; the register row (operator only, no parent) matches. No fires, enforcement or outages beyond planned maintenance found; group financing terms and the Equitix stake size are unconfirmed."
+ },
+ {
   "plant_id": 3272,
   "parent_owner": "FCC Environment (FCC Servicios Medio Ambiente Holding, 51%) and iCON Infrastructure (49%), via Green Recovery Projects Ltd",
   "parent_owner_confidence": "likely",
@@ -3398,6 +3470,69 @@
   ],
   "issues": [],
   "summary": "Lincoln (Lincolnshire) EfW at North Hykeham is run by FCC Environment under a 25-year council contract, and sits in Green Recovery Projects Ltd (iCON 49%, completed Nov 2020). The register shows the council as operator and 16.4MWe, while sources give 13.1MWe export and 190kt/yr permit; no operating problems found, GRP-level debt and the title holder (council or FCC) not confirmed."
+ },
+ {
+  "plant_id": 3273,
+  "parent_owner": "Suez Group (via Suez Recycling and Recovery UK Group Holdings Ltd)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2022-12-06",
+  "owner_since_confidence": "verified",
+  "locality": "Billingham",
+  "postcode": "TS23 1PY",
+  "owners": [
+   {
+    "owner": "SITA UK / SUEZ Recycling and Recovery UK (under the former Suez SA group)",
+    "to": "2022-12-06",
+    "note": "SITA UK (now SUEZ) developed and operates NEERC (lines 4 and 5 at Haverton Hill) under a PFI-type contract with the South Tyne and Wear Waste Management Partnership. In 2022 Veolia took over the old Suez SA and had to sell the UK business under CMA remedies; Macquarie signed to buy it in Aug 2022 but Suez exercised its right of first refusal.",
+    "url": "https://en.wikipedia.org/wiki/Teesside_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Teesside_EfW",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Suez Group (Suez Recycling and Recovery UK Group Holdings Ltd, 100%)",
+    "stake": 100,
+    "from": "2022-12-06",
+    "note": "Veolia completed the sale of 100% of Suez Recycling and Recovery UK Group Holdings Ltd to Suez on 6 Dec 2022 (c. EUR 2.3bn / GBP 2bn). Note that a MarketScreener item says Macquarie completed the deal; that conflicts with the Waste Management World and Recycling International reports, which I rate more reliable because they describe Suez matching Macquarie's offer under its right of first refusal. GEM lists the plant owner as SUEZ Recycling and Recovery UK, parent Suez Advanced Solutions Holdings UK Ltd.",
+    "url": "https://waste-management-world.com/resource-use/antitrust-remedies-in-the-uk-veolia-completes-eur2-3-billion-sale-of-waste-business-to-suez/",
+    "source_type": "url_page",
+    "source_ref": "https://waste-management-world.com/resource-use/antitrust-remedies-in-the-uk-veolia-completes-eur2-3-billion-sale-of-waste-business-to-suez/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Macquarie Asset Management (agreed buyer, did not complete)",
+    "to": "2022-08-08",
+    "note": "Agreed to acquire SUEZ UK for c. EUR 2.4bn in Aug 2022 but was displaced by Suez's right of first refusal.",
+    "url": "https://www.veolia.co.uk/press-releases/veolia-announces-agreement-sell-suezs-uk-waste-business-macquarie-eu24bn",
+    "source_type": "url_page",
+    "source_ref": "https://www.veolia.co.uk/press-releases/veolia-announces-agreement-sell-suezs-uk-waste-business-macquarie-eu24bn",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2017-06-08",
+    "type": "health and safety enforcement",
+    "summary": "SUEZ Recycling and Recovery Tees Valley Ltd was fined GBP 220,000 after a worker was seriously burned by hot ash and steam from a blocked ash chute at Haverton Hill Road on 17 Oct 2014 (a similar incident occurred on 7 Feb 2014). The article does not say which of the five lines was involved, so it may relate to the older plant rather than NEERC.",
+    "severity": "medium",
+    "url": "https://www.gazettelive.co.uk/news/teesside-news/haverton-hill-waste-firm-fined-13153346",
+    "source_type": "url_page",
+    "source_ref": "https://www.gazettelive.co.uk/news/teesside-news/haverton-hill-waste-firm-fined-13153346",
+    "confidence": "verified"
+   },
+   {
+    "date": "2022-11-23",
+    "type": "strategic note",
+    "summary": "Suez has consulted on a carbon capture plant next to the Haverton Hill energy-from-waste site (Fluor pre-FEED in 2024); funding and consent are not yet confirmed, so this is an opportunity rather than a problem.",
+    "severity": "low",
+    "url": "https://www.gazettelive.co.uk/news/teesside-news/jobs-way-teesside-energy-plant-25588157",
+    "source_type": "url_page",
+    "source_ref": "https://www.gazettelive.co.uk/news/teesside-news/jobs-way-teesside-energy-plant-25588157",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The row is NEERC (lines 4 and 5, c.21 MWe in REPD, operational since 2014) next to the older Teesside EfW, and it is owned and operated by SUEZ, now back under Suez Group after the Dec 2022 buy-back from Veolia (Macquarie's offer was matched, not completed). No plant-specific debt found; the permit is shared across the whole site (c.642kt/yr combined) and shareholders of Suez Group were not checked."
  },
  {
   "plant_id": 3276,
@@ -3496,5 +3631,1674 @@
    }
   ],
   "summary": "Gasification EfW (Energos technology, 150kt/yr permit) at the integrated Glasgow RERC at Polmadie, run by Viridor under a 25-year Glasgow City Council PPP; Viridor is KKR-owned since July 2020, with Equitix increasing its stake in Dec 2025. REPD capacity is 10MWe against c.15MW gross in press; the Sep 2026 Shieldhall fire is a different site. Plant-specific financing, exact stake held by Equitix and PPP asset-transfer terms not found."
+ },
+ {
+  "plant_id": 3278,
+  "parent_owner": "Sembcorp Industries (40%), SUEZ Recycling and Recovery UK (40%, now owned by Macquarie Asset Management), ITOCHU Corporation (20%)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2013-12-01",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 500000,
+  "heat_offtaker": "Wilton International industrial site (steam export, Sembcorp)",
+  "locality": "Wilton International, Redcar",
+  "postcode": "TS10 4RG",
+  "owners": [
+   {
+    "owner": "SITA Sembcorp UK (SPV): SITA UK (SUEZ) 40%, Sembcorp Utilities UK 40%, I-Environment Investments (ITOCHU) 20%",
+    "stake": null,
+    "from": "2013-12-24",
+    "to": null,
+    "note": "Consortium that signed the 30-year Merseyside PPP and financed the plant in Dec 2013. The GIB release names the three equity providers; the 40:40:20 split comes from the GlobalData profile and search snippets.",
+    "url": "https://www.greeninvestmentgroup.com/en/news/2013/green-investment-bank-announces-investment-in-new-waste-to-energy-project.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.greeninvestmentgroup.com/en/news/2013/green-investment-bank-announces-investment-in-new-waste-to-energy-project.html",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Sembcorp Industries 40%, SUEZ Recycling and Recovery UK 40%, ITOCHU 20% (current split)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "GlobalData profile says these are the current stakes; undated. Not independently checked against Companies House or Sembcorp accounts.",
+    "url": "https://www.power-technology.com/marketdata/power-plant-profile-wilton-11-waste-to-energy-plant-uk/",
+    "source_type": "url_page",
+    "source_ref": "https://www.power-technology.com/marketdata/power-plant-profile-wilton-11-waste-to-energy-plant-uk/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Macquarie Asset Management (acquirer of SUEZ Recycling and Recovery UK Group, which holds SUEZ's 40%)",
+    "stake": null,
+    "from": "2022-08-01",
+    "to": null,
+    "note": "Macquarie agreed to buy 100% of Suez UK for c. EUR 2.4bn (Jones Day page dated Dec 2022; completion date of Aug 2022 seen only in a search snippet). Whether the Wilton 11 stake sits inside that group was inferred, not seen stated.",
+    "url": "https://www.jonesday.com/en/practices/experience/2022/08/macquarie-agrees-to-acquire-suez-recycling-and-recovery-uk-group-for-approximately-24-billion",
+    "source_type": "url_page",
+    "source_ref": "https://www.jonesday.com/en/practices/experience/2022/08/macquarie-agrees-to-acquire-suez-recycling-and-recovery-uk-group-for-approximately-24-billion",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "SITA Sembcorp UK (project SPV)",
+    "lender": "Banco Bilbao Vizcaya Argentaria, Bank of Tokyo-Mitsubishi UFJ, Credit Agricole CIB, Mizuho Bank, Sumitomo Mitsui Banking Corporation, UniCredit Bank AG London, UK Green Investment Bank (GBP 20m of the senior debt)",
+    "instrument": "Non-recourse senior project finance loans for the c. GBP 250m plant",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2013-12-24",
+    "refi": null,
+    "refi_basis": "Tenor and any refinancing not found; total senior debt amount not stated in the opened page",
+    "url": "https://www.greeninvestmentgroup.com/en/news/2013/green-investment-bank-announces-investment-in-new-waste-to-energy-project.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.greeninvestmentgroup.com/en/news/2013/green-investment-bank-announces-investment-in-new-waste-to-energy-project.html",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2017-01-01",
+    "type": "commissioning delay",
+    "summary": "The plant faced a setback before opening that led the Merseyside waste authority to arrange interim disposal in 2017; formal opening followed in June 2018.",
+    "severity": "medium",
+    "url": "https://www.letsrecycle.com/news/suez-wilton-efw-opened/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/suez-wilton-efw-opened/",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "turbine failure",
+    "summary": "ENDS Waste & Bioenergy reported a turbine rotor fault needing major repairs at the manufacturer, leaving the plant exporting heat only and no power for about six months. Date not established.",
+    "severity": "high",
+    "url": "https://www.endswasteandbioenergy.com/article/1866440/fault-means-no-power-wilton-11-until-next-month",
+    "source_type": "snippet",
+    "source_ref": "https://www.endswasteandbioenergy.com/article/1866440/fault-means-no-power-wilton-11-until-next-month",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Register row matches: 49 MWe, 500kt/yr, two-line EfW at Wilton International serving the Merseyside PPP, operated by SUEZ and held through a 40:40:20 Sembcorp/SUEZ/ITOCHU consortium; SUEZ UK has since passed to Macquarie. Turbine fault details are paywalled and undated, no refinancing found, and current stakes were not checked at Companies House."
+ },
+ {
+  "plant_id": 3280,
+  "parent_owner": "Viridor (KKR, with Equitix as minority shareholder)",
+  "owner_since": "2020-01-01",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 1100000,
+  "heat_offtaker": "INEOS Chlor (adjacent chemicals site, steam)",
+  "locality": "Runcorn",
+  "owners": [
+   {
+    "owner": "INEOS Runcorn (TPS) Ltd (Phase 1): JV of INEOS, Viridor and John Laing",
+    "from": "2015-01-18",
+    "to": "2018-12-31",
+    "note": "Phase 1 owned by this JV at handover in Jan 2015. Phase 2 owned by Viridor EfW (Runcorn) Ltd, a Viridor Waste Management SPV. The register row names INEOS Chlor / Viridor-Laing, which matches the Phase 1 JV.",
+    "source_type": "url_page",
+    "source_ref": "https://www.keppel.com/infrastructure/news-item.aspx?sid=4243&aid=4330&title=keppel-hands-over-runcorn-energy-from-waste-facility-phase-2-4330",
+    "url": "https://www.keppel.com/infrastructure/news-item.aspx?sid=4243&aid=4330&title=keppel-hands-over-runcorn-energy-from-waste-facility-phase-2-4330",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Viridor (Pennon, 75% economic interest in INEOS Runcorn (TPS) Holdings; Phase 2 100%)",
+    "stake": 75,
+    "from": "2018-11-16",
+    "to": "2020-01-01",
+    "note": "Nov 2018 announcement that Viridor would buy John Laing's 37.5% economic interest (20% voting) for GBP 54.5m, taking Pennon to 75% economic and 40% voting. Completion was expected in 2018 but not confirmed in the page opened.",
+    "source_type": "url_page",
+    "source_ref": "https://www.sharecast.com/news/news-and-announcements/pennons-viridor-ups-stake-in-uk-waste-to-power-plant--3600744.html",
+    "url": "https://www.sharecast.com/news/news-and-announcements/pennons-viridor-ups-stake-in-uk-waste-to-power-plant--3600744.html",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Viridor Group (KKR, with Equitix minority)",
+    "from": "2020-01-01",
+    "note": "KKR acquired Viridor from Pennon in 2020 for GBP 4.2bn (exact date not stated in the page opened; year only). Equitix owned 35% of Viridor Energy and agreed in Dec 2025 to buy a substantial minority of Viridor Group from KKR with a path to 50%. Stakes in the Runcorn site vehicles after 2020 not confirmed.",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "url": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2018-06-28",
+    "type": "odour and noise complaints",
+    "summary": "Local newspaper headlines in 2018 reported resident complaints about smells and noise from the Runcorn plant. Viridor reportedly said it operates within its permit and no enforcement action was taken. Page blocked, so details not read.",
+    "severity": "low",
+    "url": "https://www.pressreader.com/uk/runcorn-widnes-weekly-news/20180920/281689730725311",
+    "source_type": "snippet",
+    "source_ref": "https://www.pressreader.com/uk/runcorn-widnes-weekly-news/20180920/281689730725311",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Register row is the Runcorn ERF, two phases of 425,000 tpa each on INEOS Chlor's site, run by Viridor; wikiwaste gives 83 MWe design point against the 100 MWe listed and a permitted 1.1m tpa. No plant-specific debt facility found and Phase 1 vehicle ownership after 2020 is not confirmed."
+ },
+ {
+  "plant_id": 3283,
+  "parent_owner": "Veolia Environnement SA (via Veolia ES Leeds Ltd)",
+  "parent_owner_confidence": "unverified",
+  "owner_since": "2012-11-08",
+  "owner_since_confidence": "likely",
+  "locality": "Cross Green, Leeds",
+  "postcode": "LS9 0RJ",
+  "permit_tonnes_pa": 190000,
+  "owners": [
+   {
+    "owner": "Veolia ES Leeds Ltd (company 07876913), Veolia group PFI vehicle",
+    "stake": 100,
+    "from": "2012-11-08",
+    "note": "Holds the Environment Agency permit GP3334CX and waste licence. Built and operates the plant under a 25-year PFI contract with Leeds City Council signed 8 Nov 2012 (letsrecycle names the contracting entity as Veolia ES Aurora Ltd, a Veolia ES UK PFI subsidiary; the permit holder is Veolia ES Leeds Ltd, so the contract was probably novated to it). Ultimate parent Veolia Environnement is inferred from the Veolia group naming, not seen in a filing. Companies House accounts would confirm.",
+    "source_type": "url_page",
+    "source_ref": "https://www.wastebook.co.uk/directory/leeds-recycling-and-energy-recovery-facility-epr-gp3334cx-veolia-es-leeds-limited/",
+    "url": "https://www.wastebook.co.uk/directory/leeds-recycling-and-energy-recovery-facility-epr-gp3334cx-veolia-es-leeds-limited/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Leeds City Council (contracting authority, PFI counterparty)",
+    "from": "2012-11-08",
+    "note": "Council is the PFI client, not the owner of the plant assets as far as seen; contract runs 25 years from signing, so to c.2037-2041.",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/leeds-signs-460m-incinerator-deal-with-veolia/",
+    "url": "https://www.letsrecycle.com/news/leeds-signs-460m-incinerator-deal-with-veolia/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2017-03-23",
+    "type": "technology failure / contract",
+    "summary": "The recycling pre-treatment line missed Leeds City Council recycling targets for three quarters; ballistic separators were found unfit for purpose and replaced, improvement notices were issued and Veolia brought in a director. The incinerator itself kept running on interim measures.",
+    "severity": "medium",
+    "source_type": "url_page",
+    "source_ref": "https://resource.co/article/veolia-parachutes-director-oversee-underperforming-leeds-incinerator-11766",
+    "url": "https://resource.co/article/veolia-parachutes-director-oversee-underperforming-leeds-incinerator-11766",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "contract",
+    "summary": "Search result snippet says the contractual recycling target was renegotiated down from 10% to 2% with compensatory payments from Veolia to the council. Date and exact terms not seen; the Leeds council document was not opened.",
+    "severity": "low",
+    "source_type": "snippet",
+    "source_ref": "https://democracy.leeds.gov.uk/documents/s232637/Appendix%203%20Waste%20Inquiry%20Summary%20of%20Evidence.pdf",
+    "url": "https://democracy.leeds.gov.uk/documents/s232637/Appendix%203%20Waste%20Inquiry%20Summary%20of%20Evidence.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Cross Green ERF (Leeds Recycling and Energy Recovery Facility, permit GP3334CX, c.11 MWe, operating since April 2016) matches the register row and is held by Veolia ES Leeds Ltd under a 25-year PFI with Leeds City Council signed Nov 2012. Ultimate parent is inferred as Veolia; PFI debt lenders and refinancing were not found, and early recycling-target failures (2016-17) were the only issues found."
+ },
+ {
+  "plant_id": 3287,
+  "parent_owner": "KKR (via Viridor Group)",
+  "owner_since": "2020-07-01",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "unverified",
+  "permit_tonnes_pa": 60000,
+  "locality": "Marsh Barton, Exeter, Devon",
+  "postcode": "EX2 8QE",
+  "owners": [
+   {
+    "owner": "Viridor (then part of Pennon Group)",
+    "to": "2020-07-01",
+    "note": "Built the plant in partnership with Devon County Council and TIRU; opened 16 Oct 2014 on the former Exeter incinerator site. Asset appears to sit within Viridor's contract with the council; exact legal ownership of the asset not confirmed.",
+    "source_type": "url_page",
+    "source_ref": "https://resourcemedia.eco/article/energy-recovery-facility-officially-opens-exeter-6687",
+    "url": "https://resourcemedia.eco/article/energy-recovery-facility-officially-opens-exeter-6687",
+    "confidence": "likely"
+   },
+   {
+    "owner": "KKR (via Viridor Group)",
+    "stake": 100,
+    "from": "2020-07-01",
+    "note": "KKR bought Viridor from Pennon for GBP 4.2bn; the opened article does not give the completion date (July 2020 seen in a search snippet only). Equitix has since agreed to buy a substantial minority stake in Viridor Group from KKR (search snippet only, page returned 403). Confirm with the Pennon or KKR completion announcement.",
+    "source_type": "url_page",
+    "source_ref": "https://www.bioenergy-news.com/news/viridor-acquired-by-kkr-for-4-2-billion/",
+    "url": "https://www.bioenergy-news.com/news/viridor-acquired-by-kkr-for-4-2-billion/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2016-01-11",
+    "type": "operational",
+    "summary": "Liaison group minutes record boiler superheater tube problems, higher than normal steam venting, large metal items blocking the ash pusher and 3 or 4 unplanned shutdowns (8 to 12 hours in total) since July 2015, plus three half-hour CO emission breaches. Electricity export was below plan; a month-long repair shutdown was planned from Easter 2016.",
+    "severity": "low",
+    "source_type": "url_page",
+    "source_ref": "https://www.alphingtonforum.co.uk/wp-content/uploads/2016/02/Exeter-Liaison-Group-Minutes-January-2016-FINAL.pdf",
+    "url": "https://www.alphingtonforum.co.uk/wp-content/uploads/2016/02/Exeter-Liaison-Group-Minutes-January-2016-FINAL.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Exeter ERF (60,000 tpa, Marsh Barton) matches the REPD row and was built by Viridor with Devon County Council; Viridor's parent is KKR since 2020. Debt financing specific to the plant was not found, the acquisition date and asset-level ownership are not confirmed, and the c.13 MWe register figure looks high against the c.3 MWe electrical output cited in 2007 planning-stage reporting."
+ },
+ {
+  "plant_id": 3289,
+  "parent_owner": "MVV Energie AG (City of Mannheim 50.1% via MVV GmbH, First Sentier Investors c.45.1%)",
+  "owner_since": null,
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 245000,
+  "heat_offtaker": "His Majesty's Naval Base Devonport (c.24 MW of heat and steam, via MoD energy services deal)",
+  "locality": "Plymouth",
+  "postcode": "PL5 1FL",
+  "owners": [
+   {
+    "owner": "MVV Environment Devonport Ltd (company 07412959), owned by MVV Environment Ltd, a subsidiary of MVV Energie AG",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Special purpose company that financed, built and operates the plant under a 25-year PFI contract with the South West Devon Waste Partnership (signed March 2011). Companies House shows MVV Environment Ltd as 75%+ controller since 4 Mar 2019, and MVV Energie AG before that from 6 Apr 2016. Original owner date not found; plant built by MVV from 2012 and fully operational Jan 2016.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07412959/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "07412959, persons with significant control page, opened Oct 2026",
+    "confidence": "verified"
+   },
+   {
+    "owner": "MVV Energie AG (City of Mannheim 50.1% via MVV GmbH; First State/First Sentier Investors bought 45.1% from EnBW and RheinEnergie in 2020)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Ultimate parent. Wikipedia lists the shareholder structure; current free float and any later changes not checked.",
+    "url": "https://en.wikipedia.org/wiki/MVV_Energie",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/MVV_Energie",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-06-26",
+    "type": "outage",
+    "summary": "Major planned outage in 2025 covering boiler repairs, refractory relining and the 100,000-hour turbine major inspection, with the turbine rotor shipped to Germany and waste-only operation using a turbine blank. A stage 2 turbine refit (blades and bearings) was still to come as of 26 June 2025.",
+    "severity": "medium",
+    "url": "https://www.mvv.de/en/about-us/group-of-companies/mvv-umwelt/subsidiaries/mvv-environment-ltd/devonport-efw-chp-facility-plymouth/latest-news",
+    "source_type": "url_page",
+    "source_ref": "https://www.mvv.de/en/about-us/group-of-companies/mvv-umwelt/subsidiaries/mvv-environment-ltd/devonport-efw-chp-facility-plymouth/latest-news",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-05-01",
+    "type": "fire",
+    "summary": "Fire in the waste reception bunker, reportedly caused by a marine flare in household waste; suppression systems activated and no injuries reported. Seen only in a search snippet, as the article page was behind an access wall.",
+    "severity": "low",
+    "url": "https://www.plymouthplus.co.uk/fire-at-plymouth-incinerator-caused-by-a-marine-flare/",
+    "source_type": "snippet",
+    "source_ref": "https://www.plymouthplus.co.uk/fire-at-plymouth-incinerator-caused-by-a-marine-flare/",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2016-01-12",
+    "type": "odour and noise complaints",
+    "summary": "Local opposition to the plant from opening, including reports of noise and odour from Barne Barton residents and criticism of its 95-metre stack; no enforcement action found.",
+    "severity": "low",
+    "url": "https://resource.co/article/controversial-plymouth-incinerator-hits-full-operation-10758",
+    "source_type": "url_page",
+    "source_ref": "https://resource.co/article/controversial-plymouth-incinerator-hits-full-operation-10758",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row matches the MVV Environment Devonport plant at North Yard, Plymouth (PL5 1FL), a c.245kt/yr EfW CHP built and owned by MVV (Mannheim city majority-owned) on a 25-year PFI contract to 2040; operator is the owner, not a contractor. No plant-level debt or Companies House charges found (0 charges registered); a 2025 major outage and a possible May 2025 bunker fire are the main operating items."
+ },
+ {
+  "plant_id": 3290,
+  "parent_owner": "Viridor (KKR, with Equitix minority)",
+  "owner_since": "2020-07-01",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 382286,
+  "locality": "London",
+  "postcode": "CR0 4TD",
+  "owners": [
+   {
+    "owner": "Pennon Group (Viridor)",
+    "to": "2020-07-01",
+    "note": "Viridor was part of Pennon until the sale to KKR; Beddington ERF built by CNIM and Lagan and delivered to Viridor in January 2020.",
+    "url": "https://www.financierworldwide.com/kkr-to-buy-viridor-for-42bn",
+    "source_type": "snippet",
+    "source_ref": "https://www.financierworldwide.com/kkr-to-buy-viridor-for-42bn",
+    "confidence": "unverified"
+   },
+   {
+    "owner": "KKR (infrastructure funds), owner of Viridor Group",
+    "from": "2020-07-01",
+    "note": "KKR bought Viridor from Pennon for £4.2bn in 2020. The letsrecycle article opened states the 2020 acquisition and £4.2bn price; the July date is from a search snippet. Beddington ERF is stated to remain in Viridor's ownership under the SLWP contract (snippet).",
+    "url": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Equitix (minority stake in Viridor Group, path to 50%; previously 35% of Viridor's Energy division)",
+    "from": "2025-12-30",
+    "note": "Announced late December 2025 and reported 2 Jan 2026. Stake size not disclosed. Which entity holds Beddington specifically was not confirmed (Companies House not checked).",
+    "url": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "KKR acquisition vehicle for Viridor",
+    "lender": "syndicate of banks (not identified)",
+    "instrument": "Syndicated loan to fund the Viridor acquisition",
+    "amount": 2500000000,
+    "ccy": "GBP",
+    "created": "2020-03-01",
+    "refi": null,
+    "refi_basis": "Tenor not found; date and amount are from a headline seen in search results only. Page was paywalled.",
+    "url": "https://www.globalcapital.com/article/28mu9tpjsiu015pkg1udc/syndicated-loans/kkr-signs-2-5bn-facility-for-viridor-buy",
+    "source_type": "snippet",
+    "source_ref": "https://www.globalcapital.com/article/28mu9tpjsiu015pkg1udc/syndicated-loans/kkr-signs-2-5bn-facility-for-viridor-buy",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2023-10-17",
+    "type": "outage",
+    "summary": "Power cut caused by a UK Power Networks fault took the plant offline for days; abatement was not operating and smoke was emitted. Viridor said the EA was informed.",
+    "severity": "medium",
+    "url": "https://www.letsrecycle.com/news/viridors-beddington-efw-plant-offline-following-power-cut/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/viridors-beddington-efw-plant-offline-following-power-cut/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-06-04",
+    "type": "enforcement",
+    "summary": "EA Compliance Assessment Report found Viridor had wrongly recorded and reported NOx data, with 916 NOx exceedances between Sep 2022 and Mar 2024 plus breaches for VOC, HCl and SO2. Rated a risk category 2 non-compliance (CCS score 95).",
+    "severity": "high",
+    "url": "https://wikiwaste.org.uk/index.php/Beddington_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Beddington_EfW",
+    "confidence": "verified"
+   },
+   {
+    "date": "2026-06-03",
+    "type": "permit",
+    "summary": "EA approved a permit variation raising capacity to 382,286 tonnes a year despite local opposition; a local news site also reports SO2 of 382.4 mg/m3 in Oct 2025, nearly double the daily limit. Press source is campaigning in tone.",
+    "severity": "medium",
+    "url": "https://insidecroydon.com/2026/06/03/sickening-ea-allows-even-more-waste-to-burn-in-beddington/",
+    "source_type": "url_page",
+    "source_ref": "https://insidecroydon.com/2026/06/03/sickening-ea-allows-even-more-waste-to-burn-in-beddington/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2019-07-01",
+    "type": "fire",
+    "summary": "Fire at the adjoining waste transfer station under EA investigation; waste was stored for the incinerator in breach of the transfer station permit.",
+    "severity": "medium",
+    "url": "https://insidecroydon.com/2019/08/29/viridor-incinerator-under-investigation-by-environment-agency/",
+    "source_type": "snippet",
+    "source_ref": "https://insidecroydon.com/2019/08/29/viridor-incinerator-under-investigation-by-environment-agency/",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Beddington ERF (2 lines, 25-year SLWP PPP from Nov 2014, operating since Jan 2020) matches the row and is owned by Viridor, controlled by KKR since 2020 with Equitix increasing a minority stake in Dec 2025. Significant EA compliance problems; plant-level financing, exact holding company and Companies House data not checked."
+ },
+ {
+  "plant_id": 3293,
+  "parent_owner": "enfinium (European Diversified Infrastructure Fund III, First Sentier Investors)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2021-02-05",
+  "owner_since_confidence": "verified",
+  "permit_tonnes_pa": 657000,
+  "heat_offtaker": "Adjacent DS Smith Kemsley paper mill (steam, c.55MW thermal)",
+  "locality": "Kemsley, Sittingbourne, Kent",
+  "postcode": "ME10 2TD",
+  "owners": [
+   {
+    "owner": "Wheelabrator Technologies UK (WTI / EFW Holdings Ltd), owned by Macquarie Infrastructure Partners IV",
+    "to": "2021-02-05",
+    "note": "Developed and initially operated the plant (handed over July 2020). The register operator name 'E.ON / Wheelabrator Technologies' is out of date; the plant is operated by Enfinium K3 CHP Operations Ltd.",
+    "url": "https://enfinium.co.uk/first-sentier-investors-completes-acquisition-of-wheelabrator-technologies-u-k-from-macquarie-infrastructure-partners/",
+    "source_type": "url_page",
+    "source_ref": "https://enfinium.co.uk/first-sentier-investors-completes-acquisition-of-wheelabrator-technologies-u-k-from-macquarie-infrastructure-partners/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "enfinium (EDIF III, First Sentier Investors)",
+    "stake": 100,
+    "from": "2021-02-05",
+    "note": "FSI-managed funds completed purchase of Wheelabrator U.K. on 5 Feb 2021 (the release does not name Kemsley K3 but lists Wheelabrator U.K.'s operating plants; wikiwaste confirms Kemsley K3 is operated by Enfinium after the sale). Rebranded enfinium 3 June 2021. Exact stake in the K3 project company not seen.",
+    "url": "https://enfinium.co.uk/wheelabrator-u-k-and-multifuel-energy-limited-integrate-to-single-combined-company-operating-as-enfinium-sir-peter-gershon-appointed-chairman/",
+    "source_type": "url_page",
+    "source_ref": "https://enfinium.co.uk/wheelabrator-u-k-and-multifuel-energy-limited-integrate-to-single-combined-company-operating-as-enfinium-sir-peter-gershon-appointed-chairman/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Wheelabrator Kemsley (K3) project",
+    "lender": "Green Investment Bank, BTMU, Natixis, Investec",
+    "instrument": "Project finance at financial close",
+    "amount": 340000000,
+    "ccy": "GBP",
+    "created": "2016-09-01",
+    "refi": null,
+    "refi_basis": "Superseded by the Dec 2021 portfolio refinancing; amount is the figure wikiwaste gives for financial close and may be total project cost rather than debt",
+    "url": "https://wikiwaste.org.uk/index.php/component/content/article/kemsley-k3-efw",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/component/content/article/kemsley-k3-efw",
+    "confidence": "likely"
+   },
+   {
+    "borrower": "enfinium operating portfolio (Ferrybridge 1 and 2, Kemsley, Parc Adfer)",
+    "lender": "Bank and institutional investor group (not named)",
+    "instrument": "Portfolio refinancing, 10-year and 26-year green debt tranches",
+    "amount": 1900000000,
+    "ccy": "GBP",
+    "created": "2021-12-09",
+    "refi": "2031-12-09",
+    "refi_basis": "10-year tranche from Dec 2021 matures c.Dec 2031; 26-year tranche c.2047",
+    "url": "https://prnewswire.co.uk/news-releases/enfinium-announces-ps1-9-billion-refinancing-871842090.html",
+    "source_type": "url_page",
+    "source_ref": "https://prnewswire.co.uk/news-releases/enfinium-announces-ps1-9-billion-refinancing-871842090.html",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2021-10-13",
+    "type": "planning",
+    "summary": "Separate Kemsley North EfW proposal was refused by the Secretary of State and the High Court declined to overturn it; the 107,000 t/yr capacity increase at K3 was granted in Feb 2021, taking the permit to 657,000 t/yr.",
+    "severity": "low",
+    "url": "https://www.mrw.co.uk/news/wheelabrator-fails-in-bid-to-overturn-ruling-to-block-efw-13-10-2021/",
+    "source_type": "url_page",
+    "source_ref": "https://www.mrw.co.uk/news/wheelabrator-fails-in-bid-to-overturn-ruling-to-block-efw-13-10-2021/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Operating 49.9MWe two-line EfW CHP (COD July 2020) now owned by enfinium (First Sentier Investors) since Feb 2021; the register operator name is out of date. No outages, enforcement or incidents found in a general search; Environment Agency permit records were not checked."
+ },
+ {
+  "plant_id": 3297,
+  "parent_owner": "Innovative Environmental Solutions UK Ltd (joint venture of European Metal Recycling and Chinook Sciences)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Oldbury",
+  "postcode": "B69 3EL",
+  "owners": [
+   {
+    "owner": "Innovative Environmental Solutions UK Ltd (IES), joint venture of European Metal Recycling (EMR) and Chinook Sciences",
+    "stake": null,
+    "from": "2009-11-01",
+    "to": null,
+    "note": "JV formed Nov 2009 to build the Oldbury automotive shredder residue recycling and gasification plant on Union Road, Oldbury. Stake split not found. The register operator name IES (Chinook Energy) refers to this JV; Chinook Energy is the Chinook Sciences division for waste-to-energy.",
+    "url": "https://letsrecycle.com/news/latest-news/man-dies-after-west-midlands-elv-plant-fire",
+    "source_type": "url_page",
+    "source_ref": "https://letsrecycle.com/news/latest-news/man-dies-after-west-midlands-elv-plant-fire",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Chinook Sciences (described as developer and owner by GlobalData)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "GlobalData profile says the project is developed and owned by Chinook Sciences. This conflicts with the JV description in trade press; the letsrecycle article is rated more reliable because it names the JV and the operator directly.",
+    "url": "https://www.power-technology.com/data-insights/power-plant-profile-oldbury-waste-gasification-plant-uk/",
+    "source_type": "url_page",
+    "source_ref": "https://www.power-technology.com/data-insights/power-plant-profile-oldbury-waste-gasification-plant-uk/",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2017-08-07",
+    "type": "fatal explosion and fire",
+    "summary": "An explosion and fire at the plant early on 7 August 2017 seriously burned three workers; one man in his 50s died in hospital. The Health and Safety Executive and police investigated. Outcome of the HSE investigation not found.",
+    "severity": "high",
+    "url": "https://letsrecycle.com/news/latest-news/man-dies-after-west-midlands-elv-plant-fire",
+    "source_type": "url_page",
+    "source_ref": "https://letsrecycle.com/news/latest-news/man-dies-after-west-midlands-elv-plant-fire",
+    "confidence": "verified"
+   },
+   {
+    "date": "2017-08-07",
+    "type": "possible permanent closure",
+    "summary": "A blog list of failed UK gasification projects says the 2017 explosion led to the plant being shut down. This is a single non-specialist source and is not confirmed. An Environment Agency permit variation application for the site was advertised and then withdrawn on 30 Nov 2023, so the permit was still live then; REPD still shows the plant as operational. Current operating status is unresolved.",
+    "severity": "high",
+    "url": "https://kremesti.com/why-do-projects-fail-in-the-uk/",
+    "source_type": "url_page",
+    "source_ref": "https://kremesti.com/why-do-projects-fail-in-the-uk/",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2023-11-30",
+    "type": "permit variation withdrawn",
+    "summary": "Environment Agency notice of a substantial-change permit variation (EPR/GP3739VR/V005) by Innovative Environmental Solutions UK Ltd at B69 3EL was withdrawn on 30 Nov 2023. The permit covers hazardous and non-hazardous waste recovery and hazardous waste storage.",
+    "severity": "low",
+    "url": "https://www.gov.uk/government/publications/b69-3el-innovative-environmental-solutions-uk-ltd-environmental-permit-application-advertisement-eprgp3739vrv005/b69-3el-innovative-environmental-solutions-uk-ltd-environmental-permit-application-advertisement-eprgp3739vrv005",
+    "source_type": "url_page",
+    "source_ref": "https://www.gov.uk/government/publications/b69-3el-innovative-environmental-solutions-uk-ltd-environmental-permit-application-advertisement-eprgp3739vrv005/b69-3el-innovative-environmental-solutions-uk-ltd-environmental-permit-application-advertisement-eprgp3739vrv005",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Site is the IES joint venture (EMR and Chinook Sciences) automotive shredder residue gasification plant on Union Road, Oldbury, matching the postcode; a fatal explosion on 7 Aug 2017 may have ended operations. Current status, ownership split, any acquisition date and financing were not found; Companies House was not checked."
+ },
+ {
+  "plant_id": 3307,
+  "parent_owner": "Project company sponsored by AmeyCespa (now Thalia Waste Management, Ferrovial), Aberdeen UK Infrastructure Partners and Equitix; councils are the PFI clients, not owners",
+  "parent_owner_confidence": "unverified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 320000,
+  "locality": "Allerton Mauleverer, near Knaresborough, North Yorkshire",
+  "owners": [
+   {
+    "owner": "AmeyCespa, Aberdeen UK Infrastructure Partners (Aberdeen Asset Management fund) and Equitix (PFI sponsors)",
+    "stake": null,
+    "from": "2014-11-01",
+    "note": "Named as sponsors of the PPP project at financial close; individual stakes not found. Pitchbook snippet mentions an acquisition dated 1 Nov 2022, not opened and not explained.",
+    "url": "https://www.letsrecycle.com/news/allerton-park-efw-gains-183m-backing/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/allerton-park-efw-gains-183m-backing/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Thalia Waste Management (Ferrovial)",
+    "stake": null,
+    "from": "2023-01-01",
+    "note": "Amey waste treatment unit, including Allerton, was retained by Ferrovial and rebranded Thalia after the Amey sale at end 2022. Thalia named as operator on its own site (opened) and wikiwaste. Rebrand detail seen in a search snippet only.",
+    "url": "https://thalia.co.uk/where-we-work/york-and-north-yorkshire/",
+    "source_type": "snippet",
+    "source_ref": "https://newsroom.ferrovial.com/en/news/ameycespa-the-waste-challenge-in-the-united-kingdom/",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Allerton Waste Recovery Park PPP project company",
+    "lender": "European Investment Bank (GBP 150m), UK Green Investment Bank (GBP 33.1m), Nord/LB, Sumitomo Mitsui Banking Corporation, Siemens Bank, KfW-IPEX",
+    "instrument": "Long-term project finance loans plus equity bridge loan",
+    "amount": 319500000,
+    "ccy": "GBP",
+    "created": "2014-11-03",
+    "refi": null,
+    "refi_basis": "Maturity not found; the PFI contract runs 25 years from 2018",
+    "url": "https://www.letsrecycle.com/news/allerton-park-efw-gains-183m-backing/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/allerton-park-efw-gains-183m-backing/",
+    "confidence": "verified",
+    "note": "GBP 319.5m is total project value; EIB plus GIB account for c.GBP 183m of the debt."
+   }
+  ],
+  "issues": [
+   {
+    "date": "2025-04-01",
+    "type": "outage",
+    "summary": "Incinerator stopped for planned maintenance in April 2025, then extra work and phased return in May and June, 44 days closed in total. Over 21 percent of North Yorkshire waste went to landfill in the period versus c.8 percent in 2023 and 2024.",
+    "severity": "medium",
+    "url": "https://www.yourharrogate.co.uk/local-news/harrogate/attempts-made-to-reduce-allerton-waste-recovery-park-shutdown-as-performance-concerns-continue/",
+    "source_type": "url_page",
+    "source_ref": "https://www.yourharrogate.co.uk/local-news/harrogate/attempts-made-to-reduce-allerton-waste-recovery-park-shutdown-as-performance-concerns-continue/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-04-01",
+    "type": "outage",
+    "summary": "Several unplanned downtime periods in 2024/25 meant waste was diverted to other treatment sites or landfill. Recycling or composting 1.75 percent against a 5 percent target.",
+    "severity": "medium",
+    "url": "https://www.yourharrogate.co.uk/local-news/harrogate/attempts-made-to-reduce-allerton-waste-recovery-park-shutdown-as-performance-concerns-continue/",
+    "source_type": "url_page",
+    "source_ref": "https://www.yourharrogate.co.uk/local-news/harrogate/attempts-made-to-reduce-allerton-waste-recovery-park-shutdown-as-performance-concerns-continue/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row matches the operating Allerton Waste Recovery Park (320,000 tpa, councils of North Yorkshire and York on a 25-year PFI); operator is now Thalia Waste Management, formerly AmeyCespa. Exact owning company, stakes, any ownership change and loan maturity not found; 2025 shutdowns reported."
+ },
+ {
+  "plant_id": 3308,
+  "parent_owner": "KKR (KKR Global Infrastructure Investors III, via Viridor); Equitix holds a substantial minority of Viridor Group",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2020-07-01",
+  "owner_since_confidence": "unverified",
+  "permit_tonnes_pa": 326300,
+  "locality": "Ardley, Bicester, Oxfordshire",
+  "postcode": "OX27 7AA",
+  "owners": [
+   {
+    "owner": "Viridor Oxfordshire Limited (permit holder and operator; Viridor group)",
+    "from": "2011-03-01",
+    "note": "Awarded the 25-year Oxfordshire County Council residual waste contract in March 2011 (search result only); EA register shows Viridor Oxfordshire Ltd as current permit holder for Ardley ERF, permit EPR/UP3005LJ. Plant-level owner is assumed to be the same Viridor entity; Companies House not checked.",
+    "url": "https://environment.data.gov.uk/public-register/industrial-installations/registration/EPR-UP3005LJ?__pageState=result-all",
+    "source_type": "register_entry",
+    "source_ref": "Environment Agency public register, permit EPR/UP3005LJ, Viridor Oxfordshire Limited, issued 18/12/2020",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Pennon Group (Viridor parent)",
+    "to": "2020-07-01",
+    "note": "Viridor Limited was sold by Pennon Group to KKR; deal announced March 2020 and reported as completed July 2020.",
+    "url": "https://www.stblaw.com/about-us/news/view/2020/03/20/kkr-infrastructure-to-aquire-viridor",
+    "source_type": "url_page",
+    "source_ref": "https://www.stblaw.com/about-us/news/view/2020/03/20/kkr-infrastructure-to-aquire-viridor",
+    "confidence": "likely"
+   },
+   {
+    "owner": "KKR (KKR Global Infrastructure Investors Fund III) via Viridor Limited",
+    "from": "2020-07-01",
+    "note": "Acquired Viridor Limited from Pennon Group for an enterprise value of GBP 4.2bn. Completion date of July 2020 is from a search result only. Equitix has also owned 35% of Viridor's Energy division (letsrecycle, Jan 2026); it is not confirmed whether Ardley sits in that division.",
+    "url": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Equitix (substantial minority of Viridor Group, pathway to 50%)",
+    "stake": null,
+    "from": "2025-12-01",
+    "note": "Bought a substantial minority holding in Viridor Group from KKR, reported 2 Jan 2026; exact stake not stated. Deal date approximate (announced late Dec 2025 per search result).",
+    "url": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Viridor group (KKR-owned), covering its UK EfW portfolio",
+    "lender": "US private placement and institutional investors (senior secured notes); the GBP 2.5bn package also included term loans",
+    "instrument": "GBP 1,585m 21-year senior secured notes (2.900% coupon, 14-year WAL), part of a c.GBP 2.5bn refinancing",
+    "amount": 1585000000,
+    "ccy": "GBP",
+    "created": "2021-11-01",
+    "refi": "2042-11-01",
+    "refi_basis": "21-year notes from Nov 2021 mature c.Nov 2042; the term loan tranches and their maturities were not found. Group-level debt, not confirmed to be secured on Ardley specifically.",
+    "url": "https://www.ca-cib.com/sites/default/files/2022-03/Newsletter-November-2021.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.ca-cib.com/sites/default/files/2022-03/Newsletter-November-2021.pdf (Credit Agricole CIB Energy and Infrastructure Capital Markets Newsletter, Nov 2021)",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2019-01-27",
+    "type": "outage",
+    "summary": "A generator stator earth fault caused loss of generation capability. The generator was repaired in the UK and then in Austria and returned on 23 Jan 2020, with power export resuming on 6 Feb 2020, so electricity export was lost for about a year. Waste processing continued.",
+    "severity": "medium",
+    "url": "https://ukwin.org.uk/library/138-AnnualPerformanceReport-2019.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://ukwin.org.uk/library/138-AnnualPerformanceReport-2019.pdf (Ardley ERF Annual Performance Report 2019, Viridor, 31 Mar 2020, Summary of Plant Operations)",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Viridor-operated 2-line EfW near Bicester on a 25-year Oxfordshire County Council contract, ultimately owned by KKR with Equitix as a new minority holder of Viridor Group (Jan 2026). Register postcode OX25 3TH differs from the permit postcode OX27 7AA but the site matches; plant-level legal owner, exact completion date of the KKR deal and plant-specific financing were not confirmed."
+ },
+ {
+  "plant_id": 3314,
+  "parent_owner": "FCC Servicios Medio Ambiente Holding (FCC Group), 51%, with iCON Infrastructure 49% via Green Recovery Projects Ltd",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 345000,
+  "heat_offtaker": null,
+  "locality": "Calvert, Buckinghamshire",
+  "owners": [
+   {
+    "owner": "FCC Environment (FCC Group)",
+    "stake": 100,
+    "to": "2020-07-31",
+    "note": "Developer and operator; built on FCC's Calvert landfill site under a 30-year PFI contract with Buckinghamshire County Council signed April 2013. Date FCC took ownership at build is not stated; treated as owner from construction.",
+    "url": "https://wikiwaste.org.uk/index.php/Greatmoor_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Greatmoor_EfW",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Green Recovery Projects Ltd: FCC Servicios Medio Ambiente Holding (51%, retains control) and iCON Infrastructure (49%)",
+    "stake": 49,
+    "from": "2020-07-31",
+    "note": "iCON bought 49% of the new holding company for FCC's five UK EfW plants including Greatmoor, for GBP 198m equity (enterprise value GBP 650m including debt). Stake shown is iCON's; the deal was subject to regulatory approvals, completion date not confirmed (agreed end July 2020). The 51% FCC share is implied by the 49% sale and FCC retaining control.",
+    "url": "https://www.letsrecycle.com/news/icon-infrastructure-share-fcc-energy-from-wastes-energy-from-waste-plants/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/icon-infrastructure-share-fcc-energy-from-wastes-energy-from-waste-plants/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-03-31",
+    "type": "outage",
+    "summary": "Contract year 9 (Apr 2024 to Mar 2025) had three forced outages totalling 7 days 10 hours, mainly a 6 day 11 hour outage after a large clinker fall damaged the grate following a boiler pressure excursion caused by a gas bottle in the waste. The previous year had losses from an unreliable bottom ash extractor, since rebuilt.",
+    "severity": "low",
+    "url": "https://www.greatmoor.co.uk/annual-report-2025/",
+    "source_type": "url_page",
+    "source_ref": "https://www.greatmoor.co.uk/annual-report-2025/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2022-10-01",
+    "type": "complaint",
+    "summary": "A Parish Clerk complained of a pungent burning smell over Gawcott Village; the operator investigated and found emissions monitoring normal. A noise complaint in Dec 2020 was attributed to HS2 generators.",
+    "severity": "low",
+    "url": "https://www.greatmoor.co.uk/annual-report-2023/",
+    "source_type": "snippet",
+    "source_ref": "https://www.greatmoor.co.uk/annual-report-2023/ (search result summary, not opened)",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Greatmoor is owned through FCC's Green Recovery Projects Ltd, in which iCON Infrastructure bought 49% in 2020, and runs under a 30-year Buckinghamshire PFI contract. The register's 22 MWe is below the c.27.7 to 29.4 MWe quoted by WikiWaste; no plant-specific debt or full ownership date found, and the FCC page and EA permit register were not opened."
+ },
+ {
+  "plant_id": 3321,
+  "parent_owner": "Milton Keynes City Council",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 94000,
+  "locality": "Old Wolverton, Milton Keynes",
+  "postcode": "MK12 5QF",
+  "owners": [
+   {
+    "owner": "Milton Keynes City Council (site and facility owner)",
+    "stake": 100,
+    "from": null,
+    "note": "The council press release says the council opened its Waste Recovery Park in 2018 and describes it as the council's plant; the UKWIN entry calls the site council-owned. Not stated in a single explicit ownership sentence, so rated likely. Register postcode is MK12 5QQ, permit address is MK12 5QF.",
+    "url": "https://www.milton-keynes.gov.uk/news/2026/suez-named-new-operator-milton-keynes-waste-recovery-park",
+    "source_type": "url_page",
+    "source_ref": "https://www.milton-keynes.gov.uk/news/2026/suez-named-new-operator-milton-keynes-waste-recovery-park",
+    "confidence": "likely"
+   },
+   {
+    "owner": "AmeyCespa (Ferrovial group), later Thalia MK ODC Ltd (operator under a 15-year design, build, operate contract)",
+    "from": "2013-06-27",
+    "to": "2026-10-01",
+    "note": "Contract signed 27 June 2013 with the council; AmeyCespa was owned by Grupo Ferrovial. Thalia is the later operator name (Thalia MK ODC Ltd holds permit HP3323PW). The end date is approximate: SUEZ was appointed in May 2026 for a 10-year contract starting 'in the autumn'.",
+    "url": "https://www.letsrecycle.com/news/ameycespa-signs-milton-keynes-waste-facility-contract/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/ameycespa-signs-milton-keynes-waste-facility-contract/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "SUEZ (incoming operator, 10-year operate and maintain contract)",
+    "from": "2026-10-01",
+    "note": "Operator only, not owner. Contract start is 'the autumn' of 2026; exact date not found.",
+    "url": "https://www.milton-keynes.gov.uk/news/2026/suez-named-new-operator-milton-keynes-waste-recovery-park",
+    "source_type": "url_page",
+    "source_ref": "https://www.milton-keynes.gov.uk/news/2026/suez-named-new-operator-milton-keynes-waste-recovery-park",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2016-07-01",
+    "type": "insolvency",
+    "summary": "Gasification technology supplier Energos went into liquidation in 2016; AmeyCespa (now Thalia) had to step in to deliver the plant.",
+    "severity": "medium",
+    "url": "https://wikiwaste.org.uk/index.php/component/content/article/milton-keynes-wrp",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/component/content/article/milton-keynes-wrp",
+    "confidence": "verified"
+   },
+   {
+    "date": "2021-03-22",
+    "type": "fire",
+    "summary": "Four fire engines attended a fire at the Waste Recovery Park, Dickens Road, Old Wolverton at 11.51pm on 22 March 2021; all staff were accounted for. Extent of damage and outage not reported.",
+    "severity": "medium",
+    "url": "https://www.buckinghamshirelive.com/news/buckinghamshire-news/milton-keynes-fire-waste-recovery-5215656",
+    "source_type": "url_page",
+    "source_ref": "https://www.buckinghamshirelive.com/news/buckinghamshire-news/milton-keynes-fire-waste-recovery-5215656",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "poor availability",
+    "summary": "A search snippet from the council Five Year Review 2018-2023 says the Energos plant ran at c.62% availability, with downtime for repairs and cleaning, before a major boiler repair lifted availability above 90%. The review PDF returned 403 and was not opened.",
+    "severity": "medium",
+    "url": "https://milton-keynes.moderngov.co.uk/documents/s16087/MKWRP%20Five%20Year%20Review.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://milton-keynes.moderngov.co.uk/documents/s16087/MKWRP%20Five%20Year%20Review.pdf",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2026-05-26",
+    "type": "contract",
+    "summary": "Milton Keynes City Council appointed SUEZ as new operator on a 10-year contract starting autumn 2026, replacing Thalia.",
+    "severity": "low",
+    "url": "https://www.milton-keynes.gov.uk/news/2026/suez-named-new-operator-milton-keynes-waste-recovery-park",
+    "source_type": "url_page",
+    "source_ref": "https://www.milton-keynes.gov.uk/news/2026/suez-named-new-operator-milton-keynes-waste-recovery-park",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Plant is operational and matches the row (gasification EfW, Old Wolverton, permit HP3323PW, 94,000 t/yr); the register operator AmeyCespa is only the design-build-operate contractor, and the council appears to be the owner. SUEZ takes over operation in autumn 2026; no plant-specific financing found and the council Five Year Review could not be opened."
+ },
+ {
+  "plant_id": 3324,
+  "parent_owner": "Indaver NV (Katoen Natie)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2021-01-14",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 590000,
+  "locality": "Rivenhall, near Silver End, Essex",
+  "owners": [
+   {
+    "owner": "Gent Fairhead & Co Ltd (Gent Fairhead Environmental Services)",
+    "to": "2021-01-14",
+    "note": "Developer and site landowner; obtained planning permission and EA permit. It keeps the site freehold and other development on the site and leases the EfW land to Indaver, so the REPD operator name is the landowner, not the plant owner.",
+    "url": "https://wikiwaste.org.uk/index.php/Rivenhall_EFW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Rivenhall_EFW",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Indaver (Indaver NV, wholly owned by Katoen Natie)",
+    "stake": 100,
+    "from": "2021-01-14",
+    "note": "Project reached financial close with Gent Fairhead on 14 Jan 2021 and Indaver financed it on balance sheet. Wikiwaste says the project was sold to Indaver at that point; the Indaver release itself does not use the word sale, so the exact transfer date is likely rather than stated. Katoen Natie as sole shareholder of Indaver is stated in a 2018 letsrecycle article and may have changed since.",
+    "url": "https://indaver.com/news/single/indaver-reaches-financial-close-on-the-rivenhall-efw-project",
+    "source_type": "url_page",
+    "source_ref": "https://indaver.com/news/single/indaver-reaches-financial-close-on-the-rivenhall-efw-project; https://www.letsrecycle.com/news/latest-news/indaver-steps-rivenhall-efw-project/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-04-18",
+    "type": "register mismatch",
+    "summary": "The REPD row names Gent Fairhead Environmental Services as operator and shows 55 MWe. The plant is owned and run by Indaver (Kanadevia Inova holds the O&M contract) and was announced as a 49.9 MWe, 595,000 t/yr facility. Gent Fairhead is the landowner and original developer.",
+    "severity": "low",
+    "url": "https://wikiwaste.org.uk/index.php/Rivenhall_EFW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Rivenhall_EFW",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Operational EfW at the former Rivenhall quarry and airfield, Essex: provisional acceptance 18 Apr 2026 and official opening 18 Jun 2026, owned by Indaver (Katoen Natie), with Gent Fairhead only the landowner and original developer. Indaver says it funded the c.£500m (later £589m) project on balance sheet, so no external debt was found; no operating problems found and the EA consultation URL suggests postcode CO5 9DF (snippet only, not recorded as a field).",
+  "heat_offtaker": null
+ },
+ {
+  "plant_id": 3325,
+  "parent_owner": "Encyclis (formerly Covanta Europe; owned by EQT Infrastructure)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2026-09-30",
+  "owner_since_confidence": "verified",
+  "permit_tonnes_pa": 657000,
+  "heat_offtaker": null,
+  "locality": "Stewartby, Bedfordshire",
+  "postcode": "MK43 9LY",
+  "owners": [
+   {
+    "owner": "Covanta Europe (40%), Green Investment Group (40%), Veolia UK (20%)",
+    "stake": 40,
+    "from": "2019-03-22",
+    "to": "2022-02-28",
+    "note": "Equity split at financial close. Veolia was the main waste supplier. Stake shown is the Covanta share.",
+    "url": "https://investors.reworldwaste.com/2019-03-22-Covanta-and-Green-Investment-Group-Reach-Financial-Close-on-the-Rookery-South-Energy-Recovery-Facility",
+    "source_type": "url_page",
+    "source_ref": "https://investors.reworldwaste.com/2019-03-22-Covanta-and-Green-Investment-Group-Reach-Financial-Close-on-the-Rookery-South-Energy-Recovery-Facility",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Covanta Europe, now Encyclis (EQT Infrastructure) (80%), Veolia UK (20%)",
+    "stake": 80,
+    "from": "2022-03-01",
+    "to": "2026-09-30",
+    "note": "EQT, owner of Covanta Europe, bought Green Investment Group's 50% stake in four UK joint ventures in Feb/Mar 2022, expected to complete by June 2022. Exact completion date for Rookery South not confirmed, so the from date is approximate.",
+    "url": "https://www.letsrecycle.com/news/covanta-increases-share-in-four-energy-from-waste-plants/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/covanta-increases-share-in-four-energy-from-waste-plants/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Encyclis (EQT Infrastructure)",
+    "stake": 100,
+    "from": "2026-09-30",
+    "note": "Encyclis announced acquisition of Veolia UK's 20% stake on 30 Sep 2026. The announcement date is used as owner_since; completion date not stated.",
+    "url": "https://www.encyclis.com/news/encyclis-takes-full-ownership-of-energy-recovery-fleet-with-rookery-south-acquisition/",
+    "source_type": "url_page",
+    "source_ref": "https://www.encyclis.com/news/encyclis-takes-full-ownership-of-energy-recovery-fleet-with-rookery-south-acquisition/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Rookery South ERF project company",
+    "lender": null,
+    "instrument": "Refinancing (title only seen: 'Rookery South ERF WtE plant refinancing signed')",
+    "amount": null,
+    "ccy": null,
+    "created": null,
+    "refi": null,
+    "refi_basis": "Date, lender and amount not seen. TXF article is behind a subscription. Search result age suggests c. early 2023 but this is not confirmed.",
+    "url": "https://www.txfnews.com/news/54753/rookery-south-erf-wte-plant-refinancing-signed",
+    "source_type": "snippet",
+    "source_ref": "https://www.txfnews.com/news/54753/rookery-south-erf-wte-plant-refinancing-signed",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2023-06-01",
+    "type": "register discrepancy",
+    "summary": "Wikiwaste says hot commissioning began Oct 2022 and operational handover came in June 2023, while Covanta and Encyclis say commercial operations began in Jan 2022. Wikiwaste also says 42MWe and names Enfinium as owner, which conflicts with company sources. Company sources are rated more reliable.",
+    "severity": "low",
+    "url": "https://wikiwaste.org.uk/index.php/Rookery_Pit_Energy_Recovery_Facility_(Rookery_South)",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Rookery_Pit_Energy_Recovery_Facility_(Rookery_South)",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Plant is operational and matches the register row; the operator Veolia/Covanta is now Encyclis (EQT Infrastructure), which took 100% on 30 Sep 2026 by buying Veolia's 20%. Refinancing details are unknown (paywalled TXF headline only) and no outage, enforcement or complaint issues were found."
+ },
+ {
+  "plant_id": 3329,
+  "parent_owner": "Derby City Council and Derbyshire County Council (joint owners)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 190000,
+  "locality": "Sinfin, Derby",
+  "postcode": "DE24 9GF",
+  "owners": [
+   {
+    "owner": "Resource Recovery Solutions (Derbyshire) Holdings Ltd: Interserve 50%, Renewi (formerly Shanks) 50%",
+    "stake": 100,
+    "from": "2014-01-01",
+    "to": "2019-09-01",
+    "note": "Joint venture that held the 27-year contract and the plant; financial close 2014. Placed into administration by its lenders in Sep 2019 after the councils ended the contract on 2 Aug 2019. The register operator name (Shanks / RRS) is this historic JV.",
+    "url": "https://constructionnews.co.uk/contractors/interserve/interserve-loses-22m-derby-efw-administration-15-11-2019",
+    "source_type": "url_page",
+    "source_ref": "https://constructionnews.co.uk/contractors/interserve/interserve-loses-22m-derby-efw-administration-15-11-2019",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Derby City Council and Derbyshire County Council (jointly)",
+    "from": null,
+    "note": "Councils describe it as their jointly owned waste treatment centre. Exact transfer date from the lenders not confirmed; a search snippet mentions a £93.5m settlement in July 2023, not opened. Environment Agency permit KP3236HW is held by Renewi UK Services Ltd, which is a site/permit holder only (Renewi ran the councils' interim waste contract).",
+    "url": "https://www.letsrecycle.com/news/councils-pull-out-of-sinfin-waste-project-after-147m-spend/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/councils-pull-out-of-sinfin-waste-project-after-147m-spend/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Resource Recovery Solutions (Derbyshire) Ltd",
+    "lender": "Sumitomo Mitsui Banking, Bayerische Landesbank, Shinsei Bank, Green Investment Bank (UK Green Investment Bank)",
+    "instrument": "Senior project finance debt for the Sinfin gasification plant (secured creditors c.£150.3m owed at administration)",
+    "amount": 150300000,
+    "ccy": "GBP",
+    "created": "2014-01-01",
+    "refi": null,
+    "refi_basis": "Debt is stranded after the 2019 administration and not being refinanced; amount is the secured claim reported by Construction News, not the original facility size",
+    "url": "https://constructionnews.co.uk/contractors/interserve/interserve-loses-22m-derby-efw-administration-15-11-2019",
+    "source_type": "url_page",
+    "source_ref": "https://constructionnews.co.uk/contractors/interserve/interserve-loses-22m-derby-efw-administration-15-11-2019",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2019-08-02",
+    "type": "contract termination",
+    "summary": "Plant never passed performance tests, was c.2.5 years late and had odour and technical faults. The councils ended the 27-year contract (worth c.£900m) with RRS, and the facility stopped accepting waste. The REPD record showing it as operational is wrong.",
+    "severity": "high",
+    "url": "https://www.letsrecycle.com/news/end-of-the-line-for-rrs-derbyshire-contract/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/end-of-the-line-for-rrs-derbyshire-contract/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2019-09-01",
+    "type": "insolvency",
+    "summary": "RRS placed into administration by its four lenders; Interserve wrote off £22m and unsecured creditors expected nothing. Technology supplier Energos had collapsed in 2016, causing up to a year of delay.",
+    "severity": "high",
+    "url": "https://constructionnews.co.uk/contractors/interserve/interserve-loses-22m-derby-efw-administration-15-11-2019",
+    "source_type": "url_page",
+    "source_ref": "https://constructionnews.co.uk/contractors/interserve/interserve-loses-22m-derby-efw-administration-15-11-2019",
+    "confidence": "verified"
+   },
+   {
+    "date": "2026-04-01",
+    "type": "failed procurement",
+    "summary": "Procurement to find a contractor to repair and operate the plant ended in April 2026 with no award; shortlisted Biffa and Thalia did not submit final tenders because commercial terms could not be agreed.",
+    "severity": "high",
+    "url": "https://www.letsrecycle.com/news/councils-pull-out-of-sinfin-waste-project-after-147m-spend/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/councils-pull-out-of-sinfin-waste-project-after-147m-spend/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2026-09-23",
+    "type": "project abandoned",
+    "summary": "Both councils' cabinets agreed to withdraw from the project and decommission the plant after c.£147m spent; they will seek alternative long-term waste arrangements.",
+    "severity": "high",
+    "url": "https://www.letsrecycle.com/news/councils-pull-out-of-sinfin-waste-project-after-147m-spend/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/councils-pull-out-of-sinfin-waste-project-after-147m-spend/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "REPD shows operational (COD 2018) but the Sinfin gasification plant never became fully operational, the RRS contract ended in 2019, and in Sep 2026 the owning councils decided to decommission it; treat as non-operating and not a transactable asset. Date the councils took ownership from the lenders was not confirmed."
+ },
+ {
+  "plant_id": 3332,
+  "parent_owner": "STAR Capital Partnership (via European Generation Ltd)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2014-07-31",
+  "owner_since_confidence": "unverified",
+  "permit_tonnes_pa": 40000,
+  "locality": "Thurleigh, Twinwoods Business Park, Bedfordshire",
+  "postcode": "MK41 6AE",
+  "owners": [
+   {
+    "owner": "Bioflame / Growing Beds (JV, Twinwoods Heat & Power Ltd)",
+    "from": "2009-01-01",
+    "to": "2014-05-01",
+    "note": "JV set up in 2009. Bioflame went into liquidation in 2012 and the half-built plant passed to the senior lender. Growing Beds no longer owns the venture and is now only the sole fuel supplier, so the register operator name is out of date.",
+    "url": "https://www.letsrecycle.com/news/bedfordshire-waste-wood-biomass-project-restarted/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/bedfordshire-waste-wood-biomass-project-restarted/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "European Generation Ltd (STAR Capital Partnership)",
+    "from": "2014-07-31",
+    "note": "STAR formed European Generation Ltd in April 2014 to invest in Twinwoods Heat & Power Ltd, taking over a part-built plant controlled by a senior lender. Letsrecycle (Aug 2014) confirms STAR backing. STAR portfolio page lists it as a current investment with no exit. Stake size and the 31 Jul 2014 date come from a search snippet of mergr.com only (page blocked); a Companies House check would confirm.",
+    "url": "https://www.star-capital.com/portfolio/european-generation.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.star-capital.com/portfolio/european-generation.html",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2012-01-01",
+    "type": "insolvency / project failure",
+    "summary": "Original technology supplier and JV partner Bioflame went into liquidation in 2012 with the plant half built; the boiler was replaced by Saxlund International, delaying start-up from 2011 to 2015.",
+    "severity": "medium",
+    "url": "https://www.letsrecycle.com/news/bedfordshire-waste-wood-biomass-project-restarted/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/bedfordshire-waste-wood-biomass-project-restarted/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "3.4MWe waste wood CHP at Twinwoods, Thurleigh, owned by STAR Capital Partnership via European Generation Ltd since 2014; register operator (Growing Beds / Bioflame) is outdated, as Growing Beds is only the fuel supplier and Bioflame is liquidated. No financing found and no recent operating problems found; current ownership not confirmed after 2014 (STAR page undated), so check Companies House."
+ },
+ {
+  "plant_id": 3338,
+  "parent_owner": "KKR (Planets UK Bidco, owner of Viridor), with Equitix holding a minority stake",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2020-07-08",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 390000,
+  "locality": "Oxwellmains, Dunbar, East Lothian",
+  "postcode": "EH42 1SW",
+  "owners": [
+   {
+    "owner": "Pennon Group (Viridor)",
+    "to": "2020-07-08",
+    "note": "Viridor built and owned the plant (operations began Jan 2019) while a Pennon subsidiary; the Pennon link is from the KKR deal source, not a page naming Dunbar.",
+    "url": "https://www.financierworldwide.com/kkr-to-buy-viridor-for-42bn",
+    "source_type": "url_page",
+    "source_ref": "https://www.financierworldwide.com/kkr-to-buy-viridor-for-42bn",
+    "confidence": "likely"
+   },
+   {
+    "owner": "KKR funds via Planets UK Bidco (owner of Viridor Limited)",
+    "from": "2020-07-08",
+    "note": "KKR bought Viridor from Pennon for an enterprise value of £4.2bn. Completion date of 8 July 2020 is from a search result summary only. Plant-level ownership by Viridor Dunbar Waste Services Ltd is inferred from the Viridor group sale covering its ERF portfolio; Wikiwaste says the plant is 'operated and owned by Viridor'.",
+    "url": "https://www.financierworldwide.com/kkr-to-buy-viridor-for-42bn",
+    "source_type": "url_page",
+    "source_ref": "https://www.financierworldwide.com/kkr-to-buy-viridor-for-42bn",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Equitix (minority stake in Viridor)",
+    "stake": 20,
+    "from": "2022-01-26",
+    "note": "Equitix agreed to buy 20% of Viridor from KKR (EUWID headline and summary opened, article paywalled). Wikiwaste says Equitix increased its stake in Dec 2025 with a path to 50%; that was not confirmed at source and the current split is not known.",
+    "url": "https://www.euwid-recycling.com/news/business/equitix-to-buy-20-per-cent-viridor-share-from-kkr-260122/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.com/news/business/equitix-to-buy-20-per-cent-viridor-share-from-kkr-260122/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Viridor energy recovery facility portfolio (11 ERFs, 337 MW, includes Dunbar)",
+    "lender": "Macquarie Infrastructure Debt Investment Solutions (MIDIS), one of the largest institutional lenders in the package",
+    "instrument": "Long-term senior secured debt replacing shorter-term KKR acquisition debt",
+    "amount": 120000000,
+    "ccy": "GBP",
+    "created": "2020-09-30",
+    "refi": null,
+    "refi_basis": "Tenor not stated in the release, so no maturity estimated. Amount is MIDIS's share only, not the whole package. The release does not name Dunbar; coverage of the 11-ERF portfolio implies it.",
+    "url": "https://www.macquarie.com/au/en/about/news/2020/macquarie-makes-120-million-debt-investment-in-uk-energy-from-waste-sector.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.macquarie.com/au/en/about/news/2020/macquarie-makes-120-million-debt-investment-in-uk-energy-from-waste-sector.html",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2019-01-22",
+    "type": "fire",
+    "summary": "Large fire in a waste storage building at the neighbouring Viridor Dunbar landfill, with up to 300 tonnes of waste involved. Viridor confirmed the energy recovery facility was not affected.",
+    "severity": "low",
+    "url": "https://www.letsrecycle.com/news/latest-news/fire-viridor-dunbar-landfill/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/latest-news/fire-viridor-dunbar-landfill/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Operational 2-line Viridor EfW at Oxwellmains, Dunbar (permit 390kt/yr since 2023); register row matches, with Lothian meaning East Lothian. Viridor is owned by KKR funds (since Jul 2020) with Equitix a minority holder, and the plant-specific debt, current ownership split and operating problems were not found; the SEPA permit page could not be opened, so the postcode comes from a search-result snippet."
+ },
+ {
+  "plant_id": 3343,
+  "parent_owner": "Macquarie Asset Management (Macquarie European Infrastructure Fund 7), via Suez Recycling and Recovery UK",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2022-12-05",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 269000,
+  "locality": "Great Blakenham, Suffolk",
+  "postcode": "IP6 0JE",
+  "heat_offtaker": null,
+  "owners": [
+   {
+    "owner": "Suez SA (SITA UK, later Suez Recycling and Recovery UK)",
+    "from": "2010-01-01",
+    "to": "2022-12-05",
+    "note": "SITA UK, renamed Suez Recycling and Recovery UK, built and operates the plant under a c.GBP 1bn, 25-year PFI-backed contract with Suffolk County Council signed in 2010. The register operator name SITA UK is the former name of the same company. Whether the plant is held in a separate project company is not stated in the pages opened.",
+    "url": "https://www.letsrecycle.com/news/suez-suffolk-efw-capacity/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/suez-suffolk-efw-capacity/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Macquarie Asset Management (MEIF 7), owner of Suez Recycling and Recovery UK Group",
+    "stake": 100,
+    "from": "2022-12-05",
+    "note": "Macquarie agreed in Aug 2022 to buy 100% of Suez Recycling and Recovery UK Group for EUR 2.4bn; completion reported 5 Dec 2022. Ownership of the plant follows from ownership of the operator group, so rated likely rather than verified. Suffolk County Council remains the contracting authority and the 2024 annual report shows Suez still operating the plant.",
+    "url": "https://www.marketscreener.com/quote/stock/SUEZ-3729241/news/Macquarie-Asset-Management-Inc-completed-the-acquisition-of-Recycling-and-Waste-Recovery-UK-from-Su-42487129/",
+    "source_type": "url_page",
+    "source_ref": "https://www.marketscreener.com/quote/stock/SUEZ-3729241/news/Macquarie-Asset-Management-Inc-completed-the-acquisition-of-Recycling-and-Waste-Recovery-UK-from-Su-42487129/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Suffolk County Council (waste disposal authority and PFI counterparty)",
+    "note": "Partner under the 25-year agreement; asset ownership split between the council and Suez not found in sources opened. Confirm via the PFI contract or Companies House.",
+    "url": "https://www.suez.co.uk/-/media/suez-uk/files/publication/suez-suffolkannualreport-2024.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.suez.co.uk/-/media/suez-uk/files/publication/suez-suffolkannualreport-2024.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Great Blakenham (Suffolk EfW, 2014, c.20 MWe) is operated by Suez Recycling and Recovery UK (formerly SITA UK) under a 25-year PFI-backed contract with Suffolk County Council, and the Suez UK group has been owned by Macquarie since 5 Dec 2022. No plant-specific debt facilities, outages or enforcement found; project company and asset ownership split with the council not confirmed."
+ },
+ {
+  "plant_id": 3344,
+  "parent_owner": "FCC Environment UK (FCC Servicios Medio Ambiente)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2024-06-01",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 190000,
+  "locality": "Haresfield, near Stonehouse, Gloucestershire",
+  "owners": [
+   {
+    "owner": "UBB Waste (Gloucester) Holdings Ltd: Urbaser 50.5% and Balfour Beatty 49.5%",
+    "stake": 100,
+    "to": "2023-11-09",
+    "note": "Special purpose owner of the Javelin Park EfW under the 25-year Gloucestershire County Council contract (awarded Dec 2011, ends 2044). Urbaser stake of 50.5% is inferred from Balfour Beatty holding 49.5%.",
+    "url": "https://www.balfourbeatty.com/media-centre/latest/balfour-beatty-completes-disposal-of-two-infrastructure-investments-assets/",
+    "source_type": "url_page",
+    "source_ref": "https://www.balfourbeatty.com/media-centre/latest/balfour-beatty-completes-disposal-of-two-infrastructure-investments-assets/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Urbaser Investment Ltd (Urbaser)",
+    "stake": 100,
+    "from": "2023-11-09",
+    "to": "2024-06-01",
+    "note": "Balfour Beatty announced completion of the sale of its 49.5% interest in UBB Waste (Gloucester) Holdings Ltd to Urbaser Investment Ltd on 9 Nov 2023. Wikipedia gives December 2023; the Balfour Beatty announcement is more reliable as the primary source.",
+    "url": "https://www.balfourbeatty.com/media-centre/latest/balfour-beatty-completes-disposal-of-two-infrastructure-investments-assets/",
+    "source_type": "url_page",
+    "source_ref": "https://www.balfourbeatty.com/media-centre/latest/balfour-beatty-completes-disposal-of-two-infrastructure-investments-assets/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "FCC Environment UK (FCC Servicios Medio Ambiente)",
+    "stake": 100,
+    "from": "2024-06-01",
+    "note": "FCC bought Urbaser's UK business in June 2024 and now operates the plant; Wikipedia and WikiWaste list FCC Environment as owner/operator. That the holding company passed to FCC with the UK business is implied, not stated; exact completion day not found, so 1 June is a placeholder for June 2024. Companies House PSC for UBB Waste (Gloucester) Holdings would confirm.",
+    "url": "https://en.wikipedia.org/wiki/Gloucestershire_Energy_from_Waste_facility",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Gloucestershire_Energy_from_Waste_facility; https://wikiwaste.org.uk/index.php/Javelin_Park_EfW",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "UBB Waste (Gloucester) Ltd",
+    "lender": "SMBC, Nord LB, Bayern LB",
+    "instrument": "Project finance senior debt for construction of the EfW",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2013-02-22",
+    "refi": null,
+    "refi_basis": "Facility size and tenor not found. Project financial close reported as 22 Feb 2013; later refinancing, if any, not found.",
+    "url": "https://www.operis.com/gloucestershirewastefc/",
+    "source_type": "snippet",
+    "source_ref": "https://www.operis.com/gloucestershirewastefc/ (seen in search result only; page returned 202 and was not readable). Confirm via Operis page, the lenders or Companies House charges.",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2021-10-01",
+    "type": "contract dispute",
+    "summary": "Community R4C challenged the legality of how the c.£500m contract was procured and Gloucestershire County Council asked the court to shut the challenge down. Outcome not confirmed in the pages opened.",
+    "severity": "low",
+    "url": "https://stroud.greenparty.org.uk/news/2021/10/04/javelin-park-incinerator-latest-our-response-as-gloucestershire-county-council-asks-court-to-shut-down-community-r4c/",
+    "source_type": "snippet",
+    "source_ref": "https://stroud.greenparty.org.uk/news/2021/10/04/javelin-park-incinerator-latest-our-response-as-gloucestershire-county-council-asks-court-to-shut-down-community-r4c/",
+    "confidence": "unverified"
+   },
+   {
+    "date": null,
+    "type": "emissions",
+    "summary": "A search result for ukwin.org.uk states there are records of emission limit breaches at the incinerator. Dates and scale not seen.",
+    "severity": "low",
+    "url": "https://ukwin.org.uk/incinerators/library/Gloucestershire/163",
+    "source_type": "snippet",
+    "source_ref": "https://ukwin.org.uk/incinerators/library/Gloucestershire/163",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Javelin Park (Gloucestershire EfW, 14.5MWe export, 190kt/yr permit, operational since late 2019) matches the register row; Urbaser Balfour Beatty is the original PPP consortium, Balfour Beatty sold its 49.5% on 9 Nov 2023 and FCC took over Urbaser's UK business in June 2024. Lenders at 2013 financial close were seen only in a snippet, and no current debt, refinancing date or confirmed operating incidents were found."
+ },
+ {
+  "plant_id": 3346,
+  "parent_owner": "Encyclis (formerly Covanta Europe, owned by EQT)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2025-07-23",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 455000,
+  "locality": "Shepshed",
+  "postcode": "LE12 9BU",
+  "owners": [
+   {
+    "owner": "Covanta (now Encyclis) 25%, Macquarie Green Investment Group 25%, Biffa 50%",
+    "stake": null,
+    "from": null,
+    "to": "2022-03-01",
+    "note": "Project developed by Covanta and GIG with Biffa as 50% partner. In March 2022 EQT, owner of Covanta, bought GIG's interests in this and three other projects.",
+    "url": "https://wikiwaste.org.uk/index.php/Newhurst_EFW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Newhurst_EFW",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Encyclis (EQT) 50% and Biffa 50%",
+    "stake": 50,
+    "from": "2022-03-01",
+    "to": "2025-07-23",
+    "note": "Biffa held 50% of Newhurst until the sale. Exact Encyclis/Covanta split after GIG exit not stated in opened sources (implied 50%).",
+    "url": "https://www.letsrecycle.com/news/encyclis-acquires-biffas-shares-in-two-midland-erfs/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/encyclis-acquires-biffas-shares-in-two-midland-erfs/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Encyclis",
+    "stake": 100,
+    "from": "2025-07-23",
+    "to": null,
+    "note": "Agreement announced 16 Jun 2025 (subject to lender approval); completion reported by letsrecycle on 23 Jul 2025. Biffa remains anchor waste supplier. Wikiwaste text names Enfinium as owner in one sentence, which conflicts with its own operator field and with letsrecycle; letsrecycle is more reliable as a dated news report.",
+    "url": "https://www.letsrecycle.com/news/encyclis-completes-acquisition-of-biffas-erf-shares/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/encyclis-completes-acquisition-of-biffas-erf-shares/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2024-03-01",
+    "type": "outage",
+    "summary": "Plant taken offline in March 2024 after a significant blockage in the ash system caused by lengths of steel beams (one c.4m) found in the conveyor, delaying restart. Waste could not be processed for several days and queues built at the weighbridge.",
+    "severity": "medium",
+    "url": "https://www.charnwood.gov.uk/files/documents/notes_of_the_newhurst_erf_local_liaison_committee_llc_meeting_notes_march_25_2024/Notes%20of%20the%20Newhurst%20ERF%20Local%20Liaison%20Committee%20(LLC)%20Meeting%20Notes%20-%20March%2025%202024.pdf",
+    "source_type": "url_page",
+    "source_ref": "Newhurst ERF Local Liaison Committee notes, 25 March 2024 (Charnwood BC)",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-03-21",
+    "type": "odour",
+    "summary": "Two odour complaints in Jan to Mar 2024 and a strong acrid odour reported outside the site on 21 March 2024; investigations and independent monitoring found no odours or emissions attributable to the facility.",
+    "severity": "low",
+    "url": "https://www.charnwood.gov.uk/files/documents/notes_of_the_newhurst_erf_local_liaison_committee_llc_meeting_notes_march_25_2024/Notes%20of%20the%20Newhurst%20ERF%20Local%20Liaison%20Committee%20(LLC)%20Meeting%20Notes%20-%20March%2025%202024.pdf",
+    "source_type": "url_page",
+    "source_ref": "Newhurst ERF Local Liaison Committee notes, 25 March 2024 (Charnwood BC)",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Single-line 42MWe EfW at Shepshed matches the register row (operator in row, Multifuel Energy (Wheelabrator)/Biffa, is wrong: it was developed by Covanta, now Encyclis, with Biffa as 50% partner until Encyclis bought Biffa's stake in mid 2025). No plant-specific debt facility found (a lender approval was required for the 2025 sale, lenders not named)."
+ },
+ {
+  "plant_id": 3347,
+  "parent_owner": "enfinium (European Diversified Infrastructure Fund III, First Sentier Investors)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2021-06-01",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 232000,
+  "locality": "Deeside Industrial Park, Flintshire",
+  "postcode": "CH5 2NH",
+  "owners": [
+   {
+    "owner": "Wheelabrator Technologies (Wheelabrator UK)",
+    "to": "2021-06-01",
+    "note": "Developed the plant under a 25 year PPP with the North Wales Residual Waste Treatment Project; construction began Dec 2016, full commercial operation Dec 2019. Sale of Wheelabrator UK to EDIF III announced Dec 2020, completion early 2021.",
+    "url": "https://wikiwaste.org.uk/index.php/Parc_Adfer_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Parc_Adfer_EfW",
+    "confidence": "verified"
+   },
+   {
+    "owner": "enfinium (EDIF III, First Sentier Investors)",
+    "stake": 100,
+    "from": "2021-06-01",
+    "note": "Wheelabrator UK and Multifuel Energy acquired by First Sentier Investors in early 2021 and rebranded enfinium on 3 June 2021. Operating company is Enfinium Parc Adfer Operations Ltd. Exact completion date not stated in opened pages; 1 June 2021 follows the pilot convention.",
+    "url": "https://prnewswire.co.uk/news-releases/enfinium-announces-ps1-9-billion-refinancing-871842090.html",
+    "source_type": "url_page",
+    "source_ref": "https://prnewswire.co.uk/news-releases/enfinium-announces-ps1-9-billion-refinancing-871842090.html",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "enfinium portfolio (Ferrybridge 1 and 2, Kemsley, Parc Adfer)",
+    "instrument": "Portfolio refinancing, 10-year and 26-year tranches",
+    "amount": 1900000000,
+    "ccy": "GBP",
+    "created": "2021-12-09",
+    "refi": "2031-12-09",
+    "refi_basis": "10-year tranche from Dec 2021 matures c.Dec 2031; 26-year tranche c.2047",
+    "url": "https://prnewswire.co.uk/news-releases/enfinium-announces-ps1-9-billion-refinancing-871842090.html",
+    "source_type": "url_page",
+    "source_ref": "https://prnewswire.co.uk/news-releases/enfinium-announces-ps1-9-billion-refinancing-871842090.html",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Wheelabrator Parc Adfer (project company)",
+    "lender": "Green Investment Bank, MUFG, Natixis, Siemens (equity bridge: Barclays)",
+    "instrument": "23-year project finance term loan (original construction financing), since replaced by the 2021 portfolio refinancing",
+    "amount": 180000000,
+    "ccy": "GBP",
+    "created": "2016-12-01",
+    "refi": null,
+    "refi_basis": "Repaid or refinanced in the Dec 2021 portfolio refinancing is likely but not stated in opened sources",
+    "url": "https://wikiwaste.org.uk/index.php/Parc_Adfer_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Parc_Adfer_EfW",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2023-03-10",
+    "type": "permit variation / air quality",
+    "summary": "Operator applied in Aug 2022 to raise permitted throughput 16% from 200,000 to 232,000 tonnes a year; NRW treated it as a substantial variation and correspondence included detailed discussion of air quality issues. The wikiwaste page now shows 232,000 t permitted.",
+    "severity": "low",
+    "url": "https://www.letsrecycle.com/news/enfinium-seeks-increase-incineration-tonnage-parc-adfer/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/enfinium-seeks-increase-incineration-tonnage-parc-adfer/",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "emissions",
+    "summary": "A search summary reported a carbon monoxide release of 207.43 mg/Nm3 over the 30 minute limit during a plant shutdown, not classed as a permit breach. Date and original document not seen.",
+    "severity": "low",
+    "url": "https://ukwin.org.uk/library/185-AnnualPerformanceReport-2021.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://ukwin.org.uk/library/185-AnnualPerformanceReport-2021.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Parc Adfer is a real, operating 25 year PPP EfW at Deeside, now 100% enfinium (EDIF III, First Sentier) and part of the GBP 1.9bn Dec 2021 portfolio refinancing. Register capacity of 16 MWe differs from the 19 MWe design (17 MWe export) on wikiwaste; heat offtaker and exact acquisition completion date not found."
+ },
+ {
+  "plant_id": 3354,
+  "parent_owner": "KKR (with Equitix as minority shareholder, stake rising towards 50%)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2020-07-01",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 320000,
+  "locality": "Avonmouth, Bristol",
+  "postcode": "BS11 0YU",
+  "owners": [
+   {
+    "owner": "Pennon Group (Viridor)",
+    "to": "2020-07-01",
+    "note": "Viridor was part of Pennon until the sale to KKR. The plant was built 2017 to 2020 (CNIM EPC contract, £252m) and handed to Viridor in December 2020, after the sale completed, so Viridor Ltd under KKR ownership has operated it from the start.",
+    "url": "https://www.letsrecycle.com/news/avonmouth-efw-operations-viridor/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/avonmouth-efw-operations-viridor/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "KKR (via Planets UK Bidco Ltd)",
+    "from": "2020-07-01",
+    "note": "KKR bought Viridor from Pennon for £4.2bn in 2020. The letsrecycle article states the 2020 purchase; the July 2020 completion date comes from a search snippet only. Plant-level title may sit in a Viridor subsidiary.",
+    "url": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Equitix (minority shareholder in Viridor Group, path to up to 50%)",
+    "from": "2025-12-22",
+    "stake": null,
+    "note": "Equitix already held 35% of Viridor's Energy division and agreed in Dec 2025 to buy a substantial minority of Viridor Group from KKR, with a path to 50%. Exact current stake not found. Wikiwaste's Avonmouth page also mentions the Dec 2025 Equitix deal.",
+    "url": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/equitix-expands-viridor-stake-in-deal-with-kkr/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Planets UK Bidco Ltd (KKR acquisition vehicle for Viridor)",
+    "lender": null,
+    "instrument": "Syndicated acquisition loan facility",
+    "amount": 2500000000,
+    "ccy": "GBP",
+    "created": "2020-07-01",
+    "refi": null,
+    "refi_basis": "Maturity and tenor not found; would need the GlobalCapital article or KKR/Viridor accounts",
+    "url": "https://www.globalcapital.com/article/28mu9tpjsiu015pkg1udc/syndicated-loans/kkr-signs-2-5bn-facility-for-viridor-buy",
+    "source_type": "snippet",
+    "source_ref": "https://www.globalcapital.com/article/28mu9tpjsiu015pkg1udc/syndicated-loans/kkr-signs-2-5bn-facility-for-viridor-buy",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2024-12-06",
+    "type": "site closure (adjacent plant)",
+    "summary": "Viridor shut its £317m Avonmouth plastics reprocessing plant, part of the same Resource Recovery Centre and designed to use heat and power from the ERF, after two years citing market conditions. The ERF itself was not reported as affected.",
+    "severity": "low",
+    "url": "https://www.plasticsnews.com/news/viridor-shut-down-avonmouth-plastics-recycling-plant/",
+    "source_type": "snippet",
+    "source_ref": "https://www.plasticsnews.com/news/viridor-shut-down-avonmouth-plastics-recycling-plant/",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Register row matches Viridor's 320kt/yr Avonmouth ERF (built by CNIM, handed over Dec 2020), which is operational and owned by Viridor under KKR with Equitix a growing minority holder. No ERF outages or enforcement found; the loan terms and exact acquisition completion date were not confirmed from an opened source."
+ },
+ {
+  "plant_id": 3362,
+  "parent_owner": "Veolia (Veolia ES Hampshire Ltd, Veolia Environnement group)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 210000,
+  "locality": "Copnor, Portsmouth",
+  "postcode": "PO3 5QH",
+  "owners": [
+   {
+    "owner": "Veolia ES Hampshire Ltd (Veolia)",
+    "from": "2005-03-01",
+    "note": "Built and operated by Veolia under the 28-year Project Integra PPP with Hampshire County Council, Southampton City Council and Portsmouth City Council; operational spring 2005. Environment Agency permit BJ7107IJ held by Veolia ES Hampshire Limited. A snippet from a Veolia page says the plant is owned and operated by Veolia; the opened Veolia page did not say this directly. Whether the councils hold any residual asset interest at contract end was not found.",
+    "url": "https://ukwin.org.uk/incinerators/library/Hampshire/132",
+    "source_type": "url_page",
+    "source_ref": "https://ukwin.org.uk/incinerators/library/Hampshire/132 (operator Veolia ES Hampshire Ltd, permit BJ7107IJ); https://wikiwaste.org.uk/index.php/Portsmouth_ERF_(Integra_South_East)",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2024-04-01",
+    "type": "fire (adjacent site)",
+    "summary": "Fires in June 2021 and April 2024 were reported at Veolia's Portsmouth Materials Recovery Facility on Quartremaine Road, next to the ERF. Reports indicate the ERF itself was not affected; recorded for context only.",
+    "severity": "low",
+    "url": "https://www.portsmouth.co.uk/news/people/hampshire-fire-crews-rush-to-veolia-waste-management-site-as-4602528",
+    "source_type": "snippet",
+    "source_ref": "https://www.portsmouth.co.uk/news/people/hampshire-fire-crews-rush-to-veolia-waste-management-site-as-4602528",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2023-01-01",
+    "type": "contract",
+    "summary": "The Project Integra PPP is a 28-year contract from the mid-1990s, so it is nearing its end. The end date and any extension or re-procurement were not found.",
+    "severity": "medium",
+    "url": "https://www.hants.gov.uk/wasteandrecycling/projectintegra/aboutprojectintegra",
+    "source_type": "inference",
+    "source_ref": "Inference: 28-year Project Integra contract won 1995 (search snippet) implies expiry c.2023 onward; confirm in Hampshire County Council papers.",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Matches the register: Veolia's 210kt/yr, 14MWe Integra South East ERF at Copnor, Portsmouth, operational since 2005 under the Project Integra PPP with Hampshire councils. No incidents at the ERF itself, no financing or acquisition date found, and the PPP end date or extension is still unknown."
+ },
+ {
+  "plant_id": 3364,
+  "parent_owner": "Glas Cymru Holdings Cyfyngedig (not-for-profit, no shareholders; via Dŵr Cymru Welsh Water)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Tremorfa, Cardiff",
+  "owners": [
+   {
+    "owner": "Dŵr Cymru Welsh Water (Dŵr Cymru Cyfyngedig), ultimately owned by Glas Cymru Holdings Cyfyngedig",
+    "stake": 100,
+    "note": "Owner and operator of Cardiff WwTW; Welsh Water has been owned by the not-for-profit Glas Cymru since 2001. CHP plant built 2010 on Cambi advanced digestion sludge treatment. Acquisition date of this site not applicable (utility-built).",
+    "url": "https://waterprojectsonline.com/case-studies/cardiff-afan-chp-2024/",
+    "source_type": "url_page",
+    "source_ref": "https://waterprojectsonline.com/case-studies/cardiff-afan-chp-2024/ (ownership); https://en.wikipedia.org/wiki/D%C5%B5r_Cymru_Welsh_Water (Glas Cymru parent)",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Dŵr Cymru (Financing) UK plc (Welsh Water group funding vehicle)",
+    "lender": null,
+    "instrument": "GBP 750m class B sustainability bonds issued 2024 (group-level, not specific to this plant); a separate GBP 600m 5.75% bond maturing 2044 also appears in search results. Exact issue dates not confirmed; group faces c.GBP 2.5bn refinancing 2025 to 2030.",
+    "amount": 750000000,
+    "ccy": "GBP",
+    "created": null,
+    "refi": null,
+    "refi_basis": "Maturity of this tranche not found",
+    "url": "https://corporate.dwrcymru.com/-/media/project/files/page-documents/corporate/about-us/investors/rating-agency-reports/2025/sp-research-update-august-2025.ashx",
+    "source_type": "snippet",
+    "source_ref": "https://corporate.dwrcymru.com/-/media/project/files/page-documents/corporate/about-us/investors/rating-agency-reports/2025/sp-research-update-august-2025.ashx (search result; page returned 403 when opened). Opening the Moody's or S&P report would confirm.",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2024-11-17",
+    "type": "equipment degradation",
+    "summary": "Welsh Water's own project write-up says the 2010 CHP plants at Cardiff and Afan are degrading and not performing to design, with unacceptable siloxane levels in the biogas putting the CHP engines at risk. A Morgan Sindall optimisation project (new carbon gas cleaning, biogas boosters) targets 2-3 GWh a year more output at each site.",
+    "severity": "low",
+    "url": "https://waterprojectsonline.com/case-studies/cardiff-afan-chp-2024/",
+    "source_type": "url_page",
+    "source_ref": "https://waterprojectsonline.com/case-studies/cardiff-afan-chp-2024/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Sewage sludge AD with CHP at Welsh Water's Cardiff WwTW (Tremorfa), matches the 2010 start and 5.5MWe row (sources say more than 4.5MW); owned by the not-for-profit Glas Cymru group, so it is not a transactable asset. CHP performance problems were found; only unverified group-level bond financing found, and no plant-specific incidents or Companies House check done.",
+  "grid_injection": 0
+ },
+ {
+  "plant_id": 3367,
+  "parent_owner": "Northumbrian Water Group (CK Infrastructure Holdings / CK Hutchison group, with KKR 25%)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Howdon, Wallsend, Tyne and Wear",
+  "postcode": "NE33 1LR",
+  "owners": [
+   {
+    "owner": "Northumbrian Water Ltd (NWL), part of Northumbrian Water Group",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Operator named in REPD is the water utility that runs Howdon STW. Search results describe Howdon as an NWG sludge treatment centre with three 2MWe CHP units, which matches the 6MWe register capacity. Ownership of the site by NWL is inferred from operator and site description; confirm in NWL accounts or Companies House.",
+    "url": "https://www.renewableenergyworld.com/energy-business/advanced-anaerobic-digestion-more-gas-from-sewage-sludge/",
+    "source_type": "inference",
+    "source_ref": "REPD record 2394 names Northumbrian Water as operator; search result snippets describe Howdon as NWG's sludge treatment centre with 3 x 2MWe CHP",
+    "confidence": "unverified"
+   },
+   {
+    "owner": "CK Infrastructure Holdings / CK Hutchison group (c.75%) and KKR (25%), via Northumbrian Water Group Ltd",
+    "stake": null,
+    "from": "2011-10-01",
+    "to": null,
+    "note": "CK-led consortium acquired NWG in Oct 2011 for c.GBP 2.4bn. WikiCorporates (opened) shows CK Hutchison as the owner. The KKR 25% stake (Dec 2022) is from search snippets only; the Forbes page returned 403 and was not opened.",
+    "url": "https://www.wikicorporates.org/wiki/Northumbrian_Water_Group_Ltd",
+    "source_type": "url_page",
+    "source_ref": "https://www.wikicorporates.org/wiki/Northumbrian_Water_Group_Ltd",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Northumbrian Water Finance plc (guaranteed by Northumbrian Water Ltd; group-level, not specific to Howdon)",
+    "lender": "Bond investors (EMTN programme)",
+    "instrument": "Fixed rate bond (13.5-year) and CPI-linked bond (15-year) under GBP 6bn EMTN programme",
+    "amount": 350000000,
+    "ccy": "GBP",
+    "created": "2024-03-01",
+    "refi": "2037-09-01",
+    "refi_basis": "13.5-year fixed bond (GBP 250m) from Mar 2024 matures c.Sep 2037; 15-year CPI-linked bond (GBP 100m) c.Mar 2039",
+    "url": "https://www.nwg.co.uk/globalassets/corporate/debt-issuance/2024/northumbrian-water-finance-plc-march-2024.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.nwg.co.uk/globalassets/corporate/debt-issuance/2024/northumbrian-water-finance-plc-march-2024.pdf",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Northumbrian Water Finance plc (guaranteed by Northumbrian Water Ltd; group-level, not specific to Howdon)",
+    "lender": "Bond investors (EMTN programme)",
+    "instrument": "6.875% Guaranteed Notes due 2045",
+    "amount": 90000000,
+    "ccy": "GBP",
+    "created": "2025-04-02",
+    "refi": "2045-04-02",
+    "refi_basis": "Notes due 2045 per final terms; maturity date taken as 20 years from issue, exact date not checked",
+    "url": "https://www.rns-pdf.londonstockexchange.com/rns/3698D_1-2025-4-2.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.rns-pdf.londonstockexchange.com/rns/3698D_1-2025-4-2.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [],
+  "summary": "Howdon STW is Northumbrian Water's sludge treatment centre (Cambi thermal hydrolysis, three digesters, three 2MWe CHP), matching the 6MWe register row; the operator is the water utility itself, owned by the CK group with KKR 25%. No plant-specific operating problems found (group-wide EA pollution fines found were unrelated to Howdon); acquisition date and site-specific financing not found."
  }
 ]
