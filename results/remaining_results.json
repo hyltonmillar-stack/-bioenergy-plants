@@ -5074,6 +5074,56 @@
   "summary": "Parc Adfer is a real, operating 25 year PPP EfW at Deeside, now 100% enfinium (EDIF III, First Sentier) and part of the GBP 1.9bn Dec 2021 portfolio refinancing. Register capacity of 16 MWe differs from the 19 MWe design (17 MWe export) on wikiwaste; heat offtaker and exact acquisition completion date not found."
  },
  {
+  "plant_id": 3351,
+  "parent_owner": "FCC Environment (FCC Servicios Medio Ambiente, Grupo FCC)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2024-06-11",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 230000,
+  "locality": "Hartlebury Trading Estate, near Kidderminster, Worcestershire",
+  "owners": [
+   {
+    "owner": "FCC Environment (50%) and Urbaser Ltd (50%), joint venture owning Mercia Waste Management and Severn Waste Services",
+    "stake": 50,
+    "from": "1998-12-01",
+    "to": "2024-06-11",
+    "note": "Mercia signed the 25-year PFI contract with Worcestershire and Herefordshire councils in Dec 1998. The Mar 2017 letsrecycle article states both companies are jointly owned by FCC Environment and Urbaser Ltd. The row operator (Mercia) holds the contract; the plant is run by sister company Severn Waste Services under its permit. Stake split of 50:50 comes from a search result summary, not stated in the opened article.",
+    "url": "https://www.letsrecycle.com/news/envirecover-efw-facility-completed/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/envirecover-efw-facility-completed/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "FCC Environment (100%, via FCC Recycling (UK) Ltd and FCC Waste Management Ltd, each holding 25-50% of Mercia)",
+    "stake": 100,
+    "from": "2024-06-11",
+    "note": "FCC Servicios Medio Ambiente completed the purchase of Urbaser UK on 11 Jun 2024 (letsrecycle). Companies House PSC register for Mercia (03525188) lists two FCC entities as the only active holders of 25-50% each; a Urbaser Limited PSC detail change is filed for 1 Nov 2024 and Urbaser Limited and FCC Environment Services (UK) Limited both resigned as directors on 4 Jul 2025. Severn Waste website now says Mercia and Severn are owned by FCC Environment. Inference that FCC is now sole owner; the exact transfer date of the Urbaser half of Mercia is not filed in what was opened.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/03525188/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Companies House 03525188 PSC register (opened Oct 2026); also https://www.letsrecycle.com/news/fcc-completes-purchase-of-urbaser-uk/ and https://www.severnwaste.com/who-we-are/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Mercia Waste Management Ltd",
+    "lender": "Not named; The Law Debenture Trust Corporation plc is security agent for the lenders",
+    "instrument": "Secured charge over the leasehold EnviRecover site (Oak Drive, Hartlebury Trading Estate), likely project debt for the plant build",
+    "amount": null,
+    "ccy": null,
+    "created": "2014-05-21",
+    "refi": null,
+    "refi_basis": "Amount, tenor and lenders not disclosed in the charge record; plant cost c. GBP 165m per letsrecycle, with councils providing funding, so the link between this charge and construction debt is an inference",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/03525188/charges",
+    "source_type": "companies_house",
+    "source_ref": "Companies House 03525188 charge code 0352 5188 0004, created 21 May 2014, outstanding",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [],
+  "summary": "EnviRecover (Hartlebury EfW, permit XP3935TX) matches the REPD row: opened 2017, 15.5 MWe, Worcestershire; Mercia Waste Management is the PFI contract holder and Severn Waste Services the permit holder, both formerly 50:50 FCC and Urbaser and now apparently wholly FCC after FCC bought Urbaser UK in June 2024. No outages, enforcement or complaints found; the exact date Mercia's Urbaser half passed to FCC, the lenders and any refinancing date are not found."
+ },
+ {
   "plant_id": 3354,
   "parent_owner": "KKR (with Equitix as minority shareholder, stake rising towards 50%)",
   "parent_owner_confidence": "likely",
@@ -5141,6 +5191,207 @@
    }
   ],
   "summary": "Register row matches Viridor's 320kt/yr Avonmouth ERF (built by CNIM, handed over Dec 2020), which is operational and owned by Viridor under KKR with Equitix a growing minority holder. No ERF outages or enforcement found; the loan terms and exact acquisition completion date were not confirmed from an opened source."
+ },
+ {
+  "plant_id": 3356,
+  "parent_owner": "GCP Infrastructure Investments Limited (advised by Gravis Capital Management)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2021-03-01",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 72000,
+  "locality": "Tyseley, Birmingham",
+  "postcode": "B25 8DW",
+  "owners": [
+   {
+    "owner": "Carbonarius (JV of O-Gen/Cogen and Una Group), with Green Investment Bank, Balfour Beatty, Eternity Capital, Foresight UKWREI and GCP as financiers",
+    "to": "2021-03-01",
+    "note": "Developer and original investors; plant operational from early 2016, estimated cost c. GBP 47.8m (Gravis says GBP 57m).",
+    "url": "https://wikiwaste.org.uk/index.php/component/content/article/birmingham-bio-power",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/component/content/article/birmingham-bio-power",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Gravis Capital / GCP Infrastructure Investments Limited",
+    "stake": 100,
+    "from": "2021-03-01",
+    "note": "Gravis states it has been sole owner/equity holder since the company exited administration in March 2021 (administration began June 2020, led by Gravis as lender). Gravis acts as adviser and AIFM to GCP Infrastructure Investments, which is named as the contributor; the exact holding entity was not confirmed from a filing. A Companies House check would confirm.",
+    "url": "https://www.graviscapital.com/news/kepler-birmingham-bio-power-limited",
+    "source_type": "url_page",
+    "source_ref": "https://www.graviscapital.com/news/kepler-birmingham-bio-power-limited",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Tyseley Operations Ltd (operator, Cobalt Energy O&M, 7-year contract from April 2023)",
+    "from": "2023-04-01",
+    "note": "Operator only, not owner.",
+    "url": "https://wikiwaste.org.uk/index.php/component/content/article/birmingham-bio-power",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/component/content/article/birmingham-bio-power",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Birmingham Bio Power Limited",
+    "lender": "Gravis / GCP Infrastructure Investments (senior loan) and UK Green Investment Bank",
+    "instrument": "Construction senior debt, each lender providing c. 50% of the funding; later restructured via administration in 2020-21",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2013-01-01",
+    "refi": null,
+    "refi_basis": "Amount and maturity not found; debt was restructured when the company went through administration (Jun 2020 to Mar 2021).",
+    "url": "https://www.graviscapital.com/news/kepler-birmingham-bio-power-limited",
+    "source_type": "url_page",
+    "source_ref": "https://www.graviscapital.com/news/kepler-birmingham-bio-power-limited",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2020-06-01",
+    "type": "insolvency",
+    "summary": "Birmingham Bio Power Limited entered a nine-month administration, led by Gravis as lender, after technical challenges during construction and early operation. It exited in March 2021 with Gravis as sole equity holder.",
+    "severity": "high",
+    "url": "https://www.graviscapital.com/news/kepler-birmingham-bio-power-limited",
+    "source_type": "url_page",
+    "source_ref": "https://www.graviscapital.com/news/kepler-birmingham-bio-power-limited",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Operational 10.3 MWe waste wood gasification plant at Tyseley (permit GP3509PX, 72,000 t/yr) that matches the register row; it was restructured through administration in 2020-21 and is now owned by Gravis-advised GCP, run by Tyseley Operations/Cobalt. Holding company, debt amount and maturity not found; no recent outages or enforcement found.",
+  "heat_offtaker": null
+ },
+ {
+  "plant_id": 3360,
+  "parent_owner": "Aurium Avonmouth LLP (Aurium Capital Markets), with Macquarie Bank and Syngas Products Group involved at the 2015 transfer",
+  "owner_since": "2015-07-01",
+  "owner_since_confidence": "verified",
+  "parent_owner_confidence": "likely",
+  "owners": [
+   {
+    "owner": "New Earth Solutions Group (NEAT Technology Group)",
+    "to": "2015-07-01",
+    "note": "Developer and original owner of the Avonmouth gasification plant, built in two 6.5 MWe phases next to its MBT plant. Phase 1 started 2013 and Phase 2 was due autumn 2013.",
+    "url": "https://waste-management-world.com/artikel/13-mw-rdf-pyrolysis-gasification-plant-starts-up-in-avonmouth/",
+    "source_type": "url_page",
+    "source_ref": "https://waste-management-world.com/artikel/13-mw-rdf-pyrolysis-gasification-plant-starts-up-in-avonmouth/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Avonmouth Bio Power Ltd (85% held by Aurium Avonmouth LLP; Aurium Capital Markets and Macquarie Bank named in the 2015 transfer)",
+    "from": "2015-07-01",
+    "to": "2023-05-23",
+    "stake": 85,
+    "note": "Ownership and financing transferred July 2015 and the plant companies were renamed Avonmouth Bio Power. Operating company Avonmouth Bio Power Energy Ltd (company 07932861) is now dissolved. The 85% stake is for Aurium Avonmouth LLP in Avonmouth Bio Power Ltd; the holder of the other 15% was not found.",
+    "url": "https://resourcemedia.eco/article/troubled-gasification-plant-stay-closed-until-2018-11585",
+    "source_type": "url_page",
+    "source_ref": "https://resourcemedia.eco/article/troubled-gasification-plant-stay-closed-until-2018-11585 and https://notjustsheepandrugby.blogspot.com/2019/12/liabilities-pile-up-at-troubled-waste.html",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2016-06-01",
+    "type": "suspension",
+    "summary": "Plant operations were suspended in June 2016 after it always ran below design point because of off-spec RDF supply and a fire at the neighbouring MBT plant; a major redevelopment was planned with restart first put at 2018, then 2020.",
+    "severity": "high",
+    "url": "https://resourcemedia.eco/article/troubled-gasification-plant-stay-closed-until-2018-11585",
+    "source_type": "url_page",
+    "source_ref": "https://resourcemedia.eco/article/troubled-gasification-plant-stay-closed-until-2018-11585",
+    "confidence": "verified"
+   },
+   {
+    "date": "2019-12-04",
+    "type": "financial distress",
+    "summary": "Group accounts showed the plant still closed, with Avonmouth Bio Power Energy owing creditors £14.634m and the parent £33.668m, dependent on shareholder funding with no restart date given.",
+    "severity": "high",
+    "url": "https://notjustsheepandrugby.blogspot.com/2019/12/liabilities-pile-up-at-troubled-waste.html",
+    "source_type": "url_page",
+    "source_ref": "https://notjustsheepandrugby.blogspot.com/2019/12/liabilities-pile-up-at-troubled-waste.html",
+    "confidence": "verified"
+   },
+   {
+    "date": "2023-05-23",
+    "type": "dissolution",
+    "summary": "Parent Avonmouth Bio Power Ltd was dissolved on 23 May 2023 and the operating company Avonmouth Bio Power Energy Ltd is also shown as dissolved (c. Sep 2023 per search snippet), so the REPD operational status looks out of date.",
+    "severity": "high",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09626128",
+    "source_type": "companies_house",
+    "source_ref": "Company 09626128 overview (dissolved 23 May 2023, opened); company 07932861 overview (status dissolved, opened; dissolution date from search snippet only)",
+    "confidence": "verified"
+   },
+   {
+    "date": "2014-12-01",
+    "type": "technology underperformance",
+    "summary": "UKWIN briefing states the Avonmouth gasification plant never operated as New Earth expected and was abandoned by New Earth in 2014; this predates the 2015 transfer.",
+    "severity": "medium",
+    "url": "https://www.ukwin.org.uk/files/pdf/UKWIN_Gasification_Failures_Briefing.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.ukwin.org.uk/files/pdf/UKWIN_Gasification_Failures_Briefing.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "locality": "Avonmouth, Bristol",
+  "summary": "REPD shows 6.5 MWe Phase 2 of the New Earth/Avonmouth Bio Power RDF gasification plant as operational, but the plant was suspended in June 2016 and its owning companies were dissolved in 2023, so treat it as non-operating. The 85% shareholder is Aurium Avonmouth LLP; no financing facility details, the 15% holder, or the current state of the site (reopening or demolition) were found, and an ENDS article on a reopening was paywalled."
+ },
+ {
+  "plant_id": 3361,
+  "parent_owner": "Tradebe Group (privately held, Barcelona)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Hythe, Southampton",
+  "postcode": "SO45 3NX",
+  "permit_tonnes_pa": 48000,
+  "owners": [
+   {
+    "owner": "Tradebe (Tradebe Fawley Limited, formerly Pyros Environmental)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "CHWMEG record lists Tradebe Fawley Limited as owner Tradebe, also known as Thermal Treatment Centre and Pyros Environmental. Parent group described as privately held and Spanish in a search summary only. Acquisition date not found; Companies House filings would confirm the group structure.",
+    "url": "https://chwmeg.org/detail.asp?ID=9078",
+    "source_type": "url_page",
+    "source_ref": "https://chwmeg.org/detail.asp?ID=9078",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2024-02-19",
+    "type": "enforcement",
+    "summary": "HSE served an Improvement Notice (314061368) on Tradebe Fawley Limited for failing to make and give effect to appropriate arrangements for safety during planned work activities (permit to work).",
+    "severity": "medium",
+    "url": "https://resources.hse.gov.uk/notices/notices/notice_details.asp?SF=CN&SV=314061368",
+    "source_type": "snippet",
+    "source_ref": "https://resources.hse.gov.uk/notices/notices/notice_details.asp?SF=CN&SV=314061368",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2024-11-12",
+    "type": "permit",
+    "summary": "Environment Agency published a variation of environmental permit EPR/FP3935KL/V012 for Fawley High Temperature Incinerator, Hythe.",
+    "severity": "low",
+    "url": "https://www.gov.uk/government/publications/so45-3nx-tradebe-fawley-limited-environmental-permit-issued-eprfp3935klv012",
+    "source_type": "url_page",
+    "source_ref": "https://www.gov.uk/government/publications/so45-3nx-tradebe-fawley-limited-environmental-permit-issued-eprfp3935klv012",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "register mismatch",
+    "summary": "The register row is called a waste to energy plant, but the site at Hythe is Tradebe's Fawley high temperature (rotary kiln) hazardous waste incinerator, permitted for 48,000 tonnes a year. The 8.6 MW figure and EfW category look doubtful; whether it exports power was not confirmed.",
+    "severity": "low",
+    "url": "https://wikiwaste.org.uk/index.php/Fawley_HTI",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Fawley_HTI",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "The REPD entry appears to be Tradebe's Fawley hazardous waste high temperature incinerator at Hythe (SO45 3NX), operated by Tradebe Fawley Limited, part of the privately held Tradebe group. Acquisition date, financing and the actual electrical capacity were not found."
  },
  {
   "plant_id": 3362,
@@ -5300,5 +5551,2405 @@
   ],
   "issues": [],
   "summary": "Howdon STW is Northumbrian Water's sludge treatment centre (Cambi thermal hydrolysis, three digesters, three 2MWe CHP), matching the 6MWe register row; the operator is the water utility itself, owned by the CK group with KKR 25%. No plant-specific operating problems found (group-wide EA pollution fines found were unrelated to Howdon); acquisition date and site-specific financing not found."
+ },
+ {
+  "plant_id": 3378,
+  "parent_owner": "Associated British Foods (via British Sugar plc)",
+  "owner_since": null,
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": null,
+  "locality": "Bury St Edmunds",
+  "postcode": "IP32 7BB",
+  "permit_tonnes_pa": 97500,
+  "heat_offtaker": "On-site use: hot water to warm the digesters and dry digestate",
+  "owners": [
+   {
+    "owner": "British Sugar plc (subsidiary of Associated British Foods plc)",
+    "note": "British Sugar built and operates the 5MW AD and CHP plant (built 2016, c.£15m) on the Bury St Edmunds sugar factory site, fed with pressed sugar beet pulp. The British Sugar page does not name the parent; the ABF parent link comes from the search results and Wikipedia text, which says British Sugar is an ABF subsidiary. The Wikipedia page was opened but the relevant text is only partly shown, so confidence is likely.",
+    "url": "https://www.britishsugar.co.uk/sustainability/case-studies/2017-11-27-anaerobic-digestion-at-bury-st-edmunds",
+    "source_type": "url_page",
+    "source_ref": "https://www.britishsugar.co.uk/sustainability/case-studies/2017-11-27-anaerobic-digestion-at-bury-st-edmunds",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Associated British Foods plc (group level)",
+    "lender": "Bank syndicate (not named in sources seen)",
+    "instrument": "Undrawn committed revolving credit facility, plus GBP 400m public bond due 2034",
+    "amount": 1500000000,
+    "ccy": "GBP",
+    "created": null,
+    "refi": "2029-06-01",
+    "refi_basis": "RCF final maturity June 2029 as stated in search result summary of ABF 2025 results; not tied to this plant specifically",
+    "url": "https://www.abf.co.uk/content/dam/abf/corporate/Documents/investors/results-and-presentations/2025/abf-annual-results-2025-announcement.pdf.downloadasset.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://www.abf.co.uk/content/dam/abf/corporate/Documents/investors/results-and-presentations/2025/abf-annual-results-2025-announcement.pdf.downloadasset.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2021-10-25",
+    "type": "fire",
+    "summary": "Fire in the drying plant of the Bury St Edmunds sugar factory; 13 fire engines attended, no injuries. This is the sugar factory, not clearly the AD plant.",
+    "severity": "low",
+    "url": "https://dustsafetyscience.com/sugar-beet-fire-burystedmonds-uk/",
+    "source_type": "url_page",
+    "source_ref": "https://dustsafetyscience.com/sugar-beet-fire-burystedmonds-uk/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2021-02-18",
+    "type": "fire",
+    "summary": "Fire in a factory processing plant spread to a conveyor belt; gas supply isolated, no injuries. Sugar factory site, not clearly the AD plant.",
+    "severity": "low",
+    "url": "https://dustsafetyscience.com/sugar-beet-fire-burystedmonds-uk/",
+    "source_type": "url_page",
+    "source_ref": "https://dustsafetyscience.com/sugar-beet-fire-burystedmonds-uk/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-09-01",
+    "type": "fire",
+    "summary": "c.1.5 tonnes of sugar pulp on a conveyor caught fire late at night, 8 fire engines attended; British Sugar said production was not affected. Date is approximate (article refers to the start of the 2024/25 campaign).",
+    "severity": "low",
+    "url": "https://www.eadt.co.uk/news/24590347.fire-breaks-bury-st-edmunds-british-sugar-factory/",
+    "source_type": "url_page",
+    "source_ref": "https://www.eadt.co.uk/news/24590347.fire-breaks-bury-st-edmunds-british-sugar-factory/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Real, operating 5MW sugar beet pulp AD and CHP plant owned and run by British Sugar (ABF) at the Bury St Edmunds sugar factory, matching the REPD row (2016). Only factory fires found (not clearly the AD plant); acquisition date is not applicable as it was built by British Sugar, and no plant-specific financing was found (ABF group RCF only, from a snippet as the ABF PDFs returned 403)."
+ },
+ {
+  "plant_id": 3380,
+  "parent_owner": "ABP Food Group (via Olleco; controlled by the Goodman family)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2017-10-12",
+  "owner_since_confidence": "likely",
+  "locality": "Aylesbury (Buckland), Buckinghamshire",
+  "postcode": "HP22 5EZ",
+  "grid_injection": 1,
+  "heat_offtaker": "Arla Foods Aylesbury dairy (adjacent)",
+  "owners": [
+   {
+    "owner": "Olleco (renewables division of ABP Food Group)",
+    "stake": 100,
+    "from": "2017-10-12",
+    "to": null,
+    "note": "ABP built the GBP 22m AD facility next to the Arla dairy and opened it in Oct 2017 (REPD shows operational from Aug 2017). The Olleco release says ABP owns it but does not name a legal entity or give an acquisition date, so the date is the opening date. A council article suggests Arla Foods Ltd may run the AD digesters while Olleco runs biogas upgrading; this was not confirmed from an opened source.",
+    "url": "https://www.olleco.co.uk/media/2017/10/12/abp-food-group-in-22-million-in-renewable-energy-project",
+    "source_type": "url_page",
+    "source_ref": "https://www.olleco.co.uk/media/2017/10/12/abp-food-group-in-22-million-in-renewable-energy-project",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Goodman family (ultimate control of ABP Food Group)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Search snippets describe ABP/Olleco as Larry Goodman controlled; not confirmed from an opened page or filing.",
+    "url": "https://www.irishtimes.com/business/agribusiness-and-food/abp-subsidiary-in-running-for-davos-environmental-award-1.3764408",
+    "source_type": "snippet",
+    "source_ref": "https://www.irishtimes.com/business/agribusiness-and-food/abp-subsidiary-in-running-for-davos-environmental-award-1.3764408",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2021-07-22",
+    "type": "odour complaint",
+    "summary": "Residents of Buckland and a former councillor complained of an ongoing smell from Olleco's Samian Way site; the MP raised it with the Environment Agency, which said Olleco was compliant, and the council said the EA was investigating. The complaints concern the Olleco site generally, which also includes cooking oil processing, so they may not all come from the AD plant.",
+    "severity": "low",
+    "url": "https://www.buckinghamshirelive.com/news/buckinghamshire-news/aylesbury-mp-raises-factory-stink-5679843",
+    "source_type": "url_page",
+    "source_ref": "https://www.buckinghamshirelive.com/news/buckinghamshire-news/aylesbury-mp-raises-factory-stink-5679843",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Row matches the Olleco (ABP Food Group) AD plant next to the Arla Aylesbury dairy; the press describes it as 15 MW of heat, power and biomethane against 5 MWe in REPD. No financing found; the Goodman family control and the exact legal owner entity remain unconfirmed, and Olleco's separate Westcott Park AD plant in Aylesbury is a different site."
+ },
+ {
+  "plant_id": 3384,
+  "parent_owner": "North London Waste Authority (via LondonEnergy Ltd, formerly LondonWaste Ltd)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2009-12-01",
+  "owner_since_confidence": "verified",
+  "locality": "Edmonton, London",
+  "owners": [
+   {
+    "owner": "Greater London Council (built plant, 1969)",
+    "to": null,
+    "note": "Built the Edmonton Solid Waste facility; exported power from 1970. Later transferred to the London boroughs' waste authority structure; exact transfer not checked.",
+    "url": "https://www.londonenergyltd.com/about-us/explore-our-past/",
+    "source_type": "url_page",
+    "source_ref": "https://www.londonenergyltd.com/about-us/explore-our-past/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "LondonWaste Ltd, joint venture of North London Waste Authority and SITA UK (50:50)",
+    "stake": 50,
+    "from": "1994-01-01",
+    "to": "2009-12-01",
+    "note": "JV formed in 1994 to run the Edmonton facility. NLWA bought SITA UK's 50% share in December 2009.",
+    "url": "https://northlondonheatandpower.london/consultation-information/londonwaste-ltd",
+    "source_type": "url_page",
+    "source_ref": "https://northlondonheatandpower.london/consultation-information/londonwaste-ltd",
+    "confidence": "verified"
+   },
+   {
+    "owner": "North London Waste Authority (100% of LondonEnergy Ltd, formerly LondonWaste Ltd; company 02732548)",
+    "stake": 100,
+    "from": "2009-12-01",
+    "note": "LondonWaste Ltd renamed LondonEnergy Ltd in 2016. NLWA is sole shareholder and listed as person with significant control (75%+ shares and votes, notified 30 June 2016). The register operator name 'Londonwaste' is the same company; it is the plant operator and is wholly owned by the public waste authority, so it is not a contractor.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/02732548/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 02732548 persons with significant control page, NLWA notified 30 June 2016; also https://www.nlwa.gov.uk/article/londonenergy-ltd",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "North London Waste Authority (for the North London Heat and Power Project, the replacement Edmonton ERF)",
+    "lender": "Public Works Loan Board",
+    "instrument": "PWLB loans, terms 11.5 to 41.5 years remaining at 31 March 2025",
+    "amount": 1110000000,
+    "ccy": "GBP",
+    "created": "2025-03-31",
+    "refi": null,
+    "refi_basis": "Cumulative NLHPP borrowing at 31 Mar 2025, including a further 140m drawn in 2024/25. Individual loan dates and maturities not given; the shortest remaining term of 11.5 years implies the earliest maturity c.Sep 2036. Relates to the replacement plant, not the old plant. 280m was converted to euro and held in money market funds to pay ERF construction costs.",
+    "url": "https://www.nlwa.gov.uk/sites/default/files/2025-06/NLWA%20Annual%20Report%202024-25_individualsections.pdf",
+    "source_type": "document_ref",
+    "source_ref": "NLWA Annual Report 2024-25, Finance and Resources section, borrowing paragraph (opened via url)",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2025-03-31",
+    "type": "replacement delay / extended use of ageing plant",
+    "summary": "The replacement Edmonton ERF (built by Acciona, contract price 799.3m) fell four to five months behind schedule and NLWA commissioned an audit in Feb 2025; NLWA and LondonEnergy are planning extended use of the existing plant. The NLHPP site says the new ERF is 59% complete (Aug 2026) and a search result gave commissioning as 2027.",
+    "severity": "medium",
+    "url": "https://www.nlwa.gov.uk/sites/default/files/2025-06/NLWA%20Annual%20Report%202024-25_individualsections.pdf",
+    "source_type": "document_ref",
+    "source_ref": "NLWA Annual Report 2024-25, North London Heat and Power Project section; https://northlondonheatandpower.london/ (progress update 23 Jul 2026)",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-01-01",
+    "type": "ageing plant investment",
+    "summary": "A 2023 condition survey led the LondonEnergy board to approve c.8m of extra investment in 2024 and 6m planned for 2025 to keep the 1970s plant running until the new ERF is ready.",
+    "severity": "low",
+    "url": "https://www.nlwa.gov.uk/sites/default/files/2025-06/NLWA%20Annual%20Report%202024-25_individualsections.pdf",
+    "source_type": "document_ref",
+    "source_ref": "NLWA Annual Report 2024-25, section on the energy from waste facility at Edmonton EcoPark",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-12-01",
+    "type": "contract end",
+    "summary": "The NLWA waste management contract with LondonWaste/LondonEnergy was set to run to 1 December 2025, the date the old plant was expected to end its life; the delay means this will have to be extended. Extension terms were not found.",
+    "severity": "low",
+    "url": "https://northlondonheatandpower.london/consultation-information/londonwaste-ltd",
+    "source_type": "url_page",
+    "source_ref": "https://northlondonheatandpower.london/consultation-information/londonwaste-ltd",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "Register row is the old 1970s Edmonton EfW, owned by the North London Waste Authority through its wholly owned operator LondonEnergy Ltd (formerly LondonWaste), which NLWA took to 100% in Dec 2009; it is being replaced by a new ERF (Acciona, now c.59% built) funded by c.1.1bn of PWLB borrowing, so the old plant is running beyond its planned 2025 end of life. No outages, fires or enforcement found; permit tonnage and EA permit details not found."
+ },
+ {
+  "plant_id": 3385,
+  "parent_owner": "Macquarie Asset Management (via SUEZ Recycling and Recovery UK group)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2022-12-05",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": null,
+  "locality": "Haverton Hill, Billingham",
+  "postcode": "TS23 1PY",
+  "owners": [
+   {
+    "owner": "SITA UK (later SUEZ Recycling and Recovery Tees Valley Ltd, SUEZ group)",
+    "from": "1998-01-01",
+    "to": "2022-12-05",
+    "note": "Plant built by NEM (Northumbrian Water subsidiary) and opened May 1998; it later became part of SITA, now Suez. Exact date SITA took over not found. Suez UK was owned by the Suez group, then Veolia group, until the sale to Macquarie.",
+    "url": "https://en.wikipedia.org/wiki/Teesside_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Teesside_EfW",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Macquarie Asset Management (via SUEZ Recycling and Recovery UK Group)",
+    "from": "2022-12-05",
+    "note": "Macquarie completed acquisition of Suez Recycling and Recovery UK from Suez SA on 5 Dec 2022 (EUR 2.4bn). The page does not name the Teesside plant; link to this plant is by inference because SUEZ Recycling and Recovery Tees Valley Ltd is the operating company and a Suez UK subsidiary. Confirm with Companies House group structure for SUEZ Recycling and Recovery Tees Valley Ltd.",
+    "url": "https://www.marketscreener.com/quote/stock/SUEZ-3729241/news/Macquarie-Asset-Management-Inc-completed-the-acquisition-of-Recycling-and-Waste-Recovery-UK-from-Su-42487129/",
+    "source_type": "url_page",
+    "source_ref": "https://www.marketscreener.com/quote/stock/SUEZ-3729241/news/Macquarie-Asset-Management-Inc-completed-the-acquisition-of-Recycling-and-Waste-Recovery-UK-from-Su-42487129/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2014-10-17",
+    "type": "health and safety enforcement",
+    "summary": "A worker suffered serious burns when hot ash and steam erupted from an ash chute during a blockage clearance; a similar incident had occurred in Feb 2014. SUEZ Recycling and Recovery Tees Valley Ltd was fined 220,000 pounds in June 2017 after admitting a Health and Safety at Work Act breach.",
+    "severity": "medium",
+    "url": "https://www.gazettelive.co.uk/news/teesside-news/haverton-hill-waste-firm-fined-13153346",
+    "source_type": "url_page",
+    "source_ref": "https://www.gazettelive.co.uk/news/teesside-news/haverton-hill-waste-firm-fined-13153346",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row (REPD 4925, 19.2 MW, locality County Durham) is the original two-line 1998 plant at Haverton Hill, Billingham (Stockton-on-Tees); the third line (10 MW, 2009) takes the site to 29.2 MW and the separate NEERC plant is adjacent. Operator is Suez UK, sold by Veolia/Suez to Macquarie on 5 Dec 2022 (plant link inferred); no financing found and permit tonnage not checked."
+ },
+ {
+  "plant_id": 3386,
+  "parent_owner": "SUEZ SA (Meridiam, GIP and Caisse des Depots/CNP Assurances consortium), via SUEZ Recycling and Recovery UK",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2022-12-05",
+  "owner_since_confidence": "likely",
+  "locality": "Haverton Hill, Billingham",
+  "postcode": "TS23 1PY",
+  "permit_tonnes_pa": 642000,
+  "heat_offtaker": null,
+  "grid_injection": null,
+  "owners": [
+   {
+    "owner": "SITA UK (later SUEZ Recycling and Recovery UK, owned by Suez then Veolia group)",
+    "to": "2022-12-05",
+    "note": "SITA UK built and operated the plant (line 3 extension opened 2009 under the 2006 Northumberland PPP); SITA became Suez, which merged into Veolia's control in 2021 and the UK waste business was then divested under the CMA order.",
+    "url": "https://en.wikipedia.org/wiki/Teesside_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Teesside_EfW",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Veolia (holding SUEZ Recycling and Recovery UK Group after the 2021 Suez takeover)",
+    "to": "2022-12-05",
+    "note": "Veolia agreed on 8 Aug 2022 to sell the UK business to Macquarie, but the new SUEZ exercised its right of first refusal in Sep 2022 and the sale to SUEZ completed on 5 Dec 2022. A MarketScreener item says Macquarie completed the deal; that conflicts with the Suez and letsrecycle reports and is rated less reliable.",
+    "url": "https://www.letsrecycle.com/news/veolia-completes-2-billion-sale-of-suez-uk-back-to-suez/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/veolia-completes-2-billion-sale-of-suez-uk-back-to-suez/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "SUEZ SA (shareholders Meridiam 38.3%, GIP 38.3%, Caisse des Depots/CNP Assurances 18.8%, employees 4.4%), via SUEZ Recycling and Recovery UK",
+    "stake": 100,
+    "from": "2022-12-05",
+    "note": "Current owner of the UK waste group that operates Teesside EfW. Wikiwaste says the site is operated by Suez; plant-level legal title was not checked at Companies House.",
+    "url": "https://www.suez.com/en/news/press-releases/suez-acquires-former-suezs-uk-waste-businesses",
+    "source_type": "url_page",
+    "source_ref": "https://www.suez.com/en/news/press-releases/suez-acquires-former-suezs-uk-waste-businesses",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "SUEZ SA (group, covers UK waste acquisition)",
+    "lender": null,
+    "instrument": "Acquisition facility of EUR 1.2bn for the IWS and UK recycling and recovery acquisitions, partly refinanced by a EUR 500m 10-year green bond (4.5%) in Nov 2023",
+    "amount": 1200000000,
+    "ccy": "EUR",
+    "created": "2022-12-31",
+    "refi": "2027-12-31",
+    "refi_basis": "Initial maturity 2025, extendable to 2027; partly refinanced Nov 2023. Group-level debt, not specific to this plant. Confirm in SUEZ financial statements 2022 and 2023.",
+    "url": "https://www.suez.com/en/group/finance",
+    "source_type": "snippet",
+    "source_ref": "https://www.suez.com/en/group/finance (search result summary; SUEZ investor presentation Sept 2023 and 2023 results presentation not opened)",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2014-10-17",
+    "type": "health and safety enforcement",
+    "summary": "A worker was seriously burned when a blockage in an ash chute released hot water, ash and steam at SUEZ Recycling and Recovery Tees Valley, Haverton Hill Road; a similar incident occurred on 7 Feb 2014. The company pleaded guilty and was fined GBP 220,000 in June 2017.",
+    "severity": "medium",
+    "url": "https://www.gazettelive.co.uk/news/teesside-news/haverton-hill-waste-firm-fined-13153346",
+    "source_type": "url_page",
+    "source_ref": "https://www.gazettelive.co.uk/news/teesside-news/haverton-hill-waste-firm-fined-13153346",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "register mismatch",
+    "summary": "The REPD row (10 MW, 2009 extension, operator SITA UK) is line 3 of the Teesside EfW site, which now has five lines in three co-located plants (lines 1-2, line 3, and lines 4-5 NEERC) with a combined permitted capacity of c.642,000 t/yr. SITA UK is now SUEZ Recycling and Recovery UK.",
+    "severity": "low",
+    "url": "https://wikiwaste.org.uk/index.php/Teeside_EfW_-_lines_1-5_(Teeside_&_NEERC),_Billingham._line_3",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Teeside_EfW_-_lines_1-5_(Teeside_&_NEERC),_Billingham._line_3",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Line 3 extension (2009) of the Suez-operated Teesside EfW at Haverton Hill; operator SITA UK is now SUEZ Recycling and Recovery UK, owned by SUEZ SA since 5 Dec 2022 after Veolia's CMA-driven divestment. The plant-level legal owner, plant-specific debt and any recent Environment Agency enforcement were not found."
+ },
+ {
+  "plant_id": 3388,
+  "parent_owner": "Veolia (c.50%, operator) and MEAG / Munich Re (49.78%), co-owners of South East London Combined Heat and Power Ltd (SELCHP)",
+  "owner_since": "2026-07-21",
+  "permit_tonnes_pa": 464000,
+  "heat_offtaker": "Bermondsey Project district heating network (Greystar), c.1,618 homes, under a new 25-year agreement; existing heat network operating since 2014",
+  "locality": "London",
+  "postcode": "SE14 5RS",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "likely",
+  "owners": [
+   {
+    "owner": "CNIM Development (50:50 CNIM Group and Cube Infrastructure Fund), with Veolia",
+    "stake": 48.75,
+    "to": "2018-08-10",
+    "note": "CNIM Development agreed to sell its entire 48.75% stake to iCON Infrastructure on 9 Aug 2018 (announced 10 Aug 2018). Completion date not seen; dated to the announcement.",
+    "url": "https://www.marketscreener.com/quote/stock/CNIM-GROUPE-5056/news/CNIM-announces-the-sale-of-its-indirect-stake-in-SELCHP-together-with-Cube-Infrastructure-Fund-t-27094954/",
+    "source_type": "url_page",
+    "source_ref": "https://www.marketscreener.com/quote/stock/CNIM-GROUPE-5056/news/CNIM-announces-the-sale-of-its-indirect-stake-in-SELCHP-together-with-Cube-Infrastructure-Fund-t-27094954/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "iCON Infrastructure Partners IV, L.P.",
+    "stake": 49.78,
+    "from": "2018-08-10",
+    "to": "2026-07-21",
+    "note": "Acquired the CNIM Development stake in 2018 (WikiWaste says iCON acquired it in 2018 and held c.49.7%); sold to MEAG in July 2026. The 48.75% in the 2018 release and 49.78% in 2026 differ slightly; the later figure is used as it is the most recent.",
+    "url": "https://wikiwaste.org.uk/index.php/SELCHP_ERF",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/SELCHP_ERF",
+    "confidence": "likely"
+   },
+   {
+    "owner": "MEAG (asset manager of Munich Re)",
+    "stake": 49.78,
+    "from": "2026-07-21",
+    "note": "Acquired the 49.78% stake from iCON Infrastructure Partners IV; Veolia remains co-owner and operator. Date is the letsrecycle article date, not a stated completion date.",
+    "url": "https://www.letsrecycle.com/news/meag-acquires-49-78-stake-in-south-east-london-efw-plant/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/meag-acquires-49-78-stake-in-south-east-london-efw-plant/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Veolia",
+    "stake": 50.22,
+    "note": "Co-owner and operator since the plant was developed; stake is inferred as the remainder after the 49.78% held by iCON then MEAG. No source states the figure directly.",
+    "url": "https://www.letsrecycle.com/news/meag-acquires-49-78-stake-in-south-east-london-efw-plant/",
+    "source_type": "inference",
+    "source_ref": "100% minus 49.78% (MEAG stake per letsrecycle, 21 Jul 2026); letsrecycle says the plant is co-owned and operated by Veolia",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2002-02-01",
+    "type": "protest shutdown",
+    "summary": "Greenpeace protesters entered the tipping hall and climbed the chimney, reportedly shutting the plant for about three and a half days. Historical only.",
+    "severity": "low",
+    "url": "https://www.indymedia.org.uk/en/2002/02/23727.html",
+    "source_type": "snippet",
+    "source_ref": "https://www.indymedia.org.uk/en/2002/02/23727.html",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "The register row matches: SELCHP ERF at Lewisham, operated by Veolia and co-owned with MEAG (Munich Re), which bought iCON's 49.78% stake in July 2026 after iCON bought CNIM Development's stake in 2018. No plant-specific debt or recent operating incidents found; Veolia's exact stake and stake completion dates are not confirmed, and the ENDS article was paywalled."
+ },
+ {
+  "plant_id": 3392,
+  "parent_owner": "Intervate Limited (company 06489093, in administration from Jan 2018)",
+  "owner_since": null,
+  "parent_owner_confidence": "verified",
+  "owner_since_confidence": null,
+  "locality": "Cradley Heath",
+  "postcode": "B64 7BN",
+  "owners": [
+   {
+    "owner": "Intervate Renewable Energy Limited (company 07092316), 75% or more owned by Intervate Limited (company 06489093)",
+    "stake": 100,
+    "from": null,
+    "to": "2019-05-20",
+    "note": "Plant company at Portersfield Road, Cradley Heath. Companies House lists Intervate Limited as sole person with significant control (75% or more, notified 6 Apr 2016). Plant company put into creditors' voluntary liquidation (resolution 20 May 2019) and dissolved 21 Dec 2020.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07092316/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 07092316, persons with significant control (Intervate Limited, notified 2016-04-06) and filing history (LRESEX 2019-05-20; GAZ2 2020-12-21)",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Intervate Limited (trading as Phoenix Wood Pellets), parent",
+    "from": null,
+    "to": "2018-01-02",
+    "note": "Parent entered administration on 2 Jan 2018 (Poppleton & Appleby). Gazette notice gives the same registered address, B64 7BN.",
+    "url": "https://www.thegazette.co.uk/notice/2941892",
+    "source_type": "url_page",
+    "source_ref": "https://www.thegazette.co.uk/notice/2941892",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2018-01-02",
+    "type": "insolvency",
+    "summary": "Parent company Intervate Limited (Phoenix Wood Pellets), same Portersfield Road address, entered administration; a search snippet reports 66 jobs lost.",
+    "severity": "high",
+    "url": "https://www.thegazette.co.uk/notice/2941892",
+    "source_type": "url_page",
+    "source_ref": "https://www.thegazette.co.uk/notice/2941892",
+    "confidence": "verified"
+   },
+   {
+    "date": "2019-05-20",
+    "type": "insolvency",
+    "summary": "The plant company, Intervate Renewable Energy Limited, passed a resolution to wind up in a creditors' voluntary liquidation; disclaimer notices were filed in 2019 and 2020 and the company was dissolved on 21 Dec 2020. The REPD operational status is therefore out of date.",
+    "severity": "high",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07092316/filing-history",
+    "source_type": "companies_house",
+    "source_ref": "Company 07092316 filing history: LRESEX 2019-05-20, NDISC 2019-2020, LIQ14 2020-09-21, GAZ2 2020-12-21",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "technology",
+    "summary": "Plant was an c.GBP 8m waste-wood gasification unit (c.25,000 t/yr, originally 3.5MW planned, 1.1MWe in REPD) at Portersfield Industrial Estate. No evidence found that it operates today.",
+    "severity": "medium",
+    "url": "https://archive.sandwellbusinessgrowth.com/news/8m-renewable-energy-plant-in-cradley-heath/",
+    "source_type": "snippet",
+    "source_ref": "https://archive.sandwellbusinessgrowth.com/news/8m-renewable-energy-plant-in-cradley-heath/ (search result; page fetch failed)",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "REPD shows Cradley Heath as a 1.1MWe waste-wood gasification plant operated by Intervate Renewable Energy, but both the plant company (liquidated 2019, dissolved Dec 2020) and its parent Intervate Limited (administration Jan 2018) are insolvent, so the plant is very likely not operating. Current ownership of the site and any plant equipment, and who bought the assets, were not found; no financing found."
+ },
+ {
+  "plant_id": 3393,
+  "parent_owner": "Renewable Energy Generation Ltd (REG), Jersey, via REG Bio-Power",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Cliffe Common, near Selby",
+  "postcode": "YO8 6EG",
+  "heat_offtaker": null,
+  "owners": [
+   {
+    "owner": "Renewable Energy Generation Ltd (REG Bio-Power; operated by Living Fuels)",
+    "stake": null,
+    "from": "2014-10-01",
+    "to": null,
+    "note": "Built and opened the 18 MW bioliquid (used cooking oil) plant at Harworth Estates' Whitemoor Business Park, ten Cat 3516 engines, mainly STOR. Parent was reported by Wikipedia to have gone into liquidation in Jan 2016, and no later sale of the plant was found, so the current owner is unconfirmed.",
+    "url": "https://harworthgroup.com/2015/01/23/reg-bio-power-opens-eco-friendly-power-plant-whitemoor/",
+    "source_type": "url_page",
+    "source_ref": "https://harworthgroup.com/2015/01/23/reg-bio-power-opens-eco-friendly-power-plant-whitemoor/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "REG Power Management (holding company that acquired REG Biopower on 23 Oct 2012)",
+    "stake": null,
+    "from": "2012-10-23",
+    "to": null,
+    "note": "Seen only in a search result summary of a PitchBook profile (page blocked). Would be confirmed by Companies House group structure.",
+    "url": "https://pitchbook.com/profiles/company/123380-38",
+    "source_type": "snippet",
+    "source_ref": "https://pitchbook.com/profiles/company/123380-38",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Renewable Energy Generation Ltd (Whitemoor plant)",
+    "lender": "Caterpillar Financial Services",
+    "instrument": "Term loan facility, seven-year repayment term",
+    "amount": 4800000,
+    "ccy": "GBP",
+    "created": "2014-10-20",
+    "refi": "2021-10-20",
+    "refi_basis": "7-year repayment term from Oct 2014 loan signing; likely repaid or refinanced by now, not checked",
+    "url": "https://ippjournal.com/news/reg-announces-fc-for-whitemoor-bio-power-project",
+    "source_type": "url_page",
+    "source_ref": "https://ippjournal.com/news/reg-announces-fc-for-whitemoor-bio-power-project",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2016-01-01",
+    "type": "insolvency",
+    "summary": "The ultimate parent, Renewable Energy Generation Ltd (Jersey), was put into liquidation in Jan 2016 per Wikipedia. What happened to the Whitemoor plant afterwards was not found, though REPD and data sites still list it as operational.",
+    "severity": "high",
+    "url": "https://en.wikipedia.org/wiki/REG_WindPower",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/REG_WindPower",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "18 MW used-cooking-oil bioliquid engine plant (10 x Cat 3516) at Whitemoor Business Park, near Selby, built by REG and financed with a GBP 4.8m Cat Financial loan in 2014. REG's Jersey parent went into liquidation in Jan 2016 and the current owner, any sale, and current operating status were not found."
+ },
+ {
+  "plant_id": 3397,
+  "parent_owner": "Aviva Investors (fund managed on behalf of pension fund investors); owning vehicle Barry Biomass UK No.2 Ltd, now in liquidation",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 86000,
+  "locality": "Barry Docks, Woodham Road / Hood Road, Barry, Vale of Glamorgan",
+  "owners": [
+   {
+    "owner": "Barry Biomass UK No.2 Ltd, owned within a fund managed by Aviva Investors",
+    "from": null,
+    "to": "2024-12-01",
+    "note": "Fund-owned gasification plant; Aviva invested in 2015. Register operator name 'Sunrise Renewables' was not seen in any opened source and may be an earlier developer name (a search summary linked Sunrise Renewables to Biomass UK No.2 Ltd, not confirmed). Site was handed back to ABP in Dec 2024.",
+    "url": "https://www.forestryjournal.co.uk/news/24919353.barry-biomass-plant-goes-liquidation-investors-confirm/",
+    "source_type": "url_page",
+    "source_ref": "https://www.forestryjournal.co.uk/news/24919353.barry-biomass-plant-goes-liquidation-investors-confirm/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Liquidator appointed by the Aviva fund (decision making passed from Aviva Investors to the liquidator)",
+    "from": "2025-01-01",
+    "note": "Aviva confirmed early 2025 that the vehicle was going into liquidation; exact appointment date not found.",
+    "url": "https://nation.cymru/news/controversial-incinerator-at-centre-of-planning-row-set-for-demolition/",
+    "source_type": "url_page",
+    "source_ref": "https://nation.cymru/news/controversial-incinerator-at-centre-of-planning-row-set-for-demolition/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Associated British Ports (site and buildings landlord, took back site)",
+    "from": "2024-12-01",
+    "note": "ABP said buildings and site were handed back to it in Dec 2024 and it applied to demolish the main operational buildings.",
+    "url": "https://nation.cymru/news/controversial-incinerator-at-centre-of-planning-row-set-for-demolition/",
+    "source_type": "url_page",
+    "source_ref": "https://nation.cymru/news/controversial-incinerator-at-centre-of-planning-row-set-for-demolition/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Aviva Investors gasification fund vehicles (Hull, Boston and Barry)",
+    "lender": "Fund investors (loans to the three plants)",
+    "instrument": "Investor loans, group level across the three Aviva gasification plants",
+    "amount": 480000000,
+    "ccy": "GBP",
+    "created": null,
+    "refi": null,
+    "refi_basis": "Not applicable: loans accumulated 2015 to 2023 per Aviva accounts as reported by The Guardian; Aviva wrote off c.£350m to £368m and the Barry vehicle is in liquidation.",
+    "url": "https://www.broradio.fm/news/local/barry-biomass-on-the-brink/",
+    "source_type": "url_page",
+    "source_ref": "https://www.broradio.fm/news/local/barry-biomass-on-the-brink/",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2019-03-01",
+    "type": "permit breach",
+    "summary": "During pre-commissioning, black smoke from the chimney was traced by Natural Resources Wales to a burner malfunction, giving minor permit breaches and a formal warning.",
+    "severity": "low",
+    "url": null,
+    "source_type": "snippet",
+    "source_ref": "Search result summary of NRW and South Wales Echo coverage (NRW page 'Decision to grant Barry gasification permit' returned 404); year of the March event not confirmed",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2021-08-01",
+    "type": "planning enforcement",
+    "summary": "Vale of Glamorgan Council served an enforcement notice because the built plant differed from plans approved in 2015; it was quashed on appeal in Aug 2023 and the council paid costs.",
+    "severity": "high",
+    "url": "https://nation.cymru/news/controversial-incinerator-at-centre-of-planning-row-set-for-demolition/",
+    "source_type": "url_page",
+    "source_ref": "https://nation.cymru/news/controversial-incinerator-at-centre-of-planning-row-set-for-demolition/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-03-01",
+    "type": "planning refusal",
+    "summary": "The council planning committee rejected retrospective planning applications in 2024; final decisions rested with the Welsh Government and two appeals were open in Nov 2024.",
+    "severity": "high",
+    "url": "https://www.broradio.fm/news/local/barry-biomass-on-the-brink/",
+    "source_type": "url_page",
+    "source_ref": "https://www.broradio.fm/news/local/barry-biomass-on-the-brink/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-11-21",
+    "type": "insolvency",
+    "summary": "Aviva Investors reportedly writing off c.£350m on three gasification plants, with redundancies at the sites; the plant was never reported as generating commercially and stayed idle.",
+    "severity": "high",
+    "url": "https://www.broradio.fm/news/local/barry-biomass-on-the-brink/",
+    "source_type": "url_page",
+    "source_ref": "https://www.broradio.fm/news/local/barry-biomass-on-the-brink/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-01-01",
+    "type": "insolvency",
+    "summary": "A liquidator was appointed by the fund to manage the corporate vehicle holding the plant.",
+    "severity": "high",
+    "url": "https://www.forestryjournal.co.uk/news/24919353.barry-biomass-plant-goes-liquidation-investors-confirm/",
+    "source_type": "url_page",
+    "source_ref": "https://www.forestryjournal.co.uk/news/24919353.barry-biomass-plant-goes-liquidation-investors-confirm/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-10-17",
+    "type": "plant closed / demolition",
+    "summary": "ABP submitted a prior notification of demolition for the main operational buildings after finding no commercially viable use; demolition could finish by spring 2026. The REPD row showing it as operational is out of date.",
+    "severity": "high",
+    "url": "https://nation.cymru/news/controversial-incinerator-at-centre-of-planning-row-set-for-demolition/",
+    "source_type": "url_page",
+    "source_ref": "https://nation.cymru/news/controversial-incinerator-at-centre-of-planning-row-set-for-demolition/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row is out of date: the 10 MWe waste wood gasification plant at Barry Docks (Barry Biomass UK No.2 Ltd, Aviva Investors fund) was never in sustained operation, went into liquidation in early 2025, was handed back to ABP in Dec 2024 and is slated for demolition. The operator name 'Sunrise Renewables' was not confirmed; acquisition date and plant-specific lenders were not found."
+ },
+ {
+  "plant_id": 3403,
+  "parent_owner": "Beaverbrook Energy Limited",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2025-07-01",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 96795,
+  "locality": "Forth, West Lothian",
+  "postcode": null,
+  "owners": [
+   {
+    "owner": "Levenseat Renewable Energy Ltd (SPV set up by Levenseat Ltd in 2015, with investment from Green Investment Bank / Bioenergy Infrastructure Group, Foresight Group and Zouk Capital)",
+    "stake": null,
+    "from": "2015-03-01",
+    "to": "2025-05-14",
+    "note": "Developer and owner from financial close in March 2015. Entered administration on 14 May 2025 (PwC joint administrators). Individual shareholder percentages not found.",
+    "url": "https://wikiwaste.org.uk/index.php/Levenseat_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Levenseat_EfW",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Beaverbrook Energy Limited (operated by Gladsmuir Operations Ltd; techno-commercial management by Cobalt Energy Ltd)",
+    "stake": null,
+    "from": "2025-07-01",
+    "to": null,
+    "note": "Operator's FAQ states the facility is owned by Beaverbrook Energy Limited and that Gladsmuir Operations took over operations in July 2025. Exact acquisition date from the administrators not found, so the July 2025 date is the operational takeover.",
+    "url": "https://www.gladsmuiroperations.co.uk/faq",
+    "source_type": "url_page",
+    "source_ref": "https://www.gladsmuiroperations.co.uk/faq",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Lanarkshire Energy Holdings Ltd",
+    "stake": null,
+    "from": "2025-07-01",
+    "to": null,
+    "note": "A search-result summary said the plant was bought out of administration by Lanarkshire Energy Holdings Ltd. Could not open the underlying page. May be an intermediate holding company of the Beaverbrook structure; confirm with Companies House. The operator's own page (Beaverbrook) is rated more reliable.",
+    "url": "https://gladsmuir.energy/about/",
+    "source_type": "snippet",
+    "source_ref": "https://gladsmuir.energy/about/",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Levenseat Renewable Energy Ltd",
+    "lender": "Investec Bank",
+    "instrument": "Project debt at financial close (total project cost c. GBP 111m; debt amount not stated)",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2015-03-01",
+    "refi": null,
+    "refi_basis": "Maturity not found. Loan repayments were deferred to June 2025 and the company then failed; the debt position after the 2025 sale is unknown.",
+    "url": "https://wikiwaste.org.uk/index.php/Levenseat_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Levenseat_EfW",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2023-05-01",
+    "type": "technology / contract",
+    "summary": "Gasifier technology supplier Metso Outotec exited the UK EfW market and the operator took O&M in-house. Outotec was also in litigation with the EPC contractor group MW High Tech Projects over UK plants.",
+    "severity": "low",
+    "url": "https://www.letsrecycle.com/news/levenseat-brings-efw-in-house-as-outotec-exits/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/levenseat-brings-efw-in-house-as-outotec-exits/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-01-01",
+    "type": "outages / financial",
+    "summary": "Repeated outages from machine failures needing costly repairs; loss of over GBP 28m in 2023 and loan repayments deferred to June 2025.",
+    "severity": "high",
+    "url": "https://news.stv.tv/scotland/more-than-50-jobs-lost-as-lanarkshire-renewable-energy-firm-collapses",
+    "source_type": "url_page",
+    "source_ref": "https://news.stv.tv/scotland/more-than-50-jobs-lost-as-lanarkshire-renewable-energy-firm-collapses",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-05-14",
+    "type": "insolvency",
+    "summary": "Levenseat Renewable Energy Ltd entered administration (PwC), with 52 of 89 jobs cut immediately, after directors failed to secure investment before the June 2025 loan deadline. The plant continued under new operators from July 2025.",
+    "severity": "high",
+    "url": "https://news.stv.tv/scotland/more-than-50-jobs-lost-as-lanarkshire-renewable-energy-firm-collapses",
+    "source_type": "url_page",
+    "source_ref": "https://news.stv.tv/scotland/more-than-50-jobs-lost-as-lanarkshire-renewable-energy-firm-collapses",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Plant matches the register row (Forth, West Lothian, 12.3 MWe) but has been renamed Gladsmuir Resource Recovery Facility; the original owner company went into administration in May 2025 and the plant is now owned by Beaverbrook Energy Limited per the operator's FAQ. Exact acquisition date, price, current financing and the Lanarkshire Energy Holdings link are unconfirmed; ENDS, PwC and Gladsmuir.energy pages were blocked."
+ },
+ {
+  "plant_id": 3404,
+  "parent_owner": "FCC Group (FCC Servicios Medio Ambiente Holding, 51%) and iCON Infrastructure (49%), through Green Recovery Projects Ltd",
+  "owner_since": "2020-11-01",
+  "parent_owner_confidence": "verified",
+  "owner_since_confidence": "verified",
+  "permit_tonnes_pa": 190000,
+  "locality": "Millerhill, Midlothian",
+  "postcode": "EH22 1RZ",
+  "heat_offtaker": "District heating, c. 4,600 homes (Millerhill heat network)",
+  "owners": [
+   {
+    "owner": "FCC Environment (FCC Group), under a 25-year design, build, finance and operate contract with the City of Edinburgh Council and Midlothian Council",
+    "from": "2016-10-01",
+    "to": "2020-11-01",
+    "note": "Contract signed Oct 2016; plant developed at a cost of £142m. Councils are contract partners (Zero Waste Edinburgh and Midlothian).",
+    "url": "https://wikiwaste.org.uk/index.php/Millerhill_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Millerhill_EfW",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Green Recovery Projects Ltd (FCC Servicios Medio Ambiente Holding, 51%, retains control; iCON Infrastructure, 49%)",
+    "stake": 100,
+    "from": "2020-11-01",
+    "note": "Millerhill is one of five EfW plants (with Allington, Eastcroft, Greatmoor, Lincoln) in the GRP deal; sale of 49% to iCON worth £198m, completed Nov 2020. Exact completion day not stated, so 1 Nov is a placeholder for the month.",
+    "url": "https://www.letsrecycle.com/news/fccs-efw-deal-with-icon-worth-198m/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/fccs-efw-deal-with-icon-worth-198m/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Register row matches: the 12.5 MWe CHP plant at Millerhill, operated by FCC Environment, is held via Green Recovery Projects Ltd (FCC 51%, iCON 49% since Nov 2020) under a 25-year council contract. No plant-specific debt or operating problems were found; a search summary mentioning a KfW IPEX refinancing of GRP was not supported by any opened source and is not recorded."
+ },
+ {
+  "plant_id": 3409,
+  "parent_owner": "Singleton Birch Ltd",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Melton Ross",
+  "postcode": "DN38 6AE",
+  "permit_tonnes_pa": 80000,
+  "owners": [
+   {
+    "owner": "Singleton Birch Ltd (applicant for the gasification energy-from-waste facility at its Melton Ross lime works; Energos named only in the register row)",
+    "note": "North Lincolnshire planning committee report WD/2008/0044 (8 Oct 2008) names Singleton Birch Limited as applicant for a gasification facility of up to 80,000 t/yr of waste or biomass at the lime works. Energos as technology supplier not confirmed in an opened source.",
+    "url": "https://m.northlincs.gov.uk/pl_open?PK_PARAM=1873464&REF_NUM_PARAM=WD%2F2008%2F0044&token=f5c384b00fc4211a88fcbb5157837a38f2c725dd",
+    "source_type": "url_page",
+    "source_ref": "https://m.northlincs.gov.uk/pl_open?PK_PARAM=1873464&REF_NUM_PARAM=WD%2F2008%2F0044&token=f5c384b00fc4211a88fcbb5157837a38f2c725dd",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": null,
+    "type": "not operating (register out of date)",
+    "summary": "REPD shows this EfW as operational, but no evidence of a built or operating EfW plant was found. The Melton Ross site hosts a 1.5MW anaerobic digestion plant (opened July 2014), and a 2023 application (PA/2023/1045) adds a biomethane AD facility next to the existing AD plant. A planning search snippet says the 2010 permission (WD/2010/0704) was replaced by a new permission approved 4 Jul 2013 (WD/2013/0471), which was not opened. Confirmation would come from the North Lincolnshire planning file or an Environment Agency permit check.",
+    "severity": "high",
+    "url": "https://m.northlincs.gov.uk/pl_open?PK_PARAM=2268372&REF_NUM_PARAM=PA%2F2023%2F1045&token=f5c384b00fc4211a88fcbb5157837a38f2c725dd",
+    "source_type": "inference",
+    "source_ref": "Opened 2008 committee report and 2023 AD assessment mention only AD on site; searches found no operating EfW or Energos plant at Melton Ross",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "The register row looks out of date: only a planning permission (2008, up to 80kt/yr gasification EfW by Singleton Birch) was found, with no sign the EfW was built; the site runs an AD plant instead. Energos involvement, owner_since, financing and any later EfW permit status were not confirmed."
+ },
+ {
+  "plant_id": 3413,
+  "parent_owner": "First Milk Cheese Company Ltd (First Milk, farmer-owned dairy co-operative)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2020-05-07",
+  "owner_since_confidence": "likely",
+  "locality": "Aspatria",
+  "postcode": "CA7 2AR",
+  "grid_injection": 1,
+  "heat_offtaker": "First Milk Lake District Creamery, Aspatria (biomethane for steam)",
+  "owners": [
+   {
+    "owner": "Lake District Biogas Ltd (SC491828), special purpose company set up to fund, own and operate the plant",
+    "from": "2014-11-24",
+    "to": "2020-05-07",
+    "note": "Incorporated 24 Nov 2014; built the c.£10m Clearfleau AD plant for First Milk, commissioned spring 2016. Finance raised by the company; funders not named in the pages opened. Partners named in 2015 release: Renewables Unlimited and Clearfleau.",
+    "url": "https://waste-management-world.com/artikel/in-depth-biogas-to-grid-the-whey-to-go-for-cumbrian-cheese-maker/",
+    "source_type": "url_page",
+    "source_ref": "https://waste-management-world.com/artikel/in-depth-biogas-to-grid-the-whey-to-go-for-cumbrian-cheese-maker/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "The First Milk Cheese Company Ltd (Companies House 05893846)",
+    "stake": 100,
+    "from": "2020-05-07",
+    "note": "Listed as person with significant control (75% or more of shares and votes) of Lake District Biogas Ltd, notified 7 May 2020; the previous 'no registrable person' statement was withdrawn 30 Apr 2020. 100% stake figure is from a search snippet only; the opened page shows 75% or more. A snippet also says First Milk acquired the company in 2020, consistent with this.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC491828/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "SC491828 persons with significant control page, First Milk notified 2020-05-07",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2019-01-21",
+    "type": "insolvency",
+    "summary": "Lake District Biogas Ltd, the owner-operator of the AD plant, went into administration (Court of Session P47/19). A Company Voluntary Arrangement was proposed in Dec 2019 with creditors voting on 8 Jan 2020. First Milk became controlling shareholder in 2020, and the plant appears to have kept operating.",
+    "severity": "high",
+    "url": "https://www.thegazette.co.uk/notice/3460815",
+    "source_type": "url_page",
+    "source_ref": "https://www.thegazette.co.uk/notice/3460815 (Belfast Gazette 27 Dec 2019, notice 3460815) and https://www.thegazette.co.uk/notice/3237184 (Edinburgh Gazette 22 Mar 2019)",
+    "confidence": "verified"
+   },
+   {
+    "date": "2008-06-01",
+    "type": "pollution",
+    "summary": "Chemical spill from the First Milk Aspatria creamery killed thousands of fish along c.4km of the River Ellen; First Milk was prosecuted by the Environment Agency. This predates the AD plant and concerns the creamery, not the digester.",
+    "severity": "low",
+    "url": "https://www.fishingmagic.com/river-ellen-pollution-victory-for-fish-legal/",
+    "source_type": "snippet",
+    "source_ref": "https://www.fishingmagic.com/river-ellen-pollution-victory-for-fish-legal/ (page returned 404 when opened; seen in search result only)",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Real, operating on-site cheese-whey AD plant at First Milk's Lake District Creamery, Aspatria (CA7 2AR), built 2016 by Clearfleau for Lake District Biogas Ltd; it injects biomethane to grid and runs a CHP, so the register's 5 MWe likely reflects c.5 MW thermal output rather than electrical capacity. The owning company went into administration in Jan 2019 and First Milk has controlled it since May 2020; no financing details, original funders or recent operating faults were found."
+ },
+ {
+  "plant_id": 3416,
+  "parent_owner": "Acciona (via EFW Ness Ltd, Acciona Industrial UK Ltd)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 150000,
+  "locality": "East Tullos, Aberdeen",
+  "postcode": "AB12 3BS",
+  "heat_offtaker": "Torry Heat Network",
+  "owners": [
+   {
+    "owner": "EFW Ness Ltd (subsidiary of Acciona Industrial UK Ltd), contractor-owner under a 20-year residual waste contract with Aberdeen City, Aberdeenshire and Moray Councils",
+    "from": "2019-08-08",
+    "note": "Contract signed Aug 2019; EFW Ness Ltd built and manages the plant. The register lists the three councils as operator, but they appear to be the waste customers, not the plant owners. Exact ownership of the plant asset is not stated in the sources opened.",
+    "url": "https://www.scottishconstructionnow.com/articles/aberdeen-energy-from-waste-facility-begins-full-operation",
+    "source_type": "url_page",
+    "source_ref": "https://www.scottishconstructionnow.com/articles/aberdeen-energy-from-waste-facility-begins-full-operation",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Indaver UK / Indaver NESS Services Ltd (operating subcontractor)",
+    "from": "2019-08-08",
+    "to": "2025-08-21",
+    "note": "Operator for the first period; withdrew Aug 2025 and EFW Ness Ltd took over operation and maintenance.",
+    "url": "https://www.letsrecycle.com/news/indaver-exits-ness-efw-plant-as-landfill-ban-nears/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/indaver-exits-ness-efw-plant-as-landfill-ban-nears/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Suez Recycling and Recovery UK (interim operator)",
+    "from": "2026-01-01",
+    "note": "Appointed interim operator after Aberdeen City Council terminated its contract with EfW Ness; permanent operator to be procured.",
+    "url": "https://www.letsrecycle.com/news/interim-operator-steps-in-during-second-aberdeen-efw-shutdown/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/interim-operator-steps-in-during-second-aberdeen-efw-shutdown/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-06-15",
+    "type": "outage",
+    "summary": "Plant shut in mid to late June 2025 after technical problems and a dispute between EFW Ness Ltd (Acciona) and Indaver; waste diverted to landfill. It reopened on 19 Aug 2025 with EFW Ness Ltd running it. Reported to have had more than 1,800 outstanding defects at handover.",
+    "severity": "high",
+    "url": "https://www.letsrecycle.com/news/indaver-exits-ness-efw-plant-as-landfill-ban-nears/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/indaver-exits-ness-efw-plant-as-landfill-ban-nears/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-12-31",
+    "type": "contract dispute",
+    "summary": "Second shutdown at end of Dec 2025 after ongoing technical difficulties; Aberdeen City Council terminated its contract with EfW Ness and appointed Suez as interim operator. Plant resumed operation in late Jan 2026.",
+    "severity": "high",
+    "url": "https://www.letsrecycle.com/news/interim-operator-steps-in-during-second-aberdeen-efw-shutdown/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/interim-operator-steps-in-during-second-aberdeen-efw-shutdown/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2026-01-27",
+    "type": "restart",
+    "summary": "Council confirmed Suez had taken control and deliveries resumed, with processing expected within 48 hours; a procurement for a permanent operator is under way.",
+    "severity": "low",
+    "url": "https://www.mrw.co.uk/news/ness-energy-from-waste-plant-resumes-operations-after-december-closure-27-01-2026/",
+    "source_type": "url_page",
+    "source_ref": "https://www.mrw.co.uk/news/ness-energy-from-waste-plant-resumes-operations-after-december-closure-27-01-2026/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The plant is real and operating (full operation from Dec 2023) but has had two shutdowns in 2025, an operator dispute and the council terminating the EfW Ness contract; Suez is now interim operator. The councils are customers under a 20-year contract and the plant appears to be held by Acciona's EFW Ness Ltd, but the asset owner, any debt financing and the date of ownership change were not found."
+ },
+ {
+  "plant_id": 3446,
+  "parent_owner": "FCC Servicios Medio Ambiente Holding (FCC Group), via Green Recovery Projects Ltd (51%), with iCON Infrastructure (49%)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 200000,
+  "heat_offtaker": "EnviroEnergy Ltd (Nottingham City Council), district heating and power on London Road",
+  "locality": "Nottingham",
+  "owners": [
+   {
+    "owner": "FCC Environment (operator via WasteNotts (Reclamation) Ltd)",
+    "from": "1998-01-01",
+    "note": "Operates the 1973 plant under a long-running three-party agreement with Nottingham City Council and Nottinghamshire County Council. The 1998 start date comes from a search summary only; wikiwaste says the plant was built to serve a 25 year PPP with both councils.",
+    "url": "https://wikiwaste.org.uk/index.php/Eastcroft_EfW_(Lines_1_&_2)",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Eastcroft_EfW_(Lines_1_&_2)",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Green Recovery Projects Ltd (FCC 51% via FCC Servicios Medio Ambiente Holding, iCON Infrastructure 49%)",
+    "stake": 100,
+    "from": "2020-07-31",
+    "note": "iCON bought 49% of GRP, the holding company of five FCC EfW plants including Eastcroft, for £198m (£650m enterprise value). Deal signed end of July 2020 subject to regulatory approvals; exact completion date not found, so the date is approximate. FCC retains control and full consolidation.",
+    "url": "https://www.letsrecycle.com/news/icon-infrastructure-share-fcc-energy-from-wastes-energy-from-waste-plants/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/icon-infrastructure-share-fcc-energy-from-wastes-energy-from-waste-plants/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "REPD row (9MWe, COD 1975) matches the 1973 two-line Eastcroft EfW in Nottingham (permit 200kt/yr), operated by FCC for the city and county councils and owned within Green Recovery Projects Ltd (FCC 51%, iCON 49% since mid-2020). No operating problems or plant-specific debt found; GRP group debt (implied by the £650m enterprise value) was not itemised, and the councils' contract end date and exact deal completion date are not found."
+ },
+ {
+  "plant_id": 3448,
+  "parent_owner": "Copenhagen Infrastructure Partners (via Northwich Biogas Ltd)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2025-10-01",
+  "owner_since_confidence": "verified",
+  "locality": "Lostock Gralam, Northwich",
+  "postcode": "CW9 7NU",
+  "permit_tonnes_pa": 144000,
+  "owners": [
+   {
+    "owner": "Orsted (formerly Dong Energy), via Orsted Renescience Northwich",
+    "from": "2016-01-01",
+    "to": "2025-10-01",
+    "note": "Built and operated the Renescience Northwich plant (household waste enzyme treatment plus anaerobic digestion and CHP engines). Start year taken from the 2016 local liaison committee and the REPD commissioning date; not stated directly.",
+    "url": "https://www.coastmarcoms.co.uk/representatives-sought-for-orsteds-renescience-northwich-local-liaison-committee/",
+    "source_type": "url_page",
+    "source_ref": "https://www.coastmarcoms.co.uk/representatives-sought-for-orsteds-renescience-northwich-local-liaison-committee/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Copenhagen Infrastructure Partners (CIP), via subsidiary Northwich Biogas Ltd",
+    "from": "2025-10-01",
+    "note": "CIP bought the Northwich site from Orsted in October 2025 and plans to convert it to a food waste AD and biomethane plant.",
+    "url": "https://www.northwichbiogas.com/faq",
+    "source_type": "url_page",
+    "source_ref": "https://www.northwichbiogas.com/faq",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": null,
+    "type": "odour",
+    "summary": "Several years of odour complaints from residents; the local MP and a councillor called for the permit to be revoked. The Environment Agency said it could not always verify complaints and required an odour management plan.",
+    "severity": "medium",
+    "url": "https://www.chesterstandard.co.uk/news/23768828.environment-agency-responds-calls-remove-renescience-permit/",
+    "source_type": "url_page",
+    "source_ref": "https://www.chesterstandard.co.uk/news/23768828.environment-agency-responds-calls-remove-renescience-permit/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-10-01",
+    "type": "change of use",
+    "summary": "Register row shows Orsted operating a 5MWe waste AD plant, but Orsted sold the site to CIP in Oct 2025 and the municipal waste pre-treatment is being phased out for a 177,000 t/yr food waste biomethane plant. Planning committee due 6 Oct 2026 with approval recommended; the electricity generation role will change.",
+    "severity": "high",
+    "url": "https://britbrief.co.uk/business/manufacturing/biomethane-plant-at-lostock-waste-site-set-for-approval.html",
+    "source_type": "url_page",
+    "source_ref": "https://britbrief.co.uk/business/manufacturing/biomethane-plant-at-lostock-waste-site-set-for-approval.html",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "REPD operator (Orsted) is out of date: CIP bought the Renescience Northwich site in Oct 2025 and is converting it to a food waste AD and biomethane plant (existing AD 144,000 t/yr rising to 177,000 t/yr), not to be confused with the separate FCC/CIP Lostock EfW plant on the same works. Postcode CW9 7NU is from an EA permit listing seen in search only; purchase price and financing not found."
+ },
+ {
+  "plant_id": 3468,
+  "parent_owner": "Pinta Energy (ABIO Group, backed by Asterion Industrial Partners)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2026-09-21",
+  "owner_since_confidence": "unverified",
+  "locality": "Hartlepool",
+  "postcode": "TS25 2BW",
+  "permit_tonnes_pa": 109000,
+  "owners": [
+   {
+    "owner": "Biopower Group Ltd / BioConstruct NewEnergy Ltd (developer)",
+    "to": "2021-01-01",
+    "note": "Developed the plant (planning April 2016, EA permit issued Dec 2017 to BioConstruct NewEnergy Ltd as Hartlepool BioPower AD Plant). Biopower Group said in 2016 it was part financed by a City of London investment fund. End date is the year of the Generate purchase, month not found.",
+    "url": "https://www.gov.uk/government/publications/ts25-2bw-bioconstruct-newenergy-limited-environmental-permit-issued",
+    "source_type": "url_page",
+    "source_ref": "https://www.gov.uk/government/publications/ts25-2bw-bioconstruct-newenergy-limited-environmental-permit-issued",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Generate Capital (Generate Upcycle), via Generate UK AD I Limited, owner of Biopower (Hartlepool) Limited",
+    "from": "2021-01-01",
+    "to": "2026-09-21",
+    "note": "Generate Upcycle page states it purchased Biopower Hartlepool in 2021. Corpium lists Generate UK AD I Limited as 100% shareholder and PSC of Biopower (Hartlepool) Ltd (company 10203628) from 24 March 2023, which is probably a group restructure rather than the purchase date. Exact 2021 purchase date not found.",
+    "url": "https://generateupcycle.com/uk/biopower/",
+    "source_type": "url_page",
+    "source_ref": "https://generateupcycle.com/uk/biopower/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Pinta Energy (ABIO Group, Asterion Industrial Partners)",
+    "stake": 100,
+    "from": "2026-09-21",
+    "note": "Generate Capital press release of 21 Sep 2026 says Pinta has acquired Upcycle's seven UK facilities. The release does not name Hartlepool, but Hartlepool is a Generate Upcycle UK facility, so inclusion is likely. Date is the announcement date, not a confirmed completion date. Confirm via Companies House PSC change for company 10203628 or a Pinta announcement.",
+    "url": "https://www.prnewswire.com/news-releases/generate-capital-announces-sale-of-global-anaerobic-digestion-platform-generate-upcycle-302882739.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.prnewswire.com/news-releases/generate-capital-announces-sale-of-global-anaerobic-digestion-platform-generate-upcycle-302882739.html",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Real 5.1 MW food waste and agricultural AD plant at Brenda Road, Hartlepool (EA permit to BioConstruct NewEnergy Ltd, now Biopower (Hartlepool) Ltd); the register operator BioConstruct is the original developer, and Generate Upcycle bought it in 2021 and sold its UK sites to Pinta Energy in Sep 2026. No operating problems or plant-specific financing found (Corpium shows no charges); exact 2021 purchase date and confirmation that Hartlepool is in the Pinta deal are still unknown."
+ },
+ {
+  "plant_id": 3482,
+  "parent_owner": "Teesside Green Energy Park Ltd (owned by Green Zone Consulting)",
+  "parent_owner_confidence": "unverified",
+  "owner_since": "2025-06-05",
+  "owner_since_confidence": "likely",
+  "locality": "Humberside",
+  "postcode": "HU11 4RD",
+  "owners": [
+   {
+    "owner": "GB-Bio Ltd (subsidiary of Solar 21, Ireland; Green Zone Consulting held 34 percent of GB-Bio)",
+    "from": "2016-01-01",
+    "to": "2025-06-05",
+    "note": "Solar 21 funded, built and commissioned the plant (Feb 2018) and exited its investors in 2019; the plant was owned and operated through GB-Bio Ltd. The register operator name Solar 21 is the developer and fund promoter, not the legal owner. The 34 percent Green Zone stake is from a search snippet only.",
+    "url": "https://www.solar21.ie/projects/biomass-21-tansterne",
+    "source_type": "url_page",
+    "source_ref": "https://www.solar21.ie/projects/biomass-21-tansterne",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Teesside Green Energy Park Ltd (owned by Green Zone Consulting)",
+    "stake": 100,
+    "from": "2025-06-05",
+    "note": "Reported as buyer in a c. GBP 4m pre-pack sale from administration; seen only in a search snippet of the Yorkshire Post. Opened articles say the buyer was undisclosed or do not name it. Would be confirmed by the Yorkshire Post article, RSM administrators' proposals or Companies House.",
+    "url": "https://www.yorkshirepost.co.uk/news/yorkshire-woodburner-incinerator-sold-after-firm-folds-owing-more-than-ps120m-5248008",
+    "source_type": "snippet",
+    "source_ref": "https://www.yorkshirepost.co.uk/news/yorkshire-woodburner-incinerator-sold-after-firm-folds-owing-more-than-ps120m-5248008",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2019-09-01",
+    "type": "contractor insolvency",
+    "summary": "HRS Energy Tansterne, the plant designer and operations contractor, closed, made 27 to 29 staff redundant and handed control of the plant to GB-Bio.",
+    "severity": "high",
+    "url": "https://www.bioenergy-news.com/news/workers-lose-jobs-amid-uk-biomass-plant-closure/",
+    "source_type": "url_page",
+    "source_ref": "https://www.bioenergy-news.com/news/workers-lose-jobs-amid-uk-biomass-plant-closure/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-06-05",
+    "type": "insolvency",
+    "summary": "GB-Bio Ltd entered administration (RSM joint administrators) after failed attempts at a solvent sale. The plant had faced Covid, ROC accreditation delays, the designer's collapse and other operational issues, and was given nine months to recommission under an Irish High Court scheme. Land, grid connection and plant were sold immediately.",
+    "severity": "high",
+    "url": "https://www.business-sale.com/news/business-sale/hull-biomass-facility-acquired-out-of-administration-227713",
+    "source_type": "url_page",
+    "source_ref": "https://www.business-sale.com/news/business-sale/hull-biomass-facility-acquired-out-of-administration-227713",
+    "confidence": "verified"
+   },
+   {
+    "date": "2023-12-31",
+    "type": "financial distress",
+    "summary": "GB-Bio accounts for year to 31 Dec 2023 show fixed assets c. GBP 65.5m against net liabilities of GBP 55.8m.",
+    "severity": "medium",
+    "url": "https://www.business-sale.com/news/business-sale/hull-biomass-facility-acquired-out-of-administration-227713",
+    "source_type": "url_page",
+    "source_ref": "https://www.business-sale.com/news/business-sale/hull-biomass-facility-acquired-out-of-administration-227713",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Tansterne is a 22MW wood-waste plant near Hull built by Solar 21 and owned via GB-Bio Ltd, which went into administration on 5 June 2025 and sold the site in a pre-pack; the buyer is reported as Teesside Green Energy Park Ltd (snippet only, unverified). Current operating status after the sale, lender details and the exact owner are not confirmed."
+ },
+ {
+  "plant_id": 3483,
+  "parent_owner": "Ampeak Energy Limited (formerly SIMEC Atlantis Energy), via SIMEC Uskmouth Power Ltd; GFG Alliance holds 49.99% of Ampeak",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2017-01-01",
+  "owner_since_confidence": "likely",
+  "locality": "Newport (Uskmouth), Gwent",
+  "owners": [
+   {
+    "owner": "Scottish and Southern Energy (SSE)",
+    "to": "2015-06-01",
+    "note": "SSE bought Uskmouth from Welsh Power in 2009 for £27m and operated it until the 2015 sale to SIMEC.",
+    "url": "https://en.wikipedia.org/wiki/Uskmouth_power_stations",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Uskmouth_power_stations",
+    "confidence": "verified"
+   },
+   {
+    "owner": "SIMEC Group (GFG Alliance)",
+    "from": "2015-06-01",
+    "to": "2017-01-01",
+    "note": "Acquired June 2015 with a plan to convert to biomass. Exact day not found. The register row names SIMEC Group as operator.",
+    "url": "https://www.gem.wiki/Uskmouth_power_station",
+    "source_type": "url_page",
+    "source_ref": "https://www.gem.wiki/Uskmouth_power_station",
+    "confidence": "verified"
+   },
+   {
+    "owner": "SIMEC Atlantis Energy (now Ampeak Energy Ltd), through SIMEC Uskmouth Power Ltd",
+    "from": "2017-01-01",
+    "note": "GFG Alliance took 49.99% of Atlantis Resources in 2017 in return for Uskmouth, and the listed company was renamed SIMEC Atlantis Energy. Renamed Ampeak Energy on 21 Aug 2025 per search snippet. Exact 2017 date not found. In Nov 2018 SAE signed heads of terms to sell 25% of Uskmouth Power to Equitix for £32.9m; I did not find that it completed, and later sources (GEM, Ampeak page) show Ampeak holding 100%.",
+    "url": "https://en.wikipedia.org/wiki/Ampeak_Energy",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Ampeak_Energy",
+    "confidence": "likely"
+   },
+   {
+    "owner": "EL (Uskmouth) Limited (landowner of the BESS site only)",
+    "stake": null,
+    "from": "2025-09-01",
+    "note": "SIMEC Uskmouth Power sold the site for the AW1 battery project to EL (Uskmouth) Ltd for £9.0m. Date approximate (financial close announcement, autumn 2025). Applies to the battery site, not necessarily the whole former station.",
+    "url": "https://ampeak.energy/sae-completes-financial-close-for-the-aw1-battery-storage-project/",
+    "source_type": "url_page",
+    "source_ref": "https://ampeak.energy/sae-completes-financial-close-for-the-aw1-battery-storage-project/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "AW1 Energy Storage Limited (75.3% owned by Ampeak via AW1 Storage Holdings Ltd; 24.7% BESS Investment UK Ltd)",
+    "lender": "Norddeutsche Landesbank Girozentrale (Nord/LB)",
+    "instrument": "Non-recourse project finance facility for the AW1 battery storage project on the Uskmouth site (not the legacy biomass plant)",
+    "amount": 45300000,
+    "ccy": "GBP",
+    "created": null,
+    "refi": "2031-12-01",
+    "refi_basis": "Facility term runs until Dec 2031, when the loan is to be repaid or refinanced. Financial close date not stated on the page I opened (announcement followed an RNS of 5 Aug 2025).",
+    "url": "https://ampeak.energy/sae-completes-financial-close-for-the-aw1-battery-storage-project/",
+    "source_type": "url_page",
+    "source_ref": "https://ampeak.energy/sae-completes-financial-close-for-the-aw1-battery-storage-project/",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2017-04-01",
+    "type": "plant not operating",
+    "summary": "Uskmouth B last ran as a coal plant in April 2017 and it has been mothballed since; REPD still lists an 18 MW biomass co-firing entry (cod 2015) that is not producing power.",
+    "severity": "high",
+    "url": "https://en.wikipedia.org/wiki/Uskmouth_power_stations",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Uskmouth_power_stations",
+    "confidence": "verified"
+   },
+   {
+    "date": "2022-04-28",
+    "type": "project abandoned",
+    "summary": "SIMEC Atlantis abandoned the planned conversion to waste-derived pellets (220 MW) in April 2022 after opposition and a Welsh Government call-in of the application.",
+    "severity": "high",
+    "url": "https://en.wikipedia.org/wiki/Uskmouth_power_stations",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Uskmouth_power_stations",
+    "confidence": "verified"
+   },
+   {
+    "date": "2023-12-01",
+    "type": "decommissioning",
+    "summary": "Planning consent granted to demolish the cooling towers (expected done by May 2024); the station is described as decommissioned from early 2024 and the site is being redeveloped as a battery storage park (AW1, 240 MWh rising to 480 MWh, grid connection due Oct 2026).",
+    "severity": "high",
+    "url": "https://en.wikipedia.org/wiki/Uskmouth_power_stations",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Uskmouth_power_stations",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The register row is out of date: Uskmouth B has not generated since April 2017, the biomass/waste pellet conversion was abandoned in 2022 and the station is decommissioned, with the site becoming a battery storage park owned by Ampeak Energy (ex SIMEC Atlantis). Exact 2015 and 2017 transfer dates and whether the 2018 Equitix 25% sale completed are not confirmed; the Nord/LB loan relates to the battery project, not the old plant."
+ },
+ {
+  "plant_id": 3486,
+  "parent_owner": null,
+  "parent_owner_confidence": null,
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Falkirk",
+  "postcode": "FK2 0YG",
+  "owners": [
+   {
+    "owner": "Grangemouth Generation Ltd (applicant and register operator)",
+    "from": null,
+    "to": null,
+    "note": "Named as applicant for planning application P/16/0223/FUL (2MW advanced conversion facility at Avondale Quarry) and as operator in the REPD row; seen only in a search result summary. Its shareholders were not found and no Companies House record was located. Opening the planning file or Companies House would confirm.",
+    "url": "https://www.avondalelandfill.co.uk/",
+    "source_type": "snippet",
+    "source_ref": "https://www.avondalelandfill.co.uk/ (search result summary citing P/16/0223/FUL)",
+    "confidence": "unverified"
+   },
+   {
+    "owner": "Lark Energy (developer)",
+    "from": "2016-07-01",
+    "to": null,
+    "note": "Gained planning consent in 2016 for a 2MW energy from waste development (pellet production and gasification plant) at Avondale Landfill, as an extension of the existing CHP plant. Relationship to Grangemouth Generation Ltd not stated; may be the same project vehicle.",
+    "url": "https://neo-environmental.co.uk/energy-from-waste-consent-in-falkirk/",
+    "source_type": "url_page",
+    "source_ref": "https://neo-environmental.co.uk/energy-from-waste-consent-in-falkirk/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-09-02",
+    "type": "insolvency",
+    "summary": "Avondale Environmental Ltd, operator of the Avondale landfill site where the pilot plant is sited, entered administration (BDO LLP joint administrators) and is being offered for sale. The pilot plant's own owner (Grangemouth Generation Ltd) is not confirmed to be part of that company.",
+    "severity": "high",
+    "url": "https://www.letsrecycle.com/news/avondale-environmental-enters-administration/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/avondale-environmental-enters-administration/",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "register status unconfirmed",
+    "summary": "REPD shows the 2MW pilot as operational from 2017-04-01, but no source found confirms the pellet and gasification plant was built or is running. The Avondale site page lists only landfill gas to energy and describes energy from waste as an 'opportunity'.",
+    "severity": "medium",
+    "url": "https://www.avondalelandfill.co.uk/",
+    "source_type": "url_page",
+    "source_ref": "https://www.avondalelandfill.co.uk/ (opened 2026 version, mentions 'opportunities for Energy from Waste and Biogas')",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "REPD row is a 2MW gasification pilot at Avondale Landfill, Polmont (Falkirk), consented in 2016 for Lark Energy; the host site operator went into administration in Sep 2025 and there is no evidence the gasifier operates, so treat as possibly non-operating. Owner of Grangemouth Generation Ltd, ownership dates and financing were not found."
+ },
+ {
+  "plant_id": 3497,
+  "parent_owner": "Thames Water Utilities Ltd (Thames Water Utilities Holdings, Kemble Water Holdings; investors OMERS c.32%, USS c.20%, ADIA/Infinity c.10%)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "owners": [
+   {
+    "owner": "Thames Water Utilities Ltd (operator and site owner)",
+    "from": null,
+    "to": null,
+    "note": "Crossness STW is operated by Thames Water; the sludge incinerator and generator were commissioned in 1998 and the site was upgraded in 2010-14 (£220m, incl. thermal hydrolysis and advanced digestion). Acquisition date not applicable, utility has held the site long term.",
+    "url": "https://en.wikipedia.org/wiki/Crossness_Sewage_Treatment_Works",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Crossness_Sewage_Treatment_Works",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Kemble Water Holdings Ltd consortium (OMERS c.32%, USS c.20%, Infinity Investments/ADIA c.10%, six other funds c.38%)",
+    "stake": 100,
+    "from": "2006-12-01",
+    "to": null,
+    "note": "Kemble acquired Thames Water from RWE in Dec 2006 (Macquarie-led); Macquarie sold its remaining stake to OMERS and KIA in Mar 2017. OMERS wrote its stake down in full in May 2024. Ownership may change under the proposed creditor-led recapitalisation (seen only in a snippet).",
+    "url": "https://en.wikipedia.org/wiki/Thames_Water",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Thames_Water",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Thames Water Utilities Ltd / Kemble Water group",
+    "lender": "Class A creditor group (super senior emergency facility)",
+    "instrument": "Emergency super senior term loan, up to £3bn, approved by court Feb 2025, appeal dismissed Mar 2025",
+    "amount": 3000000000,
+    "ccy": "GBP",
+    "created": "2025-03-17",
+    "refi": null,
+    "refi_basis": "Maturity not found; company group net debt c.£18.5bn and a creditor-led recapitalisation was under discussion in 2026 (snippet only). Group-level, covers the plant only as part of the utility.",
+    "url": "https://en.wikipedia.org/wiki/Thames_Water",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Thames_Water",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2004-01-01",
+    "type": "odour",
+    "summary": "London Borough of Bexley successfully prosecuted Thames Water for odour nuisance at Crossness in 2004; Thames Water admits only partial success controlling odour, especially in storm events.",
+    "severity": "medium",
+    "url": "https://www.power-technology.com/projects/crossness/",
+    "source_type": "url_page",
+    "source_ref": "https://www.power-technology.com/projects/crossness/",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "odour",
+    "summary": "Trade press headline reports Thames appealing a Bexley odour abatement notice for Crossness, upheld by magistrates and later suspended. Date and details not confirmed (page blocked).",
+    "severity": "low",
+    "url": "https://www.endsreport.com/article/1574465/thames-appeals-crossness-sewage-odour-notice",
+    "source_type": "snippet",
+    "source_ref": "https://www.endsreport.com/article/1574465/thames-appeals-crossness-sewage-odour-notice",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2026-03-20",
+    "type": "owner financial distress",
+    "summary": "Parent Thames Water is in a distressed restructuring (net debt c.£18.5bn, shareholders wrote down stakes in 2024, creditor-led recapitalisation proposed in 2026). Seen in search snippets and the Wikipedia history up to 2025.",
+    "severity": "high",
+    "url": "https://www.watermagazine.co.uk/2026/03/20/thames-water-considers-creditor-led-recapitalisation-proposal/",
+    "source_type": "snippet",
+    "source_ref": "https://www.watermagazine.co.uk/2026/03/20/thames-water-considers-creditor-led-recapitalisation-proposal/",
+    "confidence": "likely"
+   }
+  ],
+  "locality": "Abbey Wood, London Borough of Bexley",
+  "postcode": "SE2 9AR",
+  "summary": "Thames Water's captive sludge incineration and power plant (c.6MW, running since 1998) at Crossness STW, not a transactable asset on its own; the REPD 2016 date likely reflects the later AD/thermal hydrolysis upgrade. Plant-specific financing and operating incidents not found; main risk is the parent's debt restructuring."
+ },
+ {
+  "plant_id": 3499,
+  "parent_owner": "Abbey Commercial Investments Limited (via Abbey Power Investments Ltd and Abbey Power Solutions Ltd); directors include Roland and Alexander Duce",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Spalding",
+  "postcode": "PE12 6BL",
+  "owners": [
+   {
+    "owner": "SPEP Limited (company 07251691), the plant operator and registered applicant",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Incorporated 12 May 2010; SIC 35110 production of electricity; charges cite land on the east side of Spalding Drove. REPD record 6165 gives SPEP Ltd as applicant at Clay Lane, Spalding Drove.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07251691",
+    "source_type": "companies_house",
+    "source_ref": "SPEP LIMITED 07251691, company overview and charges pages, opened Oct 2026",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Abbey Power Solutions Limited (07848159)",
+    "stake": 75,
+    "from": "2016-05-13",
+    "to": null,
+    "note": "Registered PSC of SPEP Ltd with 75% or more of shares and votes, notified 13 May 2016. This is the date the PSC was recorded, not necessarily the date of acquisition, so owner_since is left blank.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07251691/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "SPEP LIMITED 07251691 PSC register, Abbey Power Solutions Limited notified 13 May 2016",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Abbey Power Investments Limited (08055624)",
+    "stake": 75,
+    "from": "2016-04-06",
+    "to": null,
+    "note": "PSC of Abbey Power Solutions Ltd with 75% or more, notified 6 Apr 2016.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07848159/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "ABBEY POWER SOLUTIONS LIMITED 07848159 PSC register",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Abbey Commercial Investments Limited (00442441)",
+    "stake": 75,
+    "from": "2016-04-06",
+    "to": null,
+    "note": "PSC of Abbey Power Investments Ltd with 75% or more, notified 6 Apr 2016. Its own owners were not checked, so the individuals behind it are not confirmed; SPEP directors Roland and Alexander Duce share the Stamford address.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08055624/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "ABBEY POWER INVESTMENTS LIMITED 08055624 PSC register",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "SPEP Limited",
+    "lender": "The Royal Bank of Scotland PLC",
+    "instrument": "Debenture and supplemental legal charges over the Spalding Drove site (charges dated 19 Oct 2012, 22 Nov 2012 and 13 Feb 2013); all satisfied in full 6 Feb 2025",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2012-10-19",
+    "refi": null,
+    "refi_basis": "Charges satisfied 6 Feb 2025, which suggests the RBS debt was repaid or refinanced; facility size and term not found",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07251691/charges",
+    "source_type": "companies_house",
+    "source_ref": "SPEP LIMITED 07251691 charges register, charge codes 0725 1691 0001 to 0003",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "SPEP Limited",
+    "lender": "LHV Bank Limited",
+    "instrument": "Registered charge over freehold land on the east side of Spalding Drove (charge 0725 1691 0005); underlying facility type not seen",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2025-06-13",
+    "refi": null,
+    "refi_basis": "Facility amount and maturity not found; the charge document (28 pages) was not opened",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07251691/charges",
+    "source_type": "companies_house",
+    "source_ref": "SPEP LIMITED 07251691 charge 0725 1691 0005, created 13 Jun 2025, outstanding",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [],
+  "summary": "REPD entry matches SPEP Limited, a private operator at Clay Lane, Spalding Drove (14.5MWe biomass, first power Jul 2015); Companies House shows it is controlled through Abbey Power Solutions, Abbey Power Investments and Abbey Commercial Investments, with RBS debt cleared in Feb 2025 and a new LHV Bank charge in Jun 2025. Not the InterGen Spalding Energy Park gas and battery site, which is a different company; no operating problems found, and acquisition date, fuel type, loan amounts and ultimate individuals not confirmed."
+ },
+ {
+  "plant_id": 3500,
+  "parent_owner": "Abbey Commercial Investments Limited (via Abbey Power Investments Ltd and Abbey Power Solutions Ltd); ultimate individuals not confirmed",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Balderton, Newark",
+  "postcode": "NG24 3BZ",
+  "owners": [
+   {
+    "owner": "SPEP Limited (company 07251691), Stamford",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Operator and registered generator for the Balderton site (REPD, Ofgem). Wholly or mostly held by Abbey Power Solutions Limited (75% or more, PSC notified 13 May 2016, which is the start of the PSC register and not an acquisition date).",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07251691/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "SPEP Limited 07251691, PSC register (opened); REPD ref 6166",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Abbey Power Solutions Limited (07848159)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Holds 75% or more of SPEP. In turn held 75% or more by Abbey Power Investments Limited (08055624, PSC notified 6 Apr 2016), which is held 75% or more by Abbey Commercial Investments Limited (00442441).",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07848159/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Abbey Power Solutions 07848159 and Abbey Power Investments 08055624, PSC registers (opened)",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Abbey Power Generation group (Duce family, Stamford)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Group operates a fleet of biodiesel reserve generation sites; individuals named in search snippets (Roland and Alexander Duce) are shown as SPEP directors in filing history for Alexander Duce. Ultimate beneficial owner above Abbey Commercial Investments not opened.",
+    "url": "https://www.abbeypowergen.com/",
+    "source_type": "snippet",
+    "source_ref": "https://www.abbeypowergen.com/ (search result snippet only, page failed to open)",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "SPEP Limited",
+    "lender": "LHV Bank Limited",
+    "instrument": "Registered charge over freehold land (description truncated; may relate to another SPEP site)",
+    "amount": null,
+    "ccy": null,
+    "created": "2025-06-13",
+    "refi": null,
+    "refi_basis": "No term or amount disclosed in the charges list",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07251691/charges",
+    "source_type": "companies_house",
+    "source_ref": "SPEP Limited 07251691, charge 0725 1691 0005, delivered 16 Jun 2025 (opened)",
+    "confidence": "likely"
+   },
+   {
+    "borrower": "SPEP Limited",
+    "lender": "Burt Bros. (Hosiery) Limited",
+    "instrument": "Registered charge over freehold land, later released",
+    "amount": null,
+    "ccy": null,
+    "created": "2024-08-21",
+    "refi": null,
+    "refi_basis": "Released from charge 17 Jul 2025",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07251691/charges",
+    "source_type": "companies_house",
+    "source_ref": "SPEP Limited 07251691, charge 0725 1691 0004 (opened)",
+    "confidence": "likely"
+   },
+   {
+    "borrower": "SPEP Limited",
+    "lender": "The Royal Bank of Scotland PLC",
+    "instrument": "Debenture (Oct 2012) and two supplemental legal charges (Nov 2012, Feb 2013) over land including Spalding Drove and Barugh, Barnsley",
+    "amount": null,
+    "ccy": null,
+    "created": "2012-10-19",
+    "refi": null,
+    "refi_basis": "All three charges satisfied in full on 6 Feb 2025",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07251691/charges",
+    "source_type": "companies_house",
+    "source_ref": "SPEP Limited 07251691, charges 1 to 3 (opened)",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2026-10-06",
+    "type": "register status mismatch",
+    "summary": "REPD lists this as 20.3 MWe biomass, but search snippets indicate a 2012 planning approval for eight containerised generators at Quarry Farm, Balderton, run as a diesel or biodiesel reserve (STOR) site, not a solid biomass plant. Not confirmed from an opened source.",
+    "severity": "medium",
+    "url": "https://www.abbeypowergen.com/",
+    "source_type": "snippet",
+    "source_ref": "https://www.abbeypowergen.com/ and companiesintheuk.co.uk Abbey Power Generation (search snippets)",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2024-07-30",
+    "type": "corporate",
+    "summary": "Companies House issued a first Gazette notice for compulsory strike-off of SPEP Limited; it was suspended on 17 Sep 2024 and discontinued on 25 Sep 2024, apparently for a late filing.",
+    "severity": "low",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07251691/filing-history",
+    "source_type": "companies_house",
+    "source_ref": "SPEP Limited 07251691, filing history GAZ1 30 Jul 2024, DISS40 25 Sep 2024 (opened)",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "SPEP Limited is the operator and is held through Abbey Power Solutions, Abbey Power Investments and Abbey Commercial Investments (Companies House PSC registers). The plant is likely a biodiesel reserve generation site rather than solid biomass (snippets only); acquisition date, plant-specific debt and operating incidents were not found."
+ },
+ {
+  "plant_id": 3504,
+  "parent_owner": "Kemble Water Holdings Ltd (consortium led by OMERS 31.8% and USS 19.7%)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "London",
+  "postcode": "IG11 0AD",
+  "owners": [
+   {
+    "owner": "Thames Water Utilities Ltd (operator and owner of Beckton STW), ultimate parent Kemble Water Holdings Ltd",
+    "note": "Thames Water states Kemble Water Holdings is its ultimate parent, owned by pension and sovereign funds: OMERS 31.777%, USS 19.710%, ADIA 9.9%, BCI 8.706%, Hermes GPE 8.699%, CIC 8.688%, QIC 5.352%, Aquila 4.996%, PFZW 2.172%. The plant was built by Thames Water as part of the Beckton thermal hydrolysis scheme (Cambi THP).",
+    "url": "https://www.thameswater.co.uk/about-us/governance/our-structure",
+    "source_type": "url_page",
+    "source_ref": "https://www.thameswater.co.uk/about-us/governance/our-structure",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-03-20",
+    "type": "group financial distress",
+    "summary": "Thames Water is reviewing a creditor-led recapitalisation proposal from London & Valley Water (c. GBP 3.35bn new equity, up to GBP 6.55bn new debt, 30% write-down of Class A debt, existing equity written off). This could change the ultimate owner of the plant; the final outcome was not confirmed.",
+    "severity": "high",
+    "url": "https://www.watermagazine.co.uk/2026/03/20/thames-water-considers-creditor-led-recapitalisation-proposal/",
+    "source_type": "snippet",
+    "source_ref": "https://www.watermagazine.co.uk/2026/03/20/thames-water-considers-creditor-led-recapitalisation-proposal/",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Beckton STW enhanced sludge digestion (Cambi thermal hydrolysis with CHP) is part of Thames Water's sewage works, so it is a captive utility asset and not separately transactable. Thames Water's group is in a creditor-led recapitalisation that may change ownership; no plant-specific outages or financing found, and the REPD record does not give an acquisition date."
+ },
+ {
+  "plant_id": 3512,
+  "parent_owner": null,
+  "parent_owner_confidence": null,
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Haverton Hill, Billingham",
+  "owners": [
+   {
+    "owner": "O2N Energy (Billingham) LLP (joint venture of Scott Brothers Group and O2N / Old 2 New)",
+    "stake": null,
+    "from": "2010-03-11",
+    "to": "2023-06-20",
+    "note": "Project vehicle, incorporated 11 Mar 2010 as Impetus Energy LLP and dissolved 20 Jun 2023. Teesside Live (2012) describes the plant as a JV between Scott Brothers Group and O2N, and says Scott Brothers took a 25% stake in O2N; split in the LLP itself not found.",
+    "url": "https://www.gazettelive.co.uk/business/business-news/75m-waste-to-energy-plant-plan-billingham-3668980",
+    "source_type": "url_page",
+    "source_ref": "https://www.gazettelive.co.uk/business/business-news/75m-waste-to-energy-plant-plan-billingham-3668980",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Scott Bros. Enterprises Limited (landowner of the Haverton Hill site)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Held the project site in Dec 2020 and granted EQTEC subsidiary Haverton WTV Limited a call option to buy it for GBP 8.6m. This is a later, separate gasification scheme at the same site, not the O2N plant.",
+    "url": "https://www.investegate.co.uk/announcement/rns/eqtec-cdi---eqt/agreement-to-acquire-billingham-project/6422910",
+    "source_type": "url_page",
+    "source_ref": "https://www.investegate.co.uk/announcement/rns/eqtec-cdi---eqt/agreement-to-acquire-billingham-project/6422910",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-10-06",
+    "type": "register out of date",
+    "summary": "REPD shows 12MW as operational (COD Dec 2013) but no evidence the O2N plant was ever built. The later EQTEC 25MWe gasification proposal for the same Haverton Hill site is still a development project, and the 2012 article said the O2N plant could be running by 2015.",
+    "severity": "high",
+    "url": "https://www.investegate.co.uk/announcement/rns/eqtec-cdi---eqt/agreement-to-acquire-billingham-project/6422910",
+    "source_type": "url_page",
+    "source_ref": "https://www.investegate.co.uk/announcement/rns/eqtec-cdi---eqt/agreement-to-acquire-billingham-project/6422910",
+    "confidence": "likely"
+   },
+   {
+    "date": "2023-06-20",
+    "type": "insolvency",
+    "summary": "The operator named in the register, O2N Energy (Billingham) LLP, was dissolved on 20 June 2023.",
+    "severity": "high",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/OC353170",
+    "source_type": "companies_house",
+    "source_ref": "OC353170 company overview, status Dissolved 20 June 2023",
+    "confidence": "verified"
+   },
+   {
+    "date": "2010-06-04",
+    "type": "planning refusal",
+    "summary": "A REPD-mirror listing shows the O2N 12MW EfW application (10/1464/EIS, submitted 4 Jun 2010) with permission refused. Seen only in a search result, page could not be opened.",
+    "severity": "high",
+    "url": "http://www.renewables-map.co.uk/deccpop.asp?deccrefid=6210",
+    "source_type": "snippet",
+    "source_ref": "http://www.renewables-map.co.uk/deccpop.asp?deccrefid=6210",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Almost certainly not an operating plant: O2N Energy (Billingham) LLP was a 2010 project vehicle (JV of Scott Brothers and O2N for a gasifier of 12 to 14MW), it was dissolved in June 2023, and the site is now the subject of a separate, unbuilt EQTEC 25MWe gasification scheme. No current owner, financing or sale date found; the planning refusal is unconfirmed."
+ },
+ {
+  "plant_id": 3514,
+  "parent_owner": "Levenseat Renewable Energy Holdings Ltd (Reeifii Luxembourg S.a.r.l. and Bih (Levenseat) Ltd, each 25-50%); plant company in administration since May 2025",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2020-06-03",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 96795,
+  "locality": "Forth, West Lothian/South Lanarkshire border",
+  "postcode": "ML11 8EP",
+  "owners": [
+   {
+    "owner": "Levenseat Renewable Energy Ltd (SC480543), owned via Levenseat Renewable Energy Holdings Ltd (SC497284). Original equity: UK Waste & Resource & Energy Investments (Foresight, with UK Green Investment Bank), Zouk Capital and Levenseat Ltd",
+    "from": "2015-03-23",
+    "to": "2020-06-03",
+    "note": "Equity investment announced at financial close of the GBP111m project. Foresight vehicle UK Wrei (LP) Ltd was a >25% PSC of the holdings company from Aug 2017 until it ceased on 3 Jun 2020.",
+    "url": "https://www.greeninvestmentgroup.com/en/news/2015/scotland-set-for-new-first-of-kind-gbp111m-recycling-and-waste-plant.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.greeninvestmentgroup.com/en/news/2015/scotland-set-for-new-first-of-kind-gbp111m-recycling-and-waste-plant.html",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Bih (Levenseat) Ltd (Bioenergy Infrastructure Group) and Reeifii Luxembourg S.a.r.l., each more than 25% and up to 50% of Levenseat Renewable Energy Holdings Ltd",
+    "from": "2020-06-03",
+    "note": "Companies House PSC register shows Bih (Levenseat) Ltd notified 3 Jun 2020, replacing UK Wrei (LP) Ltd; Reeifii Luxembourg notified 6 Apr 2016. The link of Bih (Levenseat) to Bioenergy Infrastructure Group and of Reeifii to Zouk is inferred from press (letsrecycle: BIG and Zouk invested) and not stated on the PSC page. Exact percentages not given.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC497284/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "SC497284 persons with significant control page, opened",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Administrators Sarah O'Toole and Edward Williams (PwC) for Levenseat Renewable Energy Ltd",
+    "from": "2025-05-15",
+    "note": "Company entered administration on 15 May 2025 (STV, 16 May 2025: 'on Thursday'). Wikiwaste reports operation and maintenance then passed to Cobalt Energy and the site was renamed Gladsmuir/Gladmuir Resource Recovery Facility; the sale or ownership transfer of the asset itself was not found. PwC administration page returned 403.",
+    "url": "https://news.stv.tv/scotland/more-than-50-jobs-lost-as-lanarkshire-renewable-energy-firm-collapses",
+    "source_type": "url_page",
+    "source_ref": "https://news.stv.tv/scotland/more-than-50-jobs-lost-as-lanarkshire-renewable-energy-firm-collapses",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Cobalt Energy (operator and maintenance only)",
+    "from": "2025-05-01",
+    "note": "Wikiwaste says O&M taken over by Cobalt Energy after administration; start date approximate and ownership not stated. Confirm with administrators' proposals.",
+    "url": "https://wikiwaste.org.uk/index.php/Levenseat_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Levenseat_EfW",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Levenseat Renewable Energy Ltd",
+    "lender": "Investec Bank plc",
+    "instrument": "Senior project finance debt for the GBP111m plant",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2015-03-23",
+    "refi": null,
+    "refi_basis": "Amount and tenor not found; loan was deferred to June 2025 per STV, then company went into administration",
+    "url": "https://www.greeninvestmentgroup.com/en/news/2015/scotland-set-for-new-first-of-kind-gbp111m-recycling-and-waste-plant.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.greeninvestmentgroup.com/en/news/2015/scotland-set-for-new-first-of-kind-gbp111m-recycling-and-waste-plant.html",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Levenseat Renewable Energy Ltd",
+    "lender": "Investec Bank PLC (Security Agent)",
+    "instrument": "Fixed and floating charges, 26 registered, latest five created 2 to 16 Apr 2025 (earlier ones incl. 4 Apr 2024), all outstanding",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2025-04-02",
+    "refi": null,
+    "refi_basis": "Security was re-granted in Apr 2025 shortly before administration; deferral of loan repayments to June 2025 per STV, not refinanced",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC480543/charges",
+    "source_type": "companies_house",
+    "source_ref": "SC480543 charges page, opened, charge codes 0020 to 0026",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2025-05-15",
+    "type": "insolvency",
+    "summary": "Levenseat Renewable Energy Ltd entered administration (PwC); 52 of 89 jobs cut immediately. Accounts showed a loss above GBP28m in 2023 and loan repayments deferred to June 2025; investment hoped for was not secured.",
+    "severity": "high",
+    "url": "https://news.stv.tv/scotland/more-than-50-jobs-lost-as-lanarkshire-renewable-energy-firm-collapses",
+    "source_type": "url_page",
+    "source_ref": "https://news.stv.tv/scotland/more-than-50-jobs-lost-as-lanarkshire-renewable-energy-firm-collapses",
+    "confidence": "verified"
+   },
+   {
+    "date": "2023-05-01",
+    "type": "outage / technology",
+    "summary": "STV reports outages from machine failures that needed significant funding to fix. Metso Outotec exited the UK EfW market and Levenseat took gasifier operation in-house on 1 May 2023; Outotec was in litigation with the EPC contractor over UK gasifier plants. A refractory repair is reported by ENDS (paywalled, not opened).",
+    "severity": "high",
+    "url": "https://www.letsrecycle.com/news/levenseat-brings-efw-in-house-as-outotec-exits/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/levenseat-brings-efw-in-house-as-outotec-exits/",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "REPD shows 17MWe operational, but the plant is a 12.3MWe fluidised-bed gasifier; the plant company went into administration in May 2025 and Cobalt Energy now operates it as Gladmuir RRF (wikiwaste, unverified on ownership). Current legal owner of the asset after administration, and loan amount, not found."
+ },
+ {
+  "plant_id": 3518,
+  "parent_owner": "J G Pears (Holdings) Limited (Pears family, Jeffrey Gordon Pears)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2016-04-06",
+  "owner_since_confidence": "likely",
+  "locality": "Low Marnham, Newark, Nottinghamshire",
+  "postcode": "NG23 6SP",
+  "heat_offtaker": "JG Pears animal rendering facility (steam and electricity on site, balance exported to grid)",
+  "owners": [
+   {
+    "owner": "J G Pears (Holdings) Limited",
+    "stake": 75,
+    "from": "2016-04-06",
+    "note": "Companies House PSC register for J G Pears Power Limited (09998472, incorporated 10 Feb 2016) lists J G Pears (Holdings) Limited (02892602) as the only PSC with 75% or more of shares and votes, notified 6 April 2016. Stake shown is the minimum band; exact figure not stated. Plant owner per AET press release is JG Pears Power Ltd.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09998472/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "09998472 persons with significant control page, opened Oct 2026",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "J G Pears Power Limited",
+    "lender": "Rabobank; EKF (Danish export credit agency)",
+    "instrument": "Project finance for the biomass CHP plant (terms not published)",
+    "amount": null,
+    "ccy": null,
+    "created": null,
+    "refi": null,
+    "refi_basis": "Amount, date and tenor not found, so no refinancing date estimated",
+    "url": "https://www.aet-biomass.com/en-gb/home/references/biomass-fired-plants/jg-pears-newark.aspx",
+    "source_type": "url_page",
+    "source_ref": "https://www.aet-biomass.com/en-gb/home/references/biomass-fired-plants/jg-pears-newark.aspx",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2014-08-14",
+    "type": "odour complaints",
+    "summary": "More than 100 villagers told the local MP that odour from the JG Pears rendering plant at Low Marnham made life intolerable; the company installed a thermal oxidiser costing over 1.5m GBP. The CHP planning application had been refused by Bassetlaw District Council and was on appeal at the time.",
+    "severity": "medium",
+    "url": "https://www.newarkadvertiser.co.uk/news/rendering-plant-stink-makes-life-intolerable-9030302/",
+    "source_type": "url_page",
+    "source_ref": "https://www.newarkadvertiser.co.uk/news/rendering-plant-stink-makes-life-intolerable-9030302/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-08-01",
+    "type": "fire and odour complaints",
+    "summary": "A small fire damaged electrical cables supplying and controlling the plant, causing several days of outage on one process line. JG Pears reported 49 odour complaints in July 2024 and 56 in August 2024 (18% substantiated) and notified the Environment Agency, which visited site. Temporary electrical fixes were in place pending a permanent repair.",
+    "severity": "medium",
+    "url": "https://normantonontrentparishcouncil.gov.uk/wp-content/uploads/2024/09/240917-Update-from-JG-Pears-for-NORMANTON-ON-TRENT-WITH-MARNHAM-PARISH-COUNCIL-1.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://normantonontrentparishcouncil.gov.uk/wp-content/uploads/2024/09/240917-Update-from-JG-Pears-for-NORMANTON-ON-TRENT-WITH-MARNHAM-PARISH-COUNCIL-1.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The 12 MWe MBM-fired CHP plant (AET boiler, online 2018) matches the register row and is owned by JG Pears Power Ltd, itself controlled by J G Pears (Holdings) Ltd; it feeds the adjacent rendering plant. Rabobank and EKF are named only as investors in an AET page, with no amount or date, and no financing filings or EA enforcement records were checked."
+ },
+ {
+  "plant_id": 3520,
+  "parent_owner": "Severn Trent Plc (via Severn Trent Water Ltd)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Minworth, Sutton Coldfield",
+  "postcode": "B76 9DP",
+  "grid_injection": 1,
+  "heat_offtaker": null,
+  "owners": [
+   {
+    "owner": "Severn Trent Water Ltd (subsidiary of Severn Trent Plc)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Permit holder and licence holder for Minworth STW (permit AB3604TV, company number 02366686). Accounts refer to an 'ultimate parent' issuing hybrid debt, consistent with Severn Trent Plc, but the parent name was not read directly in the pages opened. Long-standing regulated water company, so no acquisition date applies.",
+    "url": "https://www.wastebook.co.uk/directory/minworth-sewage-treatment-works-severn-trent-water-limited/",
+    "source_type": "url_page",
+    "source_ref": "https://www.wastebook.co.uk/directory/minworth-sewage-treatment-works-severn-trent-water-limited/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Severn Trent Water Ltd (group-level, covers the plant)",
+    "lender": "Bond investors (EMTN programme)",
+    "instrument": "4.0% EUR bond due 2034 issued Feb 2024",
+    "amount": 500000000,
+    "ccy": "EUR",
+    "created": "2024-02-01",
+    "refi": "2034-02-01",
+    "refi_basis": "Bond maturity year from search result; exact date not confirmed",
+    "url": "https://www.severntrent.com/investors/debt-investors/emtn-programme/",
+    "source_type": "snippet",
+    "source_ref": "https://www.severntrent.com/investors/debt-investors/emtn-programme/",
+    "confidence": "unverified"
+   },
+   {
+    "borrower": "Severn Trent Water Ltd (group-level, covers the plant)",
+    "lender": "Bond investors (EMTN programme)",
+    "instrument": "5.875% GBP bond due 2038 issued Jul 2024",
+    "amount": 350000000,
+    "ccy": "GBP",
+    "created": "2024-07-01",
+    "refi": "2038-07-01",
+    "refi_basis": "Bond maturity year from search result; exact date not confirmed",
+    "url": "https://www.severntrent.com/investors/debt-investors/emtn-programme/",
+    "source_type": "snippet",
+    "source_ref": "https://www.severntrent.com/investors/debt-investors/emtn-programme/",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [],
+  "permit_tonnes_pa": null,
+  "summary": "Register row matches the Severn Trent Water sludge digestion and CHP plant at Minworth STW (spelt Minsworth in REPD), which also injects biomethane to the gas grid; the CHP is reported as c.8 MW against 9.7 MW in REPD. No plant-specific incidents, financing or acquisition date found; the financing entries are group-level bond snippets only."
+ },
+ {
+  "plant_id": 3549,
+  "parent_owner": null,
+  "parent_owner_confidence": null,
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 36000,
+  "locality": "Roborough, Plymouth",
+  "postcode": "PL6 7BW",
+  "owners": [
+   {
+    "owner": "Dartmoor Bio Power Ltd (company 09489779), operator and project company; ultimate shareholder not found",
+    "from": "2015-03-13",
+    "to": "2019-09-04",
+    "note": "Incorporated 13 March 2015; administrators (RSM) appointed 4 Sep 2019; dissolved 23 Dec 2020. Shareholders not shown on the pages opened.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09489779",
+    "source_type": "companies_house",
+    "source_ref": "Company 09489779 overview page, opened",
+    "confidence": "verified"
+   },
+   {
+    "owner": "CoGen (developer, continues to provide management services per Wikiwaste snippet)",
+    "from": null,
+    "to": null,
+    "note": "Wikiwaste search snippet says the plant was developed by CoGen, which provides management services, and that Zebec was operator until 2019. The Wikiwaste page returned 404 when opened, so this is unconfirmed. CoGen itself reportedly entered administration in Nov 2023 (MRW lists Dartmoor among its sites). Developer is not proof of ownership.",
+    "url": "https://wikiwaste.org.uk/index.php/Plymouth_Timber_Resource_Recovery_Plant",
+    "source_type": "snippet",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Plymouth_Timber_Resource_Recovery_Plant",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2019-09-04",
+    "type": "insolvency",
+    "summary": "Administrators from RSM Restructuring Advisory were appointed to Dartmoor Bio Power Limited (nature of business: power plant; trading address Haxter Close, Plymouth PL6 7BP).",
+    "severity": "high",
+    "url": "https://www.thegazette.co.uk/notice/3382481",
+    "source_type": "url_page",
+    "source_ref": "https://www.thegazette.co.uk/notice/3382481 (London Gazette notice 3382481, 11 Sep 2019)",
+    "confidence": "verified"
+   },
+   {
+    "date": "2020-12-23",
+    "type": "insolvency",
+    "summary": "Dartmoor Bio Power Limited was dissolved. The register row (REPD, operational, operator 'Dartmoor Bio Power 1') may be out of date or refer to a successor; who runs the plant now, if anyone, was not found.",
+    "severity": "high",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09489779",
+    "source_type": "companies_house",
+    "source_ref": "Company 09489779 overview page, opened",
+    "confidence": "verified"
+   },
+   {
+    "date": "2023-11-03",
+    "type": "developer insolvency",
+    "summary": "Gasification developer Cogen, which lists Dartmoor among its sites, was reported to have entered administration. The article does not say Cogen owned the Dartmoor plant.",
+    "severity": "medium",
+    "url": "https://www.mrw.co.uk/news/gasification-firm-cogen-calls-in-administrator-03-11-2023/",
+    "source_type": "url_page",
+    "source_ref": "https://www.mrw.co.uk/news/gasification-firm-cogen-calls-in-administrator-03-11-2023/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Dartmoor Bio Power (Plymouth Timber Resource Recovery Plant, Roborough, waste wood gasification) had its operating company put into administration in Sep 2019 and dissolved in Dec 2020, so the REPD status of operational is doubtful. Current owner, any successor operator, financing and whether the plant runs today were not found; the separate O-Gen Plymtrek wood plant at Belliver Way is a different project."
+ },
+ {
+  "plant_id": 3571,
+  "parent_owner": "Kemble Water Holdings Limited (ultimate parent of Thames Water Utilities Ltd; shareholders include OMERS, USS, ADIA, BCIMC and others)",
+  "owner_since": null,
+  "locality": "London",
+  "postcode": "TW7 7LR",
+  "grid_injection": 1,
+  "parent_owner_confidence": "verified",
+  "owner_since_confidence": null,
+  "owners": [
+   {
+    "owner": "Middlesex County Council (built the works 1931-36)",
+    "to": null,
+    "note": "Original builder; works now operated by Thames Water. Date of transfer to the water authority and later privatisation not checked.",
+    "url": "https://en.wikipedia.org/wiki/Mogden_Sewage_Treatment_Works",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Mogden_Sewage_Treatment_Works",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Thames Water Utilities Limited (owned via Kemble Water Holdings Limited)",
+    "note": "Regulated owner and operator of the site. Kemble Water Holdings is owned by a consortium of pension and sovereign funds (OMERS 31.777%, USS 19.710%, ADIA subsidiary 9.900%, BCIMC 8.706%, Hermes GPE 8.699%, CIC 8.688%, QIC 5.352%, Aquila 4.996%, SPFZW 2.172%). A creditor-led recapitalisation by London & Valley Water was reported in 2026 and could change ownership; not confirmed.",
+    "url": "https://www.thameswater.co.uk/about-us/governance/our-structure",
+    "source_type": "url_page",
+    "source_ref": "https://www.thameswater.co.uk/about-us/governance/our-structure",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2020-10-03",
+    "type": "environmental discharge / enforcement",
+    "summary": "More than two billion litres of raw sewage were discharged from Mogden storm tanks on 3 and 4 October 2020 after heavy rain, and the Environment Agency opened an investigation in 2022.",
+    "severity": "high",
+    "url": "https://twickenham.nub.news/n/environment-watchdogs-launch-investigation-into-mogden-river-sewage-scandal",
+    "source_type": "url_page",
+    "source_ref": "https://twickenham.nub.news/n/environment-watchdogs-launch-investigation-into-mogden-river-sewage-scandal",
+    "confidence": "verified"
+   },
+   {
+    "date": "2011-01-01",
+    "type": "odour complaints",
+    "summary": "Hounslow served an odour abatement notice in 2001 and in 2011 residents won a court judgment that Thames Water had failed to manage odour; GBP 19,000 damages to ten people. Seen only in a search result summary.",
+    "severity": "medium",
+    "url": "https://en.wikipedia.org/wiki/Mogden_Sewage_Treatment_Works",
+    "source_type": "snippet",
+    "source_ref": "https://en.wikipedia.org/wiki/Mogden_Sewage_Treatment_Works",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2026-03-06",
+    "type": "owner financial distress",
+    "summary": "Thames Water's creditors (London & Valley Water) proposed a recapitalisation with large write-downs of existing debt and equity, with revised proposals reported in Sep 2026. Seen only in search results; the Water Magazine page returned 403.",
+    "severity": "high",
+    "url": "https://www.watermagazine.co.uk/2026/03/20/thames-water-considers-creditor-led-recapitalisation-proposal/",
+    "source_type": "snippet",
+    "source_ref": "https://www.watermagazine.co.uk/2026/03/20/thames-water-considers-creditor-led-recapitalisation-proposal/",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Mogden STW is a real sewage works in Isleworth (Hounslow) owned and operated by Thames Water Utilities Ltd under Kemble Water Holdings; the REPD 5.8 MWe matches the three 2 MWe MWM biogas CHP engines installed c.2016-17 (Edina describes them as 6 MW) and a biomethane gas-to-grid unit run with SGN was commissioned in Jan 2024. Date of current ownership, plant-specific financing and the outcome of the 2026 Thames Water recapitalisation were not confirmed."
+ },
+ {
+  "plant_id": 3572,
+  "parent_owner": "Steven Ripley (individual), with Mercuria as investor since 2021 (stake not disclosed)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Mepal, Chatteris, Cambridgeshire",
+  "postcode": "CB6 2AZ",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Steven Ripley (individual), through Pretoria Energy Co. Holdings",
+    "stake": null,
+    "from": "2012-01-01",
+    "to": null,
+    "note": "Johnston Carmichael (24 Dec 2018) states Pretoria Energy is owned by individual Steven Ripley. Pretoria Energy says it was founded in 2012 and that new investors joined in the 2018 to 2020 refinance. Founding year is the company start, not a recorded share date.",
+    "url": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "source_type": "url_page",
+    "source_ref": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Mercuria (commodity trader), investor in Pretoria Energy Group",
+    "stake": null,
+    "from": "2021-01-01",
+    "to": null,
+    "note": "Pretoria Energy and Mercuria both describe a 2021 Mercuria investment in the group. Stake size not disclosed, so it is unclear whether Mr Ripley still controls it. Mercuria also holds the newest registered charge over the Mepal company (Dec 2025).",
+    "url": "https://csr.mercuria.com/home/overview/partner-profiles/pretoria-energy-partner-profile/",
+    "source_type": "url_page",
+    "source_ref": "https://csr.mercuria.com/home/overview/partner-profiles/pretoria-energy-partner-profile/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Pretoria Energy Co. Holdings (Mepal and Chittering AD plants)",
+    "lender": "Allied Irish Bank (lead arranger), Aviva, IFM-controlled debt funds",
+    "instrument": "Bank loans and institutional debt, refinancing of two AD plants",
+    "amount": 120000000,
+    "ccy": "GBP",
+    "created": "2018-12-01",
+    "refi": null,
+    "refi_basis": "Tenor not found. Companies House shows the AIB security trustee charge (Dec 2018) was satisfied on 18 Dec 2025, so this debt appears to have been repaid or replaced by then.",
+    "url": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "source_type": "url_page",
+    "source_ref": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Pretoria Energy Company (Mepal) Limited",
+    "lender": "Mercuria Energy Trading S.A.",
+    "instrument": "Debenture style charge (first legal mortgage over its rights), facility terms not published",
+    "amount": null,
+    "ccy": null,
+    "created": "2025-12-05",
+    "refi": null,
+    "refi_basis": "Terms not found. An earlier Mercuria charge (14 Dec 2021) was satisfied on 18 Dec 2025.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09409259/charges",
+    "source_type": "companies_house",
+    "source_ref": "Company 09409259, charge code 0940 9259 0007, created 5 Dec 2025, delivered 9 Dec 2025, outstanding; opened charges page",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": null,
+    "type": "odour complaint",
+    "summary": "Reports on the planned Mepal extension say Chatteris Town Council and residents object, citing continuing odour, traffic and dirty roads. The odour claim was seen only in a search result snippet.",
+    "severity": "medium",
+    "url": "https://www.cambsnews.co.uk/news/major-expansion-of-mepal-anaerobic-digester-sparks-debate-over-traffic-odour-and-biodiversity/40728/",
+    "source_type": "snippet",
+    "source_ref": "https://www.cambsnews.co.uk/news/major-expansion-of-mepal-anaerobic-digester-sparks-debate-over-traffic-odour-and-biodiversity/40728/",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Mepal CHP (Pretoria Energy Company, Chatteris, 14.4 MWe per REPD) is run by a group owned by Steven Ripley as of 2018, with Mercuria investing in 2021 at an undisclosed stake and now holding the latest charge over the Mepal company; the site also exports biomethane and has been extended in 2024 and 2025. Date of current ownership, Mercuria's stake and loan tenors were not found, and the odour complaints are unconfirmed snippets."
+ },
+ {
+  "plant_id": 3583,
+  "parent_owner": "Drax Group plc",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Drax, Selby, North Yorkshire",
+  "owners": [
+   {
+    "owner": "Drax Group plc (via Drax Power Ltd)",
+    "stake": 100,
+    "note": "Drax Group's own results and press releases describe Drax Power Station as owned and operated by Drax Group; the register row names Drax Power as operator. Date Drax Group acquired the station was not confirmed. Unit 4 returned to service as a biomass unit in 2018 after a c.GBP 30 million conversion, per Drax press release snippets.",
+    "url": "https://www.drax.com/investors/fourth-biomass-unit-conversion/",
+    "source_type": "snippet",
+    "source_ref": "https://www.drax.com/investors/fourth-biomass-unit-conversion/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Drax Group plc",
+    "lender": null,
+    "instrument": "Revolving credit facility, extended to 2028 (group level, covers Drax Power Station)",
+    "amount": 450000000,
+    "ccy": "GBP",
+    "created": null,
+    "refi": "2028-12-31",
+    "refi_basis": "Group RCF extended to 2028 per FY2025 results; exact month not found",
+    "url": "https://www.drax.com/financial-news/full-year-results-for-the-twelve-months-ended-31-december-2025/",
+    "source_type": "url_page",
+    "source_ref": "https://www.drax.com/financial-news/full-year-results-for-the-twelve-months-ended-31-december-2025/",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Drax Group plc",
+    "lender": null,
+    "instrument": "New term loan, SONIA plus margin, undrawn at 31 Dec 2025 (group level)",
+    "amount": 190000000,
+    "ccy": "GBP",
+    "created": "2025-12-01",
+    "refi": null,
+    "refi_basis": "Maturity not found; reported option to extend by two six-month periods",
+    "url": "https://www.drax.com/financial-news/full-year-results-for-the-twelve-months-ended-31-december-2025/",
+    "source_type": "url_page",
+    "source_ref": "https://www.drax.com/financial-news/full-year-results-for-the-twelve-months-ended-31-december-2025/",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2024-08-29",
+    "type": "enforcement",
+    "summary": "Ofgem closed its Renewables Obligation investigation into Drax Power Ltd after finding two breaches over biomass profiling data for 2021/22 (Canadian forestry type and sawlog data). Drax paid GBP 25 million into the voluntary redress fund and agreed an independent supply chain audit; Ofgem found no evidence of incorrect ROC issuance.",
+    "severity": "medium",
+    "url": "https://www.ofgem.gov.uk/publications/ofgem-decision-investigation-drax-power-limited",
+    "source_type": "url_page",
+    "source_ref": "https://www.ofgem.gov.uk/publications/ofgem-decision-investigation-drax-power-limited",
+    "confidence": "verified"
+   },
+   {
+    "date": "2017-12-20",
+    "type": "outage",
+    "summary": "Rail unloading facilities at the station were hit by a fire, restricting biomass deliveries and reducing output on two biomass units. This predates Unit 4's biomass conversion, so it is station-level context only.",
+    "severity": "low",
+    "url": "https://biomassmagazine.com/articles/drax-reports-biomass-outage-following-rail-related-fire-14919",
+    "source_type": "snippet",
+    "source_ref": "https://biomassmagazine.com/articles/drax-reports-biomass-outage-following-rail-related-fire-14919",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Unit 4 is one 645 MW unit at the Drax Power Station (Selby, North Yorkshire), owned by listed Drax Group plc; not a standalone plant. Date of Drax Group acquisition, specific lenders and facility maturities were not found.",
+  "heat_offtaker": null
+ },
+ {
+  "plant_id": 3585,
+  "parent_owner": "GFG Alliance (Sanjeev Gupta), via Liberty Steel Dalzell / SIMEC-Liberty House",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2016-04-01",
+  "owner_since_confidence": "likely",
+  "owners": [
+   {
+    "owner": "Tata Steel UK",
+    "to": "2016-04-01",
+    "note": "Closed and mothballed the Dalzell and Clydebridge works in 2015.",
+    "url": "https://www.wsws.org/en/articles/2016/10/10/dalz-o10-o10.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.wsws.org/en/articles/2016/10/10/dalz-o10-o10.html",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Liberty House Group (GFG Alliance)",
+    "from": "2016-04-01",
+    "note": "Took over the Lanarkshire steelworks in April 2016 and reopened Dalzell in 2016. This is the steelworks owner; the page does not mention the biomass plant. Exact completion date not confirmed (April 2016 is from the WSWS account).",
+    "url": "https://www.wsws.org/en/articles/2016/10/10/dalz-o10-o10.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.wsws.org/en/articles/2016/10/10/dalz-o10-o10.html",
+    "confidence": "likely"
+   },
+   {
+    "owner": "GFG Alliance (Liberty Steel Dalzell)",
+    "from": "2016-04-01",
+    "note": "Business Insider (12 Sep 2025) states GFG owns the Liberty Steel Dalzell steelworks in Motherwell.",
+    "url": "https://www.insider.co.uk/news/mckee-says-gfgs-lochaber-dalzell-35891207",
+    "source_type": "url_page",
+    "source_ref": "https://www.insider.co.uk/news/mckee-says-gfgs-lochaber-dalzell-35891207",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Liberty Steel Dalzell",
+    "lender": "Scottish Enterprise",
+    "instrument": "Working capital loan (steelworks, not the biomass plant)",
+    "amount": 7000000,
+    "ccy": "GBP",
+    "created": null,
+    "refi": null,
+    "refi_basis": "Repayment under discussion as of Sep 2025; no maturity date found",
+    "url": "https://www.insider.co.uk/news/mckee-says-gfgs-lochaber-dalzell-35891207",
+    "source_type": "url_page",
+    "source_ref": "https://www.insider.co.uk/news/mckee-says-gfgs-lochaber-dalzell-35891207",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": null,
+    "type": "plant not built",
+    "summary": "The REPD row (ref 6731) is listed as operational, but a search result from the energy-development database energymap.co.uk shows the planning determination as 'Permission refused' (and also mentions withdrawn). I could not open that page. No evidence found that any 17MW biomass plant was built at Dalzell. Treat as likely not operating; confirm with North Lanarkshire Council planning records.",
+    "severity": "high",
+    "url": "https://energymap.co.uk/deccpop.asp?deccrefid=6731",
+    "source_type": "snippet",
+    "source_ref": "https://energymap.co.uk/deccpop.asp?deccrefid=6731",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2024-08-01",
+    "type": "site shutdown",
+    "summary": "The Dalzell steel plate mill paused production in August 2024 and staff were furloughed; the Scottish Government said in Sep 2025 that it was not operational, with a restart plan. The parent GFG Alliance has been refinancing debts since the 2021 Greensill collapse.",
+    "severity": "high",
+    "url": "https://www.insider.co.uk/news/mckee-says-gfgs-lochaber-dalzell-35891207",
+    "source_type": "url_page",
+    "source_ref": "https://www.insider.co.uk/news/mckee-says-gfgs-lochaber-dalzell-35891207",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-12-26",
+    "type": "restart",
+    "summary": "Dalzell mill resumed operations to fulfil a UK government order, with slab supplied by British Steel. Nothing in the report concerns a biomass plant.",
+    "severity": "low",
+    "url": "https://www.steelorbis.com/steel-news/latest-news/liberty-steel-dalzell-restarts-operations-with-uk-government-order-1426425.htm",
+    "source_type": "url_page",
+    "source_ref": "https://www.steelorbis.com/steel-news/latest-news/liberty-steel-dalzell-restarts-operations-with-uk-government-order-1426425.htm",
+    "confidence": "verified"
+   }
+  ],
+  "locality": "Motherwell",
+  "postcode": "ML1 1PU",
+  "summary": "The register shows a 17MW biomass plant at the Dalzell steelworks, but a snippet of the planning record shows permission refused and no evidence it was built, so the REPD operational status looks out of date. The steelworks is owned by GFG Alliance (Liberty), which has had financial stress and a production pause in 2024-25; biomass plant ownership and financing were not found separately."
+ },
+ {
+  "plant_id": 3646,
+  "parent_owner": "Barclays PLC (Barclays Bank PLC; operator Barclays Execution Services Limited)",
+  "owner_since": "2018-07-23",
+  "locality": "Tradeston, Glasgow",
+  "postcode": "G5 8DP",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "unverified",
+  "owners": [
+   {
+    "owner": "Drum Property Group Ltd (developer)",
+    "to": "2018-07-23",
+    "note": "Developed the campus at Buchanan Wharf and sold it to Barclays; Wikipedia lists Drum Property as owner, Barclays press release says Barclays agreed to purchase the campus from Drum. Drum's own page describes the campus as space 'for Barclays Bank Plc'.",
+    "url": "https://home.barclays/news/press-releases/2018/07/barclays-invests-for-growth-in-glasgow/",
+    "source_type": "url_page",
+    "source_ref": "https://home.barclays/news/press-releases/2018/07/barclays-invests-for-growth-in-glasgow/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Barclays Bank PLC (Barclays Group); site operated by Barclays Execution Services Limited",
+    "from": "2018-07-23",
+    "note": "Press release of 23 July 2018 says Barclays agreed to purchase the campus development; the date is the agreement date, completion of purchase not seen. Register operator name is Barclays Execution Services Limited, a group service company. Wikipedia still lists Drum Property as owner, which conflicts; the Barclays press release is rated more reliable as a primary statement. Companies House/Land Register title would confirm.",
+    "url": "https://home.barclays/news/press-releases/2018/07/barclays-invests-for-growth-in-glasgow/",
+    "source_type": "url_page",
+    "source_ref": "https://home.barclays/news/press-releases/2018/07/barclays-invests-for-growth-in-glasgow/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2022-01-01",
+    "type": "register mismatch",
+    "summary": "REPD lists this as an operational EfW, but the Energy Sustainability Centre on Plot 4 is a campus energy centre using air source heat pumps, a thermal store and solar panels to serve three office buildings, not a waste or bioenergy plant. No biomass or waste combustion was found. Not a business-development target for bioenergy.",
+    "severity": "high",
+    "url": "https://publications.aecom.com/sustainable-legacies/projects/powering-barclays-buildings-sustainably-in-glasgow/",
+    "source_type": "url_page",
+    "source_ref": "https://publications.aecom.com/sustainable-legacies/projects/powering-barclays-buildings-sustainably-in-glasgow/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The register row is a false match: the Plot 4 Energy Sustainability Centre at Barclays' Tradeston campus (Glasgow G5 8DP) is a heat pump and solar energy centre, not an EfW or bioenergy plant. Barclays agreed to buy the campus from Drum in July 2018; completion of purchase and capacity were not found."
+ },
+ {
+  "plant_id": 4265,
+  "parent_owner": "BioteCH4 group (R100 Energy Limited)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Spaldington, Howden, East Yorkshire",
+  "postcode": "DN14 7NG",
+  "grid_injection": 1,
+  "permit_tonnes_pa": 90000,
+  "owners": [
+   {
+    "owner": "R100 Energy Limited (BioteCH4 group)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Edina case study says R100 Energy (8-acre site, Goole/Howden area) is owned and operated by BioteCH4. EA permit EPR/GP3439QK for the Spaldington AD Facility is held by R100 Energy Limited (issued 21/10/2019). The case study is a third-party page and the site match to the Bubwith R100 register entry is by name and location, so rated likely. Ultimate shareholders of BioteCH4 not found.",
+    "url": "https://www.edina.eu/case-studies/r100-energy",
+    "source_type": "url_page",
+    "source_ref": "https://www.edina.eu/case-studies/r100-energy",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Air Liquide UK Ltd (biomethane producer and certificate holder, likely operator of the gas upgrading unit)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Green Gas Certification Scheme lists the producer as Air Liquide UK Ltd (Bubwith R100). The EA permit says biogas is upgraded in a biomethane upgrade unit for grid injection. Air Liquide's exact role (owner of the upgrader vs. contract operator) is not stated in any source opened.",
+    "url": "https://www.greengas.org.uk/certificates/producer-information",
+    "source_type": "url_page",
+    "source_ref": "https://www.greengas.org.uk/certificates/producer-information",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "The register row (Air Liquide UK Ltd, Bubwith R100) matches the R100 Energy AD plant at Spaldington Airfield, Howden (DN14 7NG), a 90,000 t/pa food waste plant owned and operated by BioteCH4, with Air Liquide as the certified biomethane producer (probably the upgrading unit operator); the Bubwith to Spaldington link is by name and nearby location, not stated directly. Ownership date, BioteCH4's ultimate shareholders, financing and operating problems were not found."
+ },
+ {
+  "plant_id": 4271,
+  "parent_owner": "Privilege Investments Limited (Privilege Finance), via Attleborough AD Plant Ltd",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2018-04-10",
+  "owner_since_confidence": "verified",
+  "grid_injection": 1,
+  "locality": "Attleborough",
+  "postcode": "NR17 1AE",
+  "owners": [
+   {
+    "owner": "Steven and Sarah Suggitt (farm owners, each more than 25% up to 50%)",
+    "from": "2016-04-06",
+    "to": "2018-04-10",
+    "note": "Company was then S S Agri Power Ltd (renamed Attleborough Eco Electric Ltd in Jan 2020). PSC register shows both Suggitts ceased on 10 Apr 2018.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05106872/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 05106872, persons with significant control page (opened)",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Privilege Investments Limited (company 07501320), direct",
+    "stake": "75% or more",
+    "from": "2018-04-10",
+    "to": "2018-12-18",
+    "note": "Direct PSC until share transfer to Attleborough AD Plant Ltd.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05106872/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 05106872, persons with significant control page (opened)",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Attleborough AD Plant Limited (company 11572510), itself 75% or more owned by Privilege Investments Limited since 2020-11-25 (previously Privilege Holdings Limited)",
+    "stake": "75% or more",
+    "from": "2018-12-18",
+    "note": "Current PSC of Attleborough Eco Electric Ltd. Press describes the plant as owned by Privilege Investments; Eco Verde Energy operates it from 1 Dec 2020 and holds the environmental permit.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11572510/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Companies 05106872 and 11572510, persons with significant control pages (opened); bioenergy-news.com article on Eco Verde Energy (opened)",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Attleborough Eco Electric Ltd (as S S Agri Power Ltd)",
+    "lender": "Eastern Counties Finance Limited",
+    "instrument": "Debenture (charge over Crowshall Farm, Attleborough), still shown as outstanding",
+    "amount": null,
+    "ccy": null,
+    "created": "2011-03-04",
+    "refi": null,
+    "refi_basis": "Amount and term not shown on the charges page; may be stale as the original agricultural plant has since been refinanced or upgraded. Check the charge documents.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/05106872/charges",
+    "source_type": "companies_house",
+    "source_ref": "Company 05106872, charges page (opened)",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [],
+  "summary": "Register row is the operating company (Attleborough Eco Electric Ltd, Norfolk), controlled by Privilege Investments via Attleborough AD Plant Ltd, with Eco Verde Energy as operator; the plant is a 100,000 t/yr food waste AD plus older farm AD with grid biomethane, opened Jan 2023 after a GBP 17m upgrade. No operating problems found, and no current plant-level debt facility was found (only an old 2011 charge to Eastern Counties Finance still outstanding)."
  }
 ]
