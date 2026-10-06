@@ -1,0 +1,426 @@
+﻿plant_id,country,category,plant_name,operator_name,parent_owner,capacity_mwe,biomethane_mw_gas,status,cod_date,region,locality,postcode,primary_source,primary_source_id
+2593,GB,Biomass,Goosey Lodge Industrial Estate,Ancillary Components,,16.000,,Operational,2000-12-31,Eastern,Bedfordshire,NN10 9LU,REPD,49
+2600,GB,Biomass,Western Wood Energy Plant,"Western Bioenergy, affiliate of Western Log",,14.000,,Operational,2009-11-01,Wales,West Glamorgan,,REPD,57
+2604,GB,Biomass,Westfield Biomass Power Station,EPR Scotland,,12.500,,Operational,2000-08-21,Scotland,Fife,,REPD,62
+2617,GB,Biomass,Elean Business Park Biomass Plant,European Development Corporation,,40.000,,Operational,2000-09-22,Eastern,Cambridgeshire,,REPD,78
+2620,GB,Biomass,Eye Biomass Plant,South Western Power (NOVERA),,14.300,,Operational,1992-07-01,Eastern,Suffolk,,REPD,82
+2640,GB,Biomass,Ridham CHP Plant,"MVV Energie, Ridham Dock",,25.000,,Operational,2016-04-18,South East,Kent,ME9 8SR,REPD,106
+2646,GB,Biomass,Margam Green Energy Plant,Glennmont Partners,,40.000,,Operational,2017-12-01,Wales,West Glamorgan,,REPD,113
+2648,GB,Biomass,Lynemouth Power Station,Lynemouth Power,,420.000,,Operational,2018-11-21,North East,Northumberland,NE63 9YH,REPD,115
+2654,GB,Biomass,Cramlington CHP,Estover Energy,,27.700,,Operational,2018-03-15,North East,Northumberland,NE23 1JY,REPD,121
+2657,GB,Biomass,Evermore Renewable Energy (CHP) / Lisahally Power Station,ERE Developments,,15.000,,Operational,2015-07-23,Northern Ireland,Co. Derry / Londonderry,BT47 6FL,REPD,124
+2664,GB,Biomass,SAICA Paper Mill,GDF SUEZ ENERGY UK,,41.600,,Operational,2012-03-16,North West,Greater Manchester,,REPD,132
+2675,GB,Biomass,Beckton Gas Pressure Reduction Station,"Icon, EEA Holdings & 2OC consortium",,19.000,,Operational,2015-03-30,London,London,,REPD,143
+2680,GB,EfW (ACT),Ince Bio Power,Cogen,,21.500,,Operational,2017-04-30,North West,Cheshire,CH2 4N,REPD,148
+2682,GB,Biomass,Brigg Renewable Energy Plant ,Eco2,,40.000,,Operational,2016-02-23,Yorkshire and Humber,Humberside,DN20 9LT,REPD,150
+2684,GB,Biomass,Tilbury Green Power,Tilbury Green Power,,43.000,,Operational,2017-10-26,Eastern,Essex,RM18 7NU,REPD,152
+2687,GB,Biomass,Markinch Biomass CHP Plant,RWE,,65.000,,Operational,2014-02-18,Scotland,Fife,,REPD,155
+2693,GB,Biomass,Templeborough Biomass Power Plant- Rotherham,Greencoat Capital,,42.000,,Operational,2019-02-28,Yorkshire and Humber,South Yorkshire,S60 1DP,REPD,161
+2698,GB,Biomass,Blackburn Meadows Biomass Plant,E.ON UK,,30.000,,Operational,2014-07-07,Yorkshire and Humber,South Yorkshire,,REPD,166
+2702,GB,EfW (ACT),Charlesfield Biomass CHP Plant,Charlesfield First LLP & Biogas Power,,10.000,,Operational,2015-06-30,Scotland,Borders,,REPD,171
+2704,GB,Biomass,Discovery Park,Burmeister & Wain Scandinavian Contractor (BWSC) ,,16.000,,Operational,2018-09-28,South East,Kent,CT13 9ND,REPD,173
+2705,GB,Biomass,Drax Biomass Power Station - Unit 1,Drax Power,,645.000,,Operational,2013-07-30,Yorkshire and Humber,North Yorkshire,,REPD,174
+2706,GB,Biomass,Drax Biomass Power Station - Unit 3,Drax Power,,645.000,,Operational,2017-07-20,Yorkshire and Humber,North Yorkshire,,REPD,175
+2715,GB,Biomass,Snetterton Biomass Plant,Burmeister & Wain Scandinavian Contractor A/S (BWSC),,44.200,,Operational,2016-12-13,Eastern,Norfolk,NR16 2JU,REPD,185
+2716,GB,Biomass,Speyside Biomass CHP Plant,Speyside Renewable Energy Partnership,,12.500,,Operational,2016-06-24,Scotland,Grampian,,REPD,186
+2720,GB,Biomass,Widnes 3MG Biomass/Mersey Bioenergy (CHP) Plant,Burmeister & Wain Scandinavian (BWSC)/ Bioenergy Infrastructure Group,,20.000,,Operational,2017-02-06,North West,Merseyside,BT79 9HH,REPD,190
+2722,GB,Biomass,Drax Biomass Power Station - Unit 2,Drax Power,,645.000,,Operational,2014-05-30,Yorkshire and Humber,North Yorkshire,,REPD,192
+2726,GB,Biomass,Stevens Croft,E.ON  (formerly Powergen). Agent Environmental Planning and Management,,50.400,,Operational,2007-12-15,Scotland,Dumfries and Galloway,,REPD,196
+2735,GB,Biomass,Sleaford Renewable Energy Plant,Glenmont Partners,,40.000,,Operational,2014-11-28,East Midlands,Lincolnshire,,REPD,206
+2827,GB,AD / biogas,Granox Biogas Plant,ReFood UK,,5.000,,Operational,2014-06-18,North West,Cheshire,WA8 0PB,REPD,306
+2852,GB,AD / biogas,Metheringham Heath (Farm AD),Future Biogas (Blankney Estate),,6.500,,Operational,2017-03-30,East Midlands,Lincolnshire,LN4 2AJ,REPD,331
+2868,GB,AD / biogas,Imperial Park,BioConstruct,,5.100,,Operational,2016-12-05,North East,Cleveland,,REPD,348
+3198,GB,EfW,Chineham ERF,Veolia,,8.000,,Operational,2002-11-01,South East,Hampshire,,REPD,834
+3199,GB,EfW,Marchwood ERF,Veolia,,16.000,,Operational,2004-12-01,South East,Hampshire,,REPD,835
+3201,GB,EfW,Vine Street EfW,SITA UK,,9.500,,Operational,2000-01-01,Yorkshire and Humber,West Yorkshire,,REPD,843
+3206,GB,EfW,Newlincs EfW,Newlincs Developments,,3.200,,Operational,2004-04-01,Yorkshire and Humber,Humberside,,REPD,850
+3212,GB,EfW,Trackwork Limited (EfW),Trackwork,,3.000,,Operational,2011-02-28,Yorkshire and Humber,South Yorkshire,DN3 1WZ,REPD,857
+3214,GB,EfW,Riverside Resource Recovery Facility (RRRF),Cory Environmental,,72.000,,Operational,2011-09-01,London,London,DA16 1ZN,REPD,859
+3219,GB,EfW,Lakeside EfW,Grundon Waste / Viridor,,30.000,,Operational,2010-09-01,South East,Buckinghamshire,,REPD,865
+3226,GB,EfW,Baldovie,Dundee Energy Recycling,,8.300,,Operational,2000-03-31,Scotland,Tayside,,REPD,874
+3236,GB,EfW,Allington EFW,Kent Enviropower (FCC Environment),,51.000,,Operational,2008-12-01,South East,Kent,ME16 0LE,REPD,886
+3245,GB,EfW,Coventry,Coventry & Solihull WDC,,4.500,,Operational,2001-09-28,West Midlands,West Midlands,,REPD,895
+3246,GB,EfW,Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant),Associated Energy Projects plc,,33.500,,Operational,2011-08-01,North West,Greater Manchester,,REPD,897
+3247,GB,EfW,Bolton TRF,Viridor (GMWDA),,10.800,,Operational,2001-06-01,North West,Greater Manchester,BL4 0JR,REPD,898
+3248,GB,EfW,North Quay ERF,Veolia,,18.300,,Operational,2012-02-01,South East,East Sussex,,REPD,899
+3251,GB,EfW,Sheffield ERF,Veolia,,19.300,,Operational,1999-03-31,Yorkshire and Humber,South Yorkshire,,REPD,903
+3253,GB,EfW,Peterborough EfW,Viridor,,7.300,,Operational,2016-01-19,Eastern,Cambridgeshire,,REPD,905
+3258,GB,EfW,Battlefield EfW,Veolia,,8.000,,Operational,2015-05-01,West Midlands,Shropshire,SY1 3TG,REPD,910
+3259,GB,EfW,Four Ashes EfW,Veolia,,23.000,,Operational,2014-05-14,West Midlands,Staffordshire,,REPD,911
+3262,GB,EfW,Cornwall ERC,SUEZ,,20.000,,Operational,2017-04-04,South West,Cornwall,PL26 8DY,REPD,914
+3263,GB,EfW (ACT),Avonmouth,Avonmouth Biopower,,6.500,,Operational,2013-06-17,South West,Avon,,REPD,915
+3266,GB,EfW,Severnside Energy Recovery Centre,SITA UK,,32.000,,Operational,2016-12-14,South West,Avon,BS10 7SP,REPD,918
+3267,GB,EfW (ACT),Energy Works (Hull),Energy Works / The Spencer Group,,25.000,,Operational,2018-03-01,Yorkshire and Humber,Humberside,,REPD,919
+3270,GB,EfW,Trident Park,Viridor,,30.000,,Operational,2015-03-10,Wales,South Glamorgan,CF24 5EN,REPD,922
+3272,GB,EfW,Lincoln EFW,Lincolnshire County Council,,16.400,,Operational,2014-03-14,East Midlands,Lincolnshire,,REPD,924
+3273,GB,EfW,North East Energy Recovery Centre (adjacent to Teesside EfW),SITA UK,,21.000,,Operational,2014-04-30,North East,County Durham,TS23 1PY,REPD,925
+3276,GB,EfW (ACT),Glasgow Renewable Energy and Recycling Centre (ACT),Viridor,,10.000,,Operational,2019-08-01,Scotland,Strathclyde,G42 0PJ,REPD,928
+3278,GB,EfW,Wilton 11 EfW,SUEZ / Sembcorp UK,,49.000,,Operational,2017-04-04,North East,Cleveland,,REPD,930
+3280,GB,EfW,Runcorn EfW,INEOS Chlor / Viridor-Laing,,100.000,,Operational,2013-06-08,North West,Cheshire,,REPD,932
+3283,GB,EfW,Cross Green ERF,Veolia,,11.600,,Operational,2016-04-20,Yorkshire and Humber,West Yorkshire,,REPD,935
+3287,GB,EfW,Exeter EfW,Viridor,,13.000,,Operational,2014-10-16,South West,Devon,EX2 8QE,REPD,939
+3289,GB,EfW,North Yard EfW,MVV Environment,,22.500,,Operational,2015-04-27,South West,Devon,PL2 2DQ,REPD,941
+3290,GB,EfW,Beddington EfW,Viridor,,26.000,,Operational,2019-11-01,London,London,CR0 4TD,REPD,942
+3293,GB,EfW,K3 CHP Facility (Kemsley EfW),E.ON / Wheelabrator Technologies,,49.900,,Operational,2020-07-21,South East,Kent,ME10 2TD,REPD,946
+3297,GB,EfW (ACT),Oldbury,IES (Chinook Energy),,40.000,,Operational,2014-01-15,West Midlands,West Midlands,B69 3EL,REPD,950
+3307,GB,EfW,Allerton Waste Recovery Park (EfW),AmeyCespa,,27.000,,Operational,2018-03-04,Yorkshire and Humber,North Yorkshire,,REPD,960
+3308,GB,EfW,Ardley EfW,Viridor,,24.000,,Operational,2014-10-24,South East,Oxfordshire,OX25 3TH,REPD,962
+3314,GB,EfW,Greatmoor EfW,FCC Environment,,22.000,,Operational,2016-02-23,South East,Buckinghamshire,,REPD,968
+3321,GB,EfW (ACT),Milton Keynes Waste Recovery Park,AmeyCespa,,7.000,,Operational,2018-03-01,South East,Buckinghamshire,MK12 5QQ,REPD,975
+3324,GB,EfW,Wren Power and Pulp (Rivenhall Airfield),Gent Fairhead Environmental Services,,55.000,,Operational,2026-04-18,Eastern,Essex,,REPD,978
+3325,GB,EfW,Rookery South,Veolia/Covanta,,65.000,,Operational,2022-01-21,Eastern,Bedfordshire,MK43 9LJ,REPD,979
+3329,GB,EfW (ACT),Sinfin Lane,Shanks/ Resource Recovery Solutions (Derbyshire) Ltd,,7.500,,Operational,2018-02-16,East Midlands,Derbyshire,,REPD,983
+3332,GB,EfW,Twinwoods Heat & Power CHP,Growing Beds / Bioflame,,3.400,,Operational,2016-06-15,Eastern,Bedfordshire,MK41 6AE,REPD,986
+3338,GB,EfW,Dunbar EfW (previously Oxwellmains EfW),Viridor,,25.600,,Operational,2019-03-01,Scotland,Lothian,,REPD,992
+3343,GB,EfW,Great Blakenham EfW,SITA UK,,20.000,,Operational,2014-12-02,Eastern,Suffolk,,REPD,997
+3344,GB,EfW,Javelin Park EfW,Urbaser Balfour Beatty,,14.500,,Operational,2019-10-24,South West,Gloucestershire,,REPD,998
+3346,GB,EfW,Newhurst Quarry ,Multifuel Energy (Wheelabrator)/ BIFFA,,42.000,,Operational,2023-06-01,East Midlands,Leicestershire,LE12 9BU,REPD,1000
+3347,GB,EfW,Parc Adfer EfW,Wheelabrator,,16.000,,Operational,2020-01-02,Wales,Clwyd,CH5 2NH,REPD,1001
+3351,GB,EfW,EnviRecover,Mercia Waste Management,,15.500,,Operational,2017-03-16,West Midlands,Hereford and Worcester,,REPD,1005
+3354,GB,EfW,Avonmouth Resource Recovery Centre (formerly Severn Road),Viridor,,34.000,,Operational,2020-12-01,South West,Avon,BS11 0YU,REPD,1008
+3356,GB,EfW (ACT),Birmingham Bio-Power Plant,Birmingham Bio-Power,,10.300,,Operational,2016-06-15,West Midlands,West Midlands,B25 8DW,REPD,1010
+3360,GB,EfW (ACT),Avonmouth Low Carbon Energy Facility - Phase 2,Avonmouth Biopower,,6.500,,Operational,2013-12-30,South West,Avon,,REPD,1014
+3361,GB,EfW,Fawley Waste to Energy Plant,Tradebe,,8.600,,Operational,2001-06-01,South East,Hampshire,,REPD,1015
+3362,GB,EfW,Portsmouth ERF,Veolia,,14.000,,Operational,2005-03-01,South East,Hampshire,,REPD,1017
+3364,GB,AD / biogas,Cardiff Waste Water Treatment,Dwr Cymru Welsh Water,,5.500,,Operational,2010-10-02,Wales,South Glamorgan,,REPD,2391
+3367,GB,AD / biogas,Howdon STW,Northumbrian Water,,6.000,,Operational,2012-09-01,North East,Tyne and Wear,NE33 1LR,REPD,2394
+3378,GB,AD / biogas,British Sugar - Bury,British Sugar,,5.000,,Operational,2016-09-15,Eastern,Suffolk,IP32 7BB,REPD,4877
+3380,GB,AD / biogas,Arla Dairy Site,Olleco and Arla Foods,,5.000,,Operational,2017-08-01,South East,Buckinghamshire,HP22 5EZ,REPD,4906
+3384,GB,EfW,Edmonton EcoPark EfW,Londonwaste,,55.000,,Operational,1974-01-01,London,London,,REPD,4924
+3385,GB,EfW,Teesside EfW,SITA UK,,19.200,,Operational,1998-01-01,North East,County Durham,TS23 1PY,REPD,4925
+3386,GB,EfW,Teesside EfW (extension),SITA UK,,10.000,,Operational,2009-01-01,North East,County Durham,TS23 1PY,REPD,4926
+3388,GB,EfW,SELCHP ERF,Veolia (SELCHP),,35.000,,Operational,1993-12-01,London,London,SE14 5RS,REPD,4928
+3392,GB,EfW (ACT),Cradley Heath,Intervate Renewable Energy ,,1.100,,Operational,2014-10-04,West Midlands,West Midlands,B64 7BN,REPD,4975
+3393,GB,Biomass,Whitemoor,REG Bio-Power,,18.000,,Operational,2014-10-01,Yorkshire and Humber,North Yorkshire,YO8 6EG,REPD,5003
+3397,GB,EfW (ACT),Barry Docks ,Sunrise Renewables,,10.000,,Operational,2018-04-15,Wales,Vale of Glamorgan,CF634JE,REPD,5088
+3403,GB,EfW (ACT),Levenseat EfW,Levenseat,,12.500,,Operational,2017-12-15,Scotland,West Lothian,,REPD,5200
+3404,GB,EfW,Millerhill EfW,FCC Environment,,12.500,,Operational,2019-05-01,Scotland,Midlothian,EH22 1RZ,REPD,5247
+3409,GB,EfW (ACT),Melton Ross ,Singleton Birch / Energos,,5.800,,Operational,,Yorkshire and Humber,Humberside,DN38 6AE,REPD,5347
+3413,GB,AD / biogas,Aspatria Creamery,First Milk Cheese Company,,5.000,,Operational,2016-04-05,North West,Cumbria,CA7 2AR,REPD,5516
+3416,GB,EfW,Ness Energy Project,Aberdeen / Aberdeenshire / Moray Councils,,11.100,,Operational,2023-12-18,Scotland,Aberdeenshire,AB12 3BS,REPD,5615
+3446,GB,EfW,Eastcroft EfW (Lines 1 & 2),FCC Environment,,9.000,,Operational,1975-01-01,East Midlands,Nottinghamshire,,REPD,5780
+3448,GB,AD / biogas,Land at Lostock Works (Northwich Facility),Orsted (formerly Dong Energy),,5.000,,Operational,2016-10-20,North West,Cheshire,,REPD,5816
+3468,GB,AD / biogas,Dean Group Business Park - Hartlepool,BioConstruct,,5.100,,Operational,2017-01-09,North East,Cleveland,TS25 2BW,REPD,6000
+3482,GB,Biomass,Hull Biomass Plant (Tansterne power station),Solar 21,,22.000,,Operational,2018-02-15,Yorkshire and Humber,Humberside,HU11 4 RD,REPD,6087
+3483,GB,Biomass,Uskmouth Power Station ,SIMEC Group,,18.000,,Operational,2015-03-01,Wales,Gwent,NP18 2 BZ,REPD,6089
+3486,GB,EfW (ACT),Avondale Quarry (Pilot),Grangemouth Generation Ltd,,2.000,,Operational,2017-04-01,Scotland,Falkirk,FK2 0YG,REPD,6102
+3497,GB,AD / biogas,Crossness Sewage Works,Thames Water Utilities,,5.700,,Operational,2016-06-30,London,London,SE2 9AR,REPD,6161
+3499,GB,Biomass,Spalding,SPEP,,14.500,,Operational,2015-07-08,East Midlands,Lincolnshire,PE12 6BL,REPD,6165
+3500,GB,Biomass,Balderton,SPEP,,20.300,,Operational,2015-07-08,East Midlands,Nottinghamshire,NG24 3BZ,REPD,6166
+3504,GB,AD / biogas,Beckton STW Enhanced Sludge Digestion,Thames Water Utilities,,5.800,,Operational,2014-12-15,London,London,IG11 0AD,REPD,6182
+3512,GB,EfW,Billingham Chemical Works,O2N Energy (Billingham) LLP,,12.000,,Operational,2013-12-01,North East,County Durham,,REPD,6210
+3514,GB,EfW (ACT),Levenseat Waste Management Facility,Levenseat,,17.000,,Operational,2018-07-01,Scotland,West Lothian,ML11 8EP,REPD,6215
+3518,GB,Biomass,JG Pears' animal rendering facility,JG Pears Power,,12.000,,Operational,2018-04-15,East Midlands,Nottinghamshire,NG23 6SP,REPD,6227
+3520,GB,AD / biogas,Minsworth Sewage Treatment Works,Severn Trent Water,,9.700,,Operational,2016-04-01,West Midlands,West Midlands,B76 9DP,REPD,6232
+3549,GB,EfW (ACT),Dartmoor Bio Power ,Dartmoor Bio Power 1 ,,3.900,,Operational,2013-11-06,South West,Devon,PL6 7BW,REPD,6442
+3571,GB,AD / biogas,Mogden STW,Thames Water Utilities,,5.800,,Operational,2017-02-21,London,London,TW7 7LR,REPD,6558
+3572,GB,AD / biogas,Mepal CHP,Pretoria Energy Company,,14.400,,Operational,2017-03-17,Eastern,Cambridgeshire,CB6 2AZ,REPD,6578
+3583,GB,Biomass,Drax Biomass Power Station - Unit 4,Drax Power,,645.000,,Operational,2018-08-21,Yorkshire and Humber,North Yorkshire,,REPD,6659
+3585,GB,Biomass,Liberty Steel Dalzell,SIMEC/ Liberty House,,17.000,,Operational,2017-03-30,Scotland,Lanarkshire,ML1 1PU,REPD,6731
+3646,GB,EfW,"Barclays Glasgow Campus, Plot 4 - Energy Sustainability Centre",Barclays Execution Services Limited,,,,Operational,2022-01-01,Scotland,Strathclyde,G5 8DP,REPD,8806
+4265,GB,Biomethane to grid,Bubwith R100,Air Liquide UK Ltd,,,,Operational,,,,,GGCS,Air Liquide UK Ltd (Bubwith R100)
+4266,GB,Biomethane to grid,Energen Biogas,Air Liquide UK Ltd,,,,Operational,,,,,GGCS,Air Liquide UK Ltd (Energen Biogas)
+4267,GB,Biomethane to grid,Greenlight AD,Air Liquide UK Ltd,,,,Operational,,,,,GGCS,Air Liquide UK Ltd (Greenlight AD)
+4268,GB,Biomethane to grid,Hemswell,Air Liquide UK Ltd,,,,Operational,,,,,GGCS,Air Liquide UK Ltd (Hemswell)
+4269,GB,Biomethane to grid,Local Generation,Air Liquide UK Ltd,,,,Operational,,,,,GGCS,Air Liquide UK Ltd (Local Generation)
+4270,GB,Biomethane to grid,Park Farm,Air Liquide UK Ltd,,,,Operational,,,,,GGCS,Air Liquide UK Ltd (Park Farm)
+4271,GB,Biomethane to grid,Attleborough Eco Electric Ltd,Attleborough Eco Electric Ltd,,,,Operational,,,,,GGCS,Attleborough Eco Electric Ltd
+4272,GB,Biomethane to grid,Hill Farm Biogas,B S Green Energy Ltd,,,,Operational,,,,,GGCS,B S Green Energy Ltd (Hill Farm Biogas)
+4273,GB,Biomethane to grid,Bangley Quarry Biogas Ltd,Bangley Quarry Biogas Ltd,,,,Operational,,,,,GGCS,Bangley Quarry Biogas Ltd
+4274,GB,Biomethane to grid,Bay Farm Power Ltd,Bay Farm Power Ltd,,,,Operational,,,,,GGCS,Bay Farm Power Ltd
+4275,GB,Biomethane to grid,Beyside Ltd,Beyside Ltd,,,,Operational,,,,,GGCS,Beyside Ltd
+4276,GB,Biomethane to grid,Biogas Meden Ltd,Biogas Meden Ltd,,,,Operational,,,,,GGCS,Biogas Meden Ltd
+4277,GB,Biomethane to grid,Blaise Biogas Ltd,Blaise Biogas Ltd,,,,Operational,,,,,GGCS,Blaise Biogas Ltd
+4278,GB,Biomethane to grid,BrewDog PLC,BrewDog PLC,,,,Operational,,,,,GGCS,BrewDog PLC
+4279,GB,Biomethane to grid,Brigg Lane Biogas Ltd,Brigg Lane Biogas Ltd,,,,Operational,,,,,GGCS,Brigg Lane Biogas Ltd
+4280,GB,Biomethane to grid,Brinklow Biogas Ltd,Brinklow Biogas Ltd,,,,Operational,,,,,GGCS,Brinklow Biogas Ltd
+4281,GB,Biomethane to grid,Bromham Biogas Ltd,Bromham Biogas Ltd,,,,Operational,,,,,GGCS,Bromham Biogas Ltd
+4282,GB,Biomethane to grid,Burton Agnes Renewables Ltd,Burton Agnes Renewables Ltd,,,,Operational,,,,,GGCS,Burton Agnes Renewables Ltd
+4283,GB,Biomethane to grid,Remote Injection,Cambridge Biopower Ltd,,,,Operational,,,,,GGCS,Cambridge Biopower Ltd (Remote Injection)
+4284,GB,Biomethane to grid,Cannington Enterprises Ltd,Cannington Enterprises Ltd,,,,Operational,,,,,GGCS,Cannington Enterprises Ltd
+4285,GB,Biomethane to grid,Charlton Park Biogas Ltd,Charlton Park Biogas Ltd,,,,Operational,,,,,GGCS,Charlton Park Biogas Ltd
+4286,GB,Biomethane to grid,Condate Biogas Ltd,Condate Biogas Ltd,,,,Operational,,,,,GGCS,Condate Biogas Ltd
+4287,GB,Biomethane to grid,Raynham AD Plant,Corbiere Renewables Ltd,,,,Operational,,,,,GGCS,Corbiere Renewables Ltd (Raynham AD Plant)
+4288,GB,Biomethane to grid,Crofthead Biogas Ltd,Crofthead Biogas Ltd,,,,Operational,,,,,GGCS,Crofthead Biogas Ltd
+4289,GB,Biomethane to grid,DBE Energy Ltd,DBE Energy Ltd,,,,Operational,,,,,GGCS,DBE Energy Ltd
+4290,GB,Biomethane to grid,DS Smith Paper Ltd,DS Smith Paper Ltd,,,,Operational,,,,,GGCS,DS Smith Paper Ltd
+4291,GB,Biomethane to grid,Dwr Cymru Cyfyngedig,Dwr Cymru Cyfyngedig,,,,Operational,,,,,GGCS,Dwr Cymru Cyfyngedig
+4292,GB,Biomethane to grid,Egmere Energy Ltd,Egmere Energy Ltd,,,,Operational,,,,,GGCS,Egmere Energy Ltd
+4293,GB,Biomethane to grid,Ellough AD Plant Ltd,Ellough AD Plant Ltd,,,,Operational,,,,,GGCS,Ellough AD Plant Ltd
+4294,GB,Biomethane to grid,Euston Biogas Ltd,Euston Biogas Ltd,,,,Operational,,,,,GGCS,Euston Biogas Ltd
+4295,GB,Biomethane to grid,Fairfields Farm Energy Ltd,Fairfields Farm Energy Ltd,,,,Operational,,,,,GGCS,Fairfields Farm Energy Ltd
+4296,GB,Biomethane to grid,Firthside Ltd,Firthside Ltd,,,,Operational,,,,,GGCS,Firthside Ltd
+4297,GB,Biomethane to grid,Fraddon Biogas Ltd,Fraddon Biogas Ltd,,,,Operational,,,,,GGCS,Fraddon Biogas Ltd
+4298,GB,Biomethane to grid,Gascorp (Plaxton) Ltd,Gascorp (Plaxton) Ltd,,,,Operational,,,,,GGCS,Gascorp (Plaxton) Ltd
+4299,GB,Biomethane to grid,Three Maids Green Energy,Gillman Biogas Ltd,,,,Operational,,,,,GGCS,Gillman Biogas Ltd (Three Maids Green Energy)
+4300,GB,Biomethane to grid,Gorst Energy Ltd,Gorst Energy Ltd,,,,Operational,,,,,GGCS,Gorst Energy Ltd
+4301,GB,Biomethane to grid,Grange Farm Energy Ltd,Grange Farm Energy Ltd,,,,Operational,,,,,GGCS,Grange Farm Energy Ltd
+4302,GB,Biomethane to grid,Grissan Carnside Ltd,Grissan Carnside Ltd,,,,Operational,,,,,GGCS,Grissan Carnside Ltd
+4303,GB,Biomethane to grid,Grissan Carrick Ltd,Grissan Carrick Ltd,,,,Operational,,,,,GGCS,Grissan Carrick Ltd
+4304,GB,Biomethane to grid,Ladywell 2,Grissan Carrick Ltd,,,,Operational,,,,,GGCS,Grissan Carrick Ltd (Ladywell 2)
+4305,GB,Biomethane to grid,Grissan Coreside Ltd,Grissan Coreside Ltd,,,,Operational,,,,,GGCS,Grissan Coreside Ltd
+4306,GB,Biomethane to grid,Grissan Portside Ltd,Grissan Portside Ltd,,,,Operational,,,,,GGCS,Grissan Portside Ltd
+4307,GB,Biomethane to grid,Grissan Riverside Ltd,Grissan Riverside Ltd,,,,Operational,,,,,GGCS,Grissan Riverside Ltd
+4308,GB,Biomethane to grid,GWE Biogas Ltd,GWE Biogas Ltd,,,,Operational,,,,,GGCS,GWE Biogas Ltd
+4309,GB,Biomethane to grid,Three Maids Green Energy,Havant Biogas Ltd,,,,Operational,,,,,GGCS,Havant Biogas Ltd (Three Maids Green Energy)
+4310,GB,Biomethane to grid,Heath Farm Energy Ltd,Heath Farm Energy Ltd,,,,Operational,,,,,GGCS,Heath Farm Energy Ltd
+4311,GB,Biomethane to grid,Helmdon Blackpits Power Ltd,Helmdon Blackpits Power Ltd,,,,Operational,,,,,GGCS,Helmdon Blackpits Power Ltd
+4312,GB,Biomethane to grid,Remote Injection,Herriard Bio Power Ltd,,,,Operational,,,,,GGCS,Herriard Bio Power Ltd (Remote Injection)
+4313,GB,Biomethane to grid,Icknield Gas Ltd,Icknield Gas Ltd,,,,Operational,,,,,GGCS,Icknield Gas Ltd
+4314,GB,Biomethane to grid,Inchdairnie Renewable Energy Ltd,Inchdairnie Renewable Energy Ltd,,,,Operational,,,,,GGCS,Inchdairnie Renewable Energy Ltd
+4315,GB,Biomethane to grid,Brains Farm Renewable Energy,JED&I UK Ltd,,,,Operational,,,,,GGCS,JED&I UK Ltd (Brains Farm Renewable Energy)
+4316,GB,Biomethane to grid,Kanadevia Inova Biogas Gravel Pit Ltd,Kanadevia Inova Biogas Gravel Pit Ltd,,,,Operational,,,,,GGCS,Kanadevia Inova Biogas Gravel Pit Ltd
+4317,GB,Biomethane to grid,Kanadevia Inova Biogas Leeming Ltd,Kanadevia Inova Biogas Leeming Ltd,,,,Operational,,,,,GGCS,Kanadevia Inova Biogas Leeming Ltd
+4318,GB,Biomethane to grid,Wardley Biogas,Kanadevia Inova Biogas Ltd,,,,Operational,,,,,GGCS,Kanadevia Inova Biogas Ltd (Wardley Biogas)
+4319,GB,Biomethane to grid,Kanadevia Inova Biogas St Boswells Ltd,Kanadevia Inova Biogas St Boswells Ltd,,,,Operational,,,,,GGCS,Kanadevia Inova Biogas St Boswells Ltd
+4320,GB,Biomethane to grid,Keithick Biogas Ltd,Keithick Biogas Ltd,,,,Operational,,,,,GGCS,Keithick Biogas Ltd
+4321,GB,Biomethane to grid,Lake District Biogas Ltd,Lake District Biogas Ltd,,,,Operational,,,,,GGCS,Lake District Biogas Ltd
+4322,GB,Biomethane to grid,Lanes Farm Energy Ltd,Lanes Farm Energy Ltd,,,,Operational,,,,,GGCS,Lanes Farm Energy Ltd
+4323,GB,Biomethane to grid,Lockerbie Biogas Ltd,Lockerbie Biogas Ltd,,,,Operational,,,,,GGCS,Lockerbie Biogas Ltd
+4324,GB,Biomethane to grid,Manor Farm Green Energy Ltd,Manor Farm Green Energy Ltd,,,,Operational,,,,,GGCS,Manor Farm Green Energy Ltd
+4325,GB,Biomethane to grid,Merlin Renewables Ltd,Merlin Renewables Ltd,,,,Operational,,,,,GGCS,Merlin Renewables Ltd
+4326,GB,Biomethane to grid,Moor Bio-Energy Ltd,Moor Bio-Energy Ltd,,,,Operational,,,,,GGCS,Moor Bio-Energy Ltd
+4327,GB,Biomethane to grid,Murrow AD Plant Ltd,Murrow AD Plant Ltd,,,,Operational,,,,,GGCS,Murrow AD Plant Ltd
+4328,GB,Biomethane to grid,Three Maids Green Energy,Nelson Biogas Ltd,,,,Operational,,,,,GGCS,Nelson Biogas Ltd (Three Maids Green Energy)
+4329,GB,Biomethane to grid,North Moor AD,North Link Bioenergy Ltd,,,,Operational,,,,,GGCS,North Link Bioenergy Ltd (North Moor AD)
+4330,GB,Biomethane to grid,Bran Sands,Northumbrian Water Ltd,,,,Operational,,,,,GGCS,Northumbrian Water Ltd (Bran Sands)
+4331,GB,Biomethane to grid,Oncoland Ltd,Oncoland Ltd,,,,Operational,,,,,GGCS,Oncoland Ltd
+4332,GB,Biomethane to grid,Peacehill Gas Ltd,Peacehill Gas Ltd,,,,Operational,,,,,GGCS,Peacehill Gas Ltd
+4333,GB,Biomethane to grid,Pierside Ltd,Pierside Ltd,,,,Operational,,,,,GGCS,Pierside Ltd
+4334,GB,Biomethane to grid,Chittering 2,Pretoria Energy Company Ltd,,,,Operational,,,,,GGCS,Pretoria Energy Company Ltd (Chittering 2)
+4335,GB,Biomethane to grid,Chittering,Pretoria Energy Company Ltd,,,,Operational,,,,,GGCS,Pretoria Energy Company Ltd (Chittering)
+4336,GB,Biomethane to grid,Three Maids Green Energy,Purbrook Biogas Ltd,,,,Operational,,,,,GGCS,Purbrook Biogas Ltd (Three Maids Green Energy)
+4337,GB,Biomethane to grid,Rainbarrow Farm AD LLP,Rainbarrow Farm AD LLP,,,,Operational,,,,,GGCS,Rainbarrow Farm AD LLP
+4338,GB,Biomethane to grid,Widnes,ReFood UK Ltd,,,,Operational,,,,,GGCS,ReFood UK Ltd (Widnes)
+4339,GB,Biomethane to grid,Ridge Road Energy Ltd,Ridge Road Energy Ltd,,,,Operational,,,,,GGCS,Ridge Road Energy Ltd
+4340,GB,Biomethane to grid,Riverside Bio Ltd,Riverside Bio Ltd,,,,Operational,,,,,GGCS,Riverside Bio Ltd
+4341,GB,Biomethane to grid,Savock Renewable Energy Ltd,Savock Renewable Energy Ltd,,,,Operational,,,,,GGCS,Savock Renewable Energy Ltd
+4342,GB,Biomethane to grid,Derby,Severn Trent Green Power Ltd,,,,Operational,,,,,GGCS,Severn Trent Green Power Ltd (Derby)
+4343,GB,Biomethane to grid,Stoke Bardolph,Severn Trent Green Power Ltd,,,,Operational,,,,,GGCS,Severn Trent Green Power Ltd (Stoke Bardolph)
+4344,GB,Biomethane to grid,Finham STW G2G,Severn Trent Water Ltd,,,,Operational,,,,,GGCS,Severn Trent Water Ltd (Finham STW G2G)
+4345,GB,Biomethane to grid,Minworth A,Severn Trent Water Ltd,,,,Operational,,,,,GGCS,Severn Trent Water Ltd (Minworth A)
+4346,GB,Biomethane to grid,Minworth,Severn Trent Water Ltd,,,,Operational,,,,,GGCS,Severn Trent Water Ltd (Minworth)
+4347,GB,Biomethane to grid,Stoke Bardolph STW G2G,Severn Trent Water Ltd,,,,Operational,,,,,GGCS,Severn Trent Water Ltd (Stoke Bardolph STW G2G)
+4348,GB,Biomethane to grid,Strongford,Severn Trent Water Ltd,,,,Operational,,,,,GGCS,Severn Trent Water Ltd (Strongford)
+4349,GB,Biomethane to grid,Sheppey Energy Ltd,Sheppey Energy Ltd,,,,Operational,,,,,GGCS,Sheppey Energy Ltd
+4350,GB,Biomethane to grid,Stanton Energy Ltd,Stanton Energy Ltd,,,,Operational,,,,,GGCS,Stanton Energy Ltd
+4351,GB,Biomethane to grid,Remote Injection,Staples Brothers Ltd,,,,Operational,,,,,GGCS,Staples Brothers Ltd (Remote Injection)
+4352,GB,Biomethane to grid,Dudley AD Plant,Sterling Pharma Solutions Ltd,,,,Operational,,,,,GGCS,Sterling Pharma Solutions Ltd (Dudley AD Plant)
+4353,GB,Biomethane to grid,Andigestion) Ltd (Bishops Cleeve,STGP,,,,Operational,,,,,GGCS,STGP (Andigestion) Ltd (Bishops Cleeve)
+4354,GB,Biomethane to grid,STL Energy Ltd,STL Energy Ltd,,,,Operational,,,,,GGCS,STL Energy Ltd
+4355,GB,Biomethane to grid,Sustainable Energy Generation Ltd,Sustainable Energy Generation Ltd,,,,Operational,,,,,GGCS,Sustainable Energy Generation Ltd
+4356,GB,Biomethane to grid,Remote Injection,Swancote Energy Ltd,,,,Operational,,,,,GGCS,Swancote Energy Ltd (Remote Injection)
+4357,GB,Biomethane to grid,Tambowie Biogas Plant,Tambowie Bioenergy Ltd,,,,Operational,,,,,GGCS,Tambowie Bioenergy Ltd (Tambowie Biogas Plant)
+4358,GB,Biomethane to grid,Remote Injection,Tamside Ltd,,,,Operational,,,,,GGCS,Tamside Ltd (Remote Injection)
+4359,GB,Biomethane to grid,Three Maids Green Energy,Thorney Biogas Ltd,,,,Operational,,,,,GGCS,Thorney Biogas Ltd (Three Maids Green Energy)
+4360,GB,Biomethane to grid,Lower Drayton Farm,Thornfield 017 Ltd,,,,Operational,,,,,GGCS,Thornfield 017 Ltd (Lower Drayton Farm)
+4361,GB,Biomethane to grid,Tornagrain Gas Mill Ltd,Tornagrain Gas Mill Ltd,,,,Operational,,,,,GGCS,Tornagrain Gas Mill Ltd
+4362,GB,Biomethane to grid,Tynetside Ltd,Tynetside Ltd,,,,Operational,,,,,GGCS,Tynetside Ltd
+4363,GB,Biomethane to grid,Davyhulme,United Utilities,,,,Operational,,,,,GGCS,United Utilities (Davyhulme)
+4364,GB,Biomethane to grid,Rotherdale Farm,Vale Green Energy Ltd,,,,Operational,,,,,GGCS,Vale Green Energy Ltd (Rotherdale Farm)
+4365,GB,Biomethane to grid,Springhill Farm,Vale Green Energy Ltd,,,,Operational,,,,,GGCS,Vale Green Energy Ltd (Springhill Farm)
+4366,GB,Biomethane to grid,Vulcan Renewables Ltd,Vulcan Renewables Ltd,,,,Operational,,,,,GGCS,Vulcan Renewables Ltd
+4367,GB,Biomethane to grid,Warren Energy Ltd,Warren Energy Ltd,,,,Operational,,,,,GGCS,Warren Energy Ltd
+4368,GB,Biomethane to grid,Warrens Emerald Biogas Ltd,Warrens Emerald Biogas Ltd,,,,Operational,,,,,GGCS,Warrens Emerald Biogas Ltd
+4369,GB,Biomethane to grid,GENeco Avonmouth,Wessex Water Enterprises Ltd,,,,Operational,,,,,GGCS,Wessex Water Enterprises Ltd (GENeco Avonmouth)
+4370,GB,Biomethane to grid,GENeco Trowbridge,Wessex Water Enterprises Ltd,,,,Operational,,,,,GGCS,Wessex Water Enterprises Ltd (GENeco Trowbridge)
+4371,GB,Biomethane to grid,Wight Farm Energy LLP,Wight Farm Energy LLP,,,,Operational,,,,,GGCS,Wight Farm Energy LLP
+4372,GB,Biomethane to grid,Willand Biogas LLP,Willand Biogas LLP,,,,Operational,,,,,GGCS,Willand Biogas LLP
+4373,GB,Biomethane to grid,Wyke Farms Ltd,Wyke Farms Ltd,,,,Operational,,,,,GGCS,Wyke Farms Ltd
+4374,GB,Biomethane to grid,Yelspa Ltd,Yelspa Ltd,,,,Operational,,,,,GGCS,Yelspa Ltd
+4773,DE,EfW,SAV Schöneiche (Zossen),MEAB mbH,,1.100,,Operational,1989-01-25,Brandenburg,Zossen,15806,MASTR_STROM,SEL905989400707
+4779,DE,EfW,MHKW Dampfturbine 2 (Rosenheim),Stadtwerke Rosenheim GmbH ＆ Co. KG,,2.200,,Operational,1957-01-01,Bayern,Rosenheim,83022,MASTR_STROM,SEL906435892039
+4792,DE,EfW,EBKW Knapsack,EBS Kraftwerk GmbH,,33.420,,Operational,2009-01-01,Nordrhein-Westfalen,,,MASTR_STROM,SEL906966859464
+4821,DE,EfW,MHKW_Gen2,swb Entsorgung GmbH＆Co. KG,,13.700,,Operational,2004-01-01,Bremen,,,MASTR_STROM,SEL908305109520
+4871,DE,Biomass,Heizkraftwerk Altenstadt,Heizkraftwerk Altenstadt GmbH ＆ Co. KG,,10.800,,Operational,1999-10-01,Bayern,Altenstadt,86972,MASTR_STROM,SEL911061768979
+4907,DE,Biomass,Turbine 1 (Bielefeld),MVA Bielefeld-Herford GmbH,,45.070,,Operational,2001-12-13,Nordrhein-Westfalen,Bielefeld,33609,MASTR_STROM,SEL912810982653
+4909,DE,EfW,Turbosatz 5,EEW Energy from Waste Premnitz GmbH,,32.320,,Operational,2021-11-16,Brandenburg,,,MASTR_STROM,SEL912853853064
+4915,DE,EfW,Turbine 1,AMK-Abfallentsorgungsgesellschaft des Märkischen Kreises mbH,,13.000,,Operational,1996-08-01,Nordrhein-Westfalen,,,MASTR_STROM,SEL913055723643
+4920,DE,Biomass,GSH Green Steam Hürth GmbH,GSH Green Steam Hürth GmbH,,20.000,,Operational,2023-09-15,Nordrhein-Westfalen,,,MASTR_STROM,SEL913268678785
+4921,DE,EfW,„Turbosatz 1“,GMVA Gemeinschafts-Müll-Verbrennungsanlage Niederrhein GmbH,,25.600,,Operational,2006-04-06,Nordrhein-Westfalen,,,MASTR_STROM,SEL913366059684
+4922,DE,EfW,EBS-HKW Rostock,Danpower New Energy GmbH,,22.400,,Operational,2010-03-31,Mecklenburg-Vorpommern,,,MASTR_STROM,SEL913636398611
+4937,DE,EfW,TREA Leuna 2,MVV Umwelt Asset GmbH,,18.545,,Operational,2007-06-19,Sachsen-Anhalt,,,MASTR_STROM,SEL914302986248
+4945,DE,EfW,Turbine 7,MHKW Müllheizkraftwerk Frankfurt am Main GmbH,,75.000,,Operational,1986-12-12,Hessen,,,MASTR_STROM,SEL914605349405
+4984,DE,EfW,Geschäftsfeld Energie/Kraftwerk (Lünen),REMONDIS Production GmbH,,10.350,,Operational,1982-01-01,Nordrhein-Westfalen,Lünen,44536,MASTR_STROM,SEL917193177931
+4989,DE,EfW,TREA Leuna 1,MVV Umwelt Asset GmbH,,18.545,,Operational,2005-08-26,Sachsen-Anhalt,,,MASTR_STROM,SEL917521733365
+5009,DE,EfW,Dampfturbineneinheit 1 (Solingen),Stadt Solingen,,5.300,,Operational,1969-07-01,Nordrhein-Westfalen,Solingen,42655,MASTR_STROM,SEL918628614502
+5012,DE,EfW,Ofenlinie K3 (KWK) (Kempten (Allgäu)),ZAK Energie GmbH,,2.800,,Operational,2023-01-01,Bayern,Kempten (Allgäu),87437,MASTR_STROM,SEL918670470989
+5037,DE,EfW,Müllheizkraftwerk Kassel M8,Müllheizkraftwerk Kassel GmbH,,17.700,,Operational,2012-03-12,Hessen,,,MASTR_STROM,SEL920143205639
+5047,DE,Biomass,KWK HS Timber (Kodersdorf),HS Timber Services GmbH,,11.104,,Operational,2020-06-04,Sachsen,Kodersdorf,02923,MASTR_STROM,SEL920589674907
+5061,DE,Biomass,HHKW Berlin-Neukölln,BTB Energie GmbH,,21.638,,Operational,2004-10-15,Berlin,Berlin,12355,MASTR_STROM,SEL921423567959
+5070,DE,Biomass,EA-46950 (Emlichheim),BEKW Bioenergiekraftwerk Emsland GmbH ＆ Co. KG,,11.656,,Operational,2013-07-26,Niedersachsen,Emlichheim,49824,MASTR_STROM,SEL922066222496
+5094,DE,AD / biogas,GENO Modul 01 (Krackow),GENO Bioenergie Leasingfonds Erste GmbH ＆ Co. KG,,22.760,,Operational,2006-11-29,Mecklenburg-Vorpommern,Krackow,17329,MASTR_STROM,SEL923387553986
+5097,DE,EfW,Turbine VE 32 ZV MVA IN (Ingolstadt),Zweckverband Müllverwertungsanlage Ingolstadt,,9.200,,Operational,1996-09-10,Bayern,Ingolstadt,85055,MASTR_STROM,SEL923507634571
+5116,DE,EfW,IPH Ersatzbrennstoffverbrennung Turbine,Infraserv GmbH ＆ Co. Höchst KG,,86.000,,Operational,2014-07-28,Hessen,,,MASTR_STROM,SEL924284390209
+5133,DE,EfW,Turbine 2 (Darmstadt),Zweckverband Abfallverwertung Südhessen (ZAS),,1.228,,Operational,2020-01-27,Hessen,Darmstadt,64293,MASTR_STROM,SEL924992366909
+5184,DE,EfW,Turbine 4,Maxauer Papierfarbik GmbH,,20.000,,Operational,2010-10-27,Baden-Württemberg,,,MASTR_STROM,SEL927207158535
+5185,DE,EfW,Müllverbrennungsanlage - EEW Stavenhagen GmbH ＆ Co KG,EEW Energy from Waste Stavenhagen GmbH ＆ Co KG,,10.000,,Operational,2008-08-01,Mecklenburg-Vorpommern,,,MASTR_STROM,SEL927269716469
+5186,DE,EfW,MHKW_Gen1 (Bremen),swb Entsorgung GmbH＆Co. KG,,2.700,,Operational,1984-01-01,Bremen,Bremen,28219,MASTR_STROM,SEL927326163489
+5196,DE,Biomass,Mercer Stendal TG 2 (Arneburg),Mercer Stendal GmbH,,48.000,,Operational,2004-07-28,Sachsen-Anhalt,Arneburg,39596,MASTR_STROM,SEL927854781612
+5197,DE,EfW,MHKW Turbine,EEW Energy from Waste Göppingen,,13.200,,Operational,1975-07-01,Baden-Württemberg,,,MASTR_STROM,SEL927871106467
+5230,DE,Biomass,Biomasseheizkraftwerk (Saalburg-Ebersdorf),Mercer Timber Products GmbH,,16.113,,Operational,2008-12-02,Thüringen,Saalburg-Ebersdorf,07929,MASTR_STROM,SEL929788331079
+5233,DE,EfW,SEE PPO2,Progroup Power 2 GmbH,,21.900,,Operational,2025-11-27,Sachsen-Anhalt,,,MASTR_STROM,SEL930038623080
+5237,DE,EfW,Dampfturbine FSK Kuhheide 32a,LEIPA Georg Leinfelder GmbH,,32.400,,Operational,2011-04-01,Brandenburg,,,MASTR_STROM,SEL930278338386
+5245,DE,AD / biogas,BHKW 6 - JMS420_M (Herrieden),NATURA GmbH ＆ Co. KG,,5.707,,Operational,2007-05-29,Bayern,Herrieden,91567,MASTR_STROM,SEL930662627447
+5252,DE,Biomass,Dinslakener Holz-Energiezentrum CTE,DHE Dinslakener Holz-Energiezentrum GmbH ＆ Co. KG,,18.774,,Operational,2025-04-15,Nordrhein-Westfalen,Dinslaken,46535,MASTR_STROM,SEL931383732892
+5261,DE,EfW,IKW Rüdersdorf,IKW Rüdersdorf GmbH,,35.540,,Operational,2007-12-12,Brandenburg,,,MASTR_STROM,SEL931720528447
+5263,DE,Biomass,Mercer Stendal TG 1 (Arneburg),Mercer Stendal GmbH,,99.720,,Operational,2004-07-28,Sachsen-Anhalt,Arneburg,39596,MASTR_STROM,SEL931728629030
+5273,DE,EfW,MVA-Turbine,MVA Weisweiler GmbH ＆ Co. KG,,33.000,,Operational,1996-10-01,Nordrhein-Westfalen,,,MASTR_STROM,SEL932132542724
+5278,DE,EfW,MKK,swb Entsorgung GmbH＆Co. KG,,35.000,,Operational,2009-07-03,Bremen,,,MASTR_STROM,SEL932315868375
+5279,DE,Biomass,Steinbeis Energie Papenburg GmbH,Steinbeis Energie Papenburg,,23.100,,Operational,2003-06-25,Niedersachsen,Papenburg,26871,MASTR_STROM,SEL932323756848
+5291,DE,EfW,Generator Turbosatz (Neustadt in Holstein),Zweckverband Ostholstein,,6.300,,Operational,1984-08-16,Schleswig-Holstein,Neustadt in Holstein,23730,MASTR_STROM,SEL932725197881
+5292,DE,EfW,Turbogenerator 7 (Bremen),HKW Blumenthal GmbH,,3.000,,Operational,2005-06-15,Bremen,Bremen,28779,MASTR_STROM,SEL932770062738
+5311,DE,EfW,Turbine VE 40 ZV MVA IN,Zweckverband Müllverwertungsanlage Ingolstadt,,22.800,,Operational,1996-09-10,Bayern,,,MASTR_STROM,SEL933931186041
+5337,DE,EfW,Dampfturbine,IHKW Industrieheizkraftwerk Andernach GmbH,,13.700,,Operational,2008-12-15,Rheinland-Pfalz,,,MASTR_STROM,SEL935309406751
+5349,DE,EfW,TREA Breisgau,EEW Energy from Waste Saarbrücken GmbH,,17.505,,Operational,2004-05-17,Baden-Württemberg,,,MASTR_STROM,SEL936153835964
+5352,DE,EfW,Dampfturbine Block 3,Müllheizkraftwerk Rothensee GmbH,,33.830,,Operational,2024-10-30,Sachsen-Anhalt,,,MASTR_STROM,SEL936326447925
+5367,DE,EfW,Turbosatz 1,AVG Abfallentsorgungs- und Verwertungsgesellschaft Köln mbH,,56.000,,Operational,1998-02-02,Nordrhein-Westfalen,,,MASTR_STROM,SEL937024948189
+5373,DE,EfW,Block 1,Müllheizkraftwerk Rothensee GmbH,,67.200,,Operational,2005-07-17,Sachsen-Anhalt,,,MASTR_STROM,SEL937172005291
+5398,DE,EfW,Turbine VA2 (Manching),GSB Sonderabfall-Entsorgung Bayern GmbH,,14.122,,Operational,1995-10-06,Bayern,Manching,85107,MASTR_STROM,SEL938176676661
+5407,DE,EfW,MVA EEW Hannover,EEW Energy from Waste Hannover GmbH,,29.600,,Operational,2005-06-01,Niedersachsen,,,MASTR_STROM,SEL938761565707
+5409,DE,EfW,Turbogenerator 9 (Bremen),HKW Blumenthal GmbH,,2.000,,Operational,2005-06-15,Bremen,Bremen,28779,MASTR_STROM,SEL938883468429
+5433,DE,EfW,Turbine 5,Maxauer Papierfarbik GmbH,,57.300,,Operational,2020-08-20,Baden-Württemberg,,,MASTR_STROM,SEL940130021820
+5441,DE,Biomass,KWK-Anlage (Kösching),Binderholz Kösching GmbH,,15.130,,Operational,2007-12-20,Bayern,Kösching,85092,MASTR_STROM,SEL940569422601
+5466,DE,EfW,Dampfturbineneinheit 2 (Solingen),Stadt Solingen,,5.300,,Operational,1969-07-01,Nordrhein-Westfalen,Solingen,42655,MASTR_STROM,SEL941591068386
+5468,DE,AD / biogas,Motor 6 (Ottersberg),Biomethan Produktion Ottersberg GmbH,,11.348,,Operational,2005-12-28,Niedersachsen,Ottersberg,28870,MASTR_STROM,SEL941631776165
+5472,DE,EfW,VKH Geiseltalstraße (Braunsbedra),EWAG,,1.400,,Operational,1999-06-25,Sachsen-Anhalt,Braunsbedra,06242,MASTR_STROM,SEL941907717595
+5474,DE,AD / biogas,KWK Anlage Kläranlage (Kandern),Stadt Kandern,,23.000,,Operational,2017-12-20,Baden-Württemberg,Kandern,79400,MASTR_STROM,SEL942000786426
+5476,DE,EfW,AHKW Geiselbullach (Olching),Gemeinsames Kommunalunternehmen f. Abfallwirtschaft d. Landkreise Fürstenfeldbruck u. Dachau,,10.000,,Operational,1987-05-05,Bayern,Olching,82140,MASTR_STROM,SEL942018686527
+5482,DE,EfW,AHKW-Neunkirchen,EEW Energy from Waste Saarbrücken GmbH  AHKW-Neunkirchen,,27.500,,Operational,1977-06-02,Saarland,,,MASTR_STROM,SEL942144575559
+5486,DE,Biomass,BMHKW Bergkamen,E.ON Energy Solutions GmbH,,20.000,,Operational,2005-09-27,Nordrhein-Westfalen,Bergkamen,59192,MASTR_STROM,SEL942411031924
+5489,DE,Biomass,Energieanlage 3 (Heiligengrabe),SWISS KRONO TEX,,24.200,,Operational,1994-03-09,Brandenburg,Heiligengrabe,16909,MASTR_STROM,SEL942662518113
+5492,DE,EfW,KSR Bitterfeld (Bitterfeld-Wolfen),KSR Klärschlammrecycling Bitterfeld-Wolfen GmbH,,3.725,,Operational,2022-01-27,Sachsen-Anhalt,Bitterfeld-Wolfen,06749,MASTR_STROM,SEL942788938222
+5501,DE,EfW,MHKW Mannheim Generator T60,MVV Umwelt Asset GmbH,,62.080,,Operational,2006-11-10,Baden-Württemberg,,,MASTR_STROM,SEL943416748473
+5555,DE,EfW,HKW Grubenweg (Braunsbedra),EWAG,,2.000,,Operational,1997-09-22,Sachsen-Anhalt,Braunsbedra,06242,MASTR_STROM,SEL945943506465
+5564,DE,EfW,MVR Rugenberger Damm Müll 26,MVR Müllverwertung Rugenberger Damm GmbH,,17.200,,Operational,2026-09-16,Hamburg,,,MASTR_STROM,SEL946302587316
+5573,DE,EfW,Dampferzeuger 6 mit TS 11 (Seegebiet Mansfelder Land),ROMONTA Reststoffverwertungsgesellschaft mbH,,8.467,,Operational,2009-07-13,Sachsen-Anhalt,Seegebiet Mansfelder Land,06317,MASTR_STROM,SEL946840228979
+5578,DE,Biomass,BMK Lünen,BMK Biomassekraftwerk Lünen GmbH,,20.500,,Operational,2006-03-23,Nordrhein-Westfalen,Lünen,44536,MASTR_STROM,SEL947145760096
+5595,DE,EfW,EEW Großräschen GmbH,EEW Energy from Waste Großräschen GmbH,,25.000,,Operational,2008-01-16,Brandenburg,,,MASTR_STROM,SEL947823956445
+5600,DE,Biomass,BMHKW (Emlichheim),EBE Holzheizkraftwerk GmbH,,23.000,,Operational,2006-01-06,Niedersachsen,Emlichheim,49824,MASTR_STROM,SEL948210332903
+5602,DE,EfW,Turbine 2 (Iserlohn),AMK-Abfallentsorgungsgesellschaft des Märkischen Kreises mbH,,6.600,,Operational,1981-04-01,Nordrhein-Westfalen,Iserlohn,58636,MASTR_STROM,SEL948346950262
+5612,DE,EfW,Dampfturbineneinheit 3 (Solingen),Stadt Solingen,,8.300,,Operational,2007-01-01,Nordrhein-Westfalen,Solingen,42655,MASTR_STROM,SEL948848445136
+5615,DE,EfW,MHKW_Gen4,swb Entsorgung GmbH＆Co. KG,,50.000,,Operational,2013-01-01,Bremen,,,MASTR_STROM,SEL948929780743
+5632,DE,EfW,EBS Kraftwerk (Hagenow),Mecklenburger Kartoffelveredlung GmbH,,6.780,,Operational,2009-03-01,Mecklenburg-Vorpommern,Hagenow,19230,MASTR_STROM,SEL950333527975
+5640,DE,AD / biogas,Sembten 1 - BHKW 2 (Schenkendöbern),e.distherm Energielösungen GmbH,,6.834,,Operational,2008-12-15,Brandenburg,Schenkendöbern,03172,MASTR_STROM,SEL951075726718
+5641,DE,EfW,SWM HKW Nord 3 T30,SWM Services GmbH,,49.850,,Operational,1984-03-14,Bayern,,,MASTR_STROM,SEL951126410429
+5643,DE,EfW,Rheinstraße (Bamberg),Zweckverband Müllheizkraftwerk Stadt und Landkreis Bamberg,,11.326,,Operational,2014-08-07,Bayern,Bamberg,96052,MASTR_STROM,SEL951263904904
+5644,DE,EfW,Generator A,EkoCity,,49.376,,Operational,1976-01-01,Nordrhein-Westfalen,,,MASTR_STROM,SEL951271854468
+5645,DE,AD / biogas,Ahe 4 (Beverstedt),Biogas Ahe GmbH,,6.355,,Operational,2012-12-14,Niedersachsen,Beverstedt,27616,MASTR_STROM,SEL951410287065
+5650,DE,EfW,MHKW DTS,Entsorgungsgesellschaft Mainz mbH,,25.000,,Operational,2003-01-01,Rheinland-Pfalz,,,MASTR_STROM,SEL951496836287
+5671,DE,Biomass,BMHKW der ESWE BioEnergie (Wiesbaden),ESWE BioEnergie GmbH,,11.400,,Operational,2013-01-21,Hessen,Wiesbaden,65205,MASTR_STROM,SEL952691996929
+5678,DE,Biomass,BMKW Mannheim,MVV Umwelt Asset GmbH,,20.000,,Operational,2003-11-28,Baden-Württemberg,Mannheim,68169,MASTR_STROM,SEL953045679192
+5686,DE,EfW,Turbine SAV Biebesheim (Biebesheim am Rhein),HIM,,4.370,,Operational,1981-01-01,Hessen,Biebesheim am Rhein,64584,MASTR_STROM,SEL953663224187
+5687,DE,EfW,Gegendruckdampfturbinenanlage (Bergkamen),Bayer AG Supply Center Bergkamen,,4.200,,Operational,1968-09-24,Nordrhein-Westfalen,Bergkamen,59192,MASTR_STROM,SEL953728238203
+5701,DE,EfW,Remondis Thermische Abfallverwertung GmbH,Remondis Thermische Abfallverwertung GmbH,,27.000,,Operational,2007-12-06,Sachsen-Anhalt,,,MASTR_STROM,SEL954316087494
+5724,DE,EfW,Eigenbedarfs-Turbine (Bonn),MVA Müllverwertungsanlage Bonn GmbH,,1.120,,Operational,1992-08-03,Nordrhein-Westfalen,Bonn,53121,MASTR_STROM,SEL955673444067
+5732,DE,AD / biogas,BGA Jessen; M2 (Jessen (Elster)),BALANCE Erneuerbare Energien GmbH,,5.308,,Operational,2008-04-16,Sachsen-Anhalt,Jessen (Elster),06917,MASTR_STROM,SEL955961724048
+5745,DE,Biomass,Ekol (Borken),Borchers Biomassekraftwerk GmbH,,12.896,,Operational,2006-06-09,Nordrhein-Westfalen,Borken,46325,MASTR_STROM,SEL957068982369
+5758,DE,EfW,AVA Velsen GmbH,AVA Velsen GmbH,,21.000,,Operational,1997-08-07,Saarland,,,MASTR_STROM,SEL957593907479
+5759,DE,Biomass,BMHKW Horn (Horn-Bad Meinberg),Kraftwerk Horn GmbH,,25.700,,Operational,2000-11-26,Nordrhein-Westfalen,Horn-Bad Meinberg,32805,MASTR_STROM,SEL957616890344
+5772,DE,EfW,RABA Erfurt-Ost / EnVA,SWE UmweltService GmbH,,5.000,,Operational,2006-10-01,Thüringen,Erfurt,99087,MASTR_STROM,SEL958144355640
+5786,DE,EfW,„Turbosatz 2“,GMVA Gemeinschafts-Müll-Verbrennungsanlage Niederrhein GmbH,,49.500,,Operational,1991-10-17,Nordrhein-Westfalen,,,MASTR_STROM,SEL959022085673
+5788,DE,Biomass,Holzheizkraftwerk Cuxhaven,FORTE Energie GmbH ＆ Co. KG,,17.000,,Operational,2023-08-21,Niedersachsen,Cuxhaven,27472,MASTR_STROM,SEL959111692096
+5792,DE,Biomass,Biomasse Heizkraftwerk Siegerland (BHSi) (Liebenscheid),Biomasse Heizkraftwerk Siegerland GmbH ＆ Co. KG,,20.000,,Operational,2006-06-23,Rheinland-Pfalz,Liebenscheid,56479,MASTR_STROM,SEL959233912454
+5793,DE,EfW,GSH Green Steam Hürth - Stromerzeugung nach KWKG,GSH Green Steam Hürth GmbH,,20.000,,Operational,2025-04-01,Nordrhein-Westfalen,,,MASTR_STROM,SEL959284493308
+5794,DE,EfW,T6,SWN Stadtwerke Neumünster GmbH,,23.020,,Operational,2014-07-10,Schleswig-Holstein,,,MASTR_STROM,SEL959292912853
+5799,DE,Biomass,KWK Neumarkt (Neumarkt i.d. OPf.),Pfleiderer Neumarkt GmbH,,20.675,,Operational,2001-07-19,Bayern,Neumarkt i.d. OPf.,92318,MASTR_STROM,SEL959563600533
+5807,DE,AD / biogas,420 er Unten an BGA 1 (Anröchte),Bürger GmbH ＆ Co. KG,,5.162,,Operational,2006-06-13,Nordrhein-Westfalen,Anröchte,59609,MASTR_STROM,SEL960246237700
+5816,DE,EfW,ZASt,Zweckverband für Abfallwirtschaft Südwestthüringen (ZASt),,13.700,,Operational,2007-10-15,Thüringen,,,MASTR_STROM,SEL960819082799
+5827,DE,EfW,DT_neu,Sustainable Energy Aschaffenburg GmbH,,5.159,,Operational,2005-12-14,Bayern,,,MASTR_STROM,SEL961272692419
+5834,DE,EfW,Turbine 1,Zweckverband Abfallverwertung Südhessen (ZAS),,10.560,,Operational,1991-10-09,Hessen,,,MASTR_STROM,SEL961516018197
+5842,DE,EfW,MHKW (Tornesch),Abfallverbrennungs- und Biokompost-Gesellschaft mbH,,6.250,,Operational,1988-05-18,Schleswig-Holstein,Tornesch,25436,MASTR_STROM,SEL961870023905
+5850,DE,EfW,MVA EEW Helmstedt,EEW Energy from Waste Helmstedt GmbH,,46.800,,Operational,2014-01-01,Niedersachsen,,,MASTR_STROM,SEL962140531199
+5857,DE,Biomass,Biomasse-Verstromungs-Anlage (Hagen),Mark-E Aktiengesellschaft,,20.000,,Operational,2004-01-01,Nordrhein-Westfalen,Hagen,58099,MASTR_STROM,SEL962464750771
+5866,DE,EfW,Turbine Drehrohrofen (Brunsbüttel),REMONDIS SAVA GmbH,,4.310,,Operational,1996-09-19,Schleswig-Holstein,Brunsbüttel,25541,MASTR_STROM,SEL962977492205
+5875,DE,AD / biogas,KG IV (Breddorf),Drewes ＆ Ringen GmbH ＆ Co. KG,,5.262,,Operational,2006-07-13,Niedersachsen,Breddorf,27412,MASTR_STROM,SEL963685478956
+5906,DE,EfW,"KW TRB Bitterfeld, Bitterfeld-Wolfen, Oststr. 1",PD energy GmbH,,11.440,,Operational,2009-11-19,Sachsen-Anhalt,,,MASTR_STROM,SEL965594913757
+5912,DE,Biomass,HKW3 (Stephanskirchen),Hamberger Flooring GmbH ＆ Co. KG,,11.264,,Operational,2001-03-22,Bayern,Stephanskirchen,83071,MASTR_STROM,SEL966069633880
+5927,DE,Biomass,Sonae Arauco Beeskow GmbH,Sonae Arauco Beeskow GmbH,,18.320,,Operational,2001-06-28,Brandenburg,Beeskow,15848,MASTR_STROM,SEL966755479440
+5943,DE,EfW,Steinbeis Energie EBS Kessel 6,Steinbeis Energie GmbH,,21.400,,Operational,2010-09-27,Schleswig-Holstein,,,MASTR_STROM,SEL967382271575
+5961,DE,Biomass,BioHKW Herbrechtingen GmbH,Biomasse Heizkraftwerk Herbrechtingen GmbH,,15.700,,Operational,2004-07-06,Baden-Württemberg,Herbrechtingen,89542,MASTR_STROM,SEL968218698399
+5972,DE,EfW,Turbosatz 4 (Premnitz),EEW Energy from Waste Premnitz GmbH,,1.500,,Operational,2005-12-18,Brandenburg,Premnitz,14727,MASTR_STROM,SEL969214475502
+5977,DE,Biomass,KWK Baruth (Baruth/Mark),Pfleiderer Baruth GmbH,,18.565,,Operational,2002-06-18,Brandenburg,Baruth/Mark,15837,MASTR_STROM,SEL969473250872
+6003,DE,EfW,Turbine 3,AVEA Entsorgungsbetriebe,,23.650,,Operational,2010-08-09,Nordrhein-Westfalen,,,MASTR_STROM,SEL971103623055
+6005,DE,Biomass,BMKW Wicker (Flörsheim am Main),Biomasse Rhein-Main GmbH,,15.000,,Operational,2003-12-19,Hessen,Flörsheim am Main,65439,MASTR_STROM,SEL971105754368
+6017,DE,Biomass,BMKW Königs Wusterhausen,MVV Umwelt Asset GmbH,,20.600,,Operational,2003-10-07,Brandenburg,Königs Wusterhausen,15711,MASTR_STROM,SEL971665768867
+6036,DE,Biomass,Turbinengenerator5-SiemensT8302 (Ehingen (Donau)),Sappi Ehingen GmbH,,13.212,,Operational,1990-05-03,Baden-Württemberg,Ehingen (Donau),89584,MASTR_STROM,SEL972515492857
+6040,DE,EfW,Müllheizkraftwerk Kassel M7,Müllheizkraftwerk Kassel GmbH,,10.500,,Operational,1985-12-17,Hessen,Kassel,34123,MASTR_STROM,SEL972656652967
+6041,DE,EfW,EEW Stapelfeld GmbH,EEW Energy from Waste Stapelfeld GmbH,,16.400,,Operational,1979-10-01,Schleswig-Holstein,,,MASTR_STROM,SEL972671981066
+6050,DE,Biomass,Biomasse-HKW Dollbergen (Uetze),DBE-Dollbergen Bioenergie GmbH,,10.000,,Operational,2020-07-11,Niedersachsen,Uetze,31311,MASTR_STROM,SEL973124757917
+6067,DE,Biomass,Biomasseheizkraftwerk Wismar,Bioenergie Wismar GmbH,,18.300,,Operational,2023-08-11,Mecklenburg-Vorpommern,Wismar,23970,MASTR_STROM,SEL973924263502
+6075,DE,EfW,Dampfturbine,Kreis Weseler Abfallgesellschaft mbH ＆ Co.KG,,23.615,,Operational,1997-04-01,Nordrhein-Westfalen,,,MASTR_STROM,SEL974260381790
+6079,DE,Biomass,Turbine 7 (Pforzheim),SWP Stadtwerke Pforzheim,,13.300,,Operational,2004-12-09,Baden-Württemberg,Pforzheim,75175,MASTR_STROM,SEL974382094318
+6083,DE,EfW,MHKW Coburg,Zweckverband für Abfallwirtschaft in Nordwest-Oberfranken,,10.600,,Operational,1988-01-01,Bayern,,,MASTR_STROM,SEL974578749930
+6118,DE,EfW,EBS-Kraftwerk MVV Gersthofen,MVV Industriepark Gersthofen GmbH,,7.600,,Operational,2010-03-22,Bayern,Gersthofen,86368,MASTR_STROM,SEL976119355877
+6156,DE,EfW,HKW Witzenhausen,B+T Energie GmbH,,32.800,,Operational,2009-06-24,Hessen,,,MASTR_STROM,SEL978289473825
+6176,DE,Biomass,BMKW Delitzsch,Danpower Energie Service GmbH,,20.000,,Operational,2004-10-01,Sachsen,Delitzsch,04509,MASTR_STROM,SEL979560603788
+6199,DE,Biomass,SWD KWF T1 (Düsseldorf),Stadtwerke Düsseldorf AG,,55.000,,Operational,2000-04-17,Nordrhein-Westfalen,Düsseldorf,40233,MASTR_STROM,SEL980552322662
+6200,DE,EfW,AHKW ND Turbine (Augsburg),AVA Abfallverwertung Augsburg Kommunalunternehmen,,9.477,,Operational,1994-09-16,Bayern,Augsburg,86167,MASTR_STROM,SEL980663912264
+6207,DE,EfW,RZR II Turbine3,RZR II Herten GmbH,,35.885,,Operational,2009-01-01,Nordrhein-Westfalen,,,MASTR_STROM,SEL981145402389
+6211,DE,EfW,ABR921126698127 (Freiberg),Muldenhütten Recycling und Umwelttechnik GmbH,,1.000,,Operational,2009-04-03,Sachsen,Freiberg,09599,MASTR_STROM,SEL981537755345
+6237,DE,EfW,MHKW  Pirmasens Verbrennung II,EEW Energy from Waste Saarbrücken GmbH,,19.150,,Operational,2022-10-31,Rheinland-Pfalz,,,MASTR_STROM,SEL982996464816
+6240,DE,EfW,Generator MVK (Kiel),Müllverbrennung Kiel GmbH ＆ Co. KG,,6.200,,Operational,1995-07-01,Schleswig-Holstein,Kiel,24114,MASTR_STROM,SEL983214326473
+6267,DE,EfW,Turbine 5,Enertec Hameln GmbH,,52.840,,Operational,1952-08-05,Niedersachsen,,,MASTR_STROM,SEL984992726950
+6313,DE,EfW,Stromturbine MVA (Hagen),HUI GmbH Hagener Umweltservice- und Investitionsgesellschaft,,3.770,,Operational,2014-05-07,Nordrhein-Westfalen,Hagen,58097,MASTR_STROM,SEL987099101071
+6314,DE,EfW,MKW SAD Turbine 5,Zweckverband Müllverwertung Schwandorf,,50.000,,Operational,1982-08-31,Bayern,,,MASTR_STROM,SEL987116190378
+6316,DE,EfW,TS II,Zweckverband Abfallwirtschaft Raum Würzburg,,27.500,,Operational,1984-06-04,Bayern,,,MASTR_STROM,SEL987151737903
+6319,DE,Biomass,Biomasse-Kraftwerk Fechenheim GmbH (Frankfurt am Main),Biomasse-Kraftwerk Fechenheim GmbH,,12.430,,Operational,2004-12-16,Hessen,Frankfurt am Main,60386,MASTR_STROM,SEL987268819318
+6330,DE,Biomass,DT2 (Brilon),EGGER Holzwerkstoffe Brilon GmbH ＆ Co. KG,,22.500,,Operational,2016-07-22,Nordrhein-Westfalen,Brilon,59929,MASTR_STROM,SEL987641379705
+6339,DE,Biomass,BMHKW Biomasseheizkraftwerk Elsterwerda,Danpower GmbH,,12.600,,Operational,2004-07-03,Brandenburg,Elsterwerda,04910,MASTR_STROM,SEL988192396296
+6340,DE,Biomass,BMHKW Malchin DT,envia THERM GmbH,,10.626,,Operational,2003-09-10,Mecklenburg-Vorpommern,Malchin,17139,MASTR_STROM,SEL988248455878
+6345,DE,Biomass,Kraftwerk Eberswalde GmbH (HoKaWe),Kraftwerk Eberswalde GmbH (HoKaWe),,20.000,,Operational,2006-12-21,Brandenburg,Eberswalde,16225,MASTR_STROM,SEL988497247507
+6352,DE,AD / biogas,BHKW 6 (IV) (Rietberg),Hansmeier Biogas KG,,5.680,,Operational,2001-12-20,Nordrhein-Westfalen,Rietberg,33397,MASTR_STROM,SEL988792236138
+6354,DE,EfW,Ofenlinie K1 (Kempten (Allgäu)),ZAK Energie GmbH,,8.000,,Operational,1995-12-13,Bayern,Kempten (Allgäu),87437,MASTR_STROM,SEL988834010511
+6368,DE,Biomass,DTS 1 (Mannheim),Essity Operations Mannheim GmbH,,28.500,,Operational,1966-09-01,Baden-Württemberg,Mannheim,68305,MASTR_STROM,SEL989818105643
+6372,DE,AD / biogas,BHKW 7 (Seeland),Gut für Gatersleben GmbH ＆ Co. KG,,7.851,,Operational,2006-12-08,Sachsen-Anhalt,Seeland,06466,MASTR_STROM,SEL989997108589
+6374,DE,EfW,T.A. Lauta,Thermische Abfallbehandlung Lauta GmbH ＆ Co. oHG,,21.000,,Operational,2004-07-21,Sachsen,,,MASTR_STROM,SEL990188755369
+6383,DE,Biomass,Mercer Rosenthal (Rosenthal am Rennsteig),Mercer Rosenthal GmbH,,57.235,,Operational,1999-12-23,Thüringen,Rosenthal am Rennsteig,07366,MASTR_STROM,SEL990437860950
+6388,DE,AD / biogas,Biogasanlage MH Modul 1 (Wilhelmsburg),Agrar GmbH Gut Ferdinandshof,,8.400,,Operational,2013-12-12,Mecklenburg-Vorpommern,Wilhelmsburg,17379,MASTR_STROM,SEL990602583172
+6408,DE,EfW,Turbine 4,Klingele Paper Weener SE ＆ Co. KG,,25.843,,Operational,2006-01-01,Niedersachsen,,,MASTR_STROM,SEL991890563037
+6414,DE,Biomass,Biomassekraftwerk Emden,Statkraft Markets GmbH,,20.000,,Operational,2004-11-28,Niedersachsen,Emden,26725,MASTR_STROM,SEL992141384081
+6416,DE,EfW,Müllheizkraftwerk Ulm-Donautal Turbine,Zweckverband Thermische Abfallverwertung Donautal,,11.000,,Operational,1997-05-01,Baden-Württemberg,Ulm,89079,MASTR_STROM,SEL992234389412
+6422,DE,EfW,Dampferzeuger 5 mit TS 10 (Seegebiet Mansfelder Land),ROMONTA Reststoffverwertungsgesellschaft mbH,,3.220,,Operational,2004-12-08,Sachsen-Anhalt,Seegebiet Mansfelder Land,06317,MASTR_STROM,SEL992451328621
+6433,DE,EfW,HKW-Sandreuth (Müll),N-ERGIE Kraftwerke GmbH,,26.280,,Operational,1992-07-17,Bayern,,,MASTR_STROM,SEL992900617627
+6453,DE,Biomass,MVB Borsigstraße Holz 24 (Hamburg),ZRE Zentrum für Ressourcen und Energie GmbH,,23.570,,Operational,2005-09-16,Hamburg,Hamburg,22113,MASTR_STROM,SEL993851423657
+6476,DE,EfW,EBS Heizkraftwerk Spremberg,SpreeStromErzeugungs GmbH,,22.707,,Operational,2012-12-12,Brandenburg,,,MASTR_STROM,SEL994681165014
+6480,DE,EfW,RZR I Turbine1,AGR Abfallentsorgungs-Gesellschaft Ruhrgebiet mbH,,29.800,,Operational,1981-01-01,Nordrhein-Westfalen,,,MASTR_STROM,SEL994998647760
+6484,DE,EfW,"MHKW, Generator 1 (Bremerhaven)",Bremerhavener Entsorgungsgesellschaft mbH,,10.000,,Operational,1977-03-17,Bremen,Bremerhaven,27570,MASTR_STROM,SEL995105702167
+6485,DE,EfW,SEE944429192826 (MHKW Burgkirchen (Müllverbrennung)),Zweckverband Abfallverwertung Südostbayern,,16.600,,Operational,1994-01-28,Bayern,,,MASTR_STROM,SEL995190031944
+6497,DE,EfW,Boehringer Ingelheim - 6482 - PSI - KWK,Boehringer Ingelheim Pharma GmbH＆Co.KG,,12.000,,Operational,2024-05-07,Rheinland-Pfalz,,,MASTR_STROM,SEL996250831948
+6504,DE,EfW,T3,SWN Stadtwerke Neumünster GmbH,,15.520,,Operational,1979-07-06,Schleswig-Holstein,,,MASTR_STROM,SEL996605061556
+6505,DE,EfW,Turbine 7,Maxauer Papierfarbik GmbH,,20.000,,Operational,1968-01-01,Baden-Württemberg,,,MASTR_STROM,SEL996614614965
+6507,DE,EfW,WKG-DT (Marsberg),WEPA Kraftwerk GmbH,,3.500,,Operational,1996-06-01,Nordrhein-Westfalen,Marsberg,34431,MASTR_STROM,SEL996640144153
+6517,DE,EfW,AHKW HD Turbine (Augsburg),AVA Abfallverwertung Augsburg Kommunalunternehmen,,8.220,,Operational,1994-09-16,Bayern,Augsburg,86167,MASTR_STROM,SEL997368020736
+6531,DE,Biomass,Biomassekraftwerk Landesbergen,Statkraft Markets GmbH,,20.000,,Operational,2003-11-27,Niedersachsen,Landesbergen,31628,MASTR_STROM,SEL998115369948
+6542,DE,EfW,PPO1 - Eisenhüttenstadt,Progroup Power 1 GmbH,,32.000,,Operational,2009-10-19,Brandenburg,,,MASTR_STROM,SEL998747425821
+6547,DE,EfW,Generator Zorbau,PreZero Energy Zorbau GmbH,,29.680,,Operational,2005-06-06,Sachsen-Anhalt,,,MASTR_STROM,SEL999206550245
+6552,DE,Biomass,Turbine 5 (Alfeld (Leine)),Sappi Alfeld,,16.750,,Operational,2003-06-18,Niedersachsen,Alfeld (Leine),31061,MASTR_STROM,SEL999428837599
+6558,DE,EfW,MHKW (Weißenhorn),Abfallwirtschaftsbetrieb des Landkreises Neu-Ulm,,10.092,,Operational,1992-01-21,Bayern,Weißenhorn,89264,MASTR_STROM,SEL999562476685
+6568,DE,EfW,Turbosatz 2,AVG Abfallentsorgungs- und Verwertungsgesellschaft Köln mbH,,31.760,,Operational,2017-05-30,Nordrhein-Westfalen,,,MASTR_STROM,SEL999835748570
+6597,DE,Biomethane to grid,Bioerdgasanlage Schwandorf,Bioerdgas Schwandorf GmbH,,,11.650,Operational,2008-02-13,Bayern,Schwandorf,92421,MASTR_GAS,GEE942524854557
+6611,DE,Biomethane to grid,BGAA Dülmen,BWM Dülmen,,,10.260,Operational,2020-03-20,Nordrhein-Westfalen,Dülmen,48249,MASTR_GAS,GEE967952980296
+6616,DE,Biomethane to grid,PfP Wörth (Wörth am Rhein),Papierfabrik Palm GmbH ＆ Co. KG,,,10.000,Operational,2016-12-01,Rheinland-Pfalz,Wörth am Rhein,76744,MASTR_GAS,GEE995000467352
+6619,DE,Biomethane to grid,NPKönnern,NEXOGAS Produktion Könnern Süd GmbH,,,22.128,Operational,2009-09-15,Sachsen-Anhalt,Könnern,06420,MASTR_GAS,GEE915167894860
+6627,DE,Biomethane to grid,Schuby,Bioenergie Schuby GmbH,,,10.750,Operational,2011-09-12,Schleswig-Holstein,Schuby,24850,MASTR_GAS,GEE954985669588
+6648,DE,Biomethane to grid,GAA Neuburg Steinhausen,Biogas Neuburg Steinhausen,,,15.120,Operational,2014-03-10,Mecklenburg-Vorpommern,Neuburg,23974,MASTR_GAS,GEE924350849785
+6669,DE,Biomethane to grid,IPH Biogaseinspeiseanlage (Frankfurt am Main),Infranova Bioerdgas GmbH,,,10.000,Operational,2011-09-09,Hessen,Frankfurt am Main,65929,MASTR_GAS,GEE953936114566
+6674,DE,Biomethane to grid,Biomethananlage (Anklam),Cosun Beet Company GmbH ＆ Co. KG,,,21.600,Operational,2013-06-14,Mecklenburg-Vorpommern,Anklam,17389,MASTR_GAS,GEE983261804153
+6678,DE,Biomethane to grid,Biomethan Zörbig,VERBIO Zörbig GmbH,,,33.192,Operational,2010-08-13,Sachsen-Anhalt,Zörbig,06780,MASTR_GAS,GEE945529728953
+6679,DE,Biomethane to grid,Biomethan Schwedt (Schwedt/Oder),VERBIO Schwedt GmbH,,,100.000,Operational,2010-08-01,Brandenburg,Schwedt/Oder,16303,MASTR_GAS,GEE937591398783
+6686,DE,Biomethane to grid,BGA Dargun; BGAA,BALANCE Erneuerbare Energien GmbH,,,14.700,Operational,2010-11-01,Mecklenburg-Vorpommern,Dargun,17159,MASTR_GAS,GEE920398533440
+6705,DE,Biomethane to grid,BGEA PfP (Aalen),Papierfabrik Palm GmbH ＆ Co. KG,,,13.000,Operational,2021-11-17,Baden-Württemberg,Aalen,73432,MASTR_GAS,GEE989562465574
+6749,DE,Biomethane to grid,Klärwerk GALA (Hamburg),Hamburger Stadtentwässerung,,,13.500,Operational,2011-03-22,Hamburg,Hamburg,20457,MASTR_GAS,GEE939041736770
+6752,DE,Biomethane to grid,BGAA Güstrow,EnviTec Bioenergie Güstrow GmbH,,,54.000,Operational,2009-06-02,Mecklenburg-Vorpommern,Güstrow,18273,MASTR_GAS,GEE985909732255
+6755,DE,Biomethane to grid,Verbio Pinnow GmbH,VERBIO SE,,,15.750,Operational,2019-08-14,Brandenburg,Pinnow,16278,MASTR_GAS,GEE950475520667
+6757,DE,Biomethane to grid,Biomethananlage Horn-Bad Meinberg,VORN Bioenergy BGA Horn GmbH ＆ Co. KG,,,10.000,Operational,2009-09-21,Nordrhein-Westfalen,Horn-Bad Meinberg,32805,MASTR_GAS,GEE904840609556
+6782,DE,Biomethane to grid,Biogasaufbereitungsanlage (Krefeld),EGK Entsorgungsgesellschaft Krefeld GmbH ＆ Co. KG,,,12.840,Operational,2022-08-19,Nordrhein-Westfalen,Krefeld,47829,MASTR_GAS,GEE979491808528
+6796,DE,Biomethane to grid,BGAA Schwarzenfeld,BG Bio-Energie GmbH,,,12.760,Operational,2022-04-20,Bayern,Schwarzenfeld,92521,MASTR_GAS,GEE942482430107
+6803,DE,Biomethane to grid,Bioraffinerie Kanalhafen (Rheine),Bioraffinerie Kanalhafen GmbH ＆ Co. KG,,,16.500,Operational,2024-02-01,Nordrhein-Westfalen,Rheine,48432,MASTR_GAS,GEE904412023018
+6804,DE,Biomethane to grid,Biomethan II (Osterby),Biomethan Osterby GmbH ＆ Co. KG,,,17.250,Operational,2023-11-10,Schleswig-Holstein,Osterby,24994,MASTR_GAS,GEE962670098056
+6813,DE,Biomethane to grid,BGAA Industriepark Schwarze Pumpe (Spremberg),ASG Spremberg GmbH,,,10.700,Operational,2021-01-27,Brandenburg,Spremberg,03130,MASTR_GAS,GEE966143723506
+6815,DE,Biomethane to grid,Biomethan Nienborg GmbH ＆ Co. KG (Heek),Biomethan Nienborg GmbH ＆ Co. KG,,,10.058,Operational,2024-02-22,Nordrhein-Westfalen,Heek,48619,MASTR_GAS,GEE966378527528
+6824,DE,Biomethane to grid,Burggas Gasaufbereitung (Bersenbrück),Burggas,,,14.300,Operational,2024-07-20,Niedersachsen,Bersenbrück,49593,MASTR_GAS,GEE908847951069
+6829,DE,Biomethane to grid,Biomethananlage_BGA Dorsten_TerraSol,TerraSol Wirtschaftsdünger GmbH,,,15.000,Operational,2014-06-23,Nordrhein-Westfalen,Dorsten,46282,MASTR_GAS,GEE953654281731
+6858,DE,Biomethane to grid,Biomethanerzeugungsanlage NDEnergie (Bohmte),NDEnergie GmbH ＆ Co. KG,,,14.840,Operational,2026-01-10,Niedersachsen,Bohmte,49163,MASTR_GAS,GEE953197014049
+6861,DE,Biomethane to grid,BGAA Velen,Bioenergie Velen GmbH,,,21.400,Operational,2025-04-23,Nordrhein-Westfalen,Velen,46342,MASTR_GAS,GEE904261464147
+6869,DE,Biomethane to grid,BGAA Bioerdgas Biburg,Bioerdgas Biburg GbR,,,10.740,Operational,2026-08-06,Bayern,Biburg,93354,MASTR_GAS,GEE990705215475

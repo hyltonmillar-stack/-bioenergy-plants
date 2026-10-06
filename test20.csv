@@ -1,0 +1,21 @@
+﻿plant_id,country,category,plant_name,operator_name,parent_owner,capacity_mwe,biomethane_mw_gas,status,cod_date,region,locality,postcode,primary_source,primary_source_id
+3189,GB,EfW,Stoke-on-Trent EfW,MES Environmental (CNIM Group),,14.200,,Operational,1998-01-10,West Midlands,Staffordshire,,REPD,815
+3190,GB,EfW,Tyseley ERF,Veolia,,30.000,,Operational,1996-09-01,West Midlands,West Midlands,,REPD,816
+3191,GB,EfW,Haverton Hill Incinerator,Cleveland Waste Management Ltd,,20.100,,Operational,1998-05-12,North East,County Durham,,REPD,817
+3197,GB,EfW,"Fibrepower, Slough",Scottish and Southern Energy (SSE),,50.000,,Operational,2002-05-01,South East,Berkshire,,REPD,831
+2653,GB,EfW (ACT),Enviroparks Hirwaun Generation Site,Enviroparks Operations,,20.000,,Operational,2019-09-01,Wales,Mid Glamorgan,CF44 9YN,REPD,120
+2582,GB,Biomass,Wilton International,UK Wood Recycling,,35.200,,Operational,2007-03-26,North East,Cleveland,TS90 8WS,REPD,35
+2586,GB,Biomass,Cowie Biomass Facility,Norbord,,15.000,,Operational,2008-02-01,Scotland,Stirling,FK7 7BW,REPD,41
+2591,GB,Biomass,Iggesund Paperboard CHP Plant,Iggesund Paperboard (Workington),,49.000,,Operational,2013-02-17,North West,Cumbria,CA14 1JX,REPD,47
+2810,GB,AD / biogas,Glasgow Renewable Energy and Recycling Centre (Waste AD),Viridor,,5.000,,Operational,2017-12-15,Scotland,Strathclyde,G42 0PJ,REPD,286
+2813,GB,AD / biogas,South Kirkby Business Park (Waste AD),Shanks Group,,6.000,,Operational,2015-12-01,Yorkshire and Humber,West Yorkshire,WF9 4DG,REPD,289
+4262,GB,Biomethane to grid,Biodynamic Nottingham,Air Liquide AB&T UK Ltd,,,,Operational,,,,,GGCS,Air Liquide AB&T UK Ltd (Biodynamic Nottingham)
+4263,GB,Biomethane to grid,Northwick,Air Liquide AB&T UK Ltd,,,,Operational,,,,,GGCS,Air Liquide AB&T UK Ltd (Northwick)
+4264,GB,Biomethane to grid,Barnes Farm,Air Liquide UK Ltd,,,,Operational,,,,,GGCS,Air Liquide UK Ltd (Barnes Farm)
+4693,DE,EfW,Turbogenerator 14 (Bremen),HKW Blumenthal GmbH,,3.600,,Operational,2025-08-01,Bremen,Bremen,28779,MASTR_STROM,SEL902174786004
+4717,DE,EfW,Karnap B,RWE Generation SE,,48.000,,Operational,1987-02-14,Nordrhein-Westfalen,,,MASTR_STROM,SEL903603875511
+4718,DE,EfW,STA - MHKW,EEW Energy from Waste Stapelfeld GmbH,,32.000,,Operational,2025-08-21,Schleswig-Holstein,,,MASTR_STROM,SEL903681030185
+4734,DE,EfW,"MHKW, Generator 2 (Bremerhaven)",Bremerhavener Entsorgungsgesellschaft mbH,,10.000,,Operational,1977-03-17,Bremen,Bremerhaven,27570,MASTR_STROM,SEL904279330281
+4859,DE,Biomass,Zolling Biomasse-HKW,Biomasseheizkraftwerk Zolling GmbH,,19.975,,Operational,2003-11-28,Bayern,,,MASTR_STROM,SEL910530785806
+4867,DE,Biomass,Biomass Heizkraftwerk Recklinghausen,Ökotech Ing.Ges.mbH,,20.000,,Operational,2004-02-19,Nordrhein-Westfalen,Recklinghausen,45665,MASTR_STROM,SEL910951841594
+6595,DE,Biomethane to grid,Bioerdgasanlage Wolnzach,Bioerdgas Hallertau GmbH,,,14.000,Operational,2012-06-05,Bayern,Wolnzach,85283,MASTR_GAS,GEE963490237526
