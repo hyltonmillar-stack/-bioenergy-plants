@@ -1,0 +1,1235 @@
+[
+ {
+  "plant_id": 3189,
+  "parent_owner": "Cobalt Energy (operator, via North Midlands Operations Ltd); owner of the plant assets not confirmed, Stoke-on-Trent City Council is the contracting authority",
+  "parent_owner_confidence": "unverified",
+  "owner_since": "2021-03-01",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 210000,
+  "locality": "Sideway, Stoke-on-Trent",
+  "postcode": "ST4 4DX",
+  "owners": [
+   {
+    "owner": "MES Environmental (CNIM Group, then Paprec)",
+    "to": "2021-03-01",
+    "note": "Operator under the long-term council PPP contract since the plant opened (c.1997-98). Wikiwaste says Paprec agreed to buy CNIM in March 2021, at which point operation passed to North Midlands Operations. Whether MES owned the plant assets or only operated them is not stated.",
+    "url": "https://wikiwaste.org.uk/index.php/component/content/article/stoke-efw?catid=12",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/component/content/article/stoke-efw?catid=12",
+    "confidence": "verified"
+   },
+   {
+    "owner": "North Midlands Operations Ltd (subsidiary of Cobalt Energy)",
+    "from": "2021-03-01",
+    "note": "Current operator and EA permit holder (HP3341QV). Sister plant is Wolverhampton EfW. Council news in Feb 2025 said a new five-year operating contract (plus 2-year option) was to start after the previous one ended 31 Mar 2025; the contract holder was not named on that page, but the council and press describe the contract as with Cobalt Energy and it ends March 2030.",
+    "url": "https://www.northmidlandsoperations.co.uk/",
+    "source_type": "url_page",
+    "source_ref": "https://www.northmidlandsoperations.co.uk/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Stoke-on-Trent City Council (contracting authority, household waste supplier)",
+    "note": "The council holds the waste PPP and is planning a replacement plant (Hanford 2.0, c.2032) in which it would be majority stakeholder. Ownership of the existing plant's assets is not stated in any opened source; the council's own page says plants built in 1995 were delivered by a commercial contractor funded through gate fees. A snippet from a search result said the council owns the plant, which is unconfirmed.",
+    "url": "https://www.placemidlands.co.uk/city-to-seek-developer-for-waste-incinerator-under-hanford-2-0-plans/",
+    "source_type": "url_page",
+    "source_ref": "https://www.placemidlands.co.uk/city-to-seek-developer-for-waste-incinerator-under-hanford-2-0-plans/",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-02-24",
+    "type": "contract",
+    "summary": "Council has concluded the plant is at the end of its serviceable life (operating contract ends March 2030, with a two-year option) and is procuring a replacement ERF of c.25MW on the same site, operational c.2032, with the council as majority stakeholder and a minority partner to finance and operate it.",
+    "severity": "medium",
+    "url": "https://www.stoke.gov.uk/HanfordERF",
+    "source_type": "url_page",
+    "source_ref": "https://www.stoke.gov.uk/HanfordERF",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "contract dispute",
+    "summary": "UKWIN notes the council faced a possible fine of £645,000 for failing to meet minimum contracted waste tonnage at the plant. Date and outcome not found.",
+    "severity": "low",
+    "url": "https://ukwin.org.uk/incinerators/library/Stoke+on+Trent/206",
+    "source_type": "url_page",
+    "source_ref": "https://ukwin.org.uk/incinerators/library/Stoke+on+Trent/206",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Plant is real and still operating (EA 2024 data shows 198kt incinerated; operator North Midlands Operations / Cobalt Energy since March 2021, after MES Environmental / CNIM). Who owns the plant assets (contractor or Stoke-on-Trent City Council) is not confirmed, no financing found, and no outage or enforcement events found; capacity figures vary (14.2MWe REPD, 14MWe wikiwaste, 12MW council, 15.4MW Wikipedia)."
+ },
+ {
+  "plant_id": 3190,
+  "parent_owner": "Veolia (Veolia Environmental Services (UK) / Veolia ES Birmingham Ltd)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "1996-09-01",
+  "owner_since_confidence": "unverified",
+  "permit_tonnes_pa": 440500,
+  "locality": "Tyseley, Birmingham",
+  "owners": [
+   {
+    "owner": "Veolia ES Birmingham Ltd (permit holder; site company Tyseley Waste Disposal Ltd), Veolia group",
+    "from": "1996-09-01",
+    "note": "Veolia built the plant in 1996 under a 1990s PFI-style contract with Birmingham City Council, and is the EA permit holder and operator. Whether Veolia owns the asset outright, or Birmingham City Council owns it, is not stated in opened sources; one search snippet said the council owns it but this was not confirmed. Confirm via Companies House for Tyseley Waste Disposal Ltd. Start date is the row COD, not an acquisition date.",
+    "url": "https://ukwin.org.uk/incinerators/library/West+Midlands+Met+Districts/209",
+    "source_type": "url_page",
+    "source_ref": "https://ukwin.org.uk/incinerators/library/West+Midlands+Met+Districts/209 (EA R1 and permit table: operator Veolia ES Birmingham Ltd, first permitted 2005)",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Birmingham City Council (waste contract client; possible asset owner)",
+    "note": "Client under the waste disposal contract; Wikipedia says the plant is run by Veolia for the council. Asset ownership not established.",
+    "url": "https://en.wikipedia.org/wiki/Tyseley_Energy_from_Waste_Plant",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Tyseley_Energy_from_Waste_Plant",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-01-01",
+    "type": "fire",
+    "summary": "A minor fire was reported in the indoor rubbish pit in January 2025. No outage length or damage was found.",
+    "severity": "low",
+    "url": "https://ukwin.org.uk/incinerators/library/West+Midlands+Met+Districts/209",
+    "source_type": "url_page",
+    "source_ref": "https://ukwin.org.uk/incinerators/library/West+Midlands+Met+Districts/209 (campaign site; underlying press report not opened)",
+    "confidence": "likely"
+   },
+   {
+    "date": "2024-01-17",
+    "type": "contract",
+    "summary": "Veolia won a new 10-year Birmingham waste contract (value c.£425m, runs to 2034) covering the ERF, and the plant lifespan is extended by 10 years. The council has said it may move away from incineration after 2034. Plant is confirmed operating.",
+    "severity": "low",
+    "url": "https://www.veolia.co.uk/press-releases/veolia-secures-deal-manage-birmingham-recycling-and-waste-until-2034",
+    "source_type": "url_page",
+    "source_ref": "https://www.veolia.co.uk/press-releases/veolia-secures-deal-manage-birmingham-recycling-and-waste-until-2034 and https://www.letsrecycle.com/news/latest-news/birmingham-could-abandon-incineration-from-2034/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Operating Veolia-run EfW (440.5kt/yr permit, c.25 to 27MWe export) serving Birmingham City Council to 2034. Whether Veolia or the council owns the asset is not confirmed, and no financing or enforcement actions were found.",
+  "heat_offtaker": null
+ },
+ {
+  "plant_id": 3191,
+  "parent_owner": "SUEZ group (Suez Recycling and Recovery UK Group Holdings Ltd); SUEZ shareholders reported as Meridiam, Global Infrastructure Partners and Caisse des Depots via CNP",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2022-12-05",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 756000,
+  "locality": "Billingham",
+  "postcode": "TS23 1PY",
+  "owners": [
+   {
+    "owner": "Cleveland Waste Management Ltd (Northumbrian Environmental Management and Cleveland County Council JV)",
+    "to": null,
+    "note": "Original single-purpose company that built the 1998 plant (Haverton Hill lines 1 and 2). GlobalData still lists it as owner. Sale date to SITA not found.",
+    "url": "https://www.power-technology.com/marketdata/power-plant-profile-haverton-hill-incinerator-plant-uk/",
+    "source_type": "url_page",
+    "source_ref": "https://www.power-technology.com/marketdata/power-plant-profile-haverton-hill-incinerator-plant-uk/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "SITA UK / SITA Tees Valley Ltd (later SUEZ Recycling and Recovery UK Ltd), under SUEZ Environnement then Veolia-owned SUEZ",
+    "from": null,
+    "to": "2022-12-05",
+    "note": "Wikipedia says the plant became part of SITA, now Suez. Veolia took over Suez in Jan 2022, and the UK waste arm was a competition remedy sold on.",
+    "url": "https://en.wikipedia.org/wiki/Teesside_EfW",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Teesside_EfW",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Suez Recycling and Recovery UK Group Holdings Ltd (owned by the reconstituted SUEZ group)",
+    "from": "2022-12-05",
+    "note": "Veolia completed the sale of 100% of the UK holding company to Suez for 2 billion GBP. Macquarie had agreed to buy it in Aug 2022 but Suez matched the offer under its right of first refusal. The plant's permit holder is SUEZ Recycling and Recovery UK Ltd (UKWIN, from Environment Agency data), which is assumed to sit inside that group.",
+    "url": "https://www.veolia.com/en/our-media/newsroom/press-releases/antitrust-remedies-united-kingdom-veolia-completes-waste-business.md",
+    "source_type": "url_page",
+    "source_ref": "https://www.veolia.com/en/our-media/newsroom/press-releases/antitrust-remedies-united-kingdom-veolia-completes-waste-business.md",
+    "confidence": "likely"
+   },
+   {
+    "owner": "SUEZ group shareholders: Meridiam 39%, Global Infrastructure Partners 39%, Caisse des Depots via CNP Assurances 19%",
+    "stake": 100,
+    "from": "2022-01-31",
+    "note": "Seen only in a search snippet about SUEZ ownership; not opened. Open the Meridiam or SUEZ annual report to confirm. Stakes are for SUEZ group, not the plant directly.",
+    "url": "https://www.meridiam.com/news/agreement-on-the-creation-of-a-new-suez/",
+    "source_type": "snippet",
+    "source_ref": "https://www.meridiam.com/news/agreement-on-the-creation-of-a-new-suez/",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "SUEZ group (acquirer of SUEZ Recycling and Recovery UK)",
+    "lender": "Bank syndicate (not named)",
+    "instrument": "Acquisition facility",
+    "amount": 1200000000,
+    "ccy": "EUR",
+    "created": "2022-12-01",
+    "refi": null,
+    "refi_basis": "Partly refinanced by a 500m EUR 10-year green bond in Nov 2023 (4.50% coupon, matures c.Nov 2033). Facility maturity not found.",
+    "note": "Group-level debt that funded the purchase of the UK waste business together with IWS in France, so it covers this plant only indirectly. Created date is month of the Dec 2022 raise.",
+    "url": "https://suez.com/en/news/press-releases/suez-launches-500-million-euros-green-bond-issuance",
+    "source_type": "url_page",
+    "source_ref": "https://suez.com/en/news/press-releases/suez-launches-500-million-euros-green-bond-issuance",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2013-05-12",
+    "type": "fire",
+    "summary": "A fire in the back-room electrical and hydraulic area stopped the incinerator equipment working. About 50 firefighters attended and the plant was closed for a few hours with no injuries.",
+    "severity": "low",
+    "url": "https://www.gazettelive.co.uk/news/local-news/probe-goes-sita-plant-blaze-3714288",
+    "source_type": "url_page",
+    "source_ref": "https://www.gazettelive.co.uk/news/local-news/probe-goes-sita-plant-blaze-3714288",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "health and safety prosecution",
+    "summary": "Teesside Crown Court fined Suez Recycling and Recovery 220,000 GBP after an employee was badly burned clearing a blocked chute at its Billingham EfW site. Date and exact line not confirmed because the page was blocked.",
+    "severity": "medium",
+    "url": "https://www.pfmonthenet.net/article/134010/contact.aspx",
+    "source_type": "snippet",
+    "source_ref": "https://www.pfmonthenet.net/article/134010/contact.aspx",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Haverton Hill (lines 1 and 2, 1998, c.20 MWe) is still operating: UKWIN showing Environment Agency data (permit VP3034SG, 2024 tonnage 660kt for the whole site) and Wikipedia both list it as operational. Owner is the SUEZ group since the Dec 2022 buy-back of Suez UK from Veolia; the date the plant moved from Cleveland Waste Management to SITA, and the plant-level debt, were not found."
+ },
+ {
+  "plant_id": 3197,
+  "parent_owner": "SSE plc (via Slough Heat and Power Ltd)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2007-12-31",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 120000,
+  "heat_offtaker": "Slough Trading Estate businesses and c.2000 homes via private network (remaining part of the old plant)",
+  "locality": "Slough Trading Estate, Berkshire",
+  "owners": [
+   {
+    "owner": "SEGRO (Slough Estates Group)",
+    "to": "2007-12-31",
+    "note": "Sold its shares in Slough Heat and Power to SSE for GBP 49.25m and granted a 45-year site lease (lease detail from search snippet only). Completion date of 31 Dec 2007 is from a search snippet; the opened letsrecycle article of 2 Jan 2008 says the takeover was completed.",
+    "url": "https://letsrecycle.com/news/energy-giant-buys-slough-biomass-plant-in-49m-deal",
+    "source_type": "url_page",
+    "source_ref": "https://letsrecycle.com/news/energy-giant-buys-slough-biomass-plant-in-49m-deal",
+    "confidence": "verified"
+   },
+   {
+    "owner": "SSE plc (Slough Heat and Power Ltd)",
+    "stake": 100,
+    "from": "2007-12-31",
+    "note": "100% ownership is implied by the acquisition and the wikiwaste operator entry, not stated as a percentage. The newer Slough Multifuel EfW next door is a separate 50:50 JV of SSE Thermal and Copenhagen Infrastructure Partners and is not this plant.",
+    "url": "https://letsrecycle.com/news/energy-giant-buys-slough-biomass-plant-in-49m-deal",
+    "source_type": "url_page",
+    "source_ref": "https://letsrecycle.com/news/energy-giant-buys-slough-biomass-plant-in-49m-deal",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2013-04-01",
+    "type": "partial closure",
+    "summary": "SSE announced two ageing fluidised-bed biomass units would be decommissioned and cease generation by October 2013, with c.40 jobs lost. One boiler and the steam turbines stayed, with c.GBP 8m invested to reach c.20MW.",
+    "severity": "high",
+    "url": "https://www.letsrecycle.com/news/wood-sector-faces-slough-switch-to-rdf/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/wood-sector-faces-slough-switch-to-rdf/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2018-10-01",
+    "type": "decommissioning",
+    "summary": "SSE began decommissioning and demolition (contractor Keltbray) of much of the old CHP plant to make way for the new Slough Multifuel plant. The newsletter says the remaining part still supplied energy, water and heat to estate customers. The 50MW REPD capacity is therefore likely overstated.",
+    "severity": "high",
+    "url": "https://www.sseenergysolutions.co.uk/file/slough-demolition-newsletter",
+    "source_type": "url_page",
+    "source_ref": "https://www.sseenergysolutions.co.uk/file/slough-demolition-newsletter",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-08-01",
+    "type": "register mismatch",
+    "summary": "Slough Multifuel (separate plant, permit KP3702MY, c.525kt/yr) started commercial operation in Aug 2024 and SSE and CIP were reported in Oct 2025 to be looking to sell it. Wikiwaste still lists Slough Heat & Power as operational at 28 MWe (inconsistent with its own 21 MWe and with the 2013 and 2018 reductions). Whether any of the old plant still generates today is not confirmed.",
+    "severity": "medium",
+    "url": "https://ukwin.org.uk/incinerators/library/Berkshire/265",
+    "source_type": "url_page",
+    "source_ref": "https://ukwin.org.uk/incinerators/library/Berkshire/265",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "Owned by SSE since the Dec 2007 purchase from SEGRO, but the original c.50-100MW biomass CHP was cut back in 2013 and largely demolished from 2018 for the new Slough Multifuel plant, so the REPD 50MW operational entry is probably overstated. Current output of any remaining old unit, financing and any plant-specific sale are not found."
+ },
+ {
+  "plant_id": 2653,
+  "parent_owner": "Enviroparks (Wales) Ltd (private investors, ultimate shareholders not identified)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 238000,
+  "locality": "Hirwaun",
+  "owners": [
+   {
+    "owner": "Enviroparks (Wales) Ltd (formerly Enviroparks (Hirwaun) Ltd); Global Energy Monitor lists Enviroparks Ltd 100%",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Developer and owner since the 2008 planning applications. The Enviroparks 2020 design statement says the company is funded by private investors and institutions and names no shareholders. Directors previously developed a battery recycling plant at Ebbw Vale. No sale or change of control found. Companies House shareholder check would confirm.",
+    "url": "https://enviroparks.co.uk/pdfs/EWL_2020_Design_and_Access_Statement.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://enviroparks.co.uk/pdfs/EWL_2020_Design_and_Access_Statement.pdf",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Enviroparks Ltd [100%] (Global Energy Monitor ownership table, citing power-technology profile)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Matches the developer named above; gives no shareholder detail.",
+    "url": "https://www.gem.wiki/Hirwaun_Waste_power_station",
+    "source_type": "url_page",
+    "source_ref": "https://www.gem.wiki/Hirwaun_Waste_power_station",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2020-06-01",
+    "type": "construction status",
+    "summary": "The 2020 planning documents describe the gasification plant (Phase 2) as consented in Feb 2019 but not built: only Phase 1 (recycling and fuel preparation, started 2015) had been constructed, and the application was only to move and raise the stack from 45m to 90m. This conflicts with REPD and Global Energy Monitor showing a 20MW plant operating since 2019.",
+    "severity": "high",
+    "url": "https://enviroparks.co.uk/pdfs/EWL_2020_Design_and_Access_Statement.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://enviroparks.co.uk/pdfs/EWL_2020_Design_and_Access_Statement.pdf",
+    "confidence": "verified"
+   },
+   {
+    "date": "2021-03-01",
+    "type": "planning refusal",
+    "summary": "Councillors reportedly refused the 90m stack after public opposition, despite an officer recommendation to approve. Seen in a search snippet only; the page was blocked.",
+    "severity": "high",
+    "url": "https://www.pressreader.com/uk/cynon-valley/20210311/281509343934916",
+    "source_type": "snippet",
+    "source_ref": "https://www.pressreader.com/uk/cynon-valley/20210311/281509343934916",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2024-10-14",
+    "type": "status conflict",
+    "summary": "Third-party databases disagree: GlobalData profiles (seen as snippets) give commissioning as 2022 and active, while REPD-based data gives 2019. No source found that shows electricity export, a commissioning event or a waste supply contract. Treat as probably not operating as a 20MW EfW until confirmed; the REPD record may be a consented or under-construction project. Planning and permit status with Rhondda Cynon Taf and Natural Resources Wales would confirm. The more reliable evidence is the company's own 2020 statement.",
+    "severity": "high",
+    "url": "https://www.gem.wiki/Hirwaun_Waste_power_station",
+    "source_type": "inference",
+    "source_ref": "Company 2020 design statement (not built) versus GEM/REPD operating status (2019) and unopened GlobalData snippets (2022)",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Owner is Enviroparks (Wales) Ltd, a privately funded Welsh developer; ultimate shareholders, any acquisition date and any debt financing were not found. The plant appears not to have been built as a 20MW gasification EfW as of 2020-21 (only the Phase 1 recycling facility), so the REPD operating status looks doubtful and needs checking."
+ },
+ {
+  "plant_id": 2582,
+  "parent_owner": "Sembcorp Industries (via Sembcorp Utilities (UK) Ltd / Sembcorp Energy UK)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 212500,
+  "heat_offtaker": "Adjacent Sembcorp Wilton International site (10MWth)",
+  "locality": "Cleveland",
+  "postcode": "TS90 8WS",
+  "owners": [
+   {
+    "owner": "Sembcorp Utilities (UK) Ltd (Sembcorp Industries)",
+    "from": null,
+    "to": null,
+    "note": "Wilton 10 was developed and built by Sembcorp and operational from autumn 2007. Wikipedia says Sembcorp bought the wider Wilton power station from Enron's collapse in 2002 to 2003 and that it is owned and operated by Sembcorp Industries. The acquisition date of Wilton 10 itself is not stated because Sembcorp built it. No sale since then was found, but the Sembcorp corporate pages returned 403 and could not be opened.",
+    "url": "https://wikiwaste.org.uk/index.php/Wilton_10",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Wilton_10 (operator and developer); https://en.wikipedia.org/wiki/Wilton_power_stations (owner); https://ijglobal.com/articles/22993/wilton-10-between-a-roc-and-a-hard-place?home=0 (Sembcorp acquired Wilton in 2003)",
+    "confidence": "likely"
+   },
+   {
+    "owner": "UK Wood Recycling (now Enva, Hadfield-founded)",
+    "from": null,
+    "to": null,
+    "note": "Not an owner of the power plant. The row's operator_name is the adjacent waste wood supplier that provides fuel (c.80,000 t/yr), not the plant operator. Wikiwaste says Enva acquired it in 2018. A letsrecycle headline dated 14 Sep 2026 says Seras acquired Enva's wood recycling business; not opened.",
+    "url": "https://www.letsrecycle.com/news/uk-wood-recycling-fire-extinguished",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/uk-wood-recycling-fire-extinguished (supplier role); https://wikiwaste.org.uk/index.php/Wilton_10 (Enva 2018)",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2013-12-23",
+    "type": "fire",
+    "summary": "A fire in 16,000 tonnes of waste wood at the adjacent UK Wood Recycling site burned for over two weeks until 7 Jan 2014. Sembcorp's Wilton 10 fire crew helped put it out and fuel supply to the power plant continued.",
+    "severity": "low",
+    "url": "https://www.letsrecycle.com/news/uk-wood-recycling-fire-extinguished",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/uk-wood-recycling-fire-extinguished",
+    "confidence": "verified"
+   },
+   {
+    "date": "2013-12-03",
+    "type": "health and safety",
+    "summary": "A worker suffered serious leg fractures during a pressure test at the Sembcorp biomass station at Wilton, and a fine for pressure test failure was reported. Seen only in search snippets (the shponline page could not be read); confirm via the HSE press release.",
+    "severity": "medium",
+    "url": "https://www.shponline.co.uk/1-3m-fine-pressure-test-failure-caused-serious-injury/",
+    "source_type": "snippet",
+    "source_ref": "https://www.shponline.co.uk/1-3m-fine-pressure-test-failure-caused-serious-injury/",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2025-07-01",
+    "type": "health and safety",
+    "summary": "A search summary mentioned a July 2025 incident at Wilton 10 in which a person had severe but non-life-threatening leg lacerations. A follow-up search could not find it, so treat as a weak lead only.",
+    "severity": "low",
+    "url": null,
+    "source_type": "snippet",
+    "source_ref": "WebSearch result summary for Sembcorp Wilton 10 2025; no URL identified",
+    "confidence": "unverified"
+   },
+   {
+    "date": null,
+    "type": "subsidy",
+    "summary": "Operating status looks current: wikiwaste (page opened) lists the plant as operational with 2023 and 2024 annual report references. Its economics rely on ROC support (IJGlobal, 2005); the RO end date for this 2007 plant (c.2027 to 2037 range depends on accreditation) was not checked.",
+    "severity": "low",
+    "url": "https://wikiwaste.org.uk/index.php/Wilton_10",
+    "source_type": "url_page",
+    "source_ref": "https://wikiwaste.org.uk/index.php/Wilton_10",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "Sembcorp built and runs Wilton 10 (30MWe wood-fired, permit NP3838LV); the CSV operator UK Wood Recycling is only the fuel supplier. Not found: the date Sembcorp's current ownership structure began, any plant-level debt (IJGlobal mentions Calyon and a £10m Big Lottery grant in 2005, amounts not seen), and confirmation of the 2013 and 2025 injury incidents."
+ },
+ {
+  "plant_id": 2586,
+  "parent_owner": "West Fraser Timber Co. Ltd (via Norbord, acquired Feb 2021)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2021-02-01",
+  "owner_since_confidence": "likely",
+  "heat_offtaker": "Norbord Cowie chipboard and MDF mill (captive: thermal oil heat and steam)",
+  "locality": "Stirling",
+  "postcode": "FK7 7BW",
+  "owners": [
+   {
+    "owner": "Norbord (Norbord Europe), owner and operator of the Cowie chipboard and MDF mill and its biomass plant",
+    "to": "2021-02-01",
+    "note": "Biomass plant opened Feb 2008 on the mill site, fuelled by the mill's own bark and wood residue, c.£2.5m investment. The article describes 5MW of heat for thermal oil plus 5MW for steam; the 15MWe figure is from REPD and GEM, not from this article.",
+    "url": "https://www.ttjonline.com/news/norbord-opens-biomass-plant/",
+    "source_type": "url_page",
+    "source_ref": "https://www.ttjonline.com/news/norbord-opens-biomass-plant/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "West Fraser Timber Co. Ltd (100% of Norbord Inc. shares)",
+    "stake": 100,
+    "from": "2021-02-01",
+    "note": "West Fraser completed its acquisition of all Norbord shares on 1 Feb 2021. The page does not name Cowie, so the link to this plant is inferred from Norbord owning the mill; confirm via Companies House for Norbord Europe Ltd or West Fraser UK entity.",
+    "url": "https://osb.westfraser.com/blog/tag/osb-engineered-wood-products/",
+    "source_type": "url_page",
+    "source_ref": "https://osb.westfraser.com/blog/tag/osb-engineered-wood-products/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Captive 15MWe biomass CHP at the Cowie chipboard and MDF mill, owned through Norbord, which West Fraser acquired on 1 Feb 2021. No financing or operating problems found; GEM lists it as operating (c. Sep 2026 edit) but its sources are archived, so current operation is not independently confirmed and the mill's status under West Fraser was not checked."
+ },
+ {
+  "plant_id": 2591,
+  "parent_owner": "Holmen AB (via Holmen Iggesund Paperboard)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "heat_offtaker": "Iggesund Workington paperboard mill (site steam and power, surplus power exported to grid)",
+  "locality": "Workington",
+  "postcode": "CA14 1JX",
+  "owners": [
+   {
+    "owner": "Holmen AB (Iggesund Paperboard, Workington mill)",
+    "stake": 100,
+    "note": "EUWID (8 Apr 2011) calls Iggesund Workington a Holmen subsidiary and says Holmen decided to invest in the biofuel boiler there (c.SEK 1.1bn, c.EUR 122m). The plant was built for the mill by its owner, so no change of ownership found. A search snippet says Holmen AB holds 100%, not independently opened.",
+    "from": null,
+    "to": null,
+    "url": "https://www.euwid-paper.com/news/markets/holmen-to-build-biofuel-boiler-at-uk-mill/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-paper.com/news/markets/holmen-to-build-biofuel-boiler-at-uk-mill/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2021-05-01",
+    "type": "turbine damage",
+    "summary": "After a planned 35-day outage in May 2021, the new steam turbine rotor was damaged soon after start-up and the turbine stayed out of use for the rest of 2021, so the mill imported grid power. Steam from the biomass boiler continued and return to service was planned for Q1 2022.",
+    "severity": "medium",
+    "url": "https://www.iggesund.com/globalassets/alla/certificates/paperboard/environmental-work-at-workington-mill.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.iggesund.com/globalassets/alla/certificates/paperboard/environmental-work-at-workington-mill.pdf (Environmental work at Workington Mill 2021, Holmen, pp. 3 and 6)",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Captive biomass CHP at Holmen's Iggesund Workington paperboard mill; Holmen ownership confirmed, no sale or financing found. The plant was operating in 2021 apart from a turbine rotor failure, but no source seen confirms status after 2022; the date Holmen took ownership of Iggesund is not found."
+ },
+ {
+  "plant_id": 2810,
+  "parent_owner": "KKR (KKR Global Infrastructure Investors III, via Viridor Limited and Viridor (Glasgow) Limited)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2020-07-08",
+  "owner_since_confidence": "likely",
+  "locality": "Polmadie, Glasgow",
+  "postcode": "G42 0PJ",
+  "owners": [
+   {
+    "owner": "Viridor (Pennon Group)",
+    "to": "2020-07-08",
+    "note": "Viridor won the 25-year Glasgow City Council contract in Dec 2011 and built the site; Viridor was then owned by Pennon Group. Pennon ownership at the time is from the KKR deal coverage, not from a page naming this plant.",
+    "url": "https://www.stblaw.com/about-us/news/view/2020/03/20/kkr-infrastructure-to-aquire-viridor",
+    "source_type": "url_page",
+    "source_ref": "https://www.stblaw.com/about-us/news/view/2020/03/20/kkr-infrastructure-to-aquire-viridor",
+    "confidence": "likely"
+   },
+   {
+    "owner": "KKR (funds advised by KKR) via Viridor Limited",
+    "from": "2020-07-08",
+    "note": "KKR bought Viridor Limited from Pennon for an enterprise value of 4.2bn GBP; completion date 8 Jul 2020 per Wikipedia. The permit holder for the GRREC site is Viridor (Glasgow) Limited (SEPA decision document, Mar 2025); that it is a subsidiary of Viridor Limited is inferred. UKWIN lists the operator as 'Viridor / KKR and RSM Group AS'; the RSM Group AS link was not explained and is unconfirmed. The site is delivered under a 25-year partnership with Glasgow City Council, so the council holds the waste contract, not the plant.",
+    "url": "https://en.wikipedia.org/wiki/Viridor",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/Viridor",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Viridor (Glasgow) Limited (permit holder and site operator)",
+    "note": "Named as applicant and operator on the SEPA permit variation decision document for PPC/A/1110002.",
+    "url": "https://consultation.sepa.org.uk/permits/grrec-425-polmadie-road-glasgow-ppc-variation/user_uploads/ppc-a-1110002-grrec-draft-decision-document.pdf",
+    "source_type": "register_entry",
+    "source_ref": "SEPA PPC/A/1110002 draft decision document, 10 Mar 2025, p1",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Viridor energy from waste business (11 UK EfW facilities; Glasgow not named individually)",
+    "lender": "Privately placed noteholders and a bank term loan group (not named)",
+    "instrument": "Package of 2.9% Senior Secured Notes due 2043 (1.585bn GBP), amortizing and fixed-rate term loan (900m GBP), revolving credit facility (65m GBP) and debt service reserve facility (65m GBP); plus a separate 200m GBP group RCF",
+    "amount": 2815000000,
+    "ccy": "GBP",
+    "created": "2021-12-01",
+    "refi": "2043-12-01",
+    "refi_basis": "Notes are due 2043 (exact month not stated, Dec assumed from issue date); term loan maturity not found",
+    "note": "Covers Viridor's EfW business; Glasgow is one of Viridor's EfW sites but the source does not name it, so coverage is implied. The 2.815bn total is the sum of the four EfW tranches.",
+    "url": "https://www.stblaw.com/about-us/news/view/2021/12/07/viridor-completes-refinancing-transactions",
+    "source_type": "url_page",
+    "source_ref": "https://www.stblaw.com/about-us/news/view/2021/12/07/viridor-completes-refinancing-transactions",
+    "confidence": "likely"
+   },
+   {
+    "borrower": "Planets UK Bidco Limited (KKR acquisition vehicle for Viridor)",
+    "lender": "Syndicate of eight banks",
+    "instrument": "Senior secured syndicated acquisition loan",
+    "amount": 2500000000,
+    "ccy": "GBP",
+    "created": "2020-07-17",
+    "refi": null,
+    "refi_basis": "Repaid in the Dec 2021 refinancing per the use of proceeds, not confirmed",
+    "note": "Seen in a search result summary only (GlobalCapital); page not opened. Confirm by opening the GlobalCapital article.",
+    "url": "https://www.globalcapital.com/article/28msrwf3i64sdcd8vlvjx/syndicated-loans/kkr-signs-2-5bn-facility-for-viridor-buy",
+    "source_type": "snippet",
+    "source_ref": "https://www.globalcapital.com/article/28msrwf3i64sdcd8vlvjx/syndicated-loans/kkr-signs-2-5bn-facility-for-viridor-buy",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2026-08-01",
+    "type": "extended shutdown",
+    "summary": "In August 2026 the GRREC was reported to have entered an extended shutdown with no reopening date, linked to cracks found in smoke tube boilers. This concerns the gasification/incineration plant; whether the AD plant (which is fed by the on-site MRF) is also stopped was not found, so the REPD operational status for the AD unit is uncertain.",
+    "severity": "high",
+    "url": "https://ukwin.org.uk/incinerators/library/Glasgow/101",
+    "source_type": "url_page",
+    "source_ref": "https://ukwin.org.uk/incinerators/library/Glasgow/101 (quotes the ENDS Waste & Bioenergy report; the ENDS article is paywalled and was not readable)",
+    "confidence": "verified"
+   },
+   {
+    "date": "2016-11-01",
+    "type": "contractor dispute / construction delay",
+    "summary": "Viridor terminated its EPC contractor Interserve for repeated delays and cost overruns; Doosan Babcock replaced it in Feb 2017 and the site opened in 2019, later than the 2017-12-15 date in the register.",
+    "severity": "medium",
+    "url": "https://www.theconstructionindex.co.uk/news/view/viridor-turns-to-doosan-babcock-to-rescue-glasgow-waste-plant",
+    "source_type": "url_page",
+    "source_ref": "https://www.theconstructionindex.co.uk/news/view/viridor-turns-to-doosan-babcock-to-rescue-glasgow-waste-plant",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-12-31",
+    "type": "permit breaches",
+    "summary": "The operator's 2025 annual performance report lists 5 permit breaches for the GRREC permit (site-wide, mainly the incineration activity; nature not detailed).",
+    "severity": "low",
+    "url": "https://ukwin.org.uk/incinerators/library/Glasgow/101",
+    "source_type": "url_page",
+    "source_ref": "https://ukwin.org.uk/incinerators/library/Glasgow/101 (APR summary 2025, derived from the operator report)",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Plant is the AD unit within Viridor's GRREC at Polmadie (permit holder Viridor (Glasgow) Ltd, 25-year Glasgow City Council partnership), ultimately owned by KKR funds since the Jul 2020 Viridor buyout. The site is reported in an extended shutdown since Aug 2026 (boiler cracks); AD-specific status, AD permit tonnage, and Viridor Glasgow Ltd's exact shareholding were not found."
+ },
+ {
+  "plant_id": 2813,
+  "parent_owner": "Renewi plc (Macquarie European Infrastructure Fund 7 and BCI) with Equitix (49.99% of the Wakefield Waste PFI SPV)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "South Kirkby",
+  "postcode": "WF9 4DG",
+  "permit_tonnes_pa": 65000,
+  "owners": [
+   {
+    "owner": "Shanks Group plc (now Renewi), developer and operator under the 25-year Wakefield Council PFI",
+    "stake": 100,
+    "from": "2013-01-01",
+    "to": "2016-03-01",
+    "note": "Financial close Jan 2013 (date taken from a search snippet). The 65,000 t/yr AD plant is part of the South Kirkby residual waste facility. Row operator Shanks Group matches.",
+    "url": "https://www.resourcemedia.eco/article/shanks-sells-part-stake-wakefield-contract-10827",
+    "source_type": "url_page",
+    "source_ref": "https://www.resourcemedia.eco/article/shanks-sells-part-stake-wakefield-contract-10827",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Renewi plc (formerly Shanks) 50.01% and Equitix 49.99% of the PFI financing and infrastructure SPV (Wakefield Waste PFI Ltd)",
+    "stake": 50.01,
+    "from": "2016-03-01",
+    "note": "Shanks announced on 3 Feb 2016 the sale of 49.99% of SPV equity and all subordinated debt to Equitix for GBP 30m, subject to council cabinet approval in March 2016. Completion not confirmed in an opened source. Whether the AD plant itself sits in the SPV or with the Shanks/Renewi operating company is not stated.",
+    "url": "https://www.resourcemedia.eco/article/shanks-sells-part-stake-wakefield-contract-10827",
+    "source_type": "url_page",
+    "source_ref": "https://www.resourcemedia.eco/article/shanks-sells-part-stake-wakefield-contract-10827",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Renewi plc, acquired by Macquarie European Infrastructure Fund 7 and BCI",
+    "from": "2025-06-06",
+    "note": "Completion of takeover of Renewi announced 6 June 2025. The release does not mention Wakefield. Link to this plant is by inference: Renewi still operates the site (letsrecycle, Aug 2022) and holds 50.01% of the SPV per the 2016 announcement; later changes in the stake are not checked.",
+    "url": "https://www.bci.ca/bci-and-macquarie-asset-management-complete-acquisition-of-renewi/",
+    "source_type": "url_page",
+    "source_ref": "https://www.bci.ca/bci-and-macquarie-asset-management-complete-acquisition-of-renewi/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Wakefield Waste PFI SPV (Shanks/Babcock consortium)",
+    "lender": "Funding club of Barclays, BayernLB, SMBC and UK Green Investment Bank start-up team",
+    "instrument": "PFI senior project debt",
+    "amount": 95000000,
+    "ccy": "GBP",
+    "created": "2013-01-01",
+    "refi": null,
+    "refi_basis": "Tenor not found. PFI contract runs 25 years to 2038. Amount and lenders are from a July 2012 pre-close article (expected terms); close date Jan 2013 is from a snippet. Shanks said GBP 88m non-recourse debt left its balance sheet in 2016.",
+    "url": "https://www.letsrecycle.com/news/wakefield-pfi-deal-to-complete-in-september/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/wakefield-pfi-deal-to-complete-in-september/",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2015-11-13",
+    "type": "construction delay",
+    "summary": "AD facility start was delayed about four months after its constructor, Imtech Water, Waste and Energy, went into liquidation in Aug 2015; Shanks booked up to GBP 5m of liquidated damages and expenses. Full service followed at the end of Dec 2015.",
+    "severity": "medium",
+    "url": "https://www.resourcemedia.eco/article/south-kirkby-delay-costs-shanks-5m-10624",
+    "source_type": "url_page",
+    "source_ref": "https://www.resourcemedia.eco/article/south-kirkby-delay-costs-shanks-5m-10624",
+    "confidence": "verified"
+   },
+   {
+    "date": "2022-07-28",
+    "type": "fire / explosion",
+    "summary": "A gas canister exploded in the baler at the South Kirkby sorting facility, causing six hours of downtime and baler damage. This was the MRF, not the AD plant, but it is on the same site.",
+    "severity": "low",
+    "url": "https://www.letsrecycle.com/news/fears-grow-over-gas-canisters-after-kirkby-mrf-explosion/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/fears-grow-over-gas-canisters-after-kirkby-mrf-explosion/",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "plant failures / waste diversion",
+    "summary": "A local press report (page blocked, seen in search snippet only) says plant failures over 18 months and an industrial accident in February left key machinery unusable, with 4,400 tonnes diverted to Cumbria, of which 2,263 tonnes was biodegradable waste. Renewi said this was 0.03% of 170,000 t/yr. Publication date not seen.",
+    "severity": "medium",
+    "url": "https://www.hemsworthandsouthelmsallexpress.co.uk/news/lorry-loads-of-wakefield-waste-ferried-115-miles-to-cumbria-after-recycling-plant-failures-1330118",
+    "source_type": "snippet",
+    "source_ref": "https://www.hemsworthandsouthelmsallexpress.co.uk/news/lorry-loads-of-wakefield-waste-ferried-115-miles-to-cumbria-after-recycling-plant-failures-1330118",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Waste AD (65kt/yr) inside the Wakefield PFI residual waste facility, built by Shanks, now Renewi (Macquarie and BCI since June 2025), with Equitix holding 49.99% of the PFI SPV from 2016. Plant appears to still operate (Renewi running the site in 2022), but no 2025 to 2026 confirmation was found; exact AD asset owner, current SPV shareholders and refinancing dates are unknown."
+ },
+ {
+  "plant_id": 4262,
+  "parent_owner": null,
+  "parent_owner_confidence": null,
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Colwick Industrial Estate, Nottingham",
+  "postcode": "NG4 2JT",
+  "permit_tonnes_pa": null,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Bio Dynamic (UK) Limited",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Owner and operator of the Colwick food waste AD plant (Private Road No. 4, NG4 2JT), as named in the 2024 Environment Agency and HSE prosecution. Its own shareholders were not found (Companies House could not be opened); check the persons with significant control record.",
+    "url": "https://www.gov.uk/government/news/company-fined-after-an-explosion-seriously-injured-two-employees",
+    "source_type": "url_page",
+    "source_ref": "https://www.gov.uk/government/news/company-fined-after-an-explosion-seriously-injured-two-employees",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Air Liquide AB&T UK Ltd (Air Liquide group)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Listed as operator of 'Biodynamic Nottingham' in the GGCS biomethane register row. No page found that links Air Liquide to the Colwick Bio Dynamic site by name. Air Liquide's Dec 2020 release says it would install its tenth UK biomethane plant near Nottingham (90 GWh) by summer 2021, which fits a biogas upgrader at Colwick but does not name the site. Likely arrangement: Air Liquide owns and runs the upgrading unit and Bio Dynamic supplies the biogas. To confirm, find the Cadent or Ofgem entry, or Companies House filings for Air Liquide AB&T UK Ltd.",
+    "url": "https://www.airliquide.com/group/press-releases-news/2020-12-21/air-liquide-steps-its-biomethane-activity-uk-major-contract-asda",
+    "source_type": "inference",
+    "source_ref": "Register row operator name (not opened) plus Air Liquide press release 21 Dec 2020 (opened) stating a tenth UK biomethane plant near Nottingham; link to the Colwick site is deduced from location only",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2017-09-20",
+    "type": "explosion / enforcement",
+    "summary": "A tank explosion during grinder work seriously injured two employees. In Nov 2024 Bio Dynamic (UK) Ltd was fined 304,500 GBP with 229,988 GBP costs for health and safety and environmental permit breaches, including unauthorised gaseous emission points and unassessed process changes.",
+    "severity": "high",
+    "url": "https://www.gov.uk/government/news/company-fined-after-an-explosion-seriously-injured-two-employees",
+    "source_type": "url_page",
+    "source_ref": "https://www.gov.uk/government/news/company-fined-after-an-explosion-seriously-injured-two-employees",
+    "confidence": "verified"
+   },
+   {
+    "date": "2026-05-04",
+    "type": "ownership change risk",
+    "summary": "Air Liquide sold its biogas production activities in the US, France, Norway and Sweden to Mobius Renewables (IFM Investors). The UK was not listed, so any UK biomethane assets appear to remain with Air Liquide, but this is not confirmed.",
+    "severity": "low",
+    "url": "https://www.renewableenergymagazine.com/biogas/mobius-renewables-acquires-air-liquidea-s-biogas-20260506",
+    "source_type": "url_page",
+    "source_ref": "https://www.renewableenergymagazine.com/biogas/mobius-renewables-acquires-air-liquidea-s-biogas-20260506",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "Site identified as the Bio Dynamic (UK) Ltd food waste AD plant at Colwick Industrial Estate, Nottingham NG4 2JT; it was still listed as an operating recycling site in June 2025 and no closure was found. The Air Liquide link is only inferred, the ultimate owner, ownership dates, capacity and financing were not found, and the 2017 explosion led to a 2024 conviction."
+ },
+ {
+  "plant_id": 4263,
+  "parent_owner": "Air Liquide S.A. (via Air Liquide International and Air Liquide Advanced Business and Technologies UK Ltd)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Chipping Campden (Moreton-in-Marsh area), Gloucestershire",
+  "postcode": null,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Air Liquide Advanced Business and Technologies UK Ltd (AB&T UK, company 08676392, formerly ENN Clean Energy UK Ltd until Dec 2016)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Register operator. Air Liquide says it commissioned the Northwick biomethane unit in the UK in early 2018 (near Birmingham, farm waste feedstock). Whether Air Liquide built the AD plant or bought it from a previous owner is not stated; the 2018 date is a commissioning date, not an acquisition date. Previous owner not found.",
+    "url": "https://www.airliquide.com/group/press-releases-news/2018-04-19/air-liquide-doubles-its-biomethane-production-capacity",
+    "source_type": "url_page",
+    "source_ref": "https://www.airliquide.com/group/press-releases-news/2018-04-19/air-liquide-doubles-its-biomethane-production-capacity",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Air Liquide International S.A. (Paris, 75% or more of shares and votes in AB&T UK)",
+    "stake": 100,
+    "from": "2026-04-23",
+    "to": null,
+    "note": "Companies House PSC register: Air Liquide International notified 23 Apr 2026, replacing Air Liquide Biogas International (SAS, Sassenage), which was PSC from 19 Aug 2022 to 23 Apr 2026. Both are Air Liquide group companies. Stake shown is 75% or more, exact figure not stated. This is an intra-group change, not a sale.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08676392/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "08676392, persons with significant control page, notified 23 Apr 2026",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-09-01",
+    "type": "operating status",
+    "summary": "Plant appears to be operating: Air Liquide was recruiting a Plant Manager for the Northwick AD plant (12-person team, PAS 110 digestate, electricity and gas exported to grids). The advert is undated in the page text, so the date here is approximate.",
+    "severity": "low",
+    "url": "https://builtinlondon.uk/job/plant-manager-northwick/11370922",
+    "source_type": "url_page",
+    "source_ref": "https://builtinlondon.uk/job/plant-manager-northwick/11370922",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "Northwick (Northwick Power, near Chipping Campden, Gloucestershire) is an Air Liquide food and farm waste AD plant with biomethane upgrading commissioned in 2018, held through AB&T UK Ltd under Air Liquide S.A.; it looks operational and no incidents were found. Postcode, permit and capacity, who owned it before Air Liquide and any financing were not found (gasworld CO2 liquefaction article was blocked, 403). The site match rests on the Air Liquide press release and job advert, not an EA permit record."
+ },
+ {
+  "plant_id": 4264,
+  "parent_owner": "BioteCH4 Group (Thornfield 001 Ltd, controlled by GVO B-1 Ltd, itself owned by Hansa Aktiengesellschaft, Switzerland)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2018-05-30",
+  "owner_since_confidence": "verified",
+  "locality": "Rowton, Telford (Barnes Farm)",
+  "postcode": "TF6 6QX",
+  "permit_tonnes_pa": 90000,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Elgar Middleton Bio Power Limited",
+    "stake": 75,
+    "from": "2016-04-06",
+    "to": "2018-05-30",
+    "note": "Held 75% or more of Thornfield 001 Ltd per its Companies House PSC register (stake shown as the minimum of the 75%+ band).",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09434307/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Thornfield 001 Ltd (09434307), PSC register, notified 6 Apr 2016, ceased 30 May 2018",
+    "confidence": "verified"
+   },
+   {
+    "owner": "GVO B-1 Limited (BioteCH4 group)",
+    "stake": null,
+    "from": "2018-05-30",
+    "note": "Holds more than 50% and less than 75% of shares and votes per PSC register. Exact stake and other shareholders not shown. Registered office is the BioteCH4 Control Tower at Hemswell Cliff, and the BioteCH4 website lists Thornfield Energy, Barnes Farm, TF6 6QX among the sites it owns and operates. GVO B-1's own PSC is Hansa Aktiengesellschaft (Switzerland, 75% or more, notified 20 Apr 2025), after Mrs Emily Louise Von Opel.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09434307/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Thornfield 001 Ltd (09434307) PSC, notified 30 May 2018; GVO B-1 Ltd (10661698) PSC",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Air Liquide UK Ltd",
+    "stake": null,
+    "note": "Named as operator in the register row. No source found linking Air Liquide to Barnes Farm; it may run the biogas upgrading or grid injection, or the register entry may be wrong or out of date. Confirm via GGCS / Ofgem or by asking the operator.",
+    "url": null,
+    "source_type": "inference",
+    "source_ref": "Register row operator_name only; no supporting page found. Air Liquide press release (21 Dec 2020) lists UK biomethane production but does not name Barnes Farm.",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-10-07",
+    "type": "fire alarm",
+    "summary": "Shropshire Fire and Rescue logged a false alarm from a faulty smoke detector head at Thornfield Energy, Rowton. Minor, no fire.",
+    "severity": "low",
+    "url": "https://www.shropshirefire.gov.uk/incidents",
+    "source_type": "snippet",
+    "source_ref": "https://www.shropshirefire.gov.uk/incidents?page=240 (search result, not opened)",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Barnes Farm is the Thornfield Energy food waste AD and grid-injection plant at Rowton, Telford (TF6 6QX, permit EPR/VP3506PE, up to 90,000 t/yr per BioteCH4), run by Thornfield 001 Ltd and controlled by GVO B-1 Ltd (BioteCH4 group) since May 2018; it appears operating. The register's Air Liquide operator link is not confirmed, and no financing, capacity in MWe or serious operating problems were found."
+ },
+ {
+  "plant_id": 4693,
+  "parent_owner": "Landkreis Diepholz (via Abfallwirtschaftsgesellschaft Bassum mbH, which owns 100% of HKW Blumenthal GmbH)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Bremen",
+  "postcode": "28779",
+  "permit_tonnes_pa": 65000,
+  "heat_offtaker": "Quarter heating network at the former Wollkaemmerei site (Kaemmerei-Quartier), being expanded into an Enercity Contracting district heat network for Bremen-Nord (15 MW heat extraction)",
+  "owners": [
+   {
+    "owner": "Abfallwirtschaftsgesellschaft Bassum (100% of HKW Blumenthal GmbH), itself 100% owned by Landkreis Diepholz",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "ZFK (3 Sep 2025) states HKW Blumenthal GmbH is a 100% subsidiary of Abfallwirtschaftsgesellschaft Bassum, which is a 100% subsidiary of Landkreis Diepholz (municipal). Date of acquisition not found. The site was formerly an industrial coal power plant serving the Wollkaemmerei wool-combing works and was converted to substitute fuels (EBS) after the works closed; who owned it between those stages was not found.",
+    "url": "https://www.zfk.de/energie/waermequelle-die-schon-da-ist",
+    "source_type": "url_page",
+    "source_ref": "https://www.zfk.de/energie/waermequelle-die-schon-da-ist",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2014-09-01",
+    "type": "emissions complaint",
+    "summary": "Search-result text says the plant was reported several times for pink smoke in September 2014, with the trade supervisory authority quoted in press as saying iodine could be the cause. Seen only in a search snippet of a Bremen Buergerschaft/Beirat document; the PDF returned 403 when opened.",
+    "severity": "low",
+    "url": "https://bau.bremen.de/sixcms/media.php/13/BdV_S_Rosa%20Wolken%20Blumenthal_Endf.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://bau.bremen.de/sixcms/media.php/13/BdV_S_Rosa%20Wolken%20Blumenthal_Endf.pdf",
+    "confidence": "unverified"
+   },
+   {
+    "date": "2012-07-14",
+    "type": "odour",
+    "summary": "Search-result text describes increased odour and health complaints in Bremen-Blumenthal between 14 and 30 July 2012 and recurring odour problems in the district. It is not confirmed that the plant was the source. Not opened (403).",
+    "severity": "low",
+    "url": "https://umwelt.bremen.de/sixcms/media.php/13/BdV_S_Geruchsbel%C3%A4stigung%20Blumenthal_Endf.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://umwelt.bremen.de/sixcms/media.php/13/BdV_S_Geruchsbel%C3%A4stigung%20Blumenthal_Endf.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Site is HKW Blumenthal, a substitute-fuel (EBS) waste CHP in Bremen-Blumenthal that is still operating as of Sep 2025; this row (3.6 MWe, COD 2025-08-01) is a turbine unit at that larger site, and the 2025 date probably reflects a new or replaced turbine, not the plant start. Owned 100% by a Landkreis Diepholz waste company (municipal), with a heat network expansion under way; acquisition date, financing and the plant-level electrical capacity were not found, and the two older complaint items are unverified snippets. Permit throughput c.65,000 t/yr comes from a search snippet only (unverified). MaStR unit SEL902174786004 was not opened."
+ },
+ {
+  "plant_id": 4717,
+  "parent_owner": "RWE AG (via RWE Generation SE)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "heat_offtaker": "Iqony Fernwaerme GmbH (district heating, contract 2025 to end 2036)",
+  "locality": "Essen-Karnap",
+  "owners": [
+   {
+    "owner": "RWE (operator RWE Generation SE)",
+    "from": null,
+    "to": null,
+    "note": "RWE's own plant page describes it as RWE's Muellheizkraftwerk Essen-Karnap, in operation since 1987, and the RWE Generation SE press office is the contact. RWE AG as ultimate parent is implied (RWE Generation SE is an RWE group company) but no page opened states the shareholding; check Handelsregister or RWE annual report to confirm. Acquisition date not found; plant appears to have been RWE-built (waste co-firing at the old coal plant since 1963, current plant 1987).",
+    "url": "https://www.rwe.com/der-konzern/laender-und-standorte/muellheizkraftwerk-essen-karnap/",
+    "source_type": "url_page",
+    "source_ref": "https://www.rwe.com/der-konzern/laender-und-standorte/muellheizkraftwerk-essen-karnap/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2019-02-04",
+    "type": "release incident",
+    "summary": "A defective component in the flue gas cleaning (activated coke filter) caused an unplanned release of activated coke granulate over nearby streets and gardens. LANUV tests found no health or environmental risk; the plant was to restart within days.",
+    "severity": "medium",
+    "url": "https://www.rwe.com/presse/rwe-generation/2019-02-08-entwarnung-nach-stoffaustritt-am-muellheizkraftwerk-essen-karnap/",
+    "source_type": "url_page",
+    "source_ref": "https://www.rwe.com/presse/rwe-generation/2019-02-08-entwarnung-nach-stoffaustritt-am-muellheizkraftwerk-essen-karnap/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "RWE-run waste-to-energy CHP at Essen-Karnap (1987, up to 48 MWe, 38 MW net per RWE), still operating, with a district heat contract to Iqony running to end 2036. Owner is RWE group by implication only; exact legal owner entity, acquisition date, permit tonnage and financing were not found. The only issue found is the 2019 activated coke release. Row matches: RWE Generation SE, Essen NRW, 1987, max 48 MWe per RWE page. RWE's own press release (2019) confirms the plant's RWE operation."
+ },
+ {
+  "plant_id": 4718,
+  "parent_owner": "Beijing Enterprises Holdings Limited (BEHL), via EEW Energy from Waste GmbH (Helmstedt)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2016-03-03",
+  "owner_since_confidence": "unverified",
+  "permit_tonnes_pa": 350000,
+  "heat_offtaker": "HanseWerk Natur district heating network (Stapelfeld households and local businesses)",
+  "locality": "Stapelfeld",
+  "postcode": "22145",
+  "owners": [
+   {
+    "owner": "E.ON (49%) and EQT Infrastructure II (51%), then EQT Infrastructure II 100%",
+    "from": "2013-03-01",
+    "to": "2016-03-03",
+    "note": "EQT bought 51% of EEW from E.ON in Mar 2013 and the remaining 49% in Apr 2015. The Stapelfeld plant joined the EEW group in 2003.",
+    "url": "https://waste-management-world.com/artikel/chinese-investors-to-acquire-german-firm-eew-energy-from-waste/",
+    "source_type": "url_page",
+    "source_ref": "https://waste-management-world.com/artikel/chinese-investors-to-acquire-german-firm-eew-energy-from-waste/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Beijing Enterprises Holdings Limited (BEHL) via EEW Energy from Waste GmbH",
+    "stake": 100,
+    "from": "2016-03-03",
+    "note": "The opened WMW article (8 Feb 2016) states the agreement to sell EEW to BEHL for an equity price of EUR 1.438bn, with closing expected by end Feb 2016. The 3 Mar 2016 completion date comes only from a search summary. EUWID (15 Apr 2026, opened) calls BEHL the Chinese parent of EEW. The plant operator EEW Energy from Waste Stapelfeld GmbH is described on EEW's site as part of the EEW group. The Handelsregister chain from the Stapelfeld GmbH to EEW GmbH was not checked. To confirm: Handelsregister or Bundesanzeiger entry for the Stapelfeld GmbH.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/eew-haelt-2025-abfalldurchsatz-stabil-und-baut-kapazitaeten-aus-150426/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/eew-haelt-2025-abfalldurchsatz-stabil-und-baut-kapazitaeten-aus-150426/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Beijing Enterprises Holdings Limited (acquisition of EEW, not EEW or the plant)",
+    "lender": "Bank of China, Luxembourg branch",
+    "instrument": "Acquisition loan agreement",
+    "amount": 1440000000,
+    "ccy": "EUR",
+    "created": "2016-03-01",
+    "refi": null,
+    "refi_basis": null,
+    "note": "Seen only in a search result summary, not opened. Borrower is the parent, so it is not a plant-level facility. To confirm: BEHL announcement or loan registration.",
+    "url": "https://www.avcj.com/avcj/news/50911/beijing-enterprises-to-buy-germanys-eew-from-eqt-for-usd16b",
+    "source_type": "snippet",
+    "source_ref": "https://www.avcj.com/avcj/news/50911/beijing-enterprises-to-buy-germanys-eew-from-eqt-for-usd16b",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2025-07-31",
+    "type": "register mismatch / plant replaced",
+    "summary": "The old 1979 Stapelfeld plant was permanently shut on 31 Jul 2025 after 46 years. The MaStR record (commissioned 2025-08-21) refers to the new replacement plant, which is therefore the operating asset, and the old plant is not still operating.",
+    "severity": "low",
+    "url": "https://www.eew-energyfromwaste.com/en/newsroom/press-releases/articles/eew-stellt-den-betrieb-der-mva-stapelfeld-nach-46-jahren-ein-ersatzneubau-uebernimmt-ab-august/",
+    "source_type": "url_page",
+    "source_ref": "https://www.eew-energyfromwaste.com/en/newsroom/press-releases/articles/eew-stellt-den-betrieb-der-mva-stapelfeld-nach-46-jahren-ein-ersatzneubau-uebernimmt-ab-august/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-11-14",
+    "type": "construction delay",
+    "summary": "EEW said the replacement plant was delayed by Covid, supply-chain disruption and the Ukraine war. Trial operation had been planned for mid-2022 per a search summary, and the first boiler firing was only in Nov 2024.",
+    "severity": "medium",
+    "url": "https://www.eew-energyfromwaste.com/fileadmin/user_upload/pm_meilenstein_der_inbetriebsetzung_im_mhkw_stapelfeld.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.eew-energyfromwaste.com/fileadmin/user_upload/pm_meilenstein_der_inbetriebsetzung_im_mhkw_stapelfeld.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The plant is EEW's replacement MHKW at Stapelfeld, which took over from the 1979 plant in Aug 2025. EEW is owned by Beijing Enterprises Holdings (since c.Mar 2016); no plant-level debt, outage or enforcement issue was found. Capacity differs by source (MaStR row 32 MWe; search summary c.40 MW; 350kt/yr is the figure for the old plant and EEW says the new plant treats the same volume), and the exact shareholder chain and owner_since date are not confirmed."
+ },
+ {
+  "plant_id": 4734,
+  "parent_owner": "REMONDIS (95% of Holding Entsorgung Bremerhaven, which holds 74.9% of BEG); City of Bremerhaven holds 25.1%",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2003-01-01",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 401500,
+  "heat_offtaker": "Bremerhaven district heating network (BEG supplies Fernwaerme)",
+  "locality": "Bremerhaven",
+  "postcode": "27570",
+  "owners": [
+   {
+    "owner": "Gemeinnuetzige Muellbeseitigungsanlage Bremerhaven GmbH",
+    "to": "2003-01-01",
+    "note": "First operator after the plant started in 1976. The row is generator 2 (10 MWe, MaStR commissioning 1977-03-17) of the Muell-Heiz-Kraftwerk, not a separate site.",
+    "url": "https://de.wikipedia.org/wiki/M%C3%BCllbeseitigungsanlage_Bremerhaven",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/M%C3%BCllbeseitigungsanlage_Bremerhaven",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Bremerhavener Entsorgungsgesellschaft mbH (BEG), public-private partnership",
+    "stake": 100,
+    "from": "2003-01-01",
+    "note": "BEG operates the plant since 2003. BEG shareholders: City of Bremerhaven 25.1%, Holding Entsorgung Bremerhaven (REMONDIS-led) 74.9%. The 2003 start is the PPP start; exact date of change of ownership not found.",
+    "url": "https://beg-bhv.de/ueber-uns/unternehmensportraet",
+    "source_type": "url_page",
+    "source_ref": "https://beg-bhv.de/ueber-uns/unternehmensportraet",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Holding Entsorgung Bremerhaven: REMONDIS 95%, Nehlsen 5%",
+    "stake": 74.9,
+    "from": "2003-01-01",
+    "note": "Wikipedia gives the 95/5 split, citing a REMONDIS Aktuell article that was not opened. Company page confirms only that the holding is REMONDIS-led. Handelsregister would confirm.",
+    "url": "https://de.wikipedia.org/wiki/M%C3%BCllbeseitigungsanlage_Bremerhaven",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/M%C3%BCllbeseitigungsanlage_Bremerhaven",
+    "confidence": "likely"
+   },
+   {
+    "owner": "City of Bremerhaven",
+    "stake": 25.1,
+    "from": "2003-01-01",
+    "note": "Municipal minority partner in BEG",
+    "url": "https://beg-bhv.de/ueber-uns/unternehmensportraet",
+    "source_type": "url_page",
+    "source_ref": "https://beg-bhv.de/ueber-uns/unternehmensportraet",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-01-01",
+    "type": "capex",
+    "summary": "BEG is replacing the steam generators of the three waste boilers one after another (double-digit million euro programme, planned to finish 2025). Old generators caused high maintenance costs and operating restrictions. Whether it finished on time was not confirmed.",
+    "severity": "low",
+    "url": "https://www.nord24.de/bremerhaven/neue-kessel-fuer-die-bremerhavener-muellverbrennungsanlage-75563.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.nord24.de/bremerhaven/neue-kessel-fuer-die-bremerhavener-muellverbrennungsanlage-75563.html",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Generator 2 is a unit of the BEG Muell-Heiz-Kraftwerk Bremerhaven (c.401,500 t/yr), a PPP between the City of Bremerhaven (25.1%) and a REMONDIS-led holding (74.9%) since 2003. The plant is still operating and its boilers are being renewed; no fires or outages found, financing not found and unit-level generator data not found."
+ },
+ {
+  "plant_id": 4859,
+  "parent_owner": "ResInvest Group (via Onyx Power / Onyx Germany GmbH)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2026-02-02",
+  "owner_since_confidence": "likely",
+  "owners": [
+   {
+    "owner": "ENGIE S.A. (Zolling site, via its German coal and biomass plant business)",
+    "to": "2019-11-30",
+    "note": "Sold its five German and Dutch coal and biomass plants to Riverstone's Onyx. The Onyx release names the Zolling site in the portfolio but does not name the biomass GmbH separately, so ENGIE ownership of this GmbH is inferred.",
+    "url": "https://www.onyx-power.com/en/news-and-press/riverstone-holdings-llc-has-completed-the-acquisition-of-engie-s-a-s-five-coal-and-biomass-fired-power-plants-in-germany-and-the-netherlands/",
+    "source_type": "url_page",
+    "source_ref": "https://www.onyx-power.com/en/news-and-press/riverstone-holdings-llc-has-completed-the-acquisition-of-engie-s-a-s-five-coal-and-biomass-fired-power-plants-in-germany-and-the-netherlands/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Riverstone Holdings LLC (via Onyx Power)",
+    "from": "2019-11-30",
+    "to": "2026-02-02",
+    "note": "Acquisition of ENGIE plants completed 30 Nov 2019. Riverstone Energy Ltd announced sale of 100% of Onyx Power to ResInvest in Oct 2025 (c. USD 49m); seen only in a search snippet.",
+    "url": "https://www.onyx-power.com/en/news-and-press/riverstone-holdings-llc-has-completed-the-acquisition-of-engie-s-a-s-five-coal-and-biomass-fired-power-plants-in-germany-and-the-netherlands/",
+    "source_type": "url_page",
+    "source_ref": "https://www.onyx-power.com/en/news-and-press/riverstone-holdings-llc-has-completed-the-acquisition-of-engie-s-a-s-five-coal-and-biomass-fired-power-plants-in-germany-and-the-netherlands/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "ResInvest Group (Onyx Power, Onyx Germany GmbH 100%)",
+    "stake": 100,
+    "from": "2026-02-02",
+    "note": "ResInvest completed its acquisition of Onyx Power on 2 Feb 2026 (Onyx release, opened). Global Energy Monitor lists Onyx Germany GmbH as 100% owner of the Zolling biomass plant with parent ResInvest Holding AS. Neither source names Biomasseheizkraftwerk Zolling GmbH itself; the Onyx site page says the plant was built together with Fernwaermeversorgung Freising GmbH, so a minority partner in the GmbH cannot be ruled out. Confirm via Handelsregister.",
+    "url": "https://www.onyx-power.com/en/news-and-press/resinvest-group-completes-acquisition-of-onyx-power/",
+    "source_type": "url_page",
+    "source_ref": "https://www.onyx-power.com/en/news-and-press/resinvest-group-completes-acquisition-of-onyx-power/ ; https://www.gem.wiki/Zolling_Biomass_power_station",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-02-21",
+    "type": "site context",
+    "summary": "The coal unit 5 at the same Zolling site ended commercial operation on 21 Feb 2025 and moved to grid reserve until 31 Mar 2031. The biomass CHP is stated to continue operating, with a district heating contract with Fernwaermeversorgung Freising and Bayernwerk Natur to 2030.",
+    "severity": "low",
+    "url": "https://www.onyx-power.com/en/news-and-press/zolling-power-plant-discontinues-commercial-operation",
+    "source_type": "url_page",
+    "source_ref": "https://www.onyx-power.com/en/news-and-press/zolling-power-plant-discontinues-commercial-operation",
+    "confidence": "verified"
+   }
+  ],
+  "heat_offtaker": "Fernwaermeversorgung Freising GmbH district heat network, and Munich Airport (per operator site page)",
+  "locality": "Zolling",
+  "postcode": "85406",
+  "summary": "Plant matches the row (21 MW net, 2003, Zolling, Bayern) and is shown as operating by the owner; no outages, fires or enforcement found. Owner is Onyx Power, sold by Riverstone to ResInvest Group on 2 Feb 2026, but the shareholders of Biomasseheizkraftwerk Zolling GmbH itself were not seen (possible Freising minority partner), and no plant-level debt was found."
+ },
+ {
+  "plant_id": 4867,
+  "parent_owner": "Ökotech Ingenieurgesellschaft mbH (owner and operator; its own shareholders not found)",
+  "parent_owner_confidence": "unverified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Recklinghausen (Suderwich)",
+  "postcode": "45665",
+  "owners": [
+   {
+    "owner": "Ökotech Ingenieurgesellschaft mbH",
+    "from": null,
+    "to": null,
+    "note": "Search-result text from the company's Stepstone profile describes it as owner and operator of the waste-wood biomass CHP in Recklinghausen Suderwich. The Stepstone page I opened showed only the company address (Christine-Englerth-Str. 4, Recklinghausen), not that statement. Handelsregister HRB R2204-9168 (Amtsgericht Recklinghausen) lists managing director Axel Lankes from 2022 per a snippet; the register page was blocked. A Gesellschafterliste would confirm the shareholders.",
+    "url": "https://www.stepstone.de/cmp/de/%c3%96kotech-ingenieurgesellschaft-mbh-293271/jobs",
+    "source_type": "snippet",
+    "source_ref": "https://www.stepstone.de/cmp/de/%c3%96kotech-ingenieurgesellschaft-mbh-293271/jobs",
+    "confidence": "unverified"
+   },
+   {
+    "owner": "Ökotech Ingenieurgesellschaft mbH (operator per WRI Global Power Plant Database)",
+    "from": null,
+    "to": null,
+    "note": "PowerAtlas, quoting WRI GPPD id WRI1005608, lists the plant as BMHKW-RE Recklinghausen, biomass, commissioned 2004, operated by Ökotech Ingenieurgesellschaft mbh, 51.604 N 7.2508 E. Matches the row on operator, year and town. It gives 14 MW against 20 MWe in the row; the difference is not explained (possibly gross against net, or multiple units).",
+    "url": "https://inzonex.co.uk/poweratlas/plant/bmhkw-re-recklinghausen.html",
+    "source_type": "url_page",
+    "source_ref": "https://inzonex.co.uk/poweratlas/plant/bmhkw-re-recklinghausen.html",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": null,
+    "type": "capacity discrepancy",
+    "summary": "The MaStR row shows 20 MWe but the WRI dataset shows 14 MW for the same plant. Not resolved; check MaStR unit list.",
+    "severity": "low",
+    "url": "https://inzonex.co.uk/poweratlas/plant/bmhkw-re-recklinghausen.html",
+    "source_type": "url_page",
+    "source_ref": "https://inzonex.co.uk/poweratlas/plant/bmhkw-re-recklinghausen.html",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "Waste-wood biomass CHP in Recklinghausen Suderwich, described as owned and operated by Ökotech Ingenieurgesellschaft mbH; the company's shareholders, any acquisition date, financing and operating incidents were not found. The plant appears to be still operating (the operator advertises plant jobs), but this rests on search snippets only."
+ },
+ {
+  "plant_id": 6595,
+  "parent_owner": "VORN Bioenergy GmbH (Macquarie Asset Management, Green Investment Group)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2026-05-20",
+  "owner_since_confidence": "verified",
+  "locality": "Wolnzach",
+  "postcode": "85283",
+  "grid_injection": 1,
+  "heat_offtaker": null,
+  "permit_tonnes_pa": null,
+  "owners": [
+   {
+    "owner": "E.ON Bioerdgas GmbH (90%) and HVG Hopfenverwertungsgenossenschaft e.G. (10%), via Bioerdgas Hallertau GmbH",
+    "stake": 90,
+    "from": "2012-01-01",
+    "to": "2026-05-20",
+    "note": "Bioerdgas Hallertau GmbH operated the plant from 2012. Stake split per EUWID (E.ON 90%, HVG 10%, 'zuletzt'). The 2012 start year is the plant operating start per IMAP, not a share purchase date. One search result also named Hoegl Kompost- und Recycling as an original third shareholder; that was only a snippet and is not confirmed.",
+    "url": "https://www.imap.com/en/transactions/vorn-bioenergy-gmbh-bioerdgas-hallertau-gmbh-business-operations~t",
+    "source_type": "url_page",
+    "source_ref": "https://www.imap.com/en/transactions/vorn-bioenergy-gmbh-bioerdgas-hallertau-gmbh-business-operations~t; EUWID Recycling, 27.05.2026 (opened, paywalled after the first paragraph, which states the 90/10 split)",
+    "confidence": "verified"
+   },
+   {
+    "owner": "VORN Bioenergy GmbH (operating company VORN Bioenergy BGA II GmbH)",
+    "stake": 100,
+    "from": "2026-05-20",
+    "note": "Acquired the operating business out of insolvency, effective 20 May 2026 per IMAP; press release dated 19 May 2026. Price not disclosed. Operator named as VORN Bioenergy BGA II GmbH in the 30 Jul 2025 BImSchV public notice (a date before the deal, so the notice may have been updated later or the entity pre-existed; this is not reconciled).",
+    "url": "https://vornbioenergy.aag-kunden.azure.aa-g.de/newsroom/vorn-bioenergy-acquires-hallertau-biogas-plant/",
+    "source_type": "url_page",
+    "source_ref": "https://vornbioenergy.aag-kunden.azure.aa-g.de/newsroom/vorn-bioenergy-acquires-hallertau-biogas-plant/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Macquarie Asset Management (Green Investment Group) as shareholder of VORN Bioenergy",
+    "stake": null,
+    "from": "2022-10-01",
+    "note": "Seen only in a search result summary (energate-messenger, 28 Feb 2023); the page itself was blocked by a captcha. Would be confirmed by the energate article or a Macquarie press release. Current stake and whether Macquarie still owns VORN in 2026 not checked.",
+    "url": "https://www.energate-messenger.com/news/230916/macquarie-enters-eu-biogas-market-with-vorn-bioenergy",
+    "source_type": "snippet",
+    "source_ref": "https://www.energate-messenger.com/news/230916/macquarie-enters-eu-biogas-market-with-vorn-bioenergy",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-02-19",
+    "type": "insolvency",
+    "summary": "Bioerdgas Hallertau GmbH filed for insolvency at Ingolstadt court due to debt overhang and no going-concern basis; EUWID says it had made losses for several years. Insolvency proceedings opened early May 2026.",
+    "severity": "high",
+    "url": "https://www.imap.com/en/transactions/vorn-bioenergy-gmbh-bioerdgas-hallertau-gmbh-business-operations~t",
+    "source_type": "url_page",
+    "source_ref": "https://www.imap.com/en/transactions/vorn-bioenergy-gmbh-bioerdgas-hallertau-gmbh-business-operations~t",
+    "confidence": "verified"
+   },
+   {
+    "date": "2026-05-20",
+    "type": "sale out of insolvency",
+    "summary": "The operating business was sold to VORN Bioenergy after a c.9 week process and the plant kept running throughout, so it is operating under new ownership. Operation and hop vine logistics continue with the local Hoegl Group.",
+    "severity": "medium",
+    "url": "https://vornbioenergy.aag-kunden.azure.aa-g.de/newsroom/vorn-bioenergy-acquires-hallertau-biogas-plant/",
+    "source_type": "url_page",
+    "source_ref": "https://vornbioenergy.aag-kunden.azure.aa-g.de/newsroom/vorn-bioenergy-acquires-hallertau-biogas-plant/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Plant matches the row (Haselried 1, Wolnzach; hop vine biogas with pressure water scrubbing and grid injection). Previously 90% E.ON Bioerdgas and 10% HVG, it went insolvent in Feb 2026 and VORN Bioenergy bought the business on 20 May 2026; VORN's Macquarie ownership is only from a snippet, and no financing or purchase price was found."
+ }
+]
