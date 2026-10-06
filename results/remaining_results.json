@@ -10687,6 +10687,83 @@
   "summary": "The GGCS row (Herriard Bio Power Ltd, Remote Injection) matches Herriard Bio Power Ltd (company 08453453), a 1.2 MWe AD plant at Bushywarren Lane, Herriard, owned by Re-Gas Energy since April 2020 and since upgraded by Mildren Construction to inject biomethane. Two lender charges (Aviva Investors 2020, Mitsubishi HC Capital 2026) are on the register but amounts, margins and maturities are unknown, and no operating problems were found."
  },
  {
+  "plant_id": 4313,
+  "parent_owner": "JLEN Environmental Assets Group (52.6% as at 2019, with private individual co-owners)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2018-02-01",
+  "owner_since_confidence": "verified",
+  "locality": "Ipsden, South Oxfordshire",
+  "postcode": null,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Private individuals (project developers, incl. director David Bermingham)",
+    "stake": null,
+    "from": "2014-04-16",
+    "to": "2018-02-01",
+    "note": "Developers of the plant; sold a minority equity stake to JLEN in Feb 2018. Plant commissioned Dec 2014.",
+    "url": "https://bioenergyinternational.com/jlen-acquires-stake-in-second-uk-biomethane-to-grid-plant/",
+    "source_type": "url_page",
+    "source_ref": "https://bioenergyinternational.com/jlen-acquires-stake-in-second-uk-biomethane-to-grid-plant/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "John Laing Environmental Assets Group (JLEN)",
+    "stake": 40,
+    "from": "2018-02-01",
+    "to": null,
+    "note": "Acquired a 40% minority equity stake and provided a debt facility, aggregate c.GBP 11m. JLEN later raised its stake to 52.6% (FY2019 annual report); current holding not confirmed. The 2024 JLEN sale of 51% of six AD plants to Future Biogas covered East of England plants, so Icknield (Oxfordshire) appears not to be part of it, but this was not confirmed.",
+    "url": "https://bioenergyinternational.com/jlen-acquires-stake-in-second-uk-biomethane-to-grid-plant/",
+    "source_type": "url_page",
+    "source_ref": "https://bioenergyinternational.com/jlen-acquires-stake-in-second-uk-biomethane-to-grid-plant/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "JLEN Environmental Assets Group (stake raised to 52.6%)",
+    "stake": 52.6,
+    "from": "2019-01-01",
+    "to": null,
+    "note": "JLEN annual report 2019 states it increased its equity stake to 52.6%. Exact date not found; year approximate.",
+    "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/j/LSE_JLEN_2019.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.annualreports.com/HostedData/AnnualReportArchive/j/LSE_JLEN_2019.pdf",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Icknield Gas Ltd",
+    "lender": "John Laing Environmental Assets Group (UK) Limited",
+    "instrument": "Debt facility with registered charge over Icknield Farm land (charge 0900 0575 0002, outstanding)",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2018-02-01",
+    "refi": null,
+    "refi_basis": "Maturity not found; charge still outstanding on Companies House. JLEN debt and equity together totalled c.GBP 11m.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09000575/charges",
+    "source_type": "companies_house",
+    "source_ref": "09000575 charge 0900 0575 0002 created 1 Feb 2018, delivered 9 Feb 2018, outstanding",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Icknield Gas Ltd",
+    "lender": "Ingenious Renewable Energy Lending Services Limited",
+    "instrument": "Secured loan (charge 0900 0575 0001 over land at Icknield Farm)",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2017-07-10",
+    "refi": "2018-02-06",
+    "refi_basis": "Charge satisfied 6 Feb 2018, repaid from JLEN debt facility",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09000575/charges",
+    "source_type": "companies_house",
+    "source_ref": "09000575 charge 0900 0575 0001 created 10 Jul 2017, satisfied 6 Feb 2018",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [],
+  "summary": "Icknield Farm AD plant, Ipsden (c.5MWth biomethane to grid, commissioned Dec 2014), operated by Icknield Gas Ltd (Companies House 09000575) and part-owned by JLEN since Feb 2018 (40%, later 52.6%). No operating problems found; current JLEN stake and any debt maturity are not confirmed."
+ },
+ {
   "plant_id": 4314,
   "parent_owner": "GCP Infrastructure Investments Ltd (investment adviser Gravis Capital Management)",
   "parent_owner_confidence": "verified",
@@ -11033,6 +11110,146 @@
   "summary": "Keithick Biogas Ltd (company 08810114) is the gas-to-grid AD plant at Coupar Angus, Perthshire, operating since Q4 2014 and financed by Iona Capital with Keithick Farms; the register row had no location or capacity. Current ownership percentages come only from a Companies House snippet, and no financing or operating problems were found."
  },
  {
+  "plant_id": 4321,
+  "parent_owner": "First Milk Cheese Company Limited (First Milk)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2020-05-07",
+  "owner_since_confidence": "likely",
+  "locality": "Aspatria",
+  "postcode": "CA7 2AR",
+  "grid_injection": 1,
+  "heat_offtaker": "First Milk Lake District Creamery, Aspatria (part of site energy and steam)",
+  "owners": [
+   {
+    "owner": "Lake District Biogas Ltd (SC491828), set up to fund and run the AD plant for First Milk; Clearfleau designed, built and operated it",
+    "to": "2020-05-07",
+    "note": "Company incorporated 24 Nov 2014. The PSC register shows no registrable person from 24 Nov 2016 to 30 Apr 2020, so the earlier shareholders are not identified. The company was in administration from 21 Jan 2019 to 31 Mar 2021.",
+    "url": "https://adbioresources.org/members-press-release-lake-district-biogas-sustainable-energy-from-cumbrian/",
+    "source_type": "url_page",
+    "source_ref": "https://adbioresources.org/members-press-release-lake-district-biogas-sustainable-energy-from-cumbrian/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "The First Milk Cheese Company Limited (company 05893846)",
+    "stake": 75,
+    "from": "2020-05-07",
+    "note": "Companies House PSC register: ownership of shares and voting rights of 75% or more (stake shown is the lower bound of that band), notified 7 May 2020. Wikipedia says First Milk acquired Lake District Biogas in 2020 and now owns and operates it. The notified date is when control was registered, so the exact completion date may differ slightly.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC491828/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "SC491828 persons with significant control, First Milk Cheese Company Limited notified 7 May 2020",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Lake District Biogas Limited",
+    "lender": "Wells Fargo Capital Finance (UK) Limited (as Security Trustee)",
+    "instrument": "Registered charge (SC491828 0010) containing a fixed charge; facility type and size not shown on the register summary",
+    "amount": null,
+    "ccy": null,
+    "created": "2026-03-16",
+    "refi": null,
+    "refi_basis": null,
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC491828/charges",
+    "note": "Charge delivered 23 Mar 2026 and outstanding. Likely part of a First Milk group asset-based facility, but the charge document was not read. Earlier charges: Ch-1 Investment Partners LLP (satisfied 16 Jul 2020) and a Feb 2024 charge in favour of Highnam family trusts (one satisfied Mar 2024, one satisfied 4 Jun 2026; charge 0007 of Feb 2024 shown as outstanding).",
+    "source_type": "companies_house",
+    "source_ref": "SC491828 charges register, charge code SC49 1828 0010, created 16 Mar 2026",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2019-01-21",
+    "type": "insolvency",
+    "summary": "Lake District Biogas Ltd entered administration on 21 Jan 2019 (administrators David Rubin & Partners) and proposed a CVA approved at a creditors' decision date of 8 Jan 2020. Administration ended 31 Mar 2021 and the CVA ended 3 Mar 2021. The plant kept operating and First Milk took control in 2020.",
+    "severity": "high",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC491828/insolvency",
+    "source_type": "companies_house",
+    "source_ref": "SC491828 insolvency page (administration 21 Jan 2019 to 31 Mar 2021; CVA to 3 Mar 2021) and Belfast Gazette notice 3460815, 27 Dec 2019",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Cheese-residue AD and grid-injection plant at First Milk's Aspatria creamery (Cumbria, CA7 2AR), owned by First Milk Cheese Company Ltd since c. May 2020 after Lake District Biogas went through administration (2019 to 2021) and a CVA. Plant size (MW) and prior shareholders were not found; the current Wells Fargo security trustee charge (Mar 2026) is recorded but its facility terms are unknown."
+ },
+ {
+  "plant_id": 4322,
+  "parent_owner": "Craig Reeves (via Eco V Limited and Eco V Investments Limited, formerly Privilege Holdings 2 and Privilege Investments 2)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2019-09-24",
+  "owner_since_confidence": "verified",
+  "locality": "Ackworth, near Pontefract",
+  "postcode": "WF7 7DX",
+  "permit_tonnes_pa": 80000,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Aqua Consultants AD Limited (developer)",
+    "stake": null,
+    "from": "2016-04-06",
+    "to": "2024-07-31",
+    "note": "PSC with more than 50% but less than 75% until 31 Jul 2024; developer of the plant. Privilege Holdings 2 Ltd held more than 25% to 50% from 22 Oct 2018 to 24 Sep 2019.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10036182/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 10036182, persons with significant control page, opened",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Eco V Investments Limited (formerly Privilege Investments 2 Ltd), ultimately Craig Reeves via Eco V Limited",
+    "stake": 75,
+    "from": "2019-09-24",
+    "to": null,
+    "note": "PSC with 75% or more of shares and votes. Eco V Investments is controlled by Eco V Limited (company 11580537, formerly Privilege Holdings 2), whose PSC is Craig Reeves with 75% or more. Stake shown is the 75% or more band lower bound.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/12142170/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Companies House PSC pages for 10036182, 12142170 and 11580537, opened",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Lanes Farm Energy Limited",
+    "lender": "Privilege Project Finance 2 Limited",
+    "instrument": "Secured project finance (fixed charges over leasehold and land at Lanes Farm); loan amount and term not disclosed",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2018-10-22",
+    "refi": null,
+    "refi_basis": "Not found. Charges created 22 Oct 2018 and 8 Apr 2020, both outstanding. A Privilege Finance case study quotes the director looking forward to the next 19 years, which hints at a long term but is not a stated maturity.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10036182/charges",
+    "source_type": "companies_house",
+    "source_ref": "Company 10036182 charges register: charge codes 1003 6182 0001 (created 22 Oct 2018) and 0002 (created 8 Apr 2020), opened",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Lanes Farm Energy Limited",
+    "lender": "Privilege Project Finance 2 Limited",
+    "instrument": "Second secured charge over land at Lanes Farm (possible later facility or extension)",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2020-04-08",
+    "refi": null,
+    "refi_basis": "Not found.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10036182/charges",
+    "source_type": "companies_house",
+    "source_ref": "Company 10036182 charge code 1003 6182 0002, opened",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2026-09-30",
+    "type": "filing",
+    "summary": "Companies House shows accounts overdue (next accounts to 31 Dec 2025 were due 30 Sep 2026). Minor filing delay.",
+    "severity": "low",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10036182",
+    "source_type": "companies_house",
+    "source_ref": "Company 10036182 overview page, opened",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row has no location; matched to Lanes Farm AD plant at Ackworth near Pontefract (8MW gas to grid, 80kt/yr permit, first injection 14 Oct 2019, c.1,000 scm/h). Controlled since Sep 2019 by Eco V Investments (Craig Reeves via Eco V Ltd) after the Privilege Finance funder took over from developer Aqua Consultants, which exited fully in Jul 2024; loan size and maturity are not public, and no operating incidents were found."
+ },
+ {
   "plant_id": 4323,
   "parent_owner": "Arla Foods Limited (UK arm of Arla Foods amba)",
   "owner_since": "2024-05-07",
@@ -11084,5 +11301,1508 @@
   ],
   "issues": [],
   "summary": "Lockerbie Biogas Ltd is the biomethane AD plant at Arla's Lockerbie creamery (DG11 1LW), taken over by Arla Foods Limited on c.7 May 2024 per the Companies House PSC register, with Lombard North Central charges from 2019 still outstanding. No operating problems found; deal price, current debt and the Arla amba link were not confirmed."
+ },
+ {
+  "plant_id": 4324,
+  "parent_owner": "Biogen (UK) Ltd (Biogen Bioenergy Ltd), owned by Ancala Partners",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2023-08-22",
+  "owner_since_confidence": "verified",
+  "locality": "Paulerspury, Towcester",
+  "postcode": "NN12 7LS",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Ingenious Group (via Ingenious entity company no. 12429267, then 75%+ PSC of Oxon Renewables Ltd)",
+    "to": "2023-08-22",
+    "note": "Ingenious Group sold five operating AD plants including Manor Farm, Northampton, to Biogen in Aug 2023. The previous PSC of Oxon Renewables Ltd (company 12429267) ceased on 22 Aug 2023; its name was not shown, so its link to Ingenious is an inference from the sale date and the Ingenious debt charge.",
+    "url": "https://www.letsrecycle.com/news/biogen-acquires-five-ad-plants-from-ingenious/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/biogen-acquires-five-ad-plants-from-ingenious/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Oxon Renewables Limited (100% of Manor Farm Green Energy Ltd)",
+    "stake": 100,
+    "from": "2016-04-06",
+    "note": "Sole PSC of the operator company, with 75% or more of shares and votes, notified 6 Apr 2016.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09819443/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 09819443, persons with significant control page, Oxon Renewables Ltd (09329061)",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Biogen Bioenergy Limited (Biogen, funded by Ancala Partners Growth Fund)",
+    "stake": 100,
+    "from": "2023-08-22",
+    "note": "Biogen Bioenergy Ltd (14947939) became PSC of Oxon Renewables Ltd on 22 Aug 2023, matching the Aug 2023 Biogen purchase from Ingenious. Stake band is 75% or more. Ancala as ultimate owner comes from the Biogen deal reports and Ancala portfolio page; the intermediate Biogen group chain was not opened.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09329061/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 09329061, persons with significant control page, Biogen Bioenergy Ltd (14947939), notified 22 Aug 2023",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Manor Farm Green Energy Ltd",
+    "lender": "Ingenious Renewable Energy Lending Services Limited",
+    "instrument": "Secured charge (fixed charge), satisfied 14 Sep 2023",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2016-05-17",
+    "refi": null,
+    "refi_basis": "Charge satisfied on 14 Sep 2023, shortly after the Aug 2023 acquisition by Biogen, so the Ingenious debt appears repaid. Amount not shown and any replacement Biogen group facility not found.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09819443/charges",
+    "source_type": "companies_house",
+    "source_ref": "Company 09819443, charge code 0981 9443 0001, created 17 May 2016, satisfied 14 Sep 2023",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2019-01-01",
+    "type": "underperformance",
+    "summary": "When Agrivert took over operation in 2019 the plant averaged only c.35% of output; upgrades over about 18 months raised this to 98%.",
+    "severity": "low",
+    "url": "https://www.agrivert.co.uk/projects/crop-fed-anaerobic-digestion-plant-manor-farm",
+    "source_type": "url_page",
+    "source_ref": "https://www.agrivert.co.uk/projects/crop-fed-anaerobic-digestion-plant-manor-farm",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "GGCS row is Manor Farm AD at Paulerspury, Towcester (NN12 7LS), a crop-fed biomethane and CHP plant (c.350 Sm3/h biomethane) run by Manor Farm Green Energy Ltd (09819443), owned via Oxon Renewables by Biogen since 22 Aug 2023 (bought from Ingenious, backed by Ancala). Match to the GGCS name rests on the company name and the single Manor Farm biomethane plant in the Biogen portfolio; no current operating problems, permit data or replacement financing found."
+ },
+ {
+  "plant_id": 4325,
+  "parent_owner": "JLEN Environmental Assets Group Ltd (John Laing Environmental Assets Group)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2018-08-16",
+  "owner_since_confidence": "likely",
+  "locality": "Hibaldstow, North Lincolnshire",
+  "postcode": null,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Venture Capital Funds managed by Downing LLP, and minority shareholders",
+    "to": "2018-08-16",
+    "note": "Sellers of Merlin Renewables Ltd to JLEN. Plant commissioned Sep 2014 and developed by Future Biogas Ltd.",
+    "url": "https://www.michelmores.com/corporate-news/michelmores-advises-downing-sale-merlin-renewables-limited-jlen/",
+    "source_type": "url_page",
+    "source_ref": "https://www.michelmores.com/corporate-news/michelmores-advises-downing-sale-merlin-renewables-limited-jlen/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "JLEN Environmental Assets Group Ltd",
+    "stake": 100,
+    "from": "2018-08-16",
+    "note": "Acquired Merlin Renewables Ltd for c. GBP 18.1m including working capital. Date is the announcement date of 16 Aug 2018 (Bioenergy International article); completion date not seen. Future Biogas Ltd provides management, operations and maintenance. Stake of 100% is implied by the purchase of the company, not stated.",
+    "url": "https://bioenergyinternational.com/jlen-acquires-fourth-uk-biogas-plant/",
+    "source_type": "url_page",
+    "source_ref": "https://bioenergyinternational.com/jlen-acquires-fourth-uk-biogas-plant/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "JLEN Environmental Assets Group Ltd (acquisition of Merlin)",
+    "lender": null,
+    "instrument": "Draw-down under JLEN's revolving credit facility to fund the Merlin purchase",
+    "amount": 18100000,
+    "ccy": "GBP",
+    "created": "2018-08-16",
+    "refi": null,
+    "refi_basis": "Revolving facility; maturity of the 2018 facility not found. Amount is the total consideration including working capital, not necessarily the draw-down.",
+    "url": "https://www.michelmores.com/corporate-news/michelmores-advises-downing-sale-merlin-renewables-limited-jlen/",
+    "source_type": "url_page",
+    "source_ref": "https://www.michelmores.com/corporate-news/michelmores-advises-downing-sale-merlin-renewables-limited-jlen/",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "JLEN Environmental Assets Group Ltd (group level)",
+    "lender": null,
+    "instrument": "ESG-linked revolving credit facility, GBP 170m, later extended by one year with a GBP 30m accordion",
+    "amount": 170000000,
+    "ccy": "GBP",
+    "created": "2021-05-01",
+    "refi": "2024-05-01",
+    "refi_basis": "Stated expiry May 2024 before the later one-year extension; current maturity not confirmed. Group facility, not specific to Merlin.",
+    "url": "https://www.sfnet.com/home/chapters/canada/news-detail/2023/04/03/jlen-environmental-assets-group-limited-announces-extension-of-revolving-credit-facility",
+    "source_type": "snippet",
+    "source_ref": "https://www.sfnet.com/home/chapters/canada/news-detail/2023/04/03/jlen-environmental-assets-group-limited-announces-extension-of-revolving-credit-facility",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [],
+  "summary": "The GGCS row (no location or capacity) matches Merlin AD at Hibaldstow, North Lincolnshire: c.5MWth biomethane to grid plus a 0.5MWe CHP, commissioned Sep 2014 and bought by JLEN in Aug 2018 from Downing funds. No operating problems found; postcode, completion date, current ownership (JLEN may have changed holdings since 2018) and plant-specific debt not confirmed."
+ },
+ {
+  "plant_id": 4326,
+  "parent_owner": "Future Biogas Limited (owned by 3i Infrastructure plc and RWE)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2017-05-24",
+  "owner_since_confidence": "likely",
+  "locality": "Great Gonerby, Grantham",
+  "postcode": "NG32 2AB",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Mr Jan Peder Baner",
+    "stake": 75,
+    "from": "2016-04-06",
+    "to": "2017-05-24",
+    "note": "Person with significant control with 75% or more of shares and votes; ceased 24 May 2017. Stake shown is the lower bound of the 75%+ band.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09781319/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 09781319, persons with significant control page (opened)",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Future Biogas Limited (company 07207977)",
+    "stake": 75,
+    "from": "2017-05-24",
+    "note": "Sole active PSC with 75% or more of shares and votes and right to appoint directors. Stake shown is the lower bound of the 75%+ band. Date is the PSC notification date, so the actual share purchase may be slightly earlier.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09781319/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 09781319, persons with significant control page (opened)",
+    "confidence": "verified"
+   },
+   {
+    "owner": "3i Infrastructure plc and RWE (shareholders of Future Biogas)",
+    "note": "Search results state Future Biogas is owned by 3i Infrastructure (invested Mar 2023) and RWE (invested Oct 2024). Stakes not found. The 3i and Investec pages were blocked (403), so not opened; confirm via 3i annual report.",
+    "url": "https://www.investec.com/en_gb/deals/future-biogas.html",
+    "source_type": "snippet",
+    "source_ref": "https://www.investec.com/en_gb/deals/future-biogas.html and https://realassets.ipe.com/news/3i-infrastructures-future-biogas-acquires-majority-stake-in-biogas-portfolio/10075205.article",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Future Biogas (group)",
+    "lender": "Investec (Mandated Lead Arranger)",
+    "instrument": "Refinancing: Term Loan, Capex Facility and RCF, with interest rate hedging",
+    "amount": null,
+    "ccy": null,
+    "created": null,
+    "refi": null,
+    "refi_basis": "Amount, date and tenor not found; Investec page blocked (403). Group level, may cover Moor.",
+    "url": "https://www.investec.com/en_gb/deals/future-biogas.html",
+    "source_type": "snippet",
+    "source_ref": "https://www.investec.com/en_gb/deals/future-biogas.html",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [],
+  "summary": "Operational AD biomethane plant at Great Gonerby near Grantham (commissioned Feb 2025, 15-year offtake with AstraZeneca), owned 75%+ by Future Biogas Ltd per Companies House, which is backed by 3i Infrastructure and RWE. No operating problems found; group financing amount, date and Moor coverage unknown, and register row had blank location and capacity."
+ },
+ {
+  "plant_id": 4327,
+  "parent_owner": "Macquarie Capital Principal Finance (via Adapt Biogas Ltd)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2019-11-01",
+  "owner_since_confidence": "likely",
+  "locality": "Murrow, Wisbech, Cambridgeshire",
+  "postcode": "PE13 4HN",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "John Alan Dale and Derek Garbut Burgoyne (individual shareholders, each more than 25% and up to 50%)",
+    "to": "2019-11-01",
+    "note": "Company was Dale Bio Plant Ltd until Dec 2017. Both ceased as persons with significant control on 1 Nov 2019.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07789756/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "07789756, persons with significant control register, opened",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Adapt Biogas Limited (company 08199075), 75% or more of shares and votes",
+    "stake": 75,
+    "from": "2019-11-01",
+    "note": "Stake shown as the 75% band minimum. Adapt Biogas was acquired by Macquarie Capital Principal Finance in 2019 (Macquarie press release, 24 May 2021). The release does not name Murrow, and Macquarie charges over Murrow were registered on 1 Nov 2019, so Macquarie as ultimate owner is rated likely rather than verified. Adapt's own PSC filing would confirm.",
+    "url": "https://www.macquarie.com/be/en/about/news/2021/macquarie-capital-principal-finance-bolsters-uk-biogas-platform-adapt-biogas-with-new-acquisition.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.macquarie.com/be/en/about/news/2021/macquarie-capital-principal-finance-bolsters-uk-biogas-platform-adapt-biogas-with-new-acquisition.html",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Murrow AD Plant Ltd",
+    "lender": "Macquarie European Investment Holdings Limited",
+    "instrument": "Secured charge over freehold and leasehold property (charge 077897560011), still outstanding",
+    "amount": null,
+    "ccy": null,
+    "created": "2019-11-01",
+    "refi": null,
+    "refi_basis": "Amount and maturity not in the charge register entry; facility terms not found",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07789756/charges",
+    "source_type": "companies_house",
+    "source_ref": "07789756, charges register, charge 0011 created 1 Nov 2019, opened",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Murrow AD Plant Ltd",
+    "lender": "Macquarie European Investment Holdings Limited",
+    "instrument": "Secured charge over freehold and leasehold property (charge 077897560012), still outstanding",
+    "amount": null,
+    "ccy": null,
+    "created": "2020-09-17",
+    "refi": null,
+    "refi_basis": "Amount and maturity not in the charge register entry; facility terms not found",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07789756/charges",
+    "source_type": "companies_house",
+    "source_ref": "07789756, charges register, charge 0012 created 17 Sep 2020, opened",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Murrow AD Plant Ltd",
+    "lender": "National Westminster Bank PLC",
+    "instrument": "Secured charge with fixed charge (charge 077897560013), satisfied 18 Jun 2025",
+    "amount": null,
+    "ccy": null,
+    "created": "2022-03-09",
+    "refi": null,
+    "refi_basis": "Charge satisfied in full on 18 Jun 2025, so no refinancing date from this item",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/07789756/charges",
+    "source_type": "companies_house",
+    "source_ref": "07789756, charges register, charge 0013 created 9 Mar 2022, satisfied 18 Jun 2025, opened",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": null,
+    "type": "planning breach",
+    "summary": "An enforcement investigation found the plant imported 24,238.59 tonnes of waste in 2023, over 4,000 tonnes above the 20,000 tonnes a year planning limit. The operator applied to raise the limit to 125,000 tonnes a year; the article date was not shown on the page.",
+    "severity": "medium",
+    "url": "https://www.cambstimes.co.uk/news/25293916.operators-murrow-anaerobic-digester-wants-increase-waste/",
+    "source_type": "url_page",
+    "source_ref": "https://www.cambstimes.co.uk/news/25293916.operators-murrow-anaerobic-digester-wants-increase-waste/",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "odour complaint",
+    "summary": "A Fenland District Council planning officer report (application F/YR20/1112/F) reportedly says complaints about odour were received by Environmental Health but no statutory nuisance action was taken. The report returned 403 when opened, so this is from a search snippet only.",
+    "severity": "low",
+    "url": "https://www.fenland.gov.uk/localgov/documents/s8085/Officers%20report.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://www.fenland.gov.uk/localgov/documents/s8085/Officers%20report.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Murrow AD Plant Ltd (company 07789756, Somerset Farm, Cants Drove, Murrow, Wisbech) is a grid-injecting biomethane plant, first UK farm AD plant to inject at high pressure, run by Adapt Biogas and owned 75% or more by Adapt Biogas Ltd since Nov 2019, which Macquarie Capital Principal Finance acquired in 2019. Debt amounts, maturities and the exact biomethane capacity were not found, and the 2023 waste import breach is the main operating issue."
+ },
+ {
+  "plant_id": 4328,
+  "parent_owner": "Qualitas Energy (via Acorn Bioenergy Ltd; P3P Partners retains a minority stake in Acorn)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2022-01-01",
+  "owner_since_confidence": "likely",
+  "locality": "Three Maids Hill, Winchester",
+  "postcode": "SO21 2QG",
+  "permit_tonnes_pa": 94000,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Qila Biogas Ltd, then Qila Holdings Ltd (successive 75%+ controllers of Nelson Biogas Ltd)",
+    "from": "2018-02-06",
+    "to": "2020-09-02",
+    "note": "Persons with significant control history for Nelson Biogas Ltd (11189721): Qila Biogas Ltd from 6 Feb 2018, Qila Holdings Ltd from 28 Feb 2019, both ceased by 2 Sep 2020.",
+    "source_type": "companies_house",
+    "source_ref": "Nelson Biogas Limited 11189721, persons with significant control page (opened Oct 2026)",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11189721/persons-with-significant-control",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Acorn Bioenergy Ltd (company 12020505), 75% or more of shares and votes in Nelson Biogas Ltd",
+    "stake": 75,
+    "from": "2020-09-02",
+    "note": "Stake is stated as 75% or more, 75 is the lower bound. Acorn was acquired by Qualitas Energy in 2022; P3P Partners was previous majority owner and kept a minority stake.",
+    "source_type": "companies_house",
+    "source_ref": "Nelson Biogas Limited 11189721, persons with significant control page, Acorn notified 2 Sep 2020",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11189721/persons-with-significant-control",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Qualitas Energy (controlling stake in Acorn Bioenergy Ltd)",
+    "from": "2022-01-01",
+    "note": "letsrecycle (5 Sep 2025) says Acorn was acquired in 2022 by Qualitas Energy; exact completion date not seen (Qualitas release page blocked by captcha). Day and month are placeholders.",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/acorn-bioenergy-opens-biomethane-facility-in-winchester/",
+    "url": "https://www.letsrecycle.com/news/acorn-bioenergy-opens-biomethane-facility-in-winchester/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Acorn Bioenergy Operations Ltd (permit holder, Three Maids AD Plant)",
+    "from": "2025-08-01",
+    "note": "Environment Agency bespoke permit EPR/BP3326SD issued 1 Aug 2025 to Acorn Bioenergy Operations Ltd for the plant. Link between Nelson Biogas Ltd (GGCS operator name) and this permit holder is inferred from the shared Acorn group and site; Nelson Biogas Ltd is probably the project company or the GGCS registrant.",
+    "source_type": "register_entry",
+    "source_ref": "Environment Agency permit EPR/BP3326SD, Three Maids AD Plant, issued 1 Aug 2025",
+    "url": "https://assets.publishing.service.gov.uk/media/689b471b7b0b51a850e94084/Application_Bespoke_A001_Permit_Issued_-_01082025.pdf",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "The GGCS row (Nelson Biogas Ltd, Three Maids Green Energy) matches the Acorn Bioenergy Three Maids AD plant at Three Maids Hill, Winchester (opened Sep 2025, 83,600 t/yr feedstock, c.120 GWh biomethane), owned through Acorn by Qualitas Energy. No financing details or operating problems found; the exact Qualitas completion date and the formal link between Nelson Biogas Ltd and the permit holder are not confirmed."
+ },
+ {
+  "plant_id": 4329,
+  "parent_owner": "EAG Bioenergy Ltd (backed by Vesper Infrastructure Partners and OrbeNovo Capital)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2025-08-12",
+  "owner_since_confidence": "verified",
+  "locality": "Crowle, North Lincolnshire",
+  "postcode": "DN17 4DA",
+  "owners": [
+   {
+    "owner": "The Rockscape Group Limited (Rockscape Energy, founders including Timothy Bletcher)",
+    "stake": 75,
+    "from": "2023-06-30",
+    "to": "2025-08-12",
+    "note": "Companies House PSC record shows 75% or more ownership by The Rockscape Group Limited from 30 June 2023 until 12 Aug 2025; earlier an individual PSC held control. Stake shown is the 75% threshold, exact figure not stated.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/06851504/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 06851504, persons with significant control page",
+    "confidence": "verified"
+   },
+   {
+    "owner": "EAG Bioenergy Ltd (company 15113366), backed by Vesper Infrastructure Partners and OrbeNovo Capital",
+    "stake": 75,
+    "from": "2025-08-12",
+    "note": "PSC notified 12 Aug 2025 with 75% or more of shares and votes; company renamed from Rockscape Energy Limited to North Link Bioenergy Ltd on 21 Aug 2025. Trade press confirms EAG acquired Rockscape Energy. Stake shown is the 75% threshold (could be 100%).",
+    "url": "https://www.bioenergy-news.com/news/eag-bioenergy-acquires-north-lincolnshire-biomethane-plant/",
+    "source_type": "url_page",
+    "source_ref": "https://www.bioenergy-news.com/news/eag-bioenergy-acquires-north-lincolnshire-biomethane-plant/ and https://find-and-update.company-information.service.gov.uk/company/06851504/persons-with-significant-control",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "North Link Bioenergy Ltd",
+    "lender": "Oaknorth Bank PLC",
+    "instrument": "Secured facility (floating charge registered at Companies House, facility terms not disclosed)",
+    "amount": null,
+    "ccy": null,
+    "created": "2025-12-10",
+    "refi": null,
+    "refi_basis": "Facility tenor and amount not disclosed in the charge register; a director resolution approving the transaction dated 10 Dec 2025 matches the charge date, so likely linked to the EAG upgrade plans (inference only).",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/06851504/charges",
+    "source_type": "companies_house",
+    "source_ref": "Company 06851504, charge 0685 1504 0001, created 10 Dec 2025, delivered 11 Dec 2025, outstanding",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [],
+  "summary": "North Moor AD is the North Moor Farm plant at Crowle, DN17 4DA, formerly Rockscape Energy, acquired by EAG Bioenergy on 12 Aug 2025 and renamed North Link Bioenergy Ltd; an Oaknorth Bank charge was registered in Dec 2025. No operating problems found; capacity in MW, current gas grid injection status (press says upgrade planned, plant also exports electricity) and financing amount are not confirmed."
+ },
+ {
+  "plant_id": 4330,
+  "parent_owner": "CK Group consortium (CK Infrastructure, CK Asset, Power Assets, CK Hutchison; c.75%) and KKR (25%), via Northumbrian Water Group",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "owners": [
+   {
+    "owner": "Northumbrian Water Ltd (Northumbrian Water Group), owner and operator of Bran Sands STW and its sludge digestion and gas-to-grid plant",
+    "from": null,
+    "to": null,
+    "note": "Company's own release says Northumbrian Water built and runs the Bran Sands gas-to-grid plant; in daily operation since 23 Jan 2020. Site acquisition date not applicable (company-built).",
+    "url": "https://www.nwg.co.uk/news-and-media/news-releases/investment-sees-teessides-waste-powering-treatment-works/",
+    "source_type": "url_page",
+    "source_ref": "https://www.nwg.co.uk/news-and-media/news-releases/investment-sees-teessides-waste-powering-treatment-works/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "CK consortium (CK Infrastructure 40%, Cheung Kong Holdings 40%, Li Ka Shing Foundation 20%) acquired Northumbrian Water Group plc",
+    "from": "2011-10-01",
+    "to": "2022-07-01",
+    "note": "Seen in a search result summary only (Oct 2011 completion, GBP 2.41bn); not opened. Would be confirmed by CKI 2011 announcement.",
+    "url": "https://en.wikipedia.org/wiki/Northumbrian_Water_Group",
+    "source_type": "snippet",
+    "source_ref": "https://en.wikipedia.org/wiki/Northumbrian_Water_Group",
+    "confidence": "unverified"
+   },
+   {
+    "owner": "CK Group (75%: CK Infrastructure 39%, CK Asset 27%, Power Assets 6%, CK Hutchison 3%) and KKR (25%)",
+    "stake": 75,
+    "from": "2022-07-01",
+    "to": null,
+    "note": "July 2022 filing reported by The Standard (HK): CK to sell 25% of Northumbrian Water to KKR for c.867m (currency as reported) and keep 75%. Article is an announcement; completion not stated on that page, though a search result said KKR now holds 25%.",
+    "url": "https://www.thestandard.com.hk/finance/article/43645/CK-to-sell-25pc-UK-water-stake-to-KKR-for-867m",
+    "source_type": "url_page",
+    "source_ref": "https://www.thestandard.com.hk/finance/article/43645/CK-to-sell-25pc-UK-water-stake-to-KKR-for-867m",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Northumbrian Water Finance Plc (guaranteed by Northumbrian Water Limited)",
+    "lender": "Bond investors (EMTN programme)",
+    "instrument": "GBP 50m tap of 5.500% Guaranteed Notes due 2037 (consolidated with existing GBP 250m); EMTN programme GBP 6bn",
+    "amount": 50000000,
+    "ccy": "GBP",
+    "created": "2025-03-12",
+    "refi": "2037-01-01",
+    "refi_basis": "Notes due 2037 (exact maturity date not read); group-level debt, not plant-specific",
+    "url": "https://www.rns-pdf.londonstockexchange.com/rns/4123A_1-2025-3-12.pdf",
+    "source_type": "document_ref",
+    "source_ref": "Final Terms, Northumbrian Water Finance Plc, 12 March 2025, p.1 (opened)",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2018-08-01",
+    "type": "odour",
+    "summary": "Environment Agency named a process at Bran Sands STW as one possible source of a strong smell over Redcar in hot weather; source not conclusively identified.",
+    "severity": "low",
+    "url": "https://www.gazettelive.co.uk/news/teesside-news/hot-sewage-gets-part-blame-14992267",
+    "source_type": "url_page",
+    "source_ref": "https://www.gazettelive.co.uk/news/teesside-news/hot-sewage-gets-part-blame-14992267",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-08-01",
+    "type": "enforcement",
+    "summary": "Group-level: Ofwat fined Northumbrian Water c.GBP 17m (Aug 2024) over sewage treatment works and network management, and a further GBP 15.7m reportedly later; not specific to Bran Sands.",
+    "severity": "low",
+    "url": "https://www.ofwat.gov.uk/enforcement-case-in-northumbrian-waters-management-of-its-sewage-treatment-works-and-sewerage-networks/",
+    "source_type": "snippet",
+    "source_ref": "https://www.ofwat.gov.uk/enforcement-case-in-northumbrian-waters-management-of-its-sewage-treatment-works-and-sewerage-networks/ (page blocked by browser check; seen in search result only)",
+    "confidence": "unverified"
+   }
+  ],
+  "locality": "Teesport, Redcar (Bran Sands Regional Effluent Treatment Works, south bank of the Tees)",
+  "grid_injection": 1,
+  "summary": "Bran Sands is Northumbrian Water's own sewage sludge digestion site on Teesside with a GBP 9.5m gas-to-grid biomethane plant operating since 23 Jan 2020 (replaces nothing; operator is the real owner). Owner is the Northumbrian Water Group (CK Group 75%, KKR 25% per 2022 announcement); postcode, MW capacity and a plant-specific financing were not found."
+ },
+ {
+  "plant_id": 4331,
+  "parent_owner": "Oncoland Limited (Billings family farming business; 75% or more held by F.C. Stark Limited)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Horton Kirby, Kent",
+  "postcode": "DA4 9DU",
+  "grid_injection": 1,
+  "permit_tonnes_pa": 45500,
+  "owners": [
+   {
+    "owner": "Oncoland Ltd (company 00865608), applicant and developer of the Court Lodge Farm digester; 75% or more held by F.C. Stark Limited (company 00314309)",
+    "stake": null,
+    "from": "2018-05-16",
+    "to": null,
+    "note": "Kent County Council committee report of 16 May 2018 names Oncoland Ltd as applicant and a family-owned farming business. Companies House PSC page shows F.C. Stark Limited with 75% or more of the shares. Date is the planning committee date, not an acquisition date.",
+    "url": "https://democracy.kent.gov.uk/documents/s84334/Item%20C2%20-%20Court%20Lodge%20Farm.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://democracy.kent.gov.uk/documents/s84334/Item%20C2%20-%20Court%20Lodge%20Farm.pdf; https://find-and-update.company-information.service.gov.uk/company/00865608/persons-with-significant-control",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Oncoland Energy Limited (company 11581314), operating company for the digester",
+    "stake": null,
+    "from": "2018-09-21",
+    "to": null,
+    "note": "Incorporated 21 Sep 2018, SIC 35210 manufacture of gas, same Billings family directors and Fawkham address as Oncoland Ltd. Companies House shows no registrable person of significant control. Open Infrastructure Map lists it as plant operator. Which entity legally owns the plant assets was not confirmed.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11581314",
+    "source_type": "companies_house",
+    "source_ref": "Company 11581314 overview, officers and PSC pages",
+    "confidence": "verified"
+   },
+   {
+    "owner": "BioConstruct NewEnergy Ltd, named holder of Environment Agency permit EPR/UP3401PS (Court Lodge Farm AD Plant)",
+    "stake": null,
+    "from": "2020-01-01",
+    "to": null,
+    "note": "Permit issued to BioConstruct NewEnergy, probably the technology supplier and operator-for-hire. Treated as contractor, not owner. Permit transfer to Oncoland not checked.",
+    "url": "https://assets.publishing.service.gov.uk/media/5e2eef6ded915d1f25dfc59e/Permit_UP3401PS.pdf",
+    "source_type": "register_entry",
+    "source_ref": "Environment Agency permit EPR/UP3401PS",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Row is the Court Lodge Farm biomethane and CHP digester at Horton Kirby, Kent (Oncoland's own farm plant, c. 400 m3/h biomethane, 500 kW electricity, built 2019), owned by the Billings family farming group; the EA permit sits with BioConstruct NewEnergy. No acquisition date, plant-specific debt or operating problems found, and the Companies House charges pages show no current charge for Oncoland Energy."
+ },
+ {
+  "plant_id": 4332,
+  "parent_owner": "JLEN Environmental Assets Group (via JLEAG AD Limited, minority equity stake) with the Forster family (TD Forster & Son)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2020-04-01",
+  "owner_since_confidence": "verified",
+  "locality": "Wormit, Fife",
+  "postcode": "DD6 8PJ",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "TD Forster & Son (Forster family), Peacehill Farm",
+    "from": "2015-02-10",
+    "to": "2020-04-01",
+    "note": "Farm owners and original developers; plant commissioned Dec 2015 on the farm, using poultry manure and crops. Peacehill Gas Ltd incorporated 10 Feb 2015 (Companies House SC497347).",
+    "url": "https://quoteddata.com/2020/04/jlen-buys-peacehill-anaerobic-digestion-plant/",
+    "source_type": "url_page",
+    "source_ref": "https://quoteddata.com/2020/04/jlen-buys-peacehill-anaerobic-digestion-plant/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "JLEAG AD Limited (JLEN Environmental Assets Group minority equity stake plus debt facility; Forster family retain the rest)",
+    "from": "2020-04-01",
+    "note": "JLEN announced the c.£11m investment on 2 Apr 2020 (debt facility plus minority equity in JLEAG AD Ltd, which owns Peacehill Gas Ltd). Companies House lists JLEAG AD Ltd (12524325) as the sole PSC with 75% or more of shares, notified 24 Feb 2021. Stake size conflicts in snippets: one says 70%, another 49%; the official announcement says minority, which is rated most reliable. Not confirmed from the JLEN annual report.",
+    "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-jlen-11m-investment-peacehill-farm-ad-plant",
+    "source_type": "url_page",
+    "source_ref": "https://www.osborneclarke.com/news/osborne-clarke-advises-jlen-11m-investment-peacehill-farm-ad-plant",
+    "confidence": "verified"
+   },
+   {
+    "owner": "JLEAG AD Limited as 75%+ shareholder of Peacehill Gas Ltd",
+    "from": "2021-02-24",
+    "note": "Companies House PSC register: JLEAG AD Limited, ownership of shares 75% or more, notified 24 Feb 2021; JLEN Environmental Assets Group (UK) Limited previously listed and now ceased.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC497347/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "SC497347 persons with significant control, JLEAG AD Limited 12524325 notified 2021-02-24",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "JLEAG AD Limited (holding company of Peacehill Gas Ltd)",
+    "lender": "JLEN Environmental Assets Group (shareholder debt facility)",
+    "instrument": "Debt facility from JLEN, part of c.£11m aggregate investment with equity; JLEN funded it from its revolving credit facility",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2020-04-01",
+    "refi": null,
+    "refi_basis": "Maturity not disclosed; aggregate investment c.£11m, debt/equity split not found",
+    "url": "https://www.osborneclarke.com/news/osborne-clarke-advises-jlen-11m-investment-peacehill-farm-ad-plant",
+    "source_type": "url_page",
+    "source_ref": "https://www.osborneclarke.com/news/osborne-clarke-advises-jlen-11m-investment-peacehill-farm-ad-plant",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [],
+  "summary": "Peacehill Gas Ltd (SC497347) runs the c.5MWth Peacehill Farm AD plant at Wormit, Fife (commissioned Dec 2015, biomethane to grid, 0.25MWe CHP), held via JLEAG AD Ltd in which JLEN took a minority equity stake and debt facility in April 2020. JLEN's exact stake is unconfirmed (snippets say 70% and 49%), the debt amount and maturity were not found, and no operating problems were found."
+ },
+ {
+  "plant_id": 4333,
+  "parent_owner": "William Grant & Sons (via Grissan Renewable Energy Ltd and Grissan Energy UK Ltd)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2021-11-24",
+  "owner_since_confidence": "likely",
+  "locality": "Invergordon",
+  "postcode": null,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Grissan Energy UK Ltd (company 08508804), then owned by William Grant & Sons Group Ltd",
+    "from": "2021-11-24",
+    "to": "2021-11-24",
+    "note": "Notified as PSC (75% or more) on incorporation of Pierside Ltd on 24 Nov 2021 and ceased the same day, when William Grant & Sons Holdings (then named William Grant & Sons Dufftown Ltd, SC628526) took the 75%+ control.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC715939/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Pierside Ltd SC715939, persons with significant control page, PSC07 filed 10 Dec 2021",
+    "confidence": "verified"
+   },
+   {
+    "owner": "William Grant & Sons Holdings Ltd (SC628526)",
+    "stake": 75,
+    "from": "2021-11-24",
+    "to": "2024-07-30",
+    "note": "PSC with ownership of 75% or more. Stake is recorded as the 75% or more band, not an exact figure. Ceased 30 Jul 2024 (PSC07).",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/SC715939/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Pierside Ltd SC715939, PSC page and filing history, PSC07 and PSC02 of 30 Jul 2024",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Grissan Energy UK Ltd (08508804)",
+    "stake": 75,
+    "from": "2024-07-30",
+    "note": "Current PSC with 75% or more of shares and votes. Its own PSC changed from William Grant & Sons Group Ltd to Grissan Renewable Energy Ltd (15011080) on 4 Sep 2024, and Grissan Renewable Energy Ltd is controlled by William Grant & Sons Holdings Ltd (15238251) from 31 Dec 2024. This looks like an internal group reorganisation, so ultimate control appears to stay with William Grant & Sons. Stake is the 75% or more band.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/08508804/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Pierside Ltd SC715939 PSC page; Grissan Energy UK Ltd 08508804 PSC page; Grissan Renewable Energy Ltd 15011080 PSC page",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Pierside Ltd (SC715939, Girvan registered office) runs the Pierside biomethane plant at the Invergordon distillery complex, injecting into the SGN network; the site is described alongside the Firthside plant, both operated by Grissan. Companies House PSC chain points to William Grant & Sons as ultimate owner throughout (the 2024 change to Grissan Energy UK looks like an internal reorganisation); no charges, financing, or operating problems found, and no capacity, COD or postcode found."
+ },
+ {
+  "plant_id": 4334,
+  "parent_owner": "Pretoria Energy Company Holdings 2 Ltd (Pretoria Energy Group, founder Steven Ripley with Mercuria as investor)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2021-11-25",
+  "owner_since_confidence": "likely",
+  "locality": "Chittering",
+  "postcode": "CB25 9GE",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Pretoria Energy Company Holdings 2 Ltd (75% or more of shares and votes) via Pretoria Energy Company (Chittering 2) Ltd (company 13766200)",
+    "stake": null,
+    "from": "2021-11-25",
+    "to": null,
+    "note": "Companies House PSC register shows Holdings 2 (13765473) as the sole active PSC, notified 25 Nov 2021, the month the SPV was set up. Steven Ripley was briefly PSC on the same date and ceased. Operator in the register is Pretoria Energy Company Ltd; the plant sits in the Chittering 2 SPV. Address given is the Padro House site, CB25 9GE.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13766200/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 13766200 persons with significant control page, Holdings 2 Ltd notified 2021-11-25",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Mercuria (investor in Pretoria Energy Group)",
+    "stake": null,
+    "from": "2021-01-01",
+    "to": null,
+    "note": "Company timeline says Mercuria made an investment into Pretoria Energy Group in 2021. Stake size and whether it sits above Holdings 2 not found.",
+    "url": "https://www.pretoriaenergy.com/about/",
+    "source_type": "url_page",
+    "source_ref": "https://www.pretoriaenergy.com/about/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Steven Ripley (individual, founder)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "A 2018 adviser news item says Pretoria Energy Co. Holdings was owned by Steven Ripley; later investors (2018 refinance, Mercuria 2021) mean this is likely out of date.",
+    "url": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "source_type": "url_page",
+    "source_ref": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Pretoria Energy Co. Holdings (Chittering and Mepal AD plants, group level)",
+    "lender": "Allied Irish Bank (lead arranger), Aviva, IFM debt funds",
+    "instrument": "Bank loans and institutional debt",
+    "amount": 120000000,
+    "ccy": "GBP",
+    "created": "2018-12-01",
+    "refi": null,
+    "refi_basis": "Tenor not found; covers the first two AD plants, so may not cover Chittering 2 (built from 2022). Check Companies House charges for company 13766200.",
+    "url": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "source_type": "url_page",
+    "source_ref": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2021-03-22",
+    "type": "enforcement",
+    "summary": "Group company Pretoria Energy Company (Chittering) Ltd was fined £26,650 plus costs for a 2018 silage liquor leak into a River Cam tributary at the original Chittering site. It does not concern Chittering 2, which began in 2024, but shows group permit compliance history.",
+    "severity": "low",
+    "url": "https://www.gov.uk/government/news/cambridgeshire-energy-producer-admits-pollution",
+    "source_type": "url_page",
+    "source_ref": "https://www.gov.uk/government/news/cambridgeshire-energy-producer-admits-pollution",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Chittering 2 is the second AD biomethane plant at Padro House, Chittering (CB25 9GE), launched in 2024 and held in an SPV owned 75% or more by Pretoria Energy Company Holdings 2 Ltd, with Mercuria an investor since 2021. Capacity, COD, final ultimate shareholders and any plant-specific debt were not found; the 2018 GBP 120m refinancing predates this plant."
+ },
+ {
+  "plant_id": 4335,
+  "parent_owner": "Pretoria Energy Group Ltd (controlled by Steven Ripley; Mercuria minority investor since 2021)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Chittering",
+  "postcode": null,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Pretoria Energy Company (Chittering) Ltd, owned by Steven Ripley via Pretoria Energy Company Holdings Ltd",
+    "stake": null,
+    "from": "2012-01-01",
+    "note": "Founder-owned: the Dec 2018 lender-side report says Pretoria Energy is owned by individual Steven Ripley. Pretoria was founded in 2012 and the first Chittering AD plant was commissioned in 2014. The register operator name is Pretoria Energy Company Ltd; the operating company is Pretoria Energy Company (Chittering) Ltd, as named in the 2021 Environment Agency prosecution.",
+    "url": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "source_type": "url_page",
+    "source_ref": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Mercuria (minority investor in Pretoria Energy Group)",
+    "stake": null,
+    "from": "2021-01-01",
+    "note": "Company history states Mercuria made an investment into Pretoria Energy Group in 2021. Stake size and exact date not found. Pretoria Energy Group Ltd (Companies House 13754573, incorporated Nov 2021) is reported in a search snippet to list Steven Ripley as person with significant control; confirm at Companies House.",
+    "url": "https://www.pretoriaenergy.com/about/",
+    "source_type": "url_page",
+    "source_ref": "https://www.pretoriaenergy.com/about/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Pretoria Energy Co. Holdings (owner of the Chittering and Mepal AD plants)",
+    "lender": "Allied Irish Bank (lead arranger), Aviva, IFM-controlled debt funds",
+    "instrument": "Bank loans and institutional debt refinancing",
+    "amount": 120000000,
+    "ccy": "GBP",
+    "created": "2018-12-01",
+    "refi": null,
+    "refi_basis": "Tenor not found; date is the Dec 2018 publication of the model-audit note, financial close was around then",
+    "url": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "source_type": "url_page",
+    "source_ref": "https://johnstoncarmichael.com/about-us/news/aib-pretoria-energy-co-holdings-refinance",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2021-03-22",
+    "type": "enforcement",
+    "summary": "Pretoria Energy Company (Chittering) Ltd pleaded guilty to an environmental permit breach after silage liquor from poorly maintained drains polluted a tributary of the River Cam in May 2018. It was fined £26,650 with £15,622 costs.",
+    "severity": "medium",
+    "url": "https://www.gov.uk/government/news/cambridgeshire-energy-producer-admits-pollution",
+    "source_type": "url_page",
+    "source_ref": "https://www.gov.uk/government/news/cambridgeshire-energy-producer-admits-pollution",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Chittering is a Cambridgeshire farm-crop AD and biomethane site (plant 1 from 2014, plant 2 from 2024, third phase planned) run by Pretoria Energy, which is owned by Steven Ripley with a 2021 Mercuria investment and had a £120m refinancing in 2018. Mercuria stake, current Companies House control and debt maturity not confirmed; the register row has no capacity or postcode and the register operator is the parent-level name, not the Chittering operating company."
+ },
+ {
+  "plant_id": 4336,
+  "parent_owner": "Acorn Bioenergy Ltd (controlled by Qualitas Energy)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2020-09-02",
+  "owner_since_confidence": "verified",
+  "locality": "Three Maids Hill, Winchester",
+  "grid_injection": 1,
+  "permit_tonnes_pa": 83600,
+  "owners": [
+   {
+    "owner": "Qila Biogas Ltd",
+    "stake": 75,
+    "from": "2018-02-06",
+    "to": "2019-02-28",
+    "note": "Original 75%+ holder (PSC) of Purbrook Biogas Ltd; stake is the Companies House band of 75% or more",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11190404/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 11190404, persons with significant control page",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Qila Holdings Ltd",
+    "stake": 75,
+    "from": "2019-02-28",
+    "to": "2020-09-02",
+    "note": "75%+ holder (PSC)",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11190404/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 11190404, persons with significant control page",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Acorn Bioenergy Ltd (Qualitas Energy portfolio company)",
+    "stake": 75,
+    "from": "2020-09-02",
+    "to": "2026-02-04",
+    "note": "75%+ holder (PSC) until it ceased on 4 Feb 2026. Qualitas Energy link to Acorn is from a press release that calls Acorn its portfolio company; a snippet says Qualitas took a controlling stake in Acorn in 2022",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11190404/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Company 11190404, persons with significant control page",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Dagda Bioenergy Ltd (Dagda Topco Ltd, itself owned 75%+ by Acorn Bioenergy Ltd)",
+    "stake": 75,
+    "from": "2025-09-11",
+    "note": "Current 75%+ holder (PSC). Chain checked: Dagda Bioenergy (16710909) to Dagda Topco (16702496) to Acorn Bioenergy (12020505). Looks like an internal holding structure put in place before the March 2026 financing; ultimate control stays with Acorn/Qualitas",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16702496/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "Companies 11190404, 16710909 and 16702496, PSC pages",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Purbrook Biogas Ltd",
+    "lender": "National Westminster Bank Plc (as security trustee)",
+    "instrument": "Debt facility secured by a charge (fixed charge; code 1119 0404 0001); facility type and syndicate not disclosed",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2026-03-20",
+    "refi": null,
+    "refi_basis": "Tenor not disclosed; no refinancing date estimated",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11190404/charges",
+    "source_type": "companies_house",
+    "source_ref": "Company 11190404, charges page, charge 1119 0404 0001 created 20 Mar 2026, delivered 1 Apr 2026, outstanding",
+    "confidence": "verified",
+    "note": "NatWest acts as security trustee, so other lenders may be in the facility. Amount and lender group would be confirmed by the charge document or a financing announcement."
+   }
+  ],
+  "issues": [],
+  "summary": "Three Maids Green Energy is Purbrook Biogas Ltd's new Agraferm AD and biomethane plant at Three Maids Hill, Winchester, which started operating on 1 Aug 2025 and is owned via Acorn Bioenergy (Qualitas Energy). Companies House shows an internal holding change in Sep 2025 and a NatWest-held charge in Mar 2026; the debt amount, lenders and any operating problems were not found."
+ },
+ {
+  "plant_id": 4337,
+  "parent_owner": "ENGIE (ENGIE SA, via ENGIE Renewable Gases UK Ltd and ENGIE UK Holdings Ltd)",
+  "owner_since": "2024-02-29",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "verified",
+  "locality": "Winterbourne St Martin (Martinstown), near Dorchester, Dorset",
+  "postcode": "DT2 9JF",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "JV Energen LLP members (Michael Bichan, Nicholas Finding and others)",
+    "to": "2024-02-29",
+    "note": "LLP was incorporated 15 Mar 2010 as JV Energen LLP and renamed Rainbarrow Farm AD LLP in Apr 2025; individual members resigned 29 Feb 2024. Stakes not found.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/OC353216/officers",
+    "source_type": "companies_house",
+    "source_ref": "OC353216 officers list, opened; resignations dated 29 Feb 2024",
+    "confidence": "verified"
+   },
+   {
+    "owner": "ENGIE Renewable Gases UK Ltd and ENGIE UK Holdings Ltd (ENGIE SA group)",
+    "from": "2024-02-29",
+    "note": "Both appointed designated members on 29 Feb 2024. Completion announced by ENGIE c. Mar 2024. Link to ENGIE SA is by group naming, not shown on the page opened.",
+    "url": "https://www.bioenergy-news.com/news/engie-acquires-uk-ad-facility-rainbarrow-farm/",
+    "source_type": "url_page",
+    "source_ref": "https://www.bioenergy-news.com/news/engie-acquires-uk-ad-facility-rainbarrow-farm/ and Companies House OC353216 officers",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Ixora Energy Ltd (ENGIE group)",
+    "from": "2024-02-29",
+    "to": "2024-12-02",
+    "note": "Appointed designated member 29 Feb 2024 and resigned 2 Dec 2024, apparently an internal ENGIE group restructure.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/OC353216/officers",
+    "source_type": "companies_house",
+    "source_ref": "OC353216 officers list, opened",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Rainbarrow Farm AD LLP (then JV Energen LLP)",
+    "lender": "Clydesdale Bank PLC",
+    "instrument": "Secured bank charges (fixed charge over leasehold land and assets), registered 2015 and 2017",
+    "amount": null,
+    "ccy": null,
+    "created": "2017-10-03",
+    "refi": null,
+    "refi_basis": "All charges shown as satisfied on 1 Mar 2024, so the old debt was repaid at the ENGIE acquisition; no current facility found",
+    "note": "Also Duchy of Cornwall charges (landlord and funder) created 2011, 2012, 2017 and 2020, all satisfied 1 Mar 2024. Clydesdale charges created 13 Apr 2015 and 3 Oct 2017.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/OC353216/charges",
+    "source_type": "companies_house",
+    "source_ref": "OC353216 charges register, opened: 7 charges, 0 outstanding",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2025-03-05",
+    "type": "planning breach",
+    "summary": "Search result for a Dorset Council planning report (P/VOC/2024/03497) says Winterborne St Martin Parish Council objected citing repeated planning breaches and that the original feedstock quota had been exceeded by 65%. Council pages returned a block, so not confirmed.",
+    "severity": "medium",
+    "url": "https://moderngov.dorsetcouncil.gov.uk/documents/s45328/Rainbarrow%20Farm%20Committee%20Report%20PVOC202403497%2005.03.2025.pdf",
+    "source_type": "snippet",
+    "source_ref": "https://moderngov.dorsetcouncil.gov.uk/documents/s45328/Rainbarrow%20Farm%20Committee%20Report%20PVOC202403497%2005.03.2025.pdf",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Rainbarrow Farm AD (Dorset, first UK biomethane-to-grid plant, c. 57 GWh a year) was bought by ENGIE in Feb/Mar 2024 from the JV Energen LLP members, and old bank and Duchy of Cornwall charges were all satisfied on 1 Mar 2024. A feedstock quota exceedance reported by the planning snippet could not be confirmed, and an HSE propane fire-risk notice seen in a search result could not be tied to this site, so it is not recorded."
+ },
+ {
+  "plant_id": 4338,
+  "parent_owner": "SARIA Group (Rethmann family group, Germany)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2016-02-29",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 150000,
+  "grid_injection": 1,
+  "locality": "Widnes",
+  "postcode": "WA8 0PB",
+  "owners": [
+   {
+    "owner": "ReFood UK Ltd (SARIA Ltd / SARIA Group)",
+    "stake": 100,
+    "from": "2014-06-18",
+    "to": null,
+    "note": "ReFood UK Ltd is the permit holder and operator at West Bank Dock Estate, Widnes. Plant opened June 2014 as a 120,000 t/yr gas-to-grid AD plant; ReFood is described as part of SARIA. SARIA Group took 100% of SARIA Ltd (formerly Prosper De Mulder) on 29 Feb 2016. The Rethmann family ownership of SARIA Group comes from search results only; to confirm, check SARIA or Rethmann group accounts.",
+    "url": "https://www.letsrecycle.com/news/refood-officially-opens-widnes-ad-facility/",
+    "source_type": "url_page",
+    "source_ref": "https://www.letsrecycle.com/news/refood-officially-opens-widnes-ad-facility/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "SARIA Group (Selm, Germany), parent of SARIA Ltd and ReFood UK",
+    "stake": 100,
+    "from": "2016-02-29",
+    "to": null,
+    "note": "SARIA Group acquired the remaining 49% of SARIA Ltd, making it wholly owned. The page does not name ReFood UK Ltd or the Widnes plant directly, so the link to this plant is by inference from the 2014 opening article.",
+    "url": "https://www.saria.co.uk/saria-group-acquires-remaining-shares-in-uk-subsidiary-saria-ltd/",
+    "source_type": "url_page",
+    "source_ref": "https://www.saria.co.uk/saria-group-acquires-remaining-shares-in-uk-subsidiary-saria-ltd/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Rethmann family (Rethmann SE & Co. KG), ultimate parent of SARIA Group",
+    "from": null,
+    "to": null,
+    "note": "Seen in a search result summary only; not opened. The 2014 opening article names Rethmann Group honorary chairman Norbert Rethmann at the opening, which is consistent.",
+    "url": "https://en.wikipedia.org/wiki/Rethmann",
+    "source_type": "snippet",
+    "source_ref": "https://en.wikipedia.org/wiki/Rethmann",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "The register row (GGCS, ReFood UK Ltd Widnes) matches the 120-160kt/yr food waste gas-to-grid AD plant at West Bank Dock Estate, Widnes WA8 0PB (EA permit EPR/AP3938EJ, opened June 2014), owned via SARIA Group. No financing or plant-specific operating problems found; a June 2026 Widnes fire on Everite Road was not linked to ReFood, and the register gives no capacity or COD."
+ },
+ {
+  "plant_id": 4339,
+  "parent_owner": "Future Biogas Limited (owned by 3i Infrastructure)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2023-11-30",
+  "owner_since_confidence": "verified",
+  "owners": [
+   {
+    "owner": "Broughton Farming Limited (25-50%)",
+    "stake": null,
+    "from": "2016-04-06",
+    "to": "2018-01-03",
+    "note": "Minority PSC of Gascorp Limited (the company's earlier name); ceased 3 Jan 2018.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09547098/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "09547098 persons with significant control page, opened",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Northumbrian Water Projects Limited (75% or more)",
+    "stake": null,
+    "from": "2016-04-06",
+    "to": "2022-01-31",
+    "note": "Company renamed NWG Bioenergy Limited in Jul 2018.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09547098/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "09547098 persons with significant control page, opened",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Aviva Investors Infrastructure Income No.8 Limited (75% or more)",
+    "stake": null,
+    "from": "2022-01-31",
+    "to": "2023-11-30",
+    "note": "Renamed Ridge Road Energy Limited 9 Feb 2022.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09547098/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "09547098 persons with significant control page, opened",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Future Biogas Limited (75% or more)",
+    "stake": null,
+    "from": "2023-11-30",
+    "note": "Current sole PSC (company 07207977). Future Biogas is owned by 3i Infrastructure, seen only in search snippets (3i and Clifford Chance, Mar 2023) and not opened, so the ultimate parent is likely rather than verified.",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09547098/persons-with-significant-control",
+    "source_type": "companies_house",
+    "source_ref": "09547098 persons with significant control page, opened",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Ridge Road Energy Ltd (company 09547098, formerly Gascorp and NWG Bioenergy) is now controlled by Future Biogas Ltd since 30 Nov 2023, after Aviva Investors and earlier Northumbrian Water Projects. The physical site, locality and capacity could not be identified, and no financing or operating problems were found."
+ },
+ {
+  "plant_id": 4340,
+  "parent_owner": "JLEN Environmental Assets Group Limited",
+  "owner_since": "2019-12-13",
+  "locality": "Mitcham, London Borough of Merton",
+  "postcode": "CR4 4NA",
+  "permit_tonnes_pa": 100000,
+  "grid_injection": 1,
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "verified",
+  "owners": [
+   {
+    "owner": "Private individuals (including Paul Killoughery as owner)",
+    "stake": 100,
+    "to": "2019-12-13",
+    "note": "Sold 70% to JLEN in Dec 2019; the existing owner kept 30% in Bio Collectors Holdings Ltd, the holding company that holds shares in Riverside Bio Ltd and Riverside AD Ltd (northdata/search summary). The Mitcham plant is the one at 43 Willow Lane, matched by location from EA permit and the plant description; the register row has no location.",
+    "url": "https://bioenergyinternational.com/jlen-acquires-majority-stake-in-bio-collectors-holdings/",
+    "source_type": "url_page",
+    "source_ref": "https://bioenergyinternational.com/jlen-acquires-majority-stake-in-bio-collectors-holdings/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "JLEN Environmental Assets Group Limited (via Bio Collectors Holdings Ltd)",
+    "stake": 70,
+    "from": "2019-12-13",
+    "to": "2023-12-01",
+    "note": "70% equity stake announced 13 Dec 2019; funded from JLEN revolving credit facility.",
+    "url": "https://bioenergyinternational.com/jlen-acquires-majority-stake-in-bio-collectors-holdings/",
+    "source_type": "url_page",
+    "source_ref": "https://bioenergyinternational.com/jlen-acquires-majority-stake-in-bio-collectors-holdings/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "JLEN Environmental Assets Group Limited (via Bio Collectors Holdings Ltd)",
+    "stake": 100,
+    "from": "2023-12-01",
+    "note": "Bought remaining 30% for GBP 8.0m, completed 1 Dec 2023. Link from Bio Collectors Holdings to Riverside Bio Ltd is from a search-result summary of Northdata, not confirmed on an opened filing.",
+    "url": "https://www.kinetixcf.com/post/disposal-of-remaining-30-stake-in-bio-collectors-to-jlen",
+    "source_type": "url_page",
+    "source_ref": "https://www.kinetixcf.com/post/disposal-of-remaining-30-stake-in-bio-collectors-to-jlen",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "JLEN Environmental Assets Group Limited",
+    "lender": null,
+    "instrument": "Draw-down on JLEN revolving credit facility to fund the 70% acquisition of Bio Collectors Holdings",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2019-12-13",
+    "refi": null,
+    "refi_basis": "Facility size, lender and maturity not found; group-level facility, not plant-specific",
+    "url": "https://bioenergyinternational.com/jlen-acquires-majority-stake-in-bio-collectors-holdings/",
+    "source_type": "url_page",
+    "source_ref": "https://bioenergyinternational.com/jlen-acquires-majority-stake-in-bio-collectors-holdings/",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [],
+  "summary": "The register row (Riverside Bio Ltd, GGCS, no location) is the Mitcham food-waste AD and gas-to-grid plant at 43 Willow Lane, CR4 4NA (Bio Collectors group, c.10MWth, up to 100,000 tpa, 1.7MWe CHP), matched by operator name and EA permit location; owned 100% by JLEN since 1 Dec 2023 (70% from Dec 2019). The stakes sit in Bio Collectors Holdings Ltd and the exact ownership link to the Riverside Bio Ltd entity was not seen in an opened filing; no operating problems found, and Companies House for Riverside Bio Ltd (08104799) shows an odd SIC code (other food services) and was not checked for charges."
+ },
+ {
+  "plant_id": 4342,
+  "parent_owner": "Severn Trent Plc (via Severn Trent Green Power Ltd)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Spondon, Derby (Derby Sewage Treatment Works, Megaloughton Lane)",
+  "postcode": "DE21 7BR",
+  "permit_tonnes_pa": null,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Severn Trent Green Power Ltd (non-regulated business of Severn Trent Plc)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "STGP was established in 2009 as a non-regulated business of Severn Trent Plc. The 2017 build announcement names Severn Trent Water Ltd, also a Severn Trent Plc subsidiary, as the developer, so the date the asset moved to STGP is not found.",
+    "url": "https://www.stgreenpower.co.uk/news-and-insights/severn-trent-green-power-acquires-agrivert-group-ltd",
+    "source_type": "url_page",
+    "source_ref": "https://www.stgreenpower.co.uk/news-and-insights/severn-trent-green-power-acquires-agrivert-group-ltd",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Severn Trent Water Ltd (developer, subsidiary of Severn Trent Plc)",
+    "stake": null,
+    "from": "2017-08-15",
+    "to": null,
+    "note": "Construction began Aug 2017 at Derby STW, built by Jones Celtic BioEnergy, est. GBP 20m. Later transfer to STGP not confirmed.",
+    "url": "https://bioenergyinternational.com/severn-trent-start-work-new-20m-food-waste-biomethane-plant-uk/",
+    "source_type": "url_page",
+    "source_ref": "https://bioenergyinternational.com/severn-trent-start-work-new-20m-food-waste-biomethane-plant-uk/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2022-03-01",
+    "type": "refurbishment / plant not operating",
+    "summary": "The plant was taken out of service for a 12-month refurbishment (Agrivert EPC contract March 2022 to August 2023: new depackaging, two extra digesters, upgraded controls). It restarted commissioning in late 2023, with completion expected early 2024.",
+    "severity": "medium",
+    "url": "https://www.bioenergy-news.com/news/severn-trent-green-power-reopens-ad-facility-in-derby-uk/",
+    "source_type": "url_page",
+    "source_ref": "https://www.bioenergy-news.com/news/severn-trent-green-power-reopens-ad-facility-in-derby-uk/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-07-01",
+    "type": "odour complaint",
+    "summary": "Residents and Spondon councillors linked a foul smell across Derby in summer 2024 to the Megaloughton Lane works; Severn Trent said it was investigating. The source of the smell was not confirmed and the site may be the sewage works rather than the AD plant.",
+    "severity": "low",
+    "url": "https://www.derbyworld.co.uk/your-derby/derby-smell-severn-trent-update-4974561",
+    "source_type": "snippet",
+    "source_ref": "https://www.derbyworld.co.uk/your-derby/derby-smell-severn-trent-update-4974561",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "Derby (Spondon) is a food waste AD and biomethane to grid plant at Derby sewage works, owned and run by Severn Trent Green Power, part of Severn Trent Plc; it was refurbished and recommissioned 2023 to 2024. No financing found; the date STGP took ownership and the 2024 odour source are unconfirmed (derbyworld page blocked), and the register row has no location or capacity."
+ },
+ {
+  "plant_id": 4343,
+  "parent_owner": "Severn Trent Plc",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Severn Trent Plc (via Severn Trent Water Ltd and Severn Trent Green Power Ltd, the group renewable energy arm)",
+    "stake": null,
+    "from": "2010-08-01",
+    "to": null,
+    "note": "Group built and commissioned the energy crop AD plant at Stoke Bardolph in Aug 2010 and added the biomethane upgrade c.2017. Severn Trent Water staff authored the project article and photos are credited to Severn Trent Green Power Ltd. The exact legal owner of the assets and the 100% shareholding of Severn Trent Green Power Ltd were not confirmed; Companies House record not opened.",
+    "url": "https://waterprojectsonline.com/case-studies/stoke-bardolph/",
+    "source_type": "url_page",
+    "source_ref": "https://waterprojectsonline.com/case-studies/stoke-bardolph/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "Operational biomethane-to-grid upgrade (water wash, designed for 600 Sm3/h biomethane from 1,100 Nm3/h biogas) at the Severn Trent energy crop AD plant at Stoke Bardolph sewage works, Nottingham; the register row is the right site, and the operator is Severn Trent Green Power Ltd, a Severn Trent group company. No financing, acquisition date, outages or enforcement found; the legal asset owner, postcode and exact biomethane commissioning date are unconfirmed."
+ },
+ {
+  "plant_id": 4344,
+  "parent_owner": "Severn Trent Plc (via Severn Trent Water Ltd)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "owners": [
+   {
+    "owner": "Severn Trent Water Ltd (subsidiary of Severn Trent Plc)",
+    "from": null,
+    "to": null,
+    "note": "Severn Trent Water built and operates the Finham sewage works and its gas-to-grid plant (client on the 2019 Costain contract). The Severn Trent Plc investor page calls Severn Trent Water its principal operating subsidiary. Acquisition date not applicable; no ownership change found.",
+    "url": "https://waterprojectsonline.com/case-studies/finham-aad-2023/",
+    "source_type": "url_page",
+    "source_ref": "https://waterprojectsonline.com/case-studies/finham-aad-2023/ ; https://www.severntrent.com/investors/debt-investors/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2013-09-05",
+    "type": "odour",
+    "summary": "Severn Trent apologised for an odour problem traced to Finham sewage works that affected parts of Coventry, and cited a planned £5.5m investment in treatment processes. This predates the gas-to-grid plant and relates to the sewage works, not the biomethane plant.",
+    "severity": "low",
+    "url": "https://www.coventrytelegraph.net/news/coventry-news/severn-trent-water-admits-helping-5843884",
+    "source_type": "url_page",
+    "source_ref": "https://www.coventrytelegraph.net/news/coventry-news/severn-trent-water-admits-helping-5843884",
+    "confidence": "verified"
+   }
+  ],
+  "locality": "Coventry",
+  "grid_injection": 1,
+  "summary": "Finham STW gas-to-grid plant at Severn Trent's Finham sewage works, Coventry (West Midlands), is a real biomethane injection plant built by Costain with first export to the Cadent network in March 2021; the biogas upgrader handles c.720 to 1,800 m3/h and can supply c.9,000 homes. It is a utility-owned captive asset, not a standalone transactable plant. No plant-specific financing, postcode, capacity in MW or biomethane operating problems found; no group financing recorded."
+ },
+ {
+  "plant_id": 4345,
+  "parent_owner": "Severn Trent Plc",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Minworth, Sutton Coldfield (Minworth Sewage Treatment Works)",
+  "postcode": "B76 9DP",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Severn Trent Water Ltd (permit holder and operator, owned via Severn Trent Draycote Ltd by Severn Trent Plc)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Severn Trent Water's 2025 accounts (note 43) state the immediate parent is Severn Trent Draycote Limited and the ultimate parent and controlling party is Severn Trent Plc. The Environment Agency permit decision reported on 27 Nov 2019 shows Severn Trent Water as permit holder for the Minworth sludge digestion and CHP plant, which exports biogas to the gas grid via gas to grid facilities. The register row says only 'Minworth A'; it is assumed to be one of the gas to grid plants at Minworth, and the 2019 permit variation covers two biomethane to grid plants, so the exact unit is not confirmed.",
+    "url": "https://www.severntrent.com/content/dam/stw-plc/investors/emtn-documents/stw-limited-2025.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.severntrent.com/content/dam/stw-plc/investors/emtn-documents/stw-limited-2025.pdf",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Severn Trent Water Ltd (operator of Minworth gas to grid plant)",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Waterbriefing report of EA permit variation of Nov 2019 naming Severn Trent Water as permit holder at Minworth STW.",
+    "url": "https://waterbriefing.org/home/regulation-and-legislation/item/16705-ea-grants-severn-trent-permission-for-minworth-stw-biogas-upgrade",
+    "source_type": "url_page",
+    "source_ref": "https://waterbriefing.org/home/regulation-and-legislation/item/16705-ea-grants-severn-trent-permission-for-minworth-stw-biogas-upgrade",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Severn Trent Water Ltd (via Severn Trent Utilities Finance Plc back-to-back loan)",
+    "lender": "Bond investors (Swiss franc bond issued by Severn Trent Utilities Finance Plc)",
+    "instrument": "CHF 200m bond maturing 2032, proceeds swapped to GBP fixed rates",
+    "amount": 200000000,
+    "ccy": "CHF",
+    "created": "2025-04-14",
+    "refi": "2032-04-14",
+    "refi_basis": "Bond issued 14 Apr 2025 and stated to mature in 2032; exact maturity day not stated, so April 2032 assumed. Group-level debt of the owning company, not specific to the Minworth plant.",
+    "url": "https://www.severntrent.com/content/dam/stw-plc/investors/emtn-documents/stw-limited-2025.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.severntrent.com/content/dam/stw-plc/investors/emtn-documents/stw-limited-2025.pdf",
+    "confidence": "verified"
+   },
+   {
+    "borrower": "Severn Trent Water Ltd",
+    "lender": "Bond investors",
+    "instrument": "EUR 850m 3.875% green bond maturing 2035 (XS2991273462)",
+    "amount": 850000000,
+    "ccy": "EUR",
+    "created": "2025-01-28",
+    "refi": "2035-08-04",
+    "refi_basis": "Maturity of 4 Aug 2035 per search result title for the bond; issue date and size from a search snippet only. The cbonds page was blocked. Group-level debt; confirm in the Severn Trent Water annual report or bond prospectus.",
+    "url": "https://cbonds.com/news/3254661/",
+    "source_type": "snippet",
+    "source_ref": "https://cbonds.com/news/3254661/",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [],
+  "summary": "Utility-owned sewage sludge to biomethane plant at Minworth STW, owned by Severn Trent Water Ltd under Severn Trent Plc; the register row has no location or capacity and 'Minworth A' could not be tied to a single unit, since two biomethane to grid plants are covered by a 2019 permit variation. No operating problems found at Minworth; owner_since not found and the postcode B76 9DP comes only from an Environment Agency consultation URL seen in a search result."
+ },
+ {
+  "plant_id": 4346,
+  "parent_owner": "Severn Trent plc",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Minworth, Sutton Coldfield (Birmingham)",
+  "postcode": "B76 9DP",
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Severn Trent Water Ltd, wholly owned operating subsidiary of Severn Trent plc (FTSE 100, no controlling shareholder)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Operator and permit holder of Minworth Sludge Digestion and CHP Plant (EA permit EPR/BP3631SW). Severn Trent plc debt page names Severn Trent Water Limited as its principal operating subsidiary. Acquisition date not applicable (long-term incumbent owner).",
+    "url": "https://www.severntrent.com/investors/debt-investors/",
+    "source_type": "url_page",
+    "source_ref": "https://www.severntrent.com/investors/debt-investors/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Severn Trent Water Ltd (group-level, not plant-specific)",
+    "lender": null,
+    "instrument": "Sterling bond, 5.875% due 2038",
+    "amount": 350000000,
+    "ccy": "GBP",
+    "created": "2024-07-01",
+    "refi": "2038-01-01",
+    "refi_basis": "Bond maturity year 2038 from search snippet; exact date not seen",
+    "url": "https://cbonds.com/bonds/1216087/",
+    "source_type": "snippet",
+    "source_ref": "https://cbonds.com/bonds/1216087/ (search result summary; issue details not opened)",
+    "confidence": "unverified"
+   },
+   {
+    "borrower": "Severn Trent Water Ltd (group-level, not plant-specific)",
+    "lender": null,
+    "instrument": "Euro bond, 4% due 2034",
+    "amount": 500000000,
+    "ccy": "EUR",
+    "created": "2024-02-01",
+    "refi": "2034-02-01",
+    "refi_basis": "Bond maturity year 2034 from search snippet; exact date not seen",
+    "url": "https://waterbriefing.org/home/finance-and-risk/item/22406-south-west-water-and-severn-trent-target-bond-markets-to-raise-finance",
+    "source_type": "snippet",
+    "source_ref": "Web search result summary on Severn Trent bond issues 2024; not opened. Would be confirmed by the bond listing or Severn Trent debt investor page.",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [],
+  "summary": "Minworth is Severn Trent Water's sewage sludge digestion and CHP site near Birmingham with gas-to-grid biomethane injection (first UK grid injection from 2015); the EA granted a permit variation in Nov 2019 for two biomethane plants and a new upgrader, and the owner is Severn Trent plc. No plant-specific operating problems, plant-specific financing or owner-since date found; the financing listed is group-level bonds seen only in search summaries."
+ },
+ {
+  "plant_id": 4347,
+  "parent_owner": "Severn Trent Plc (via Severn Trent Water Ltd)",
+  "owner_since": null,
+  "owners": [
+   {
+    "owner": "Severn Trent Water Ltd",
+    "note": "Builder and operator of the biomethane gas-to-grid plant at Stoke Bardolph STW; the 2015 company release says Severn Trent invested in the plant. Listing of Severn Trent Plc as ultimate parent is from general knowledge and was not stated on an opened page; confirm at Companies House.",
+    "url": "https://www.stwater.co.uk/news/news-releases/severntrentinvestsinthreenewbiomethanegastogridplants/",
+    "source_type": "url_page",
+    "source_ref": "https://www.stwater.co.uk/news/news-releases/severntrentinvestsinthreenewbiomethanegastogridplants/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Severn Trent Water Ltd / Severn Trent Utilities Finance Plc (group level)",
+    "lender": null,
+    "instrument": "Sustainable bonds (EUR 500m 10-year sustainability bond Feb 2024; sterling 14-year sustainability bond mooted Jul 2024) and sustainability-linked committed bank facilities",
+    "amount": null,
+    "ccy": null,
+    "created": "2024-02-01",
+    "refi": null,
+    "refi_basis": "Group-level debt, not specific to this plant; maturity dates not confirmed",
+    "url": "https://informaconnect.com/igm/corp-snapshot-focus-on-sterling-as-severn-trent-water-reopens-market/",
+    "source_type": "snippet",
+    "source_ref": "https://informaconnect.com/igm/corp-snapshot-focus-on-sterling-as-severn-trent-water-reopens-market/",
+    "confidence": "unverified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2020-09-17",
+    "type": "capex",
+    "summary": "Severn Trent applied to the Environment Agency to vary the site permit for a new thermal hydrolysis plant, boilers and a biogas upgrade plant for grid injection, so the gas-to-grid plant was being rebuilt or upgraded from 2020.",
+    "severity": "low",
+    "url": "https://www.waterbriefing.org/home/company-news/item/17595-severn-trent-water-plans-new-biogas-plant-for-stoke-bardolph-sewage-treatment-works",
+    "source_type": "url_page",
+    "source_ref": "https://www.waterbriefing.org/home/company-news/item/17595-severn-trent-water-plans-new-biogas-plant-for-stoke-bardolph-sewage-treatment-works",
+    "confidence": "verified"
+   }
+  ],
+  "grid_injection": 1,
+  "locality": "Stoke Bardolph, Nottingham",
+  "postcode": null,
+  "parent_owner_confidence": "unverified",
+  "owner_since_confidence": null,
+  "summary": "Utility-owned sewage sludge and energy crop biomethane plant (c.500 m3/h biomethane) at Stoke Bardolph STW, Nottinghamshire, injecting to grid since c.2015 and upgraded from 2020; no operating problems found. Ultimate parent, owner_since, postcode and plant-specific financing not found."
+ },
+ {
+  "plant_id": 4348,
+  "parent_owner": "Severn Trent Plc (via Severn Trent Water Ltd)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "grid_injection": 1,
+  "locality": "Barlaston, Stoke-on-Trent",
+  "postcode": "ST12 9EX",
+  "owners": [
+   {
+    "owner": "Severn Trent Water Ltd (principal operating subsidiary of Severn Trent Plc)",
+    "note": "Owner and operator of Strongford Sewage Treatment Works, with an on-site biogas upgrading (gas to grid) unit. Severn Trent said in a Nov 2017 release that it had invested £15m in three biomethane plants, with the Strongford and Stoke Bardolph equipment already running. Acquisition date not applicable as the plant was built by the company. Postcode ST12 9EX is taken from the Environment Agency consultation page address for the permit application.",
+    "url": "https://www.stwater.co.uk/news/news-releases/severntrentinvestsinthreenewbiomethanegastogridplants/",
+    "source_type": "url_page",
+    "source_ref": "https://www.stwater.co.uk/news/news-releases/severntrentinvestsinthreenewbiomethanegastogridplants/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Severn Trent Plc",
+    "stake": 100,
+    "note": "Parent of Severn Trent Water Ltd. The investor page names Severn Trent Water Limited as the Group's principal operating subsidiary. A 100 percent stake is not stated on that page, so the stake is not asserted here beyond control.",
+    "url": "https://www.severntrent.com/investors/debt-investors/",
+    "source_type": "url_page",
+    "source_ref": "https://www.severntrent.com/investors/debt-investors/",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2026-01-01",
+    "type": "permit variation",
+    "summary": "Severn Trent Water applied in January 2026 (EPR/MP3097FY/V006) for a substantial variation of the Strongford IED permit to cover anaerobic digestion of indigenous and imported sludge, an existing liquor treatment plant, a new ammonia recovery trial plant and a cellulose recovery plant. The application confirms the biogas upgrading unit (gas to grid) is within the current permit.",
+    "severity": "low",
+    "url": "https://consult.environment-agency.gov.uk/psc/st12-9ex-severn-trent-water-limited-v006/supporting_documents/application-variation-v006-updated-strongford-application-supporting-document-jan-26-04022026pdf",
+    "source_type": "url_page",
+    "source_ref": "https://consult.environment-agency.gov.uk/psc/st12-9ex-severn-trent-water-limited-v006/supporting_documents/application-variation-v006-updated-strongford-application-supporting-document-jan-26-04022026pdf",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Strongford is Severn Trent Water's own sewage works at Barlaston, south of Stoke-on-Trent, with sludge and food waste digestion, thermal hydrolysis and a biogas upgrading unit injecting biomethane to grid (operator is the owner, not a contractor); the GGCS row had no location, so site was matched by name and operator. No group or plant-specific financing recorded (Severn Trent group issues bonds, but no facility tied to this plant was opened), no operating problems found, and no capacity or commissioning date for the upgrader was found (2017 release says up to 500 m3/h biomethane per plant)."
+ },
+ {
+  "plant_id": 4349,
+  "parent_owner": "Privilege Holdings Limited (via Privilege Project Finance Ltd and Privilege Investments Ltd)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2021-09-17",
+  "owner_since_confidence": "verified",
+  "locality": "Minster-on-Sea, Isle of Sheppey (New Hook Farm), Kent",
+  "postcode": "ME12 3SU",
+  "permit_tonnes_pa": 53500,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Farm Renewables Limited (developer, 75% or more)",
+    "stake": 75,
+    "from": "2016-07-19",
+    "to": "2021-09-17",
+    "note": "Registered PSC from incorporation until 17 Sep 2021. Stake is the 75% or more band shown by Companies House.",
+    "source_type": "url_page",
+    "source_ref": "https://find-and-update.company-information.service.gov.uk/company/10285991/persons-with-significant-control",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10285991/persons-with-significant-control",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Privilege Investments Limited (75% or more), owned by Privilege Project Finance Ltd, whose PSC is Privilege Holdings Ltd",
+    "stake": 75,
+    "from": "2021-09-17",
+    "note": "Companies House PSC notified 17 Sep 2021. Chain to Privilege Holdings Ltd seen in PSC pages of Privilege Investments (07501320) and Privilege Project Finance (04323959). Same Stretham, Ely address as Eco Verde Energy, which lists Sheppey as an operated site. Other shareholders seen only in a search snippet: S W Attwood (Farms) Ltd and Farm Renewables Ltd minority shares.",
+    "source_type": "url_page",
+    "source_ref": "https://find-and-update.company-information.service.gov.uk/company/10285991/persons-with-significant-control",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10285991/persons-with-significant-control",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Sheppey Energy Limited",
+    "lender": "Privilege Project Finance Limited",
+    "instrument": "Secured project finance (two fixed charges over leasehold interests, both still outstanding); trade press says the plant was fully funded by Privilege Finance",
+    "amount": null,
+    "ccy": "GBP",
+    "created": "2019-02-08",
+    "refi": null,
+    "refi_basis": "Amount, term and maturity not found; no refinancing evidence",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10285991/charges",
+    "source_type": "companies_house",
+    "source_ref": "10285991 charges, codes 1028 5991 0001 and 0002, created 8 Feb 2019",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [],
+  "summary": "Register row (GGCS, no location) matched to the Sheppey Energy Ltd AD and biomethane plant at New Hook Farm, Minster-on-Sea (permit EPR/CP3331YA, 53,500 t/yr, c.450 scmh biomethane), commissioned c.late 2019. Privilege Investments (Privilege group, also the lender) became majority shareholder in Sep 2021, replacing developer Farm Renewables; no operating problems found, and loan amount and maturity are unknown."
+ },
+ {
+  "plant_id": 4350,
+  "parent_owner": "Stanton Energy Ltd (linked to Stanton Recycling Ltd; ultimate shareholders not found)",
+  "parent_owner_confidence": "unverified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Ilkeston",
+  "postcode": null,
+  "permit_tonnes_pa": 83000,
+  "grid_injection": 1,
+  "owners": [
+   {
+    "owner": "Stanton Energy Ltd",
+    "stake": null,
+    "from": null,
+    "to": null,
+    "note": "Described as the new biogas and biomethane-to-grid company that will own and operate the AD plant at the Stanton Recycling site, Crompton Road, Ilkeston. HoSt names Stanton Recycling Ltd as the client. Shareholders not found; Companies House would confirm.",
+    "url": "https://www.host.nl/en/host-to-construct-turnkey-ad-facility-at-stanton-recycling-in-ilkeston-uk/",
+    "source_type": "url_page",
+    "source_ref": "https://www.host.nl/en/host-to-construct-turnkey-ad-facility-at-stanton-recycling-in-ilkeston-uk/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2021-03-23",
+    "type": "fire",
+    "summary": "Major fire at the adjacent Stanton Recycling site (old Stanton Iron Works) in March 2021 damaged buildings, before the AD plant was built. Not at the AD plant itself.",
+    "severity": "low",
+    "url": "https://narrowboatworld.com/12982-acrid-fumes-stops-erewash-navigation",
+    "source_type": "url_page",
+    "source_ref": "https://narrowboatworld.com/12982-acrid-fumes-stops-erewash-navigation",
+    "confidence": "verified"
+   },
+   {
+    "date": "2021-08-19",
+    "type": "permit",
+    "summary": "Environment Agency notice for the first bespoke permit application (EPR/FP3600SV/A001, 83,000 t/yr) was withdrawn on 19 Aug 2021. A later permit application document dated Jan 2022 appeared in search but was not opened, so the current permit status is unconfirmed.",
+    "severity": "low",
+    "url": "https://www.gov.uk/government/publications/de7-4bg-stanton-energy-ltd-environmental-permit-application-advertisement-eprfp3600sva001/de7-4bg-stanton-energy-ltd-environmental-permit-application-advertisement-eprfp3600sva001",
+    "source_type": "url_page",
+    "source_ref": "https://www.gov.uk/government/publications/de7-4bg-stanton-energy-ltd-environmental-permit-application-advertisement-eprfp3600sva001/de7-4bg-stanton-energy-ltd-environmental-permit-application-advertisement-eprfp3600sva001",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Stanton Energy Ltd is the biomethane-to-grid AD plant (c.3.5m Nm3 per year, 40kt/yr feedstock) on the Stanton Recycling site, Crompton Road, Ilkeston, built by HoSt and Britcon; the GGCS row matches this site. Ultimate owners, acquisition date, financing and operating problems were not found; the register row had no location or capacity."
  }
 ]
