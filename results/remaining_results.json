@@ -14379,5 +14379,853 @@
   "financing": [],
   "issues": [],
   "summary": "Row is steam turbine 2 (2.2 MWe, listed COD 1957) at the Stadtwerke Rosenheim waste-to-energy CHP plant, the same site as plant 4675; the 1957 date likely reflects an old turbine or register data, not the plant start (incineration began 1964). No ownership change date, financing or operating problems found; LfU Bayern has a 2025 inspection report that was not read."
+ },
+ {
+  "plant_id": 4792,
+  "parent_owner": "EEW Energy from Waste Saarbrücken GmbH (50%) and YNCORIS GmbH & Co. KG (50%) via EBS Kraftwerk GmbH",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2009-01-01",
+  "owner_since_confidence": "likely",
+  "locality": "Hürth",
+  "postcode": "50354",
+  "heat_offtaker": "Chemiepark Knapsack (process steam)",
+  "permit_tonnes_pa": 320000,
+  "owners": [
+   {
+    "owner": "EEW Energy from Waste Saarbrücken GmbH",
+    "stake": 50,
+    "from": "2009-01-01",
+    "note": "Joint owner of EBS Kraftwerk GmbH. EEW itself was sold by EQT Infrastructure II to Beijing Enterprises Holdings (c. EUR 1.4bn, seen in search results only, not opened). From date is the plant start-up year; the date of company formation was not found. 320,000 t/yr is the throughput stated by EEW.",
+    "url": "https://www.eew-energyfromwaste.com/en/our-sites/knapsack/",
+    "source_type": "url_page",
+    "source_ref": "https://www.eew-energyfromwaste.com/en/our-sites/knapsack/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "YNCORIS GmbH & Co. KG (Chemiepark Knapsack operator, formerly Infraserv Knapsack)",
+    "stake": 50,
+    "from": "2009-01-01",
+    "note": "50% shareholder per EUWID report on 2024 accounts; EEW page confirms it is a company of EEW and YNCORIS. ZFK 2018 says Infraserv Knapsack and EEW built the plant together in 2009.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/ebs-kraftwerk-huerth-mit-deutlichem-ergebniseinbruch-050226/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/ebs-kraftwerk-huerth-mit-deutlichem-ergebniseinbruch-050226/",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Beijing Enterprises Holdings (ultimate owner of EEW)",
+    "note": "Acquired EEW from EQT Infrastructure II. Seen in search result only; not opened.",
+    "url": "https://eqs-news.com/news/corporate/eqt-infrastructure-ii-sells-eew-energy-from-waste-to-beijing-enterprises-holding/923497",
+    "source_type": "snippet",
+    "source_ref": "https://eqs-news.com/news/corporate/eqt-infrastructure-ii-sells-eew-energy-from-waste-to-beijing-enterprises-holding/923497",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2024-12-31",
+    "type": "financial/technical",
+    "summary": "EBS Kraftwerk Hürth GmbH made a net loss of c. EUR 1.1m in 2024 (profit EUR 5.4m in 2023) after lower contractual fuel gate fees, a planned transformer overhaul with external power purchases, and interest rate adjustments on existing financing. Part was offset by damages received for an earlier transformer failure.",
+    "severity": "medium",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/ebs-kraftwerk-huerth-mit-deutlichem-ergebniseinbruch-050226/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/ebs-kraftwerk-huerth-mit-deutlichem-ergebniseinbruch-050226/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "EBKW Knapsack in Hürth is run by EBS Kraftwerk GmbH, owned 50:50 by EEW Energy from Waste Saarbrücken (Beijing Enterprises group) and YNCORIS; the register row matches (RDF plant, c. 2009, Chemiepark Knapsack). Lender, debt amounts and the exact date the owners took their stakes were not found."
+ },
+ {
+  "plant_id": 4821,
+  "parent_owner": "EWE AG (via swb AG, 100% less one share held by the Free Hanseatic City of Bremen)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2009-10-21",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 550000,
+  "heat_offtaker": "Bremen district heating network (incl. University of Bremen and technology park)",
+  "locality": "Bremen",
+  "owners": [
+   {
+    "owner": "swb Entsorgung GmbH & Co. KG (100% swb group; formerly Abfallbehandlung Nord GmbH, integrated 100% into swb from 2008-01-01 and renamed 2008-08-01)",
+    "stake": 100,
+    "from": "2008-01-01",
+    "to": null,
+    "note": "Owner and operator of the Müllheizkraftwerk (MHKW) Bremen at In den Hufen, Findorff. Wikipedia lists swb Entsorgung as both owner and operator.",
+    "url": "https://de.wikipedia.org/wiki/M%C3%BCllheizkraftwerk_Bremen",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/M%C3%BCllheizkraftwerk_Bremen",
+    "confidence": "verified"
+   },
+   {
+    "owner": "swb AG (100% of swb Entsorgung)",
+    "stake": 100,
+    "from": "2008-01-01",
+    "to": null,
+    "note": "swb group holdings page lists swb Entsorgung at 100%.",
+    "url": "https://www.swb.de/ueber-swb/unternehmen/ag",
+    "source_type": "url_page",
+    "source_ref": "https://www.swb.de/ueber-swb/unternehmen/ag",
+    "confidence": "verified"
+   },
+   {
+    "owner": "RWE (51%, via Essent) and EWE (49%) as swb AG shareholders",
+    "stake": null,
+    "from": null,
+    "to": "2009-10-21",
+    "note": "RWE took Essent's 51% of swb on 30 Sep 2009, passed it to the city of Bremen for antitrust reasons, and the city resold it to EWE. Stake split before the sale is from search snippets and the E&M text, not stated in full.",
+    "url": "https://www.energie-und-management.de/nachrichten/detail/rwe-schliesst-swb-verkauf-ab-82036",
+    "source_type": "url_page",
+    "source_ref": "https://www.energie-und-management.de/nachrichten/detail/rwe-schliesst-swb-verkauf-ab-82036",
+    "confidence": "likely"
+   },
+   {
+    "owner": "EWE AG (100% of swb AG minus one share; one share stays with the Free Hanseatic City of Bremen via Bremer Verkehrsgesellschaft mbH)",
+    "stake": 100,
+    "from": "2009-10-21",
+    "to": null,
+    "note": "E&M article dated 21 Oct 2009 reports RWE completing the swb sale, with EWE taking 100% of swb less one share. The date is the article date, so the exact closing date may differ by days.",
+    "url": "https://www.energie-und-management.de/nachrichten/detail/rwe-schliesst-swb-verkauf-ab-82036",
+    "source_type": "url_page",
+    "source_ref": "https://www.energie-und-management.de/nachrichten/detail/rwe-schliesst-swb-verkauf-ab-82036",
+    "confidence": "verified"
+   },
+   {
+    "owner": "EWE AG shareholders: Weser-Ems Energiebeteiligungen (64%), Energieverband Elbe-Weser Beteiligungsholding (20%), both controlled by municipalities, until Ardian took 26%",
+    "stake": null,
+    "from": "2020-02-28",
+    "to": null,
+    "note": "Wikipedia says Ardian acquired 26% of EWE after the Bundeskartellamt cleared the deal in Dec 2019; the transaction closed in Feb 2020. Current split after the Ardian deal not confirmed, and the text I read was cut off after the closing date.",
+    "url": "https://de.wikipedia.org/wiki/EWE_(Versorgungsunternehmen)",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/EWE_(Versorgungsunternehmen)",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [],
+  "summary": "The register row (MaStR, 13.7 MWe, COD 2004, operator swb Entsorgung) most likely is a turbine or generator unit at the Müllheizkraftwerk Bremen, which had 15.3 MWe in 2004 and 50 MWe after the 2013 upgrade (permit up to 550,000 t/yr); this match is inferred from operator, region and COD, as the register does not give locality. Owner chain is swb Entsorgung, swb AG, then EWE AG (Weser-Ems municipalities, Ardian 26% since 2020); no financing, outages or enforcement actions found, and no Bremen-specific financing was searched beyond the first results."
+ },
+ {
+  "plant_id": 4871,
+  "parent_owner": "MVV Energie AG (67%) and Siegfried Schuster (33%), per 2004 reports; current split not confirmed",
+  "owner_since": "2004-06-01",
+  "parent_owner_confidence": "likely",
+  "owner_since_confidence": "likely",
+  "permit_tonnes_pa": 90000,
+  "heat_offtaker": "Two commercial businesses and a nursery (Gaertnerei), per operator",
+  "locality": "Altenstadt",
+  "postcode": "86972",
+  "owners": [
+   {
+    "owner": "Siegfried Schuster (founder and developer, via Schuster group companies)",
+    "stake": 100,
+    "from": "1997-01-01",
+    "to": "2004-06-01",
+    "note": "Schuster announced the project in 1993; plant built 1997-1999 with federal and state pilot-project subsidies. Stake before 2004 inferred from MVV later taking 67%.",
+    "url": "https://www.uip-online.de/heizkraftwerk-altenstadt-historie/",
+    "source_type": "url_page",
+    "source_ref": "https://www.uip-online.de/heizkraftwerk-altenstadt-historie/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "MVV Energie AG (via 100% subsidiary)",
+    "stake": 67,
+    "from": "2004-06-01",
+    "note": "UIP history page says MVV became a 67 percent shareholder in June 2004; a search snippet from ecoreporter (9 Jul 2004, page blocked) adds that Schuster keeps 33 percent and that MVV took the stake for 17 years. Whether MVV still holds the stake in 2026 is not confirmed: MVV's biomass page does not mention Altenstadt, and the plant website names no owner. Confirm via Handelsregister HRA 82008 or MVV annual report.",
+    "url": "https://www.uip-online.de/heizkraftwerk-altenstadt-historie/",
+    "source_type": "url_page",
+    "source_ref": "https://www.uip-online.de/heizkraftwerk-altenstadt-historie/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Siegfried Schuster (Schuster family companies)",
+    "stake": 33,
+    "from": "2004-06-01",
+    "note": "Remaining shareholder per ecoreporter snippet (page returned 403). Operator signatories in 2022 include Bernhard Schuster (North Data). North Data shows a Schuster-linked limited partner (BGS GmbH & Co. KG Grundstuecksverwaltung) left the KG in Jan 2023, so the holding structure has changed.",
+    "url": "https://www.ecoreporter.de/artikel/972004-mvv-energie-ag-beteiligt-sich-an-bayerischem-biomassekraftwerk-09-07-2004/",
+    "source_type": "snippet",
+    "source_ref": "https://www.ecoreporter.de/artikel/972004-mvv-energie-ag-beteiligt-sich-an-bayerischem-biomassekraftwerk-09-07-2004/",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2020-06-01",
+    "type": "permit change / public opposition",
+    "summary": "Operator applied to burn refuse-derived fuel (up to 50% of heat input) in addition to waste wood. District council, Schongau council and residents' groups opposed it, with demonstrations in 2020 and 2021.",
+    "severity": "medium",
+    "url": "https://www.uip-online.de/heizkraftwerk-altenstadt-historie/",
+    "source_type": "url_page",
+    "source_ref": "https://www.uip-online.de/heizkraftwerk-altenstadt-historie/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2022-01-20",
+    "type": "permit",
+    "summary": "Regierung von Oberbayern granted the BImSchG change permit on 20 Jan 2022 allowing refuse-derived fuel up to 50% of fuel heat input (40.4 MW thermal input). The city of Schongau filed a court challenge; the outcome was not found. A Greens report (May 2021) says fuel use would be held back while EEG subsidies run.",
+    "severity": "medium",
+    "url": "https://www.regierung.oberbayern.bayern.de/mam/dokumente/presse/pm-pdf/2022/22-01-26_pm010_55.1_erweiterung-brennstoffpalette-bmhkw-altenstadt.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.regierung.oberbayern.bayern.de/mam/dokumente/presse/pm-pdf/2022/22-01-26_pm010_55.1_erweiterung-brennstoffpalette-bmhkw-altenstadt.pdf; https://gruene-weilheim-schongau.de/gruene-vor-ort/ortsverband-schongau/details/detail-berichte/ist-muellverbrennung-in-altenstadt-noch-zu-verhindern",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Operating waste-wood and biomass CHP at Altenstadt (Weilheim-Schongau), matching the register row (c. 11 MW electrical, in service 1999); MVV Energie reportedly took 67% in 2004 but the current shareholding is not confirmed. A 2022 permit allows refuse-derived fuel co-firing, contested by the city of Schongau; no financing found."
+ },
+ {
+  "plant_id": 4909,
+  "parent_owner": "Beijing Enterprises Holdings Limited (via EEW Energy from Waste GmbH)",
+  "owner_since": "2016-02-01",
+  "parent_owner_confidence": "verified",
+  "owner_since_confidence": "likely",
+  "locality": "Premnitz",
+  "postcode": "14727",
+  "permit_tonnes_pa": 300000,
+  "heat_offtaker": "Industriepark Premnitz (process steam), district heat for Premnitz",
+  "owners": [
+   {
+    "owner": "EQT Infrastructure II (51% from Mar 2013, 100% from Apr 2015; earlier E.ON Energy from Waste)",
+    "stake": 100,
+    "from": "2015-04-01",
+    "to": "2016-02-01",
+    "note": "EQT bought E.ON's remaining 49% in Apr 2015 and agreed the sale to Beijing Enterprises Holdings in Feb 2016.",
+    "url": "https://eqtgroup.com/news/eqt-infrastructure-ii-sells-eew-energy-from-waste-to-beijing-enterprises-holding-2016-02-04",
+    "source_type": "url_page",
+    "source_ref": "https://eqtgroup.com/news/eqt-infrastructure-ii-sells-eew-energy-from-waste-to-beijing-enterprises-holding-2016-02-04",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Beijing Enterprises Holdings Limited (sole shareholder of EEW Energy from Waste GmbH, which operates EEW Premnitz)",
+    "stake": 100,
+    "from": "2016-02-01",
+    "note": "EQT release says closing was expected end of February 2016; EEW presentation (Mar 2025) says Beijing Enterprises acquired 100% in 2016. Exact closing date not seen. The register operator EEW Energy from Waste Premnitz GmbH is a subsidiary of EEW; the Premnitz-level share chain was not checked in the Handelsregister.",
+    "url": "https://www.rbinternational.com/content/dam/rbi/ho/campaign/schuldscheintag-2025/eew_unternehmenspraesentation.pdf.coredownload.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://www.rbinternational.com/content/dam/rbi/ho/campaign/schuldscheintag-2025/eew_unternehmenspraesentation.pdf.coredownload.pdf",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "EEW Energy from Waste GmbH (group)",
+    "lender": "Bond investors",
+    "instrument": "Green Bond (first green bond of a thermal waste company), issued 2021",
+    "amount": null,
+    "ccy": "EUR",
+    "created": "2021-06-01",
+    "refi": "2026-06-01",
+    "refi_basis": "EEW investor presentation (Mar 2025) lists 'Green Bond 2021 - 2026'; exact maturity date and size not seen, so month is an estimate from the Jul 2021 press report",
+    "url": "https://www.zfk.de/unternehmen/nachrichten/thermischer-abfallverwerter-eew-geht-neue-wege-in-der-finanzierung",
+    "source_type": "url_page",
+    "source_ref": "https://www.zfk.de/unternehmen/nachrichten/thermischer-abfallverwerter-eew-geht-neue-wege-in-der-finanzierung",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2022-06-28",
+    "type": "register mismatch",
+    "summary": "The register row 'Turbosatz 5' is a turbine unit, not a separate plant: a new turbine and generator replaced a 50+ year old turbine set at the EEW Premnitz waste-to-energy site as part of the 2nd grate line project, with c.4m EUR EFRE/ILB grant support.",
+    "severity": "low",
+    "url": "https://www.eew-energyfromwaste.com/de/newsroom/pressemitteilungen/artikel/einweihung-der-2-linie-von-eew-in-premnitz-ersatzinvestition-mit-effizienzgewinn-fuer-mehr-strom-und-waerme-aus-der-ressource-abfall/",
+    "source_type": "url_page",
+    "source_ref": "https://www.eew-energyfromwaste.com/de/newsroom/pressemitteilungen/artikel/einweihung-der-2-linie-von-eew-in-premnitz-ersatzinvestition-mit-effizienzgewinn-fuer-mehr-strom-und-waerme-aus-der-ressource-abfall/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Turbosatz 5 is the replacement turbine at EEW Premnitz (Brandenburg), owned through EEW Energy from Waste GmbH by Beijing Enterprises Holdings since 2016; the turbine was inaugurated with the 2nd grate line in Jun 2022. No outages, fires or enforcement found; the Premnitz-level shareholder chain, exact closing date and size of the 2021 green bond were not confirmed."
+ },
+ {
+  "plant_id": 4915,
+  "parent_owner": "Maerkischer Kreis (51% of AMK mbH; remainder held via MK Beteiligungsgesellschaft by EDG Holding and Lobbe)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Iserlohn",
+  "permit_tonnes_pa": null,
+  "heat_offtaker": "Stadtwerke Iserlohn district heating network",
+  "owners": [
+   {
+    "owner": "Maerkischer Kreis (51%)",
+    "stake": 51,
+    "from": null,
+    "to": null,
+    "note": "Current majority shareholder of AMK mbH, operator of the Iserlohn waste-to-energy plant (MHKW) at Giesestrasse. The Kreis took over the plant in 1975; AMK mbH was founded 1 Jan 1993 with the Kreis as sole shareholder.",
+    "url": "https://www.amk-entsorgung.de/unternehmen/gesellschafter",
+    "source_type": "url_page",
+    "source_ref": "https://www.amk-entsorgung.de/unternehmen/gesellschafter",
+    "confidence": "verified"
+   },
+   {
+    "owner": "MK Beteiligungsgesellschaft mbH & Co KG (49%), owned 50:50 by EDG Holding GmbH (Dortmund) and Lobbe Industrieservice GmbH & Co KG",
+    "stake": 49,
+    "from": null,
+    "to": null,
+    "note": "Minority partners brought in after the 1993 founding via a bidding process; entry date not found. EDG (Dortmund city group) plans to leave the AMK group effective 31 Dec 2027. Local press gives 24.9% each for EDG and Lobbe, which is the same as 49% split 50:50 with rounding.",
+    "url": "https://lokaldirekt.de/news/edg-steigt-bei-abfallentsorgungsgesellschaft-aus-kreis-leitet-markterkundungsverfahren-ein",
+    "source_type": "url_page",
+    "source_ref": "https://lokaldirekt.de/news/edg-steigt-bei-abfallentsorgungsgesellschaft-aus-kreis-leitet-markterkundungsverfahren-ein",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-11-25",
+    "type": "ownership change",
+    "summary": "Entsorgung Dortmund (EDG) intends to exit the AMK shareholder group effective 31 Dec 2027; the Maerkischer Kreis has started a market sounding published in the EU Official Journal to prepare a possible EU-wide procurement of a new partner. The article also says the plant's last comprehensive modernisation was 30 years ago and further large investment is likely.",
+    "severity": "medium",
+    "url": "https://lokaldirekt.de/news/edg-steigt-bei-abfallentsorgungsgesellschaft-aus-kreis-leitet-markterkundungsverfahren-ein",
+    "source_type": "url_page",
+    "source_ref": "https://lokaldirekt.de/news/edg-steigt-bei-abfallentsorgungsgesellschaft-aus-kreis-leitet-markterkundungsverfahren-ein",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-03-04",
+    "type": "outage",
+    "summary": "AMK imposed a one-day waste acceptance stop on 4 March 2024 because the combustion bunker had to be inspected and emptied; reported as hearsay ('dem Vernehmen nach') by the neighbouring waste authority.",
+    "severity": "low",
+    "url": "https://www.zfa-iserlohn.de/nachrichten/2024/03/muellheizkraftwerk-verfuegt-annahmestopp-wegen-pruefung/",
+    "source_type": "url_page",
+    "source_ref": "https://www.zfa-iserlohn.de/nachrichten/2024/03/muellheizkraftwerk-verfuegt-annahmestopp-wegen-pruefung/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2016-09-16",
+    "type": "fire",
+    "summary": "Fire of unknown cause in the bulky-waste unloading area spread into the waste bunker; extinguished by plant and municipal fire brigades in about two hours, one AMK employee taken to hospital with suspected smoke gas poisoning.",
+    "severity": "medium",
+    "url": "https://www.presseportal.de/blaulicht/pm/116234/3431946",
+    "source_type": "url_page",
+    "source_ref": "https://www.presseportal.de/blaulicht/pm/116234/3431946",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Register row 'Turbine 1' (13 MWe, COD 1996, operator AMK) is a turbine unit at the Iserlohn waste-to-energy plant (MHKW, Giesestrasse), operated by AMK mbH, which is 51% owned by the Maerkischer Kreis and 49% by EDG Holding and Lobbe via MK Beteiligungsgesellschaft. EDG plans to exit by end 2027; no financing, permit tonnage (c.105,000 t/yr burned per press, not a permit figure) or date of the minority partners' entry was found."
+ },
+ {
+  "plant_id": 4920,
+  "parent_owner": "E.ON SE (via E.ON Energy Projects GmbH)",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Hürth",
+  "heat_offtaker": "UPM Hürth-Knapsack paper mill (steam; mill closure announced 2024)",
+  "owners": [
+   {
+    "owner": "GSH Green Steam Hürth GmbH, 100% subsidiary of E.ON Energy Projects GmbH (E.ON SE)",
+    "stake": 100,
+    "from": null,
+    "note": "E.ON built and operates the plant on the UPM mill site; owner since project start (construction began Oct 2020). Wolff & Müller release names GSH as client and a subsidiary of E.ON Energy Projects GmbH; an E.ON job advert says 100% subsidiary.",
+    "url": "https://www.wolff-mueller.de/news-medien/news/detail/baubeginn-fuer-biomasseheizkraftwerk-in-huert",
+    "source_type": "url_page",
+    "source_ref": "https://www.wolff-mueller.de/news-medien/news/detail/baubeginn-fuer-biomasseheizkraftwerk-in-huert",
+    "confidence": "verified"
+   },
+   {
+    "owner": "E.ON SE (ultimate parent)",
+    "stake": 100,
+    "from": null,
+    "note": "Global Energy Monitor, citing MaStR, lists E.ON SE as 100% parent of GSH Green Steam Hürth GmbH.",
+    "url": "https://www.gem.wiki/Green_Steam_H%C3%BCrth_power_station",
+    "source_type": "url_page",
+    "source_ref": "https://www.gem.wiki/Green_Steam_H%C3%BCrth_power_station",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-12-01",
+    "type": "construction defect",
+    "summary": "A crack was found in the fuel bunker during commissioning and the boiler stood idle for five weeks until it was sealed and a structural engineer approved restart. Commissioning was originally planned for Q1 2022.",
+    "severity": "medium",
+    "url": "https://www.contextcrew.de/e-on-nimmt-in-huerth-biomassekraftwerk-in-betrieb/",
+    "source_type": "url_page",
+    "source_ref": "https://www.contextcrew.de/e-on-nimmt-in-huerth-biomassekraftwerk-in-betrieb/ (teaser visible, article paywalled; also EUWID Recycling 19.01.2024, paywalled)",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-06-18",
+    "type": "commissioning problems",
+    "summary": "EUWID reported the plant still not at full load because of technical difficulties, with the turbine expected fully in service by end of June 2024.",
+    "severity": "medium",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/biomassekraftwerk-green-steam-laeuft-noch-nicht-unter-volllast-180624/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/biomassekraftwerk-green-steam-laeuft-noch-nicht-unter-volllast-180624/ (teaser only, paywalled)",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-07-15",
+    "type": "offtaker closure",
+    "summary": "UPM announced closure of the Hürth-Knapsack paper mill (steam customer, over 130 jobs) by end of 2024; E.ON said it was assessing the impact and still planned commercial operation. Current steam offtake after closure not found.",
+    "severity": "high",
+    "url": "https://www.radioerft.de/artikel/huerth-was-passiert-mit-dem-biomassekraftwerk-2020502",
+    "source_type": "url_page",
+    "source_ref": "https://www.radioerft.de/artikel/huerth-was-passiert-mit-dem-biomassekraftwerk-2020502",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "E.ON-owned 20 MWe wood-fired CHP built on the UPM Hürth-Knapsack site; MaStR shows in operation since 2023-09-15, matching the register row (location is confidential in MaStR; Hürth confirmed from other sources, no postcode found). Main risk is loss of the UPM paper mill steam customer after its announced 2024 closure; acquisition date, financing and the post-closure heat offtaker were not found."
+ },
+ {
+  "plant_id": 4921,
+  "parent_owner": "REMONDIS (49%), Wirtschaftsbetriebe Duisburg AöR (City of Duisburg, c.36%), Stadtwerke Oberhausen GmbH via STOAG (City of Oberhausen, c.15%)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Oberhausen",
+  "postcode": "46049",
+  "owners": [
+   {
+    "owner": "REMONDIS",
+    "stake": 49,
+    "from": null,
+    "to": null,
+    "note": "Private partner in the GMVA PPP. Percentage is from a 2014 EUWID report on the 2013 WBD accounts; the GMVA website confirms the same three partners today but gives no percentages, so the split may have changed.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/gmva-oberhausen-stuerzt-duisburger-wirtschaftsbetriebe-in-die-roten-zahlen/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/gmva-oberhausen-stuerzt-duisburger-wirtschaftsbetriebe-in-die-roten-zahlen/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Wirtschaftsbetriebe Duisburg AöR (City of Duisburg)",
+    "stake": 36,
+    "from": null,
+    "to": null,
+    "note": "c.36% per EUWID 25 Jun 2014 (WBD 2013 annual report); WBD wrote down its GMVA holding by EUR 37.7m in 2013. Current stake not confirmed.",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/gmva-oberhausen-stuerzt-duisburger-wirtschaftsbetriebe-in-die-roten-zahlen/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/gmva-oberhausen-stuerzt-duisburger-wirtschaftsbetriebe-in-die-roten-zahlen/",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Stadtwerke Oberhausen GmbH (City of Oberhausen, via STOAG)",
+    "stake": 15,
+    "from": null,
+    "to": null,
+    "note": "15% per EUWID 2014. City of Oberhausen press release of 4 Nov 2013 confirms the three shareholders (Oberhausen via STOAG, WBD Duisburg, Remondis) without percentages. Current stake not confirmed.",
+    "url": "https://www.oberhausen.de/de/index/rathaus/aktuelle-pressemeldungen/meldungen_2013/neuorganisation_der_gmva.php",
+    "source_type": "url_page",
+    "source_ref": "https://www.oberhausen.de/de/index/rathaus/aktuelle-pressemeldungen/meldungen_2013/neuorganisation_der_gmva.php",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-08-11",
+    "type": "fire",
+    "summary": "Automatic fire alarm triggered in a waste bunker, with heavy smoke and an odour nuisance warning to residents; extinguished around 20:00 and police investigating the cause.",
+    "severity": "medium",
+    "url": "https://www.radiooberhausen.de/artikel/brand-in-der-muellverbrennungsanlage-2407147",
+    "source_type": "url_page",
+    "source_ref": "https://www.radiooberhausen.de/artikel/brand-in-der-muellverbrennungsanlage-2407147",
+    "confidence": "verified"
+   },
+   {
+    "date": "2021-07-01",
+    "type": "fire",
+    "summary": "Fire in a storage hall at the plant; a 63-year-old employee lost consciousness after driving an excavator out of the burning hall and was taken to hospital. The headline reports he died. Exact day in July 2021 not shown (EUWID issue 30/2021, dated 27 Jul 2021).",
+    "severity": "high",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/notiert-brand-in-der-gmva-mann-stirbt-beim-loeschversuch-270721/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/notiert-brand-in-der-gmva-mann-stirbt-beim-loeschversuch-270721/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2013-11-04",
+    "type": "contract / liquidity",
+    "summary": "Court cases and a regional-government price review over plant sizing and incineration prices put GMVA's liquidity at risk; shareholders created an extra company for municipal waste at a lower price of EUR 159.80 per tonne, and the cities deferred receivables. Duisburg's WBD wrote down its holding by EUR 37.7m in 2013.",
+    "severity": "medium",
+    "url": "https://www.oberhausen.de/de/index/rathaus/aktuelle-pressemeldungen/meldungen_2013/neuorganisation_der_gmva.php",
+    "source_type": "url_page",
+    "source_ref": "https://www.oberhausen.de/de/index/rathaus/aktuelle-pressemeldungen/meldungen_2013/neuorganisation_der_gmva.php",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Row is one turbine set (25.6 MWe, Turbosatz 1) at the GMVA Niederrhein waste-to-energy plant in Oberhausen (up to 700kt/yr, PPP of Oberhausen, Duisburg and REMONDIS); the operator is the owning company, not a contractor. Shareholder percentages date from 2014 and the acquisition date is not found; no financing found; fires in 2021 and 2025 recorded."
+ },
+ {
+  "plant_id": 4922,
+  "parent_owner": "enercity AG (via Danpower GmbH)",
+  "parent_owner_confidence": "likely",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Rostock",
+  "postcode": "18147",
+  "owners": [
+   {
+    "owner": "Vattenfall Europe New Energy GmbH (via Vattenfall Europe New Energy Ecopower GmbH)",
+    "stake": 100,
+    "from": "2010-01-01",
+    "to": null,
+    "note": "Built and operated the plant, in operation since 2010. Sale to Danpower signed 21 Aug 2025, closing expected autumn 2025 subject to Bundeskartellamt clearance; the closing date was not found, so the end date is left blank.",
+    "url": "https://group.vattenfall.com/de/newsroom/news/2025/vattenfall-verkauft-seine-abfallverbrennungsanlage-in-rostock-an-danpower",
+    "source_type": "url_page",
+    "source_ref": "https://group.vattenfall.com/de/newsroom/news/2025/vattenfall-verkauft-seine-abfallverbrennungsanlage-in-rostock-an-danpower",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Danpower GmbH (100% subsidiary of enercity AG, Hannover)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Buyer under contracts signed 21 Aug 2025. The MaStR register row already lists Danpower as operator, which suggests the sale has closed, but no closing announcement was found. Danpower is a 100% enercity subsidiary per the law firm advisor's release.",
+    "url": "https://rosin-buedenbender.com/news/beratung-der-danpower-gmbh-beim-erwerb-der-mva-rostock/",
+    "source_type": "url_page",
+    "source_ref": "https://rosin-buedenbender.com/news/beratung-der-danpower-gmbh-beim-erwerb-der-mva-rostock/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-03-05",
+    "type": "outage",
+    "summary": "The 2023 emissions report lists several unplanned shutdowns: tube damage (5-10 Mar, 14-17 Jun, 30 Aug-3 Sep), grate damage (9-16 Jan, 7-9 Sep), an evaporator fault (13-14 Jul) and a short outage for rust damage repair (10-23 Nov). No waste was processed during these periods.",
+    "severity": "medium",
+    "url": "https://group.vattenfall.com/de/siteassets/germany/was-wir-tun/unsere-energiequellen/hkw-rostock/240410_jahresbericht-2023_ebs-hkw-rostock.pdf",
+    "source_type": "url_page",
+    "source_ref": "https://group.vattenfall.com/de/siteassets/germany/was-wir-tun/unsere-energiequellen/hkw-rostock/240410_jahresbericht-2023_ebs-hkw-rostock.pdf",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-01-11",
+    "type": "permit",
+    "summary": "The BImSchG permit for the plant was only granted retroactively on 11 Jan 2024 (max. firing heat 95.7 MW), although the plant had been operating since 2010. The article is behind a paywall; only the opening paragraph was readable.",
+    "severity": "low",
+    "url": "https://www.euwid-recycling.de/news/wirtschaft/ebs-kraftwerk-rostock-erhaelt-nachtraeglich-genehmigung-060224-1/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-recycling.de/news/wirtschaft/ebs-kraftwerk-rostock-erhaelt-nachtraeglich-genehmigung-060224-1/",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "EfW CHP at Ost-West-Strasse 25, Rostock (c.175kt/yr, c.18MWe per sale release versus 22.4MW in the register), built by Vattenfall and sold to Danpower (100% enercity) with contracts signed Aug 2025; closing date and price not found. Several unplanned outages in 2023; no financing found."
+ },
+ {
+  "plant_id": 4937,
+  "parent_owner": "MVV Energie AG",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "permit_tonnes_pa": 390000,
+  "heat_offtaker": "InfraLeuna steam network (process steam) and Merseburg district heating",
+  "locality": "Leuna",
+  "postcode": "06237",
+  "owners": [
+   {
+    "owner": "MVV Umwelt Asset GmbH (100% subsidiary of MVV Energie AG, Mannheim)",
+    "stake": 100,
+    "note": "InfraLeuna company profile states the TREA Leuna site entity is a 100% subsidiary of MVV Energie AG. Original project company was MVV TREA Leuna GmbH; the plant was built under a lease structure (see financing).",
+    "url": "https://www.infraleuna.de/company-profile/mvv-umwelt-asset-gmbh-standort-trea-leuna",
+    "source_type": "url_page",
+    "source_ref": "https://www.infraleuna.de/company-profile/mvv-umwelt-asset-gmbh-standort-trea-leuna",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Hannover Leasing subsidiary (lessor), leasing the plant to MVV TREA Leuna GmbH",
+    "lender": "Landesbank Hessen-Thueringen Girozentrale and KfW IPEX-Bank",
+    "instrument": "Combined project and leasing finance for the new Leuna waste incineration plant; MVV has an option to buy the plant when the lease ends",
+    "amount": 94000000,
+    "ccy": "EUR",
+    "created": null,
+    "refi": null,
+    "refi_basis": "Article gives the EUR 94m investment volume but no date or lease term. Whether it covers line I only (2005) or both lines is not stated, and whether MVV has since bought out the lease is unknown.",
+    "url": "https://www.juve.de/deals/neue-muellverbrennungsanlage-in-leuna/",
+    "source_type": "url_page",
+    "source_ref": "https://www.juve.de/deals/neue-muellverbrennungsanlage-in-leuna/",
+    "confidence": "likely"
+   }
+  ],
+  "issues": [],
+  "summary": "TREA Leuna line II (commissioned May 2007, 2 x c.20 MWe site total, 390kt/yr) is operated by MVV Umwelt Asset GmbH, a 100% MVV Energie AG subsidiary; the register row is a unit of a two-line site at Leuna, 06237. Acquisition date of the current entity, the lease term and any operating incidents were not found."
+ },
+ {
+  "plant_id": 4945,
+  "parent_owner": "FES Frankfurter Entsorgungs- und Service GmbH (City of Frankfurt 51%, Remondis 49%) and Mainova AG, 50:50",
+  "parent_owner_confidence": "verified",
+  "owner_since": "2006-10-01",
+  "owner_since_confidence": "likely",
+  "locality": "Frankfurt am Main (Nordweststadt)",
+  "permit_tonnes_pa": 660000,
+  "heat_offtaker": "Mainova district heating network (Nordweststadt, Riedberg, Eschersheim, Bockenheim, Campus Westend)",
+  "owners": [
+   {
+    "owner": "MHKW Müllheizkraftwerk Frankfurt am Main GmbH, owned 50:50 by FES Frankfurter Entsorgungs- und Service GmbH and Mainova AG",
+    "stake": 100,
+    "from": "2006-10-01",
+    "note": "Operating company since 1 Oct 2006; shareholders hold equal shares. FES is 51% City of Frankfurt and 49% Remondis per a search result (snippet only). Date is when the operating company took over, not a sale.",
+    "url": "https://www.mhkw-frankfurt.de/betrieb/betreibergesellschaft",
+    "source_type": "url_page",
+    "source_ref": "https://www.mhkw-frankfurt.de/betrieb/betreibergesellschaft",
+    "confidence": "verified"
+   },
+   {
+    "owner": "FES Frankfurter Entsorgungs- und Service GmbH: City of Frankfurt 51%, Remondis AG & Co. KG 49%",
+    "stake": 51,
+    "note": "Ownership of FES, one of the two shareholders; seen in a search result only. Confirm on fes-frankfurt.de.",
+    "url": "https://www.mhkw-frankfurt.de/betrieb/betreibergesellschaft",
+    "source_type": "snippet",
+    "source_ref": "https://www.mhkw-frankfurt.de/betrieb/betreibergesellschaft",
+    "confidence": "unverified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2025-10-23",
+    "type": "outage",
+    "summary": "Automatic shutdown of the plant after a fault between the plant and the transformer station; Mainova reported a district heat temperature drop in Nordweststadt, Riedberg and Mertonviertel and the plant was restarted the same morning.",
+    "severity": "low",
+    "url": "https://www.hessenschau.de/morgenticker/muellheizkraftwerk-frankfurt-wird-nach-ausfall-wieder-hochgefahren--hessen-am-morgen-die-nachrichten-im-ticker,hessen-am-morgen-donnerstag-934.html",
+    "source_type": "url_page",
+    "source_ref": "https://www.hessenschau.de/morgenticker/muellheizkraftwerk-frankfurt-wird-nach-ausfall-wieder-hochgefahren--hessen-am-morgen-die-nachrichten-im-ticker,hessen-am-morgen-donnerstag-934.html",
+    "confidence": "likely"
+   },
+   {
+    "date": "2024-08-17",
+    "type": "maintenance outage",
+    "summary": "Mainova cut district heat to Nordweststadt for c.30 hours on 17/18 Aug and 7/8 Sep 2024 for urgent works at the waste heat plant (c.1,250 connections).",
+    "severity": "low",
+    "url": "https://www.mainova.de/de/ihre-mainova/presse/pressemitteilungen/2024/fernwaermeversorgung-in-der-nordweststadt-wegen-arbeiten-im-muellheizkraftwerk-kurzzeitig-unterbrochen--140426",
+    "source_type": "url_page",
+    "source_ref": "https://www.mainova.de/de/ihre-mainova/presse/pressemitteilungen/2024/fernwaermeversorgung-in-der-nordweststadt-wegen-arbeiten-im-muellheizkraftwerk-kurzzeitig-unterbrochen--140426",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-01-17",
+    "type": "permit",
+    "summary": "Regierungspraesidium Darmstadt approved permanent four-line operation and raised the annual limit from 525,600 to 660,000 tonnes, with automated bunker cranes.",
+    "severity": "low",
+    "url": "https://rp-darmstadt.hessen.de/presse/rp-genehmigt-erweiterung-des-frankfurter-muellheizkraftwerkes",
+    "source_type": "url_page",
+    "source_ref": "https://rp-darmstadt.hessen.de/presse/rp-genehmigt-erweiterung-des-frankfurter-muellheizkraftwerkes",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "Row is 'Turbine 7' (75 MWe, COD 1986, from MaStR) at the Frankfurt Nordweststadt EfW CHP, which the operator states has 49 MWe turbine capacity in total, so the register capacity does not match the plant and may be a unit or gross figure; owned 50:50 by FES (Frankfurt/Remondis) and Mainova. No financing found; the plant was rebuilt 1984 to 1987 and 2003 to 2009, and the date the current ownership began (2006 operating company) is not a sale date."
+ },
+ {
+  "plant_id": 4984,
+  "parent_owner": "Rethmann SE & Co. KG (via REMONDIS SE & Co. KG)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "1993-01-01",
+  "owner_since_confidence": "verified",
+  "locality": "Lünen",
+  "postcode": "44536",
+  "heat_offtaker": "Industrial users on the REMONDIS Lippewerk site (site electricity and steam supply)",
+  "owners": [
+   {
+    "owner": "Vereinigte Aluminium-Werke AG (VAW)",
+    "to": "1993-01-01",
+    "note": "VAW ran the aluminium works at the Lippewerk site from 1938 to 1990 and built the circulating fluidised bed power plant there.",
+    "url": "https://de.wikipedia.org/wiki/Lippewerk",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/Lippewerk",
+    "confidence": "verified"
+   },
+   {
+    "owner": "Rethmann SE & Co. KG (via REMONDIS SE & Co. KG; operator REMONDIS Production GmbH)",
+    "stake": 100,
+    "from": "1993-01-01",
+    "note": "Lippewerk has belonged to the Rethmann waste division since 1993, now REMONDIS. Wikipedia states REMONDIS SE & Co. KG is wholly owned by Rethmann SE & Co. KG. The exact legal holding chain down to REMONDIS Production GmbH was not checked in the Handelsregister.",
+    "url": "https://de.wikipedia.org/wiki/Remondis",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/Lippewerk and https://de.wikipedia.org/wiki/Remondis",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2024-07-05",
+    "type": "permit",
+    "summary": "Bezirksregierung Arnsberg published an exemption under 17. BImSchV (waste incineration ordinance) for the fluidised bed combustion plant of REMONDIS Production GmbH at Brunnenstrasse 138, Lünen. The exemption is a routine permit item, not a breach.",
+    "severity": "low",
+    "url": "https://www.bra.nrw.de/bekanntmachungen/ausnahmegenehmigung-fuer-die-wirbelbett-feuerungsanlage-der-remondis-production-gmbh-luenen",
+    "source_type": "url_page",
+    "source_ref": "https://www.bra.nrw.de/bekanntmachungen/ausnahmegenehmigung-fuer-die-wirbelbett-feuerungsanlage-der-remondis-production-gmbh-luenen",
+    "confidence": "verified"
+   },
+   {
+    "date": null,
+    "type": "equipment failure",
+    "summary": "A search summary mentions a turbine defect at the circulating fluidised bed power plant (c. 2012) after water entered a component and caused rust; steam was vented through an emergency valve and safety systems worked as designed. Date and details not confirmed.",
+    "severity": "low",
+    "url": null,
+    "source_type": "snippet",
+    "source_ref": "WebSearch result summary for 'Remondis Lippewerk Wirbelschichtkraftwerk Lünen Störung' (Ruhr Nachrichten / Lokalkompass items, not opened)",
+    "confidence": "unverified"
+   }
+  ],
+  "summary": "The register row is the REMONDIS Lippewerk circulating fluidised bed waste-fired power plant in Lünen, operated by REMONDIS Production GmbH and owned within the Rethmann/REMONDIS group since 1993; the site also has a separate biomass power plant, and the 10.35 MWe row may cover only one unit. No financing found; the 2020 and 2022 fires at the Lippewerk were in recycling halls, not the power plant, and a c. 2012 turbine defect is only an unverified lead."
+ },
+ {
+  "plant_id": 4989,
+  "parent_owner": "MVV Energie AG",
+  "parent_owner_confidence": "verified",
+  "owner_since": null,
+  "owner_since_confidence": null,
+  "locality": "Leuna",
+  "postcode": "06237",
+  "heat_offtaker": "InfraLeuna chemical park steam network; Merseburg district heating",
+  "owners": [
+   {
+    "owner": "MVV Umwelt Asset GmbH (100% subsidiary of MVV Energie AG)",
+    "stake": 100,
+    "from": null,
+    "to": null,
+    "note": "Operator and current owner-operator of TREA Leuna, commissioned 2005. The InfraLeuna company profile states the company is a 100 percent subsidiary of MVV Energie AG. Original build used a lease structure (see financing), so legal title to the plant may have sat with a Hannover Leasing vehicle, with MVV holding a purchase option; current title not confirmed.",
+    "url": "https://www.infraleuna.de/company-profile/mvv-umwelt-asset-gmbh-standort-trea-leuna",
+    "source_type": "url_page",
+    "source_ref": "https://www.infraleuna.de/company-profile/mvv-umwelt-asset-gmbh-standort-trea-leuna",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [
+   {
+    "borrower": "Hannover Leasing subsidiary (lessor), leasing the plant to MVV TREA Leuna GmbH",
+    "lender": "Landesbank Hessen-Thüringen Girozentrale (Helaba) and KfW IPEX-Bank",
+    "instrument": "Combined project and leasing finance for the plant build; MVV has an option to buy the plant when the lease ends",
+    "amount": null,
+    "ccy": "EUR",
+    "created": null,
+    "refi": null,
+    "refi_basis": "Lease term and loan maturity not found; original construction finance for a EUR 94m investment, built c.2003 to 2005",
+    "note": "Article gives EUR 94m as the investment volume, not the loan amount, and no date. Likely historic and possibly already repaid or replaced.",
+    "url": "https://www.juve.de/deals/neue-muellverbrennungsanlage-in-leuna/",
+    "source_type": "url_page",
+    "source_ref": "https://www.juve.de/deals/neue-muellverbrennungsanlage-in-leuna/",
+    "confidence": "verified"
+   }
+  ],
+  "issues": [
+   {
+    "date": "2025-07-31",
+    "type": "regulatory inspection",
+    "summary": "The Saxony-Anhalt state authority (LVwA) inspected the plant on 31 July 2025 because of an event with environmental impact. No defects were found and no measures were ordered. The nature of the event is not stated.",
+    "severity": "low",
+    "url": "https://lvwa.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/LVWA/LVwA/Dokumente/4_landwirtschaftumwelt/402/ueberwachungsberichte/BImSchG/2025/2025.07.31_MVV_Umwelt_Asset_GmbH_7547.pdf",
+    "source_type": "register_entry",
+    "source_ref": "LVwA Sachsen-Anhalt Ueberwachungsbericht, MVV Umwelt Asset GmbH TREA Leuna, site visit 31.07.2025, published 28.11.2025",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "TREA Leuna (EfW, c.390kt/yr nominal, commissioned 2005) is run by MVV Umwelt Asset GmbH, a 100% subsidiary of MVV Energie AG, and matches the register row (the row has no locality; site is An der B91, Tor 12, Leuna). The 2025 inspections found no defects; the date MVV took ownership, current title (lease structure) and any current debt were not found."
+ },
+ {
+  "plant_id": 5009,
+  "parent_owner": "Stadt Solingen (via Technische Betriebe Solingen)",
+  "parent_owner_confidence": "verified",
+  "owner_since": "1969-11-01",
+  "owner_since_confidence": "likely",
+  "locality": "Solingen",
+  "postcode": "42655",
+  "heat_offtaker": "Solingen municipal district heating network",
+  "permit_tonnes_pa": null,
+  "owners": [
+   {
+    "owner": "Stadtwerke Solingen (first operator)",
+    "from": "1969-07-01",
+    "to": "1969-11-01",
+    "note": "Plant started 9 July 1969 under Stadtwerke Solingen; the earlier-found wording of a November 1969 transfer to the city comes from a search summary only, so the exact date is uncertain. Operating responsibility later moved to EntsorgungsBetriebe Solingen (late 1990s) and then Technische Betriebe Solingen (2011).",
+    "url": "https://de.wikipedia.org/wiki/M%C3%BCllheizkraftwerk_Solingen",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/M%C3%BCllheizkraftwerk_Solingen",
+    "confidence": "likely"
+   },
+   {
+    "owner": "Stadt Solingen, operated by Technische Betriebe Solingen (municipal body similar to an own-operation company)",
+    "stake": 100,
+    "from": "2011-01-01",
+    "note": "Wikipedia lists owner and operator as Technische Betriebe Solingen, which is a municipal institution of the City of Solingen. Register row names Stadt Solingen as operator. The row is one turbine (5.3 MWe) of three at the Muellheizkraftwerk Solingen.",
+    "url": "https://de.wikipedia.org/wiki/M%C3%BCllheizkraftwerk_Solingen",
+    "source_type": "url_page",
+    "source_ref": "https://de.wikipedia.org/wiki/M%C3%BCllheizkraftwerk_Solingen",
+    "confidence": "verified"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2023-11-04",
+    "type": "fire",
+    "summary": "Major fire damaged waste boiler 3 at the plant, which ran at about half capacity during repairs; waste treatment, district heat and power continued thanks to redundant systems.",
+    "severity": "high",
+    "url": "https://solinger-nachrichten.de/2024/12/13/muellheizkraftwerk-brandsanierung-abgeschlossen-alle-kessel-laufen-wieder/",
+    "source_type": "url_page",
+    "source_ref": "https://solinger-nachrichten.de/2024/12/13/muellheizkraftwerk-brandsanierung-abgeschlossen-alle-kessel-laufen-wieder/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2024-12-13",
+    "type": "repair completed",
+    "summary": "Boiler 3 returned to service after about a year; repair cost c. EUR 5.5m, covered by insurance, and the plant is back at full load.",
+    "severity": "low",
+    "url": "https://solinger-nachrichten.de/2024/12/13/muellheizkraftwerk-brandsanierung-abgeschlossen-alle-kessel-laufen-wieder/",
+    "source_type": "url_page",
+    "source_ref": "https://solinger-nachrichten.de/2024/12/13/muellheizkraftwerk-brandsanierung-abgeschlossen-alle-kessel-laufen-wieder/",
+    "confidence": "verified"
+   },
+   {
+    "date": "2025-06-10",
+    "type": "inspection",
+    "summary": "Bezirksregierung Duesseldorf environmental inspection found no defects and no measures required.",
+    "severity": "low",
+    "url": "https://www.brd.nrw.de/umweltinspektionsberichte/Stadt-Solingen/SG-011-Muellheizkraftwerk",
+    "source_type": "register_entry",
+    "source_ref": "Bezirksregierung Duesseldorf Umweltinspektionsbericht SG-011, inspection 2025-06-10, published 2025-07-21",
+    "confidence": "verified"
+   }
+  ],
+  "summary": "The row is one steam turbine (5.3 MWe, 1969) at the municipal Muellheizkraftwerk Solingen, Sandstrasse 16a, owned and operated by Technische Betriebe Solingen for the City of Solingen; plant is real and operating after a Nov 2023 boiler fire repaired by Dec 2024. No financing found; exact ownership transfer date and permit tonnage (c. 140,000 t/yr burned) not confirmed."
+ },
+ {
+  "plant_id": 5047,
+  "parent_owner": "Evergreen Privatstiftung (via HS Timber Group)",
+  "parent_owner_confidence": "likely",
+  "owner_since": "2015-01-01",
+  "owner_since_confidence": "likely",
+  "locality": "Kodersdorf",
+  "postcode": "02923",
+  "heat_offtaker": "Kodersdorf sawmill (timber drying)",
+  "owners": [
+   {
+    "owner": "Klausner Group (sawmill owner before 2015)",
+    "to": "2015-01-01",
+    "note": "Wikipedia says Schweighofer took over the Kodersdorf sawmill from the Klausner Group in 2015; exact date not given.",
+    "url": "https://en.wikipedia.org/wiki/HS_Timber_Group",
+    "source_type": "url_page",
+    "source_ref": "https://en.wikipedia.org/wiki/HS_Timber_Group",
+    "confidence": "likely"
+   },
+   {
+    "owner": "HS Timber Group (formerly Holzindustrie Schweighofer), owned by Evergreen Privatstiftung",
+    "from": "2015-01-01",
+    "note": "Operator HS Timber Services GmbH is a Group company at the sawmill site. The CHP plant is on the sawmill site, so ownership is inferred from the group owning the site. Shareholding of HS Timber Services GmbH itself was not seen (Handelsregister/North Data page did not show it).",
+    "url": "https://www.euwid-holz.de/news/sonstiges/aus-holzindustrie-schweighofer-wird-hs-timber-group/",
+    "source_type": "url_page",
+    "source_ref": "https://www.euwid-holz.de/news/sonstiges/aus-holzindustrie-schweighofer-wird-hs-timber-group/",
+    "confidence": "likely"
+   }
+  ],
+  "financing": [],
+  "issues": [
+   {
+    "date": "2024-06-27",
+    "type": "register mismatch",
+    "summary": "Register shows COD 2020-06-04 at 11.104 MWe. HS Timber says it commissioned a second CHP plant at the Kodersdorf sawmill in 2024 (URBAS lists 5.28 MWe, April 2024), so the row may be the first unit or a combined figure; the second unit may be missing from the register.",
+    "severity": "low",
+    "url": "https://hs.at/en/newsroom/news/detail/kodersdorf-second-chp-plant-for-security-of-supply.html",
+    "source_type": "url_page",
+    "source_ref": "https://hs.at/en/newsroom/news/detail/kodersdorf-second-chp-plant-for-security-of-supply.html",
+    "confidence": "likely"
+   }
+  ],
+  "summary": "Bark-fired CHP at the HS Timber sawmill in Kodersdorf, owned by the HS Timber Group, which belongs to Evergreen Privatstiftung; the 2015 sawmill takeover date is the best proxy for owner_since. No financing or operating problems found; the plant-level shareholder chain and the second 2024 CHP unit versus the register row remain unconfirmed."
  }
 ]
