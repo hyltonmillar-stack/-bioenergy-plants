@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GB Power Flows</title>
+<meta name="description" content="Great Britain electricity generation, transmission capacity and cross-border flows, built from NESO, National Grid, TEC register, SSE, ScottishPower and DESNZ sources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --brand:#00244a;        /* A&M navy (approximation) */
+  --brand-2:#0085ca;      /* A&M blue (approximation) */
+  --accent:#cf7f00;       /* A&M amber (approximation) */
+  --brand-ink:#ffffff;
+  --bg:#f5f6f8; --surface:#fcfcfb; --surface-2:#eef1f5; --line:#d9dee5;
+  --text:#0b0b0b; --text-2:#4a4f57; --muted:#6b717a;
+  --s-wind:#2a78d6; --s-gas:#eb6834; --s-hydro:#1baf7a; --s-solar:#eda100;
+  --s-imports:#e87ba4; --s-biomass:#008300; --s-nuclear:#6250d6; --s-coal:#e34948;
+  --pos:#2a78d6; --neg:#eb6834; --mid:#f0efec;
+  --font: "Inter", "Segoe UI", Arial, sans-serif;
+  --serif: "Barlow Condensed", "Arial Narrow", sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0a1420; --surface:#101c2b; --surface-2:#162538; --line:#26384f;
+  --text:#f0efec; --text-2:#c3c8d0; --muted:#98a0ab; --brand-2:#4fb0e8;
+  --s-wind:#3987e5; --s-gas:#d95926; --s-hydro:#199e70; --s-solar:#c98500;
+  --s-imports:#d55181; --s-biomass:#008300; --s-nuclear:#9085e9; --s-coal:#e66767;
+  --pos:#3987e5; --neg:#d95926; --mid:#383835;
+}}
+:root[data-theme="dark"]{
+  --bg:#0a1420; --surface:#101c2b; --surface-2:#162538; --line:#26384f;
+  --text:#f0efec; --text-2:#c3c8d0; --muted:#98a0ab; --brand-2:#4fb0e8;
+  --s-wind:#3987e5; --s-gas:#d95926; --s-hydro:#199e70; --s-solar:#c98500;
+  --s-imports:#d55181; --s-biomass:#008300; --s-nuclear:#9085e9; --s-coal:#e66767;
+  --pos:#3987e5; --neg:#d95926; --mid:#383835;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--brand-2)}
+header.top{background:var(--brand);color:var(--brand-ink);position:sticky;top:0;z-index:20}
+.top .bar{max-width:1200px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.02em}
+.logo .mark{display:inline-grid;place-items:center;width:38px;height:38px;border:2px solid #fff;font-family:var(--serif);font-size:17px}
+.logo small{display:block;font-weight:400;opacity:.8;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+nav.links{margin-left:auto;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.links a{color:#fff;text-decoration:none;font-size:14px;padding:6px 10px;white-space:nowrap;opacity:.85;border-bottom:2px solid transparent}
+nav.links a:hover{opacity:1;border-bottom-color:var(--accent)}
+#themeBtn{background:none;border:1px solid rgba(255,255,255,.5);color:#fff;border-radius:4px;padding:4px 8px;font:inherit;font-size:13px;cursor:pointer}
+.hero{background:linear-gradient(180deg,var(--brand) 0%,var(--brand) 60%,var(--bg) 60%);padding:28px 16px 0}
+.hero .in{max-width:1200px;margin:0 auto;color:#fff}
+.hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(28px,4.4vw,46px);line-height:1.1;margin:0 0 8px}
+.hero p.lede{max-width:760px;opacity:.9;margin:0 0 22px;font-size:17px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.kpi{background:var(--surface);color:var(--text);border-top:4px solid var(--accent);padding:14px 16px;box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.kpi .v{font-size:30px;font-weight:700;line-height:1.1}
+.kpi .l{font-size:13px;color:var(--text-2)}
+.kpi .s{font-size:12px;color:var(--muted);margin-top:4px}
+main{max-width:1200px;margin:0 auto;padding:8px 16px 40px}
+section{margin-top:44px;scroll-margin-top:70px}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--brand-2);font-weight:700}
+h2{font-family:var(--serif);font-weight:600;letter-spacing:.01em;font-size:clamp(22px,3vw,30px);margin:4px 0 8px;color:var(--text)}
+h3{font-size:18px;margin:0 0 6px}
+p.intro{max-width:820px;color:var(--text-2);margin:0 0 16px}
+.card{background:var(--surface);border:1px solid var(--line);padding:16px;margin-bottom:16px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media (max-width:860px){.grid2,.grid3{grid-template-columns:1fr}}
+.note{font-size:13px;color:var(--muted)}
+.src{font-size:12px;color:var(--muted);margin-top:8px}
+.src a{color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--text-2);margin:6px 0 8px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.axis text{fill:var(--muted);font-size:11px}
+.axis path,.axis line{stroke:var(--line)}
+.grid line{stroke:var(--line);stroke-opacity:.7}
+.grid path{display:none}
+.tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--text);border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.15);padding:8px 10px;font-size:13px;z-index:50;display:none;max-width:280px}
+.tip b{display:block;margin-bottom:2px}
+.tip .row{display:flex;justify-content:space-between;gap:12px}
+.tip .row i{width:10px;height:10px;border-radius:2px;display:inline-block;margin-right:6px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-2);background:var(--surface-2)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto}
+details{margin-top:8px}
+summary{cursor:pointer;color:var(--brand-2);font-size:14px}
+.pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:10px;background:var(--surface-2);color:var(--text-2);border:1px solid var(--line)}
+.live-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#0ca30c;margin-right:6px;animation:p 2s infinite}
+@keyframes p{50%{opacity:.35}}
+.mapwrap{display:grid;grid-template-columns:1.25fr .75fr;gap:16px}
+@media (max-width:860px){.mapwrap{grid-template-columns:1fr}}
+#map svg .land{fill:var(--surface-2);stroke:var(--line);stroke-width:.6}
+#map svg .land.gb{fill:var(--surface);stroke:var(--muted);stroke-width:.8}
+.toggle{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.toggle button{font:inherit;font-size:13px;padding:5px 10px;border:1px solid var(--line);background:var(--surface);color:var(--text);cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--brand);color:#fff;border-color:var(--brand)}
+.factlist{margin:0;padding-left:18px}
+.factlist li{margin-bottom:6px}
+footer{background:var(--brand);color:#dfe7ee;font-size:13px;padding:24px 16px}
+footer .in{max-width:1200px;margin:0 auto}
+footer a{color:#fff}
+.flowlabel{font-size:10.5px;fill:var(--text);paint-order:stroke;stroke:var(--surface);stroke-width:3px}
+.sitecircle{stroke:var(--surface);stroke-width:1}
+@media (forced-colors:active){.legend i{forced-color-adjust:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="bar">
+  <div class="logo"><span class="mark">A&amp;M</span><div>GB Power Flows<small>Energy &amp; Infrastructure</small></div></div>
+  <nav class="links" aria-label="Sections">
+    <a href="#live">Live</a><a href="#mix">Mix</a><a href="#map-s">Map</a><a href="#flows">Flows</a><a href="#tec">TEC pipeline</a><a href="#networks">Networks</a><a href="#utilities">SSE &amp; SP</a><a href="#policy">DESNZ</a><a href="#sources">Sources</a>
+  </nav>
+  <button id="themeBtn" type="button" aria-label="Toggle colour theme">Theme</button>
+</div></header>
+
+<div class="hero"><div class="in">
+  <div class="eyebrow" style="color:#f0b04a">Great Britain electricity system · data to 20 October 2026</div>
+  <h1>Where GB's electricity comes from, and how it moves</h1>
+  <p class="lede">Generation by fuel, the largest connected power stations, the Scotland–England transfer, the ten interconnectors, and the 600 GW queue on the Transmission Entry Capacity register. Built from NESO open data, the TEC and Interconnector registers, DESNZ statistics, National Grid, SSE and ScottishPower publications.</p>
+  <div class="kpis" id="kpis"></div>
+</div></div>
+
+<main>
+
+<section id="live">
+  <div class="eyebrow">Now</div>
+  <h2><span class="live-dot" aria-hidden="true"></span>Live generation mix</h2>
+  <p class="intro">Latest half-hour from NESO's <em>Historic GB generation mix</em> dataset, read directly from the NESO data portal API when this page loads. "Wind" includes NESO's estimate of embedded (distribution-connected) wind; "Imports" is gross imports across all interconnectors.</p>
+  <div class="grid2">
+    <div class="card"><div id="liveMeta" class="note">Loading from api.neso.energy …</div><div class="chart" id="liveBars"></div></div>
+    <div class="card"><h3>Last 48 hours, GW by fuel</h3><div class="legend" id="liveLegend"></div><div class="chart" id="live48"></div><div class="src">Source: NESO Data Portal, Historic GB Generation Mix (resource f93d1835).</div></div>
+  </div>
+</section>
+
+<section id="mix">
+  <div class="eyebrow">Trend</div>
+  <h2>Generation mix, 2009 to 2026</h2>
+  <p class="intro">Annual energy (TWh) by source, summed from NESO's half-hourly series. Coal fell from 99 TWh in 2009 to zero after Ratcliffe-on-Soar closed on 30 September 2024. Wind (transmission plus embedded) has been the largest single source since 2024, ahead of gas. Imports doubled between 2022 and 2024.</p>
+  <div class="card">
+    <div class="toggle" role="group" aria-label="Units"><button type="button" data-u="twh" aria-pressed="true">TWh</button><button type="button" data-u="pct" aria-pressed="false">% share</button></div>
+    <div class="legend" id="mixLegend"></div>
+    <div class="chart" id="mixChart"></div>
+    <div class="src">Source: NESO Historic GB Generation Mix, half-hourly MW × 0.5 h. 2026 = 1 January to 20 October. NESO series covers GB transmission-metered generation plus embedded wind and solar estimates; it excludes most other distribution-connected generation and differs from DESNZ DUKES (UK, all generators) — see the DESNZ section.</div>
+    <details><summary>Show data table</summary><div class="tablewrap" id="mixTable"></div></details>
+  </div>
+</section>
+
+<section id="map-s">
+  <div class="eyebrow">Geography</div>
+  <h2>Major connected generation and the main flows</h2>
+  <p class="intro">Circles show the 40 largest transmission-connected stations by Transmission Entry Capacity (TEC), the maximum each is contracted to export. Arrows show the Scotland–England transfer and each interconnector's 2025 net flow. Locations are approximate.</p>
+  <div class="mapwrap">
+    <div class="card">
+      <div class="toggle" role="group" aria-label="Map layers"><button type="button" data-l="sites" aria-pressed="true">Power stations</button><button type="button" data-l="flows" aria-pressed="true">Flows</button></div>
+      <div class="legend" id="mapLegend"></div>
+      <div id="map" class="chart"></div>
+      <div class="src">Sources: NESO TEC Register (16 Oct 2026) and Interconnector Register; NESO Historic Demand Data 2025 (interconnector and Scottish transfer flows). Base map: Natural Earth via world-atlas.</div>
+    </div>
+    <div class="card">
+      <h3>Largest connected stations (TEC, MW)</h3>
+      <div class="tablewrap" id="topTable" style="max-height:640px;overflow-y:auto"></div>
+      <p class="note">TEC is a contracted export right, not nameplate output. Drax holds 3,906 MW of TEC, including rights from its former coal units; its four biomass units total about 2.6 GW. Dogger Bank A and B show full TEC although construction was still being completed in 2026.</p>
+    </div>
+  </div>
+</section>
+
+<section id="flows">
+  <div class="eyebrow">Flows</div>
+  <h2>Interconnectors and the Scotland–England boundary</h2>
+  <p class="intro">GB had ten operating interconnectors in 2026 with about 10.7 GW of import capacity (plus the 74 MW Isle of Man link) on the NESO Interconnector Register. In 2025 GB imported 43.9 TWh gross and exported 14.8 TWh, a net import of 29.1 TWh on NESO's flow data (DESNZ DUKES: 29.7 TWh, UK basis). Flows to the island of Ireland are consistently net exports; flows from France and Norway are consistently net imports.</p>
+  <div class="grid2">
+    <div class="card"><h3>Net flow by interconnector, 2025 (TWh)</h3>
+      <div class="legend"><span><i style="background:var(--pos)"></i>Net import into GB</span><span><i style="background:var(--neg)"></i>Net export from GB</span></div>
+      <div class="chart" id="icChart"></div>
+      <div class="src">Source: NESO Historic Demand Data 2025, half-hourly flow columns (positive = import to GB).</div></div>
+    <div class="card"><h3>Scotland → England transfer, monthly average (MW)</h3>
+      <div class="chart" id="scotChart"></div>
+      <p class="note" id="scotNote"></p>
+      <div class="src">Source: NESO Historic Demand Data, SCOTTISH_TRANSFER (2025 and 2026 actuals to 29 Sept 2026).</div></div>
+  </div>
+  <div class="card"><h3>Interconnector register: operating and pipeline</h3><div class="tablewrap" id="icTable"></div>
+  <div class="src">Source: NESO Interconnector Register; flow statistics from NESO Historic Demand Data.</div></div>
+</section>
+
+<section id="tec">
+  <div class="eyebrow">Connections queue</div>
+  <h2>The TEC register: what is connected and what is queuing</h2>
+  <p class="intro" id="tecIntro"></p>
+  <div class="grid2">
+    <div class="card"><h3>Connected TEC by transmission owner (MW)</h3><div class="legend" id="toLegend"></div><div class="chart" id="toChart"></div>
+      <p class="note">NGET = National Grid Electricity Transmission (England &amp; Wales). SPT = SP Transmission (ScottishPower, southern Scotland). SHET = Scottish Hydro Electric Transmission (SSEN Transmission, northern Scotland). OFTO = offshore transmission owners.</p></div>
+    <div class="card"><h3>Pipeline by technology and status (GW)</h3><div class="legend" id="pipeLegend"></div><div class="chart" id="pipeChart"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h3>Pipeline by contracted connection year (GW)</h3><div class="chart" id="yearChart"></div><p class="note">Year is the "MW Effective From" date in each agreement. Dates are contractual, not forecasts of delivery.</p></div>
+    <div class="card"><h3>Largest projects under construction / commissioning</h3><div class="tablewrap" id="ucTable"></div></div>
+  </div>
+  <div class="src">Source: NESO TEC Register, data portal version of 16 October 2026 (2,226 rows). Pipeline = rows not yet "Built" with a positive MW increase. Hybrid sites are classified by their first-listed main technology (e.g. solar + storage → solar).</div>
+</section>
+
+<section id="networks">
+  <div class="eyebrow">Transmission</div>
+  <h2>Networks: NESO, National Grid, SSEN Transmission and SP Energy Networks</h2>
+  <div id="netContent"></div>
+</section>
+
+<section id="utilities">
+  <div class="eyebrow">Utilities</div>
+  <h2>SSE and ScottishPower</h2>
+  <div id="utilContent"></div>
+</section>
+
+<section id="policy">
+  <div class="eyebrow">Official statistics and targets</div>
+  <h2>DESNZ: statistics and Clean Power 2030</h2>
+  <div id="policyContent"></div>
+</section>
+
+<section id="sources">
+  <div class="eyebrow">Method</div>
+  <h2>Sources and definitions</h2>
+  <div class="card" id="sourcesContent"></div>
+</section>
+</main>
+
+<footer><div class="in">
+  <p><strong>GB Power Flows</strong> · prepared for Alvarez &amp; Marsal internal use. Data compiled 20 October 2026. Figures from public sources listed above; NESO data used under the NESO Open Data Licence. Contains public sector information licensed under the Open Government Licence v3.0.</p>
+</div></footer>
+
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+const DATA = {"annual":{"2009":{"GAS":147.39,"COAL":98.8,"NUCLEAR":65.0,"WIND":3.33,"WIND_EMB":0.83,"HYDRO":3.56,"IMPORTS":6.68,"BIOMASS":0.0,"OTHER":0.0,"SOLAR":0.0,"STORAGE":3.62,"GENERATION":329.2,"CI":445,"n":17520},"2010":{"GAS":157.08,"COAL":102.84,"NUCLEAR":58.51,"WIND":3.68,"WIND_EMB":0.92,"HYDRO":2.14,"IMPORTS":6.88,"BIOMASS":0.0,"OTHER":0.0,"SOLAR":0.0,"STORAGE":3.12,"GENERATION":335.18,"CI":461,"n":17520},"2011":{"GAS":127.06,"COAL":103.39,"NUCLEAR":64.77,"WIND":9.72,"WIND_EMB":2.18,"HYDRO":3.7,"IMPORTS":8.6,"BIOMASS":0.0,"OTHER":0.0,"SOLAR":0.0,"STORAGE":2.92,"GENERATION":322.33,"CI":450,"n":17520},"2012":{"GAS":83.07,"COAL":137.17,"NUCLEAR":66.02,"WIND":12.61,"WIND_EMB":2.91,"HYDRO":3.27,"IMPORTS":13.73,"BIOMASS":0.0,"OTHER":2.09,"SOLAR":0.0,"STORAGE":2.91,"GENERATION":323.78,"CI":505,"n":17568},"2013":{"GAS":80.12,"COAL":125.77,"NUCLEAR":65.95,"WIND":18.62,"WIND_EMB":2.71,"HYDRO":2.91,"IMPORTS":17.58,"BIOMASS":0.0,"OTHER":3.85,"SOLAR":2.08,"STORAGE":2.8,"GENERATION":322.4,"CI":475,"n":17520},"2014":{"GAS":86.62,"COAL":96.68,"NUCLEAR":59.77,"WIND":21.15,"WIND_EMB":4.26,"HYDRO":3.92,"IMPORTS":23.31,"BIOMASS":0.0,"OTHER":7.47,"SOLAR":3.91,"STORAGE":2.8,"GENERATION":309.89,"CI":419,"n":17520},"2015":{"GAS":84.31,"COAL":74.5,"NUCLEAR":65.71,"WIND":23.38,"WIND_EMB":8.27,"HYDRO":4.09,"IMPORTS":23.26,"BIOMASS":0.0,"OTHER":11.29,"SOLAR":7.22,"STORAGE":2.68,"GENERATION":304.7,"CI":356,"n":17520},"2016":{"GAS":127.29,"COAL":28.02,"NUCLEAR":66.8,"WIND":21.19,"WIND_EMB":9.09,"HYDRO":3.38,"IMPORTS":20.29,"BIOMASS":0.0,"OTHER":14.2,"SOLAR":10.02,"STORAGE":2.86,"GENERATION":303.14,"CI":274,"n":17568},"2017":{"GAS":119.23,"COAL":20.61,"NUCLEAR":65.56,"WIND":32.34,"WIND_EMB":11.85,"HYDRO":3.96,"IMPORTS":19.48,"BIOMASS":2.22,"OTHER":12.25,"SOLAR":10.45,"STORAGE":2.74,"GENERATION":300.69,"CI":240,"n":17520},"2018":{"GAS":115.23,"COAL":15.4,"NUCLEAR":60.65,"WIND":39.4,"WIND_EMB":11.82,"HYDRO":3.21,"IMPORTS":22.04,"BIOMASS":16.1,"OTHER":0.72,"SOLAR":11.39,"STORAGE":2.37,"GENERATION":298.32,"CI":214,"n":17520},"2019":{"GAS":114.55,"COAL":5.94,"NUCLEAR":52.77,"WIND":46.51,"WIND_EMB":11.89,"HYDRO":3.57,"IMPORTS":25.1,"BIOMASS":17.2,"OTHER":0.78,"SOLAR":11.5,"STORAGE":1.69,"GENERATION":291.5,"CI":189,"n":17520},"2020":{"GAS":95.09,"COAL":4.38,"NUCLEAR":47.41,"WIND":54.71,"WIND_EMB":13.55,"HYDRO":4.31,"IMPORTS":23.02,"BIOMASS":17.98,"OTHER":1.47,"SOLAR":12.11,"STORAGE":1.49,"GENERATION":275.52,"CI":168,"n":17568},"2021":{"GAS":107.27,"COAL":4.97,"NUCLEAR":43.42,"WIND":48.97,"WIND_EMB":13.2,"HYDRO":3.24,"IMPORTS":29.35,"BIOMASS":19.02,"OTHER":1.83,"SOLAR":11.79,"STORAGE":1.8,"GENERATION":284.87,"CI":183,"n":17520},"2022":{"GAS":111.25,"COAL":4.27,"NUCLEAR":44.73,"WIND":61.7,"WIND_EMB":15.51,"HYDRO":3.33,"IMPORTS":16.27,"BIOMASS":14.97,"OTHER":2.55,"SOLAR":13.27,"STORAGE":1.92,"GENERATION":289.78,"CI":181,"n":17520},"2023":{"GAS":86.71,"COAL":2.76,"NUCLEAR":38.3,"WIND":63.42,"WIND_EMB":15.53,"HYDRO":3.25,"IMPORTS":33.5,"BIOMASS":13.36,"OTHER":2.57,"SOLAR":13.55,"STORAGE":1.66,"GENERATION":274.6,"CI":149,"n":17520},"2024":{"GAS":72.62,"COAL":1.57,"NUCLEAR":38.37,"WIND":65.71,"WIND_EMB":16.94,"HYDRO":3.58,"IMPORTS":44.04,"BIOMASS":18.82,"OTHER":3.34,"SOLAR":14.06,"STORAGE":1.88,"GENERATION":280.94,"CI":124,"n":17568},"2025":{"GAS":77.31,"COAL":0.0,"NUCLEAR":34.15,"WIND":68.75,"WIND_EMB":17.09,"HYDRO":3.37,"IMPORTS":43.99,"BIOMASS":19.93,"OTHER":4.67,"SOLAR":18.66,"STORAGE":1.31,"GENERATION":289.23,"CI":127,"n":17520},"2026":{"GAS":54.86,"COAL":0.0,"NUCLEAR":26.9,"WIND":58.07,"WIND_EMB":13.71,"HYDRO":2.74,"IMPORTS":33.91,"BIOMASS":15.91,"OTHER":4.68,"SOLAR":19.81,"STORAGE":1.22,"GENERATION":231.81,"CI":141,"n":14041}},"monthly":{"2024-01":{"GAS":9.65,"COAL":0.475,"NUCLEAR":2.449,"WIND":7.331,"WIND_EMB":1.712,"HYDRO":0.423,"IMPORTS":2.92,"BIOMASS":1.675,"OTHER":0.251,"SOLAR":0.452,"STORAGE":0.22,"GENERATION":27.557},"2024-02":{"GAS":6.214,"COAL":0.223,"NUCLEAR":2.62,"WIND":6.614,"WIND_EMB":1.611,"HYDRO":0.483,"IMPORTS":3.709,"BIOMASS":1.558,"OTHER":0.241,"SOLAR":0.536,"STORAGE":0.194,"GENERATION":24.004},"2024-03":{"GAS":5.903,"COAL":0.335,"NUCLEAR":2.818,"WIND":6.341,"WIND_EMB":1.602,"HYDRO":0.366,"IMPORTS":4.667,"BIOMASS":1.278,"OTHER":0.234,"SOLAR":1.052,"STORAGE":0.18,"GENERATION":24.776},"2024-04":{"GAS":3.904,"COAL":0.202,"NUCLEAR":3.705,"WIND":6.342,"WIND_EMB":1.696,"HYDRO":0.303,"IMPORTS":3.54,"BIOMASS":1.589,"OTHER":0.249,"SOLAR":1.511,"STORAGE":0.142,"GENERATION":23.182},"2024-05":{"GAS":5.311,"COAL":0.092,"NUCLEAR":3.621,"WIND":3.202,"WIND_EMB":0.831,"HYDRO":0.17,"IMPORTS":4.447,"BIOMASS":1.523,"OTHER":0.255,"SOLAR":1.844,"STORAGE":0.133,"GENERATION":21.428},"2024-06":{"GAS":4.133,"COAL":0.019,"NUCLEAR":3.385,"WIND":3.916,"WIND_EMB":1.102,"HYDRO":0.159,"IMPORTS":4.212,"BIOMASS":1.31,"OTHER":0.29,"SOLAR":2.141,"STORAGE":0.132,"GENERATION":20.799},"2024-07":{"GAS":4.976,"COAL":0.102,"NUCLEAR":3.4,"WIND":3.522,"WIND_EMB":0.891,"HYDRO":0.18,"IMPORTS":4.328,"BIOMASS":1.532,"OTHER":0.272,"SOLAR":1.945,"STORAGE":0.111,"GENERATION":21.26},"2024-08":{"GAS":3.56,"COAL":0.052,"NUCLEAR":3.887,"WIND":5.245,"WIND_EMB":1.547,"HYDRO":0.255,"IMPORTS":3.219,"BIOMASS":1.52,"OTHER":0.317,"SOLAR":1.831,"STORAGE":0.163,"GENERATION":21.595},"2024-09":{"GAS":5.273,"COAL":0.073,"NUCLEAR":3.395,"WIND":4.319,"WIND_EMB":1.131,"HYDRO":0.269,"IMPORTS":3.551,"BIOMASS":1.733,"OTHER":0.253,"SOLAR":1.213,"STORAGE":0.109,"GENERATION":21.32},"2024-10":{"GAS":6.709,"COAL":0.0,"NUCLEAR":3.015,"WIND":5.71,"WIND_EMB":1.37,"HYDRO":0.232,"IMPORTS":3.152,"BIOMASS":1.826,"OTHER":0.296,"SOLAR":0.881,"STORAGE":0.138,"GENERATION":23.329},"2024-11":{"GAS":9.517,"COAL":0.0,"NUCLEAR":3.023,"WIND":5.295,"WIND_EMB":1.26,"HYDRO":0.221,"IMPORTS":3.265,"BIOMASS":1.812,"OTHER":0.309,"SOLAR":0.412,"STORAGE":0.141,"GENERATION":25.255},"2024-12":{"GAS":7.468,"COAL":0.0,"NUCLEAR":3.048,"WIND":7.875,"WIND_EMB":2.191,"HYDRO":0.521,"IMPORTS":3.031,"BIOMASS":1.464,"OTHER":0.368,"SOLAR":0.247,"STORAGE":0.221,"GENERATION":26.434},"2025-01":{"GAS":10.896,"COAL":0.0,"NUCLEAR":3.266,"WIND":6.1,"WIND_EMB":1.491,"HYDRO":0.441,"IMPORTS":3.353,"BIOMASS":1.814,"OTHER":0.434,"SOLAR":0.464,"STORAGE":0.199,"GENERATION":28.459},"2025-02":{"GAS":8.216,"COAL":0.0,"NUCLEAR":2.971,"WIND":6.387,"WIND_EMB":1.616,"HYDRO":0.317,"IMPORTS":2.997,"BIOMASS":1.779,"OTHER":0.334,"SOLAR":0.641,"STORAGE":0.17,"GENERATION":25.428},"2025-03":{"GAS":7.748,"COAL":0.0,"NUCLEAR":2.795,"WIND":5.316,"WIND_EMB":1.293,"HYDRO":0.284,"IMPORTS":4.462,"BIOMASS":1.219,"OTHER":0.358,"SOLAR":1.77,"STORAGE":0.142,"GENERATION":25.387},"2025-04":{"GAS":5.709,"COAL":0.0,"NUCLEAR":2.874,"WIND":3.883,"WIND_EMB":1.018,"HYDRO":0.129,"IMPORTS":4.009,"BIOMASS":1.599,"OTHER":0.319,"SOLAR":2.391,"STORAGE":0.061,"GENERATION":21.993},"2025-05":{"GAS":4.441,"COAL":0.0,"NUCLEAR":3.329,"WIND":4.678,"WIND_EMB":1.124,"HYDRO":0.123,"IMPORTS":3.607,"BIOMASS":1.541,"OTHER":0.353,"SOLAR":2.667,"STORAGE":0.045,"GENERATION":21.909},"2025-06":{"GAS":3.867,"COAL":0.0,"NUCLEAR":3.195,"WIND":5.41,"WIND_EMB":1.441,"HYDRO":0.163,"IMPORTS":3.254,"BIOMASS":1.482,"OTHER":0.42,"SOLAR":2.59,"STORAGE":0.065,"GENERATION":21.888},"2025-07":{"GAS":5.468,"COAL":0.0,"NUCLEAR":3.242,"WIND":3.319,"WIND_EMB":0.884,"HYDRO":0.195,"IMPORTS":4.294,"BIOMASS":1.809,"OTHER":0.376,"SOLAR":2.366,"STORAGE":0.051,"GENERATION":22.003},"2025-08":{"GAS":5.029,"COAL":0.0,"NUCLEAR":2.388,"WIND":4.458,"WIND_EMB":1.178,"HYDRO":0.208,"IMPORTS":4.115,"BIOMASS":1.659,"OTHER":0.374,"SOLAR":2.201,"STORAGE":0.047,"GENERATION":21.656},"2025-09":{"GAS":4.889,"COAL":0.0,"NUCLEAR":2.133,"WIND":6.367,"WIND_EMB":1.466,"HYDRO":0.25,"IMPORTS":3.387,"BIOMASS":1.62,"OTHER":0.409,"SOLAR":1.709,"STORAGE":0.086,"GENERATION":22.315},"2025-10":{"GAS":7.062,"COAL":0.0,"NUCLEAR":2.536,"WIND":6.64,"WIND_EMB":1.692,"HYDRO":0.316,"IMPORTS":3.432,"BIOMASS":1.437,"OTHER":0.425,"SOLAR":0.853,"STORAGE":0.136,"GENERATION":24.529},"2025-11":{"GAS":7.177,"COAL":0.0,"NUCLEAR":2.672,"WIND":7.933,"WIND_EMB":1.86,"HYDRO":0.43,"IMPORTS":3.038,"BIOMASS":2.145,"OTHER":0.433,"SOLAR":0.592,"STORAGE":0.15,"GENERATION":26.43},"2025-12":{"GAS":6.805,"COAL":0.0,"NUCLEAR":2.754,"WIND":8.261,"WIND_EMB":2.029,"HYDRO":0.51,"IMPORTS":4.038,"BIOMASS":1.829,"OTHER":0.432,"SOLAR":0.415,"STORAGE":0.159,"GENERATION":27.232},"2026-01":{"GAS":9.07,"COAL":0.0,"NUCLEAR":2.86,"WIND":8.619,"WIND_EMB":2.023,"HYDRO":0.36,"IMPORTS":3.123,"BIOMASS":1.939,"OTHER":0.456,"SOLAR":0.483,"STORAGE":0.118,"GENERATION":29.051},"2026-02":{"GAS":7.561,"COAL":0.0,"NUCLEAR":2.696,"WIND":7.65,"WIND_EMB":1.695,"HYDRO":0.246,"IMPORTS":3.072,"BIOMASS":1.724,"OTHER":0.393,"SOLAR":0.593,"STORAGE":0.111,"GENERATION":25.74},"2026-03":{"GAS":5.81,"COAL":0.0,"NUCLEAR":2.834,"WIND":7.254,"WIND_EMB":1.875,"HYDRO":0.379,"IMPORTS":4.243,"BIOMASS":1.563,"OTHER":0.472,"SOLAR":1.648,"STORAGE":0.158,"GENERATION":26.236},"2026-04":{"GAS":3.74,"COAL":0.0,"NUCLEAR":3.732,"WIND":5.76,"WIND_EMB":1.497,"HYDRO":0.388,"IMPORTS":3.511,"BIOMASS":1.501,"OTHER":0.463,"SOLAR":2.639,"STORAGE":0.159,"GENERATION":23.39},"2026-05":{"GAS":5.078,"COAL":0.0,"NUCLEAR":2.45,"WIND":4.542,"WIND_EMB":1.002,"HYDRO":0.189,"IMPORTS":4.199,"BIOMASS":1.619,"OTHER":0.511,"SOLAR":2.824,"STORAGE":0.1,"GENERATION":22.515},"2026-06":{"GAS":5.858,"COAL":0.0,"NUCLEAR":2.119,"WIND":4.8,"WIND_EMB":1.234,"HYDRO":0.213,"IMPORTS":3.552,"BIOMASS":1.181,"OTHER":0.522,"SOLAR":2.756,"STORAGE":0.139,"GENERATION":22.373},"2026-07":{"GAS":5.009,"COAL":0.0,"NUCLEAR":2.37,"WIND":4.153,"WIND_EMB":1.02,"HYDRO":0.208,"IMPORTS":4.403,"BIOMASS":1.508,"OTHER":0.554,"SOLAR":3.322,"STORAGE":0.114,"GENERATION":22.661},"2026-08":{"GAS":4.829,"COAL":0.0,"NUCLEAR":3.109,"WIND":4.126,"WIND_EMB":0.856,"HYDRO":0.195,"IMPORTS":3.63,"BIOMASS":1.85,"OTHER":0.509,"SOLAR":2.706,"STORAGE":0.112,"GENERATION":21.922},"2026-09":{"GAS":4.628,"COAL":0.001,"NUCLEAR":2.751,"WIND":6.619,"WIND_EMB":1.585,"HYDRO":0.291,"IMPORTS":2.432,"BIOMASS":1.853,"OTHER":0.493,"SOLAR":1.851,"STORAGE":0.122,"GENERATION":22.626},"2026-10":{"GAS":3.273,"COAL":0.0,"NUCLEAR":1.984,"WIND":4.551,"WIND_EMB":0.923,"HYDRO":0.27,"IMPORTS":1.748,"BIOMASS":1.167,"OTHER":0.304,"SOLAR":0.985,"STORAGE":0.09,"GENERATION":15.294}},"flows":{"2024":{"IFA_FLOW":{"imp":10.66,"exp":0.55,"net":10.11,"maxImp":2019.0,"maxExp":-2070.0},"IFA2_FLOW":{"imp":4.31,"exp":0.16,"net":4.15,"maxImp":993.0,"maxExp":-1029.0},"BRITNED_FLOW":{"imp":3.23,"exp":1.64,"net":1.59,"maxImp":1066.0,"maxExp":-1079.0},"MOYLE_FLOW":{"imp":0.25,"exp":2.75,"net":-2.5,"maxImp":400.0,"maxExp":-453.0},"EAST_WEST_FLOW":{"imp":0.14,"exp":2.82,"net":-2.68,"maxImp":504.0,"maxExp":-532.0},"NEMO_FLOW":{"imp":5.07,"exp":0.91,"net":4.16,"maxImp":1020.0,"maxExp":-1024.0},"NSL_FLOW":{"imp":9.9,"exp":0.28,"net":9.62,"maxImp":1400.0,"maxExp":-1453.0},"ELECLINK_FLOW":{"imp":5.31,"exp":0.12,"net":5.19,"maxImp":1001.0,"maxExp":-1024.0},"VIKING_FLOW":{"imp":5.05,"exp":1.39,"net":3.66,"maxImp":1436.0,"maxExp":-1456.0},"GREENLINK_FLOW":{"imp":0.0,"exp":0.0,"net":-0.0,"maxImp":27.0,"maxExp":-159.0},"SCOT":{"twh":17.19,"avg":1957,"max":6704.0,"min":-2490.0,"p_gt5":7.3},"ND":{"twh":230.9,"peak":45202.0,"min":15071.0,"peakdate":"2024-01-15"},"EMB":{"wind":17.0,"solar":14.0,"solarcap":18720,"windcap":6606},"period":["2024-01-01","2024-12-31",17568]},"2025":{"IFA_FLOW":{"imp":10.65,"exp":0.32,"net":10.34,"maxImp":2024.0,"maxExp":-2071.0},"IFA2_FLOW":{"imp":5.98,"exp":0.27,"net":5.71,"maxImp":1058.0,"maxExp":-1028.0},"BRITNED_FLOW":{"imp":2.91,"exp":2.47,"net":0.44,"maxImp":1116.0,"maxExp":-1093.0},"MOYLE_FLOW":{"imp":0.14,"exp":2.37,"net":-2.23,"maxImp":400.0,"maxExp":-453.0},"EAST_WEST_FLOW":{"imp":0.06,"exp":1.75,"net":-1.68,"maxImp":504.0,"maxExp":-532.0},"NEMO_FLOW":{"imp":3.74,"exp":1.75,"net":1.99,"maxImp":1063.0,"maxExp":-1024.0},"NSL_FLOW":{"imp":9.43,"exp":0.47,"net":8.96,"maxImp":1491.0,"maxExp":-1453.0},"ELECLINK_FLOW":{"imp":5.98,"exp":0.09,"net":5.89,"maxImp":1063.0,"maxExp":-1023.0},"VIKING_FLOW":{"imp":4.75,"exp":2.21,"net":2.54,"maxImp":1428.0,"maxExp":-1453.0},"GREENLINK_FLOW":{"imp":0.28,"exp":3.1,"net":-2.81,"maxImp":506.0,"maxExp":-539.0},"SCOT":{"twh":18.52,"avg":2114,"max":6586.0,"min":-2012.0,"p_gt5":4.6},"ND":{"twh":229.1,"peak":45924.0,"min":12803.0,"peakdate":"2025-01-09"},"EMB":{"wind":17.1,"solar":18.7,"solarcap":22126,"windcap":6606},"period":["2025-01-01","2025-12-31",17520]},"2026":{"IFA_FLOW":{"imp":7.68,"exp":0.14,"net":7.54,"maxImp":2012.0,"maxExp":-1521.0},"IFA2_FLOW":{"imp":4.59,"exp":0.22,"net":4.37,"maxImp":994.0,"maxExp":-1028.0},"BRITNED_FLOW":{"imp":2.84,"exp":1.46,"net":1.38,"maxImp":1079.0,"maxExp":-1095.0},"MOYLE_FLOW":{"imp":0.07,"exp":1.85,"net":-1.78,"maxImp":295.0,"maxExp":-453.0},"EAST_WEST_FLOW":{"imp":0.03,"exp":1.44,"net":-1.41,"maxImp":274.0,"maxExp":-532.0},"NEMO_FLOW":{"imp":2.8,"exp":1.19,"net":1.61,"maxImp":1017.0,"maxExp":-1043.0},"NSL_FLOW":{"imp":5.21,"exp":1.37,"net":3.84,"maxImp":1443.0,"maxExp":-1453.0},"ELECLINK_FLOW":{"imp":4.94,"exp":0.17,"net":4.77,"maxImp":1000.0,"maxExp":-1024.0},"VIKING_FLOW":{"imp":3.85,"exp":1.64,"net":2.2,"maxImp":1432.0,"maxExp":-1454.0},"GREENLINK_FLOW":{"imp":0.1,"exp":2.27,"net":-2.17,"maxImp":300.0,"maxExp":-538.0},"SCOT":{"twh":14.98,"avg":2294,"max":6715.0,"min":-1777.0,"p_gt5":5.3},"ND":{"twh":164.7,"peak":47382.0,"min":12626.0,"peakdate":"2026-01-05"},"EMB":{"wind":12.2,"solar":18.8,"solarcap":23963,"windcap":6417},"period":["2026-01-01","2026-09-29",13054]}},"monthflows":{"2025-01":[2785,3419],"2025-02":[3018,2795],"2025-03":[2147,4551],"2025-04":[1153,4246],"2025-05":[1275,3180],"2025-06":[2345,2581],"2025-07":[1201,4126],"2025-08":[1131,3703],"2025-09":[2551,2847],"2025-10":[2743,2817],"2025-11":[2722,1988],"2025-12":[2395,3561],"2026-01":[3403,2428],"2026-02":[2861,2006],"2026-03":[3276,3985],"2026-04":[2000,2868],"2026-05":[1204,4315],"2026-06":[2041,3162],"2026-07":[1806,4372],"2026-08":[1320,3365],"2026-09":[2811,1337]},"records":{"maxwind":["2026-03-25T13:30:00",23880.0],"minci":["2026-04-30T11:30:00",20.0]},"tec":{"asof":"2026-10-16","conn":{"NGET":{"Gas & thermal":33885,"Solar":913,"Battery storage":2894,"Biomass & waste":4779,"Offshore wind":10629,"Hydro":129,"Pumped storage":2004,"Onshore wind":260,"Nuclear":4790,"Other":20},"SHET":{"Offshore wind":3568,"Onshore wind":3149,"Hydro":870,"Pumped storage":300,"Battery storage":249,"Gas & thermal":1180},"SPT":{"Onshore wind":4946,"Battery storage":1930,"Gas & thermal":140,"Pumped storage":440,"Biomass & waste":55,"Offshore wind":448,"Nuclear":1250},"OFTO":{"Offshore wind":4174}},"pipeCat":{"Battery storage":{"Scoping":157147,"Awaiting Consents":9808,"Consents Approved":17165,"Under Construction/Commissioning":4012},"Onshore wind":{"Scoping":41133,"Consents Approved":2940,"Awaiting Consents":7552,"Under Construction/Commissioning":260},"Solar":{"Scoping":152433,"Awaiting Consents":26888,"Consents Approved":6447,"Under Construction/Commissioning":310},"Offshore wind":{"Scoping":83404,"Awaiting Consents":5776,"Consents Approved":6000,"Under Construction/Commissioning":1580},"Pumped storage":{"Scoping":4644,"Consents Approved":3401,"Awaiting Consents":1795},"Nuclear":{"Scoping":18380,"Awaiting Consents":2000,"Consents Approved":3340},"Gas & thermal":{"Scoping":33134,"Consents Approved":5300,"Awaiting Consents":3542,"Under Construction/Commissioning":978},"Biomass & waste":{"Scoping":3906,"Consents Approved":383},"Hydro":{"Scoping":18,"Under Construction/Commissioning":6},"Other":{"Scoping":215,"Under Construction/Commissioning":180}},"pipeYear":{"2027":{"Battery storage":10473,"Solar":1847,"Onshore wind":2124,"Gas & thermal":1311,"Hydro":6,"Biomass & waste":60,"Offshore wind":800},"2028":{"Battery storage":11985,"Onshore wind":4208,"Solar":10562,"Offshore wind":7095,"Gas & thermal":98,"Other":40},"2029":{"Solar":11671,"Battery storage":14319,"Onshore wind":4080,"Offshore wind":11570,"Pumped storage":1996,"Biomass & waste":173,"Nuclear":1670,"Other":20},"2030":{"Onshore wind":5786,"Battery storage":7622,"Offshore wind":9739,"Solar":4791,"Pumped storage":1549,"Gas & thermal":4110,"Nuclear":1670,"Other":110},"2031":{"Battery storage":15035,"Onshore wind":3577,"Offshore wind":16311,"Solar":16674,"Hydro":18,"Gas & thermal":2392,"Other":70},"2032":{"Battery storage":6502,"Onshore wind":3763,"Solar":16329,"Offshore wind":4000,"Pumped storage":900,"Other":150},"2033":{"Onshore wind":6552,"Battery storage":24939,"Solar":25451,"Offshore wind":20201,"Nuclear":3000,"Other":5,"Gas & thermal":2910},"2034":{"Battery storage":24899,"Onshore wind":3277,"Pumped storage":900,"Solar":33168,"Nuclear":9000,"Offshore wind":420,"Gas & thermal":200},"2035":{"Battery storage":14807,"Onshore wind":2950,"Solar":13970,"Offshore wind":3458,"Nuclear":2670,"Gas & thermal":20456,"Biomass & waste":3906,"Pumped storage":3000},"2036":{"Onshore wind":3523,"Battery storage":7556,"Solar":4334,"Offshore wind":13016,"Nuclear":2670,"Pumped storage":1495},"2037":{"Battery storage":36089,"Solar":35467,"Onshore wind":9864,"Gas & thermal":6510,"Nuclear":3040,"Offshore wind":4120},"2038":{"Solar":8475,"Battery storage":6281,"Gas & thermal":1635},"2039":{"Battery storage":2250,"Solar":2073,"Onshore wind":740},"\u22642026":{"Onshore wind":1440,"Battery storage":5375,"Solar":1266,"Offshore wind":6030,"Gas & thermal":3333,"Biomass & waste":150}},"pipeTO":{"NGET":449074,"SHET":81778,"SPT":73227},"pipeGate":{"Not yet classified":288273,"1":294989,"2":20817},"pipeTotal":604079,"pipeN":1823,"connTotal":83003,"connN":375,"uc":[{"name":"Thorpe Marsh Energy Park","owner":"THORPE MARSH GREEN ENERGY HUB LIMITED","site":"Thorpe Marsh 400kV Substation","to":"NGET","type":"Battery storage","mw":1400,"date":"2027-01-30","status":"Under Construction/Commissioning"},{"name":"Inch Cape Offshore Wind Farm Platform 1","owner":"INCH CAPE OFFSHORE LIMITED","site":"Cockenzie 400/275kV","to":"SPT","type":"Offshore wind","mw":540,"date":"2026-02-21","status":"Under Construction/Commissioning"},{"name":"Inch Cape Offshore Wind Farm Platform 2","owner":"INCH CAPE OFFSHORE LIMITED","site":"Cockenzie 275kV substation","to":"SPT","type":"Offshore wind","mw":540,"date":"2026-02-21","status":"Under Construction/Commissioning"},{"name":"Eccles BESS","owner":"Eccles Energy Centre Limited","site":"Eccles 400kV Substation","to":"SPT","type":"Battery storage","mw":500,"date":"2026-04-12","status":"Under Construction/Commissioning"},{"name":"Seagreen Phase 1A","owner":"SEAGREEN 1A LIMITED","site":"Cockenzie 400/275kV","to":"SPT","type":"Offshore wind","mw":500,"date":"2028-04-01","status":"Under Construction/Commissioning"},{"name":"Zenobe Eccles Battery Storage","owner":"ZENOBE ECCLES LIMITED","site":"Eccles 400kV Substation","to":"SPT","type":"Battery storage","mw":400,"date":"2026-04-30","status":"Under Construction/Commissioning"},{"name":"Powersite @ Drakelow","owner":"POWERSITE LTD","site":"Drakelow 400kV Substation","to":"NGET","type":"Gas & thermal","mw":380,"date":"2020-10-01","status":"Under Construction/Commissioning"},{"name":"Kilmarnock BESS","owner":"Kilmarnock Flexpower Ltd","site":"Boydston 400kV substation","to":"SPT","type":"Battery storage","mw":350,"date":"2026-11-30","status":"Under Construction/Commissioning"},{"name":"Millbrook Power","owner":"MILLBROOK POWER LIMITED","site":"Marston Vale 400kV Substation","to":"NGET","type":"Gas & thermal","mw":299,"date":"2024-06-28","status":"Under Construction/Commissioning"},{"name":"Progress Power Station","owner":"PROGRESS POWER LIMITED","site":"Yaxley 400kV Substation","to":"NGET","type":"Gas & thermal","mw":299,"date":"2024-06-28","status":"Under Construction/Commissioning"},{"name":"Gresham House Cockenzie BESS","owner":"COCKENZIE STORAGE LIMITED","site":"Meadowmill 400/132kV Substation","to":"SPT","type":"Battery storage","mw":240,"date":"2027-07-31","status":"Under Construction/Commissioning"},{"name":"Berkswell Energy Storage","owner":"BERKSWELL BATTERY STORAGE LIMITED","site":"Berkswell 275kV Substation","to":"NGET","type":"Battery storage","mw":200,"date":"2027-10-31","status":"Under Construction/Commissioning"},{"name":"Middleton BESS","owner":"Middleton Energy Storage Limited","site":"Middleton 400KV Substation","to":"NGET","type":"Battery storage","mw":200,"date":"2029-05-31","status":"Under Construction/Commissioning"},{"name":"Uskmouth - New Connection","owner":"AW1 ENERGY STORAGE LIMITED","site":"Uskmouth 132kV Substation","to":"NGET","type":"Battery storage","mw":120,"date":"2026-10-31","status":"Under Construction/Commissioning"},{"name":"West Burton","owner":"ENSO GREEN HOLDINGS A LIMITED","site":"West Burton 132kV Substation","to":"NGET","type":"Solar","mw":120,"date":"2027-06-30","status":"Under Construction/Commissioning"}],"top":[{"name":"Drax Power Station","owner":"DRAX POWER LIMITED","site":"Drax 400kV Substation","to":"NGET","type":"Biomass & waste","mw":3906},{"name":"Heysham Power Station","owner":"EDF Energy Nuclear Generation Limited","site":"Heysham GSP","to":"NGET","type":"Nuclear","mw":2363},{"name":"Pembroke Power Station","owner":"RWE Generation UK Plc","site":"Pembroke 400kV Substation","to":"NGET","type":"Gas & thermal","mw":2199},{"name":"Staythorpe C","owner":"RWE Generation UK Plc","site":"Staythorpe 400kV Substation","to":"NGET","type":"Gas & thermal","mw":1752},{"name":"Dinorwig","owner":"First Hydro Company","site":"Dinorwig 400kV Substation","to":"NGET","type":"Pumped storage","mw":1644},{"name":"Grain","owner":"Uniper UK Limited","site":"Grain 400kV Substation","to":"NGET","type":"Gas & thermal","mw":1517},{"name":"Didcot B","owner":"RWE Generation UK Plc","site":"Didcot 400kV Substation","to":"NGET","type":"Gas & thermal","mw":1475},{"name":"Connah's Quay","owner":"Uniper UK Limited","site":"Connah's Quay 400kV Substation","to":"NGET","type":"Gas & thermal","mw":1380},{"name":"South Humber Bank","owner":"EP UK Power Development II Ltd","site":"South Humber Bank 400kV Substation","to":"NGET","type":"Gas & thermal","mw":1365},{"name":"West Burton B","owner":"WEST BURTON B LIMITED","site":"West Burton 400kV Substation","to":"NGET","type":"Gas & thermal","mw":1333},{"name":"Sofia Offshore Wind Farm","owner":"SOFIA OFFSHORE WIND FARM LIMITED","site":"Lackenby 400kV Substation","to":"NGET","type":"Offshore wind","mw":1320},{"name":"Immingham","owner":"VPI IMMINGHAM LLP","site":"Humber Refinery 400kV Substation","to":"NGET","type":"Gas & thermal","mw":1268},{"name":"Torness","owner":"EDF Energy Nuclear Generation Limited","site":"Torness 400/132kV","to":"SPT","type":"Nuclear","mw":1250},{"name":"Seabank","owner":"SEABANK POWER LIMITED","site":"Seabank 400kV Substation","to":"NGET","type":"Gas & thermal","mw":1234},{"name":"Sizewell B","owner":"EDF Energy Nuclear Generation Limited","site":"Sizewell 400kV Substation","to":"NGET","type":"Nuclear","mw":1230},{"name":"Dogger Bank Project 4 (Dogger Bank B)","owner":"DOGGERBANK OFFSHORE WIND FARM PROJECT 2 PROJCO LIMITED","site":"Dogger Bank 220kV Offshores","to":"NGET","type":"Offshore wind","mw":1200},{"name":"Dogger Bank Project A","owner":"DOGGERBANK OFFSHORE WIND FARM PROJECT 1 PROJCO LIMITED","site":"Dogger Bank 220kV Offshores","to":"NGET","type":"Offshore wind","mw":1200},{"name":"Hartlepool","owner":"EDF Energy Nuclear Generation Limited","site":"Hartlepool 275kV Substation","to":"NGET","type":"Nuclear","mw":1197},{"name":"Peterhead","owner":"SSE THERMAL GENERATION (SCOTLAND) LIMITED","site":"Peterhead GSP","to":"SHET","type":"Gas & thermal","mw":1180},{"name":"Saltend","owner":"SALTEND COGENERATION COMPANY LIMITED","site":"Saltend South 400kV Substation","to":"NGET","type":"Gas & thermal","mw":1100},{"name":"Seagreen 1 Offshore Wind Farm","owner":"Seagreen Wind Energy Limited","site":"Tealing 275/33kV Substation","to":"SHET","type":"Offshore wind","mw":1075},{"name":"Spalding","owner":"SPALDING ENERGY COMPANY LTD","site":"Spalding North 400kV Substation","to":"NGET","type":"Gas & thermal","mw":950},{"name":"Marchwood","owner":"MARCHWOOD POWER LIMITED","site":"Marchwood 400kV Substation","to":"NGET","type":"Gas & thermal","mw":920},{"name":"Carrington Power Station","owner":"CARRINGTON POWER LIMITED","site":"Carrington GSP (SP Manweb)","to":"NGET","type":"Gas & thermal","mw":910},{"name":"Keadby","owner":"Keadby Generation Limited","site":"Keadby 400kV Substation","to":"NGET","type":"Gas & thermal","mw":910},{"name":"Langage","owner":"EP LANGAGE LIMITED","site":"Langage 400kV Substation","to":"NGET","type":"Gas & thermal","mw":905},{"name":"Moray East Offshore Wind Farm","owner":"MORAY OFFSHORE WINDFARM (EAST) LIMITED","site":"New Deer 400kV Substation","to":"SHET","type":"Offshore wind","mw":900},{"name":"Keadby II","owner":"Keadby Generation Limited","site":"Keadby 400kV Substation","to":"NGET","type":"Gas & thermal","mw":893},{"name":"Moray West Offshore Windfarm","owner":"MORAY OFFSHORE WINDFARM (WEST) LIMITED","site":"Moray Firth 220/33kV Platform 1 & 2 Offshore Substation","to":"SHET","type":"Offshore wind","mw":860},{"name":"Severn Power","owner":"SEVERN POWER LIMITED","site":"Uskmouth 275kV Substation","to":"NGET","type":"Gas & thermal","mw":850},{"name":"Sutton Bridge","owner":"SUTTON BRIDGE POWER GENERATION","site":"Walpole 400kV Substation","to":"NGET","type":"Gas & thermal","mw":850},{"name":"Triton Knoll Offshore Wind Farm","owner":"TRITON KNOLL OFFSHORE WIND FARM LIMITED","site":"Triton Knoll Offshore Substation","to":"NGET","type":"Offshore wind","mw":824},{"name":"Damhead Creek","owner":"VPI Power Limited","site":"Kingsnorth GSP","to":"NGET","type":"Gas & thermal","mw":812},{"name":"Rocksavage","owner":"ROCKSAVAGE POWER COMPANY, LTD.","site":"Rocksavage 400kV Substation","to":"NGET","type":"Gas & thermal","mw":810},{"name":"Coryton","owner":"CORYTON ENERGY COMPANY, LTD.","site":"Coryton South 400kV Substation","to":"NGET","type":"Gas & thermal","mw":800},{"name":"Elmya Dalry BESS & PV","owner":"ELMYA ENERGY UK 17 LIMITED","site":"Dalry 400kV Substation","to":"SPT","type":"Battery storage","mw":800},{"name":"Keadby South Power Station","owner":"Keadby Generation Limited","site":"Keadby 400kV Substation","to":"NGET","type":"Gas & thermal","mw":755},{"name":"Little Barford","owner":"RWE Generation UK Plc","site":"Eaton Socon 400kV Substation","to":"NGET","type":"Gas & thermal","mw":740},{"name":"Medway Power Station","owner":"MEDWAY POWER LIMITED","site":"Grain 400kV Substation","to":"NGET","type":"Gas & thermal","mw":735},{"name":"Rye House","owner":"VPI Power Limited","site":"Rye House GSP","to":"NGET","type":"Gas & thermal","mw":715}]},"ic":[{"name":"Alverdiscott","owner":"XLINKS 1 LTD","site":"Alverdiscott 400kV Substation","to":"NGET","imp":1800.0,"exp":1800.0,"date":"2030-08-30","status":"Scoping"},{"name":"Alverdiscott 2","owner":"XLINKS 1 LTD","site":"Alverdiscott 400kV Substation","to":"NGET","imp":1800.0,"exp":1800.0,"date":"2032-08-30","status":"Scoping"},{"name":"Aquind Interconnector","owner":"Aquind Limited","site":"Lovedean 400kV Substation","to":"NGET","imp":2000.0,"exp":2075.0,"date":"2030-12-31","status":"Awaiting Consents"},{"name":"Auchencrosh (interconnector CCT)","owner":"MOYLE INTERCONNECTOR LIMITED","site":"Auchencrosh 275kV","to":"SPT","imp":475.0,"exp":500.0,"date":"2022-04-01","status":"Built"},{"name":"Auchencrosh (interconnector CCT)","owner":"MOYLE INTERCONNECTOR LIMITED","site":"Auchencrosh 275kV","to":"SPT","imp":500.0,"exp":500.0,"date":"2022-08-01","status":"Built"},{"name":"Britned","owner":"BRITNED DEVELOPMENT LIMITED","site":"Grain 400kV Substation","to":"NGET","imp":1200.0,"exp":1200.0,"date":null,"status":"Built"},{"name":"Celtic MPI","owner":"National Grid Interconnector Holdings Limited","site":"Alverdiscott 400kV Substation","to":"NGET","imp":1500.0,"exp":1500.0,"date":"2037-10-31","status":"Scoping"},{"name":"Continental Link","owner":"National Grid Interconnector Holdings Limited","site":"Birkhill Wood 400kV Substation","to":"NGET","imp":1800.0,"exp":1800.0,"date":"2035-10-31","status":"Scoping"},{"name":"Cronos","owner":"CRONOS ENERGY LTD","site":"Kemsley 400kV Substation","to":"NGET","imp":1400.0,"exp":1400.0,"date":"2029-10-31","status":"Scoping"},{"name":"East West Interconnector","owner":"EIRGRID INTERCONNECTOR DESIGNATED ACTIVITY COMPANY","site":"Deeside 400kV Substation","to":"NGET","imp":505.0,"exp":585.0,"date":null,"status":"Built"},{"name":"ElecLink","owner":"ELECLINK LIMITED","site":"Sellindge 400kV Substation","to":"NGET","imp":1000.0,"exp":1050.0,"date":null,"status":"Built"},{"name":"FAB Link Interconnector","owner":"FAB Link Limited","site":"Exeter 400kV Substation","to":"NGET","imp":1250.0,"exp":1310.0,"date":"2032-09-30","status":"Awaiting Consents"},{"name":"GB-EU MPI","owner":"Windgrid","site":"Fiddes 400kV Substation","to":"SHET","imp":1800.0,"exp":1800.0,"date":"2033-10-31","status":"Scoping"},{"name":"Greenlink","owner":"GREENLINK INTERCONNECTOR LIMITED","site":"Pembroke 400kV Substation","to":"NGET","imp":504.0,"exp":524.0,"date":null,"status":"Built"},{"name":"Gridlink Interconnector","owner":"Gridlink Interconnector Limited","site":"Kingsnorth 400kV Substation","to":"NGET","imp":1500.0,"exp":1500.0,"date":"2029-03-31","status":"Scoping"},{"name":"IFA Interconnector","owner":"NATIONAL GRID INTERCONNECTORS LIMITED","site":"Sellindge 400kV Substation","to":"NGET","imp":1988.0,"exp":1988.0,"date":null,"status":"Built"},{"name":"IFA2 Interconnector","owner":"NATIONAL GRID IFA 2 LIMITED","site":"Chilling 400kV Substation","to":"NGET","imp":1100.0,"exp":1150.0,"date":null,"status":"Built"},{"name":"Isle of Man Interconnector","owner":"MANX UTILITIES","site":"Bispham 132kV Substation","to":"NGET","imp":74.0,"exp":74.0,"date":null,"status":"Built"},{"name":"Kulizumboo Interconnector","owner":"KULIZUMBOO LIMITED","site":"Canterbury 400kV GIS Substation","to":"NGET","imp":700.0,"exp":700.0,"date":"2031-04-01","status":"Scoping"},{"name":"LionLink (EuroLink)","owner":"National Grid Interconnector Holdings Limited","site":"Friston 400kV Substation","to":"NGET","imp":1600.0,"exp":1600.0,"date":"2032-10-31","status":"Scoping"},{"name":"LIRIC Interconnector","owner":"TI LIRIC Limited","site":"Hunterston East 400kV","to":"SPT","imp":730.0,"exp":700.0,"date":"2032-10-31","status":"Scoping"},{"name":"Low Carbon Link","owner":"LOW CARBON SOLAR PARK 39 LIMITED","site":"SOUTH WALES WEST CONNECTION NODE C 400KV SUBSTATION","to":"NGET","imp":1400.0,"exp":1400.0,"date":"2037-10-31","status":"Scoping"},{"name":"MARES","owner":"Maresconnect Limited","site":"Bodelwyddan 400kV Substation","to":"NGET","imp":750.0,"exp":750.0,"date":"2028-11-30","status":"Awaiting Consents"},{"name":"Nautilus","owner":"National Grid Interconnector Holdings Limited","site":"Wallend 400kV Substation","to":"NGET","imp":1500.0,"exp":1500.0,"date":"2029-10-31","status":"Scoping"},{"name":"Nemo Link","owner":"NEMO LINK LIMITED","site":"Richborough 400kV Substation","to":"NGET","imp":1020.0,"exp":1046.0,"date":null,"status":"Built"},{"name":"NeuConnect Interconnector","owner":"Neuconnect Britain Ltd","site":"Wallend 400kV Substation","to":"NGET","imp":1400.0,"exp":1470.0,"date":"2027-07-07","status":"Under Construction/Commissioning"},{"name":"NorthConnect","owner":"NORTHCONNECT LIMITED","site":"Peterhead 400kV Substation","to":"SHET","imp":1400.0,"exp":1400.0,"date":"2030-03-01","status":"Scoping"},{"name":"NS Link","owner":"NATIONAL GRID NORTH SEA LINK LIMITED","site":"Blyth GSP","to":"NGET","imp":1400.0,"exp":1480.0,"date":null,"status":"Built"},{"name":"Project Cobalt","owner":"GETLINK PROJECTS 2 LIMITED","site":"East Kent Connection Node B 400kV Substation","to":"NGET","imp":1000.0,"exp":1050.0,"date":"2036-10-30","status":"Scoping"},{"name":"SENECA","owner":"FRONTIER POWER INTERNATIONAL LIMITED","site":"Mablethorpe 400kV Substation","to":"NGET","imp":1200.0,"exp":1254.0,"date":"2031-11-30","status":"Scoping"},{"name":"Tarchon","owner":"Tarchon Energy Limited","site":"East Anglia Connection Node 400kV Substation","to":"NGET","imp":1400.0,"exp":1400.0,"date":"2030-10-31","status":"Scoping"},{"name":"Teeside MPI","owner":"National Grid Interconnector Holdings Limited","site":"Wearside Connection Node B 400kV Substation","to":"NGET","imp":1800.0,"exp":1800.0,"date":"2035-10-30","status":"Scoping"},{"name":"The Superconnection","owner":"ASC ENERGY PLC","site":"Birkhill Wood 400kV Substation","to":"NGET","imp":1000.0,"exp":1000.0,"date":"2032-10-28","status":"Scoping"},{"name":"Viking Link Denmark Interconnector","owner":"NATIONAL GRID VIKING LINK LIMITED","site":"Bicker Fen 400kV Substation","to":"NGET","imp":1500.0,"exp":1500.0,"date":null,"status":"Built"},{"name":"Western MPI","owner":"National Grid Interconnector Holdings Limited","site":"Connah's Quay 400kV Substation","to":"NGET","imp":1500.0,"exp":1500.0,"date":"2037-10-31","status":"Scoping"}],"sse":{"conn":2938,"pipe":14049,"n":67,"top":[{"name":"SSE Celtic Sea 1","owner":"SSE RENEWABLES OFFSHORE WINDFARM HOLDINGS LIMITED","site":"Alverdiscott 400kV Substation","to":"NGET","type":"Offshore wind","mw":1500,"date":"2036-12-06","status":"Scoping"},{"name":"Peterhead","owner":"SSE THERMAL GENERATION (SCOTLAND) LIMITED","site":"Peterhead GSP","to":"SHET","type":"Gas & thermal","mw":1180,"date":null,"status":"Built"},{"name":"Peterhead Carbon Capture","owner":"SSE THERMAL GENERATION (SCOTLAND) LIMITED","site":"Peterhead 275kV","to":"SHET","type":"Gas & thermal","mw":910,"date":"2033-10-31","status":"Scoping"},{"name":"Braybrooke","owner":"SSE DE SOLAR HOLDCO LIMITED","site":"Market Harborough 400kV Substation","to":"NGET","type":"Battery storage","mw":600,"date":"2032-07-31","status":"Scoping"},{"name":"Brinsworth","owner":"SSE RENEWABLES SOLAR & BATTERY HOLDINGS LIMITED","site":"Brinsworth B 400kV Substation","to":"NGET","type":"Battery storage","mw":600,"date":"2032-10-30","status":"Scoping"},{"name":"Chesterfield","owner":"SSE RENEWABLES SOLAR & BATTERY HOLDINGS LIMITED","site":"Chesterfield 400kV Substation (Not yet constructed)","to":"NGET","type":"Solar","mw":600,"date":"2032-10-30","status":"Scoping"},{"name":"Daines BESS","owner":"SSE DAINES BESS LIMITED","site":"Daines 400kV Substation","to":"NGET","type":"Battery storage","mw":600,"date":"2028-10-27","status":"Scoping"},{"name":"Harlaston","owner":"SSE DE SOLAR HOLDCO LIMITED","site":"Harlaston 400kV Substation","to":"NGET","type":"Solar","mw":600,"date":"2033-10-31","status":"Scoping"},{"name":"Newark BESS","owner":"SSE DE SOLAR HOLDCO LIMITED","site":"Coddington 400kV Substation","to":"NGET","type":"Solar","mw":600,"date":"2033-09-30","status":"Scoping"},{"name":"Oakley","owner":"SSE DE SOLAR HOLDCO LIMITED","site":"Oakley 400kV Substation","to":"NGET","type":"Solar","mw":600,"date":"2038-11-01","status":"Scoping"}]},"spr":{"conn":1694,"pipe":5166,"n":41,"top":[{"name":"Machair Offshore Wind Farm","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"Machair 275/66kV Offshore Substation","to":"SPT","type":"Offshore wind","mw":2000,"date":"2033-09-16","status":"Scoping"},{"name":"SPR CS1","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"SPR CS1 275/66KV OFFSHORE SUBSTATION","to":"NGET","type":"Offshore wind","mw":1000,"date":"2037-10-31","status":"Scoping"},{"name":"Whitelee","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"Whitelee 275/33kV","to":"SPT","type":"Onshore wind","mw":305,"date":null,"status":"Built"},{"name":"Whitelee","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"Whitelee 275/33kV","to":"SPT","type":"Onshore wind","mw":305,"date":"2033-04-25","status":"Scoping"},{"name":"Kilgallioch Wind Farm","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"Kilgallioch 275kV Substation","to":"SPT","type":"Onshore wind","mw":274,"date":null,"status":"Built"},{"name":"Blacklaw","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"Blacklaw 132/33kV","to":"SPT","type":"Onshore wind","mw":222,"date":"2032-10-08","status":"Scoping"},{"name":"Arecleoch","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"Arecleoch 132/33kV","to":"SPT","type":"Onshore wind","mw":216,"date":"2032-06-15","status":"Scoping"},{"name":"Whitelee Extension","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"Whitelee Extension 275/33kV","to":"SPT","type":"Onshore wind","mw":32,"date":"2026-12-01","status":"Built"},{"name":"Whitelee","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"Whitelee 275/33kV","to":"SPT","type":"Onshore wind","mw":158,"date":"2034-04-27","status":"Scoping"},{"name":"Dunlaw Extension","owner":"SCOTTISHPOWER RENEWABLES (UK) LIMITED","site":"Dunlaw Extension 132/33kV","to":"SPT","type":"Onshore wind","mw":126,"date":"2032-04-01","status":"Built"}]}};
+const LIVEFB=[{"_id":23466489,"DATETIME":"2026-10-18T12:30:00","GAS":2366.0,"COAL":0.0,"NUCLEAR":4869.0,"WIND":8684.0,"WIND_EMB":1081.0,"HYDRO":534,"IMPORTS":7134.0,"BIOMASS":3010.0,"OTHER":332.0,"SOLAR":7542.0,"STORAGE":0,"GENERATION":35552.0,"CARBON_INTENSITY":144.0},{"_id":23466490,"DATETIME":"2026-10-18T13:00:00","GAS":2756.0,"COAL":0.0,"NUCLEAR":4861.0,"WIND":8802.0,"WIND_EMB":1055.0,"HYDRO":484,"IMPORTS":6632.0,"BIOMASS":3033.0,"OTHER":426.0,"SOLAR":6054.0,"STORAGE":0,"GENERATION":34103.0,"CARBON_INTENSITY":158.0},{"_id":23471049,"DATETIME":"2026-10-18T13:30:00","GAS":3581.0,"COAL":0.0,"NUCLEAR":4865.0,"WIND":8663.0,"WIND_EMB":1101.0,"HYDRO":498,"IMPORTS":6582.0,"BIOMASS":2855.0,"OTHER":455.0,"SOLAR":5326.0,"STORAGE":0,"GENERATION":33926.0,"CARBON_INTENSITY":167.0},{"_id":23471050,"DATETIME":"2026-10-18T14:00:00","GAS":4564.0,"COAL":0.0,"NUCLEAR":4870.0,"WIND":9565.0,"WIND_EMB":1130.0,"HYDRO":511,"IMPORTS":5784.0,"BIOMASS":2734.0,"OTHER":339.0,"SOLAR":4273.0,"STORAGE":0,"GENERATION":33770.0,"CARBON_INTENSITY":115.0},{"_id":23475609,"DATETIME":"2026-10-18T14:30:00","GAS":5539.0,"COAL":0.0,"NUCLEAR":4865.0,"WIND":9526.0,"WIND_EMB":1170.0,"HYDRO":505,"IMPORTS":5758.0,"BIOMASS":2620.0,"OTHER":510.0,"SOLAR":3554.0,"STORAGE":218,"GENERATION":34265.0,"CARBON_INTENSITY":124.0},{"_id":23475610,"DATETIME":"2026-10-18T15:00:00","GAS":6464.0,"COAL":0.0,"NUCLEAR":4862.0,"WIND":9287.0,"WIND_EMB":1096.0,"HYDRO":602,"IMPORTS":5712.0,"BIOMASS":2770.0,"OTHER":473.0,"SOLAR":2442.0,"STORAGE":470,"GENERATION":34178.0,"CARBON_INTENSITY":143.0},{"_id":23480169,"DATETIME":"2026-10-18T15:30:00","GAS":8123.0,"COAL":0.0,"NUCLEAR":4871.0,"WIND":9162.0,"WIND_EMB":1070.0,"HYDRO":691,"IMPORTS":5654.0,"BIOMASS":2647.0,"OTHER":944.0,"SOLAR":1682.0,"STORAGE":272,"GENERATION":35116.0,"CARBON_INTENSITY":161.0},{"_id":23480170,"DATETIME":"2026-10-18T16:00:00","GAS":9322.0,"COAL":0.0,"NUCLEAR":4865.0,"WIND":8971.0,"WIND_EMB":990.0,"HYDRO":896,"IMPORTS":4418.0,"BIOMASS":2459.0,"OTHER":2084.0,"SOLAR":692.0,"STORAGE":838,"GENERATION":35535.0,"CARBON_INTENSITY":172.0},{"_id":23484729,"DATETIME":"2026-10-18T16:30:00","GAS":9810.0,"COAL":0.0,"NUCLEAR":4872.0,"WIND":8781.0,"WIND_EMB":1005.0,"HYDRO":938,"IMPORTS":4372.0,"BIOMASS":2912.0,"OTHER":2389.0,"SOLAR":109.0,"STORAGE":532,"GENERATION":35720.0,"CARBON_INTENSITY":180.0},{"_id":23484730,"DATETIME":"2026-10-18T17:00:00","GAS":9779.0,"COAL":0.0,"NUCLEAR":4870.0,"WIND":8746.0,"WIND_EMB":995.0,"HYDRO":987,"IMPORTS":4676.0,"BIOMASS":3063.0,"OTHER":2974.0,"SOLAR":0.0,"STORAGE":608,"GENERATION":36698.0,"CARBON_INTENSITY":160.0},{"_id":23489289,"DATETIME":"2026-10-18T17:30:00","GAS":10051.0,"COAL":0.0,"NUCLEAR":4870.0,"WIND":8605.0,"WIND_EMB":1013.0,"HYDRO":922,"IMPORTS":4690.0,"BIOMASS":3024.0,"OTHER":3300.0,"SOLAR":0.0,"STORAGE":386,"GENERATION":36861.0,"CARBON_INTENSITY":164.0},{"_id":23489290,"DATETIME":"2026-10-18T18:00:00","GAS":9884.0,"COAL":0.0,"NUCLEAR":4868.0,"WIND":8773.0,"WIND_EMB":1007.0,"HYDRO":893,"IMPORTS":4884.0,"BIOMASS":3109.0,"OTHER":2663.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":36081.0,"CARBON_INTENSITY":165.0},{"_id":23493849,"DATETIME":"2026-10-18T18:30:00","GAS":9831.0,"COAL":0.0,"NUCLEAR":4867.0,"WIND":8744.0,"WIND_EMB":1054.0,"HYDRO":896,"IMPORTS":4890.0,"BIOMASS":3126.0,"OTHER":1710.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":35118.0,"CARBON_INTENSITY":161.0},{"_id":23493850,"DATETIME":"2026-10-18T19:00:00","GAS":9793.0,"COAL":0.0,"NUCLEAR":4865.0,"WIND":8802.0,"WIND_EMB":1196.0,"HYDRO":896,"IMPORTS":5208.0,"BIOMASS":3115.0,"OTHER":831.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":34706.0,"CARBON_INTENSITY":173.0},{"_id":23498409,"DATETIME":"2026-10-18T19:30:00","GAS":9608.0,"COAL":0.0,"NUCLEAR":4866.0,"WIND":8868.0,"WIND_EMB":1168.0,"HYDRO":928,"IMPORTS":5172.0,"BIOMASS":3120.0,"OTHER":211.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":33941.0,"CARBON_INTENSITY":169.0},{"_id":23498410,"DATETIME":"2026-10-18T20:00:00","GAS":9248.0,"COAL":0.0,"NUCLEAR":4859.0,"WIND":8860.0,"WIND_EMB":1098.0,"HYDRO":827,"IMPORTS":3898.0,"BIOMASS":3126.0,"OTHER":264.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":32180.0,"CARBON_INTENSITY":153.0},{"_id":23502969,"DATETIME":"2026-10-18T20:30:00","GAS":9055.0,"COAL":0.0,"NUCLEAR":4862.0,"WIND":8791.0,"WIND_EMB":1114.0,"HYDRO":779,"IMPORTS":3830.0,"BIOMASS":2970.0,"OTHER":173.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":31574.0,"CARBON_INTENSITY":150.0},{"_id":23502970,"DATETIME":"2026-10-18T21:00:00","GAS":8294.0,"COAL":0.0,"NUCLEAR":4858.0,"WIND":9077.0,"WIND_EMB":1184.0,"HYDRO":771,"IMPORTS":3412.0,"BIOMASS":2776.0,"OTHER":196.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":30568.0,"CARBON_INTENSITY":129.0},{"_id":23507527,"DATETIME":"2026-10-18T21:30:00","GAS":7133.0,"COAL":0.0,"NUCLEAR":4858.0,"WIND":9197.0,"WIND_EMB":1212.0,"HYDRO":750,"IMPORTS":3390.0,"BIOMASS":2628.0,"OTHER":290.0,"SOLAR":0.0,"STORAGE":192,"GENERATION":29650.0,"CARBON_INTENSITY":118.0},{"_id":23507528,"DATETIME":"2026-10-18T22:00:00","GAS":6029.0,"COAL":0.0,"NUCLEAR":4862.0,"WIND":9284.0,"WIND_EMB":1207.0,"HYDRO":536,"IMPORTS":3154.0,"BIOMASS":2480.0,"OTHER":223.0,"SOLAR":0.0,"STORAGE":140,"GENERATION":27915.0,"CARBON_INTENSITY":109.0},{"_id":23507529,"DATETIME":"2026-10-18T22:30:00","GAS":5468.0,"COAL":0.0,"NUCLEAR":4866.0,"WIND":9303.0,"WIND_EMB":1220.0,"HYDRO":476,"IMPORTS":3150.0,"BIOMASS":2508.0,"OTHER":180.0,"SOLAR":0.0,"STORAGE":68,"GENERATION":27239.0,"CARBON_INTENSITY":103.0},{"_id":23507530,"DATETIME":"2026-10-18T23:00:00","GAS":5052.0,"COAL":0.0,"NUCLEAR":4862.0,"WIND":9532.0,"WIND_EMB":1246.0,"HYDRO":413,"IMPORTS":3622.0,"BIOMASS":2548.0,"OTHER":448.0,"SOLAR":0.0,"STORAGE":192,"GENERATION":27915.0,"CARBON_INTENSITY":103.0},{"_id":23512089,"DATETIME":"2026-10-18T23:30:00","GAS":5414.0,"COAL":0.0,"NUCLEAR":4868.0,"WIND":9911.0,"WIND_EMB":1297.0,"HYDRO":396,"IMPORTS":3644.0,"BIOMASS":2611.0,"OTHER":268.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28409.0,"CARBON_INTENSITY":105.0},{"_id":23512090,"DATETIME":"2026-10-19T00:00:00","GAS":5136.0,"COAL":0.0,"NUCLEAR":4863.0,"WIND":10277.0,"WIND_EMB":1296.0,"HYDRO":397,"IMPORTS":3834.0,"BIOMASS":2630.0,"OTHER":269.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28702.0,"CARBON_INTENSITY":100.0},{"_id":23516649,"DATETIME":"2026-10-19T00:30:00","GAS":5538.0,"COAL":0.0,"NUCLEAR":4869.0,"WIND":10292.0,"WIND_EMB":1367.0,"HYDRO":397,"IMPORTS":3858.0,"BIOMASS":2587.0,"OTHER":221.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":29129.0,"CARBON_INTENSITY":103.0},{"_id":23516650,"DATETIME":"2026-10-19T01:00:00","GAS":5113.0,"COAL":0.0,"NUCLEAR":4870.0,"WIND":10212.0,"WIND_EMB":1358.0,"HYDRO":386,"IMPORTS":4350.0,"BIOMASS":2661.0,"OTHER":186.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":29136.0,"CARBON_INTENSITY":108.0},{"_id":23521209,"DATETIME":"2026-10-19T01:30:00","GAS":4789.0,"COAL":0.0,"NUCLEAR":4864.0,"WIND":10121.0,"WIND_EMB":1397.0,"HYDRO":377,"IMPORTS":4324.0,"BIOMASS":2707.0,"OTHER":188.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28767.0,"CARBON_INTENSITY":106.0},{"_id":23521210,"DATETIME":"2026-10-19T02:00:00","GAS":5097.0,"COAL":0.0,"NUCLEAR":4865.0,"WIND":9816.0,"WIND_EMB":1383.0,"HYDRO":377,"IMPORTS":2634.0,"BIOMASS":2747.0,"OTHER":201.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":27120.0,"CARBON_INTENSITY":97.0},{"_id":23525769,"DATETIME":"2026-10-19T02:30:00","GAS":5573.0,"COAL":0.0,"NUCLEAR":4867.0,"WIND":9264.0,"WIND_EMB":1360.0,"HYDRO":374,"IMPORTS":2532.0,"BIOMASS":2653.0,"OTHER":209.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":26833.0,"CARBON_INTENSITY":104.0},{"_id":23525770,"DATETIME":"2026-10-19T03:00:00","GAS":5764.0,"COAL":0.0,"NUCLEAR":4867.0,"WIND":9148.0,"WIND_EMB":1255.0,"HYDRO":375,"IMPORTS":2076.0,"BIOMASS":2671.0,"OTHER":227.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":26383.0,"CARBON_INTENSITY":107.0},{"_id":23530329,"DATETIME":"2026-10-19T03:30:00","GAS":6012.0,"COAL":0.0,"NUCLEAR":4868.0,"WIND":8918.0,"WIND_EMB":1221.0,"HYDRO":375,"IMPORTS":2040.0,"BIOMASS":2704.0,"OTHER":238.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":26376.0,"CARBON_INTENSITY":110.0},{"_id":23530330,"DATETIME":"2026-10-19T04:00:00","GAS":6732.0,"COAL":0.0,"NUCLEAR":4870.0,"WIND":8670.0,"WIND_EMB":1187.0,"HYDRO":400,"IMPORTS":1490.0,"BIOMASS":2866.0,"OTHER":264.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":26479.0,"CARBON_INTENSITY":117.0},{"_id":23534889,"DATETIME":"2026-10-19T04:30:00","GAS":7767.0,"COAL":0.0,"NUCLEAR":4865.0,"WIND":8762.0,"WIND_EMB":1173.0,"HYDRO":422,"IMPORTS":1458.0,"BIOMASS":2933.0,"OTHER":292.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":27672.0,"CARBON_INTENSITY":127.0},{"_id":23534890,"DATETIME":"2026-10-19T05:00:00","GAS":9312.0,"COAL":0.0,"NUCLEAR":4862.0,"WIND":9132.0,"WIND_EMB":1111.0,"HYDRO":639,"IMPORTS":1400.0,"BIOMASS":2992.0,"OTHER":336.0,"SOLAR":0.0,"STORAGE":40,"GENERATION":29824.0,"CARBON_INTENSITY":139.0},{"_id":23539449,"DATETIME":"2026-10-19T05:30:00","GAS":11133.0,"COAL":0.0,"NUCLEAR":4866.0,"WIND":9225.0,"WIND_EMB":1111.0,"HYDRO":690,"IMPORTS":1400.0,"BIOMASS":2855.0,"OTHER":392.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":31672.0,"CARBON_INTENSITY":153.0},{"_id":23539450,"DATETIME":"2026-10-19T06:00:00","GAS":13327.0,"COAL":0.0,"NUCLEAR":4866.0,"WIND":9268.0,"WIND_EMB":1085.0,"HYDRO":817,"IMPORTS":1400.0,"BIOMASS":2746.0,"OTHER":409.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":33918.0,"CARBON_INTENSITY":168.0},{"_id":23544009,"DATETIME":"2026-10-19T06:30:00","GAS":13843.0,"COAL":0.0,"NUCLEAR":4869.0,"WIND":8955.0,"WIND_EMB":1065.0,"HYDRO":806,"IMPORTS":1400.0,"BIOMASS":2847.0,"OTHER":454.0,"SOLAR":7.0,"STORAGE":476,"GENERATION":34722.0,"CARBON_INTENSITY":171.0},{"_id":23544010,"DATETIME":"2026-10-19T07:00:00","GAS":13592.0,"COAL":0.0,"NUCLEAR":4871.0,"WIND":8706.0,"WIND_EMB":967.0,"HYDRO":778,"IMPORTS":1834.0,"BIOMASS":3055.0,"OTHER":432.0,"SOLAR":287.0,"STORAGE":296,"GENERATION":34818.0,"CARBON_INTENSITY":169.0},{"_id":23548569,"DATETIME":"2026-10-19T07:30:00","GAS":13100.0,"COAL":0.0,"NUCLEAR":4863.0,"WIND":8407.0,"WIND_EMB":926.0,"HYDRO":776,"IMPORTS":2014.0,"BIOMASS":3089.0,"OTHER":462.0,"SOLAR":998.0,"STORAGE":542,"GENERATION":35177.0,"CARBON_INTENSITY":163.0},{"_id":23548570,"DATETIME":"2026-10-19T08:00:00","GAS":12545.0,"COAL":0.0,"NUCLEAR":4866.0,"WIND":8059.0,"WIND_EMB":927.0,"HYDRO":765,"IMPORTS":3662.0,"BIOMASS":3089.0,"OTHER":460.0,"SOLAR":2162.0,"STORAGE":340,"GENERATION":36875.0,"CARBON_INTENSITY":159.0},{"_id":23553129,"DATETIME":"2026-10-19T08:30:00","GAS":12672.0,"COAL":0.0,"NUCLEAR":4868.0,"WIND":7680.0,"WIND_EMB":914.0,"HYDRO":764,"IMPORTS":3840.0,"BIOMASS":3082.0,"OTHER":475.0,"SOLAR":3335.0,"STORAGE":480,"GENERATION":38111.0,"CARBON_INTENSITY":157.0},{"_id":23553130,"DATETIME":"2026-10-19T09:00:00","GAS":12994.0,"COAL":0.0,"NUCLEAR":4872.0,"WIND":7424.0,"WIND_EMB":870.0,"HYDRO":651,"IMPORTS":4132.0,"BIOMASS":3077.0,"OTHER":485.0,"SOLAR":4355.0,"STORAGE":268,"GENERATION":39128.0,"CARBON_INTENSITY":158.0},{"_id":23557689,"DATETIME":"2026-10-19T09:30:00","GAS":12724.0,"COAL":0.0,"NUCLEAR":4878.0,"WIND":7117.0,"WIND_EMB":867.0,"HYDRO":626,"IMPORTS":4156.0,"BIOMASS":3088.0,"OTHER":501.0,"SOLAR":5883.0,"STORAGE":240,"GENERATION":40080.0,"CARBON_INTENSITY":152.0},{"_id":23557690,"DATETIME":"2026-10-19T10:00:00","GAS":12227.0,"COAL":0.0,"NUCLEAR":4890.0,"WIND":7118.0,"WIND_EMB":880.0,"HYDRO":519,"IMPORTS":4642.0,"BIOMASS":3087.0,"OTHER":528.0,"SOLAR":7084.0,"STORAGE":104,"GENERATION":41079.0,"CARBON_INTENSITY":151.0},{"_id":23562249,"DATETIME":"2026-10-19T10:30:00","GAS":12046.0,"COAL":0.0,"NUCLEAR":4910.0,"WIND":7060.0,"WIND_EMB":903.0,"HYDRO":496,"IMPORTS":4694.0,"BIOMASS":3090.0,"OTHER":551.0,"SOLAR":7325.0,"STORAGE":102,"GENERATION":41177.0,"CARBON_INTENSITY":150.0},{"_id":23562250,"DATETIME":"2026-10-19T11:00:00","GAS":11915.0,"COAL":0.0,"NUCLEAR":4907.0,"WIND":7037.0,"WIND_EMB":917.0,"HYDRO":478,"IMPORTS":5698.0,"BIOMASS":3107.0,"OTHER":576.0,"SOLAR":7167.0,"STORAGE":66,"GENERATION":41868.0,"CARBON_INTENSITY":161.0},{"_id":23566809,"DATETIME":"2026-10-19T11:30:00","GAS":11694.0,"COAL":0.0,"NUCLEAR":4908.0,"WIND":7077.0,"WIND_EMB":941.0,"HYDRO":477,"IMPORTS":5690.0,"BIOMASS":3121.0,"OTHER":592.0,"SOLAR":7130.0,"STORAGE":0,"GENERATION":41630.0,"CARBON_INTENSITY":159.0},{"_id":23566810,"DATETIME":"2026-10-19T12:00:00","GAS":11969.0,"COAL":0.0,"NUCLEAR":4915.0,"WIND":6986.0,"WIND_EMB":933.0,"HYDRO":464,"IMPORTS":4520.0,"BIOMASS":3123.0,"OTHER":611.0,"SOLAR":5769.0,"STORAGE":0,"GENERATION":39290.0,"CARBON_INTENSITY":149.0},{"_id":23571369,"DATETIME":"2026-10-19T12:30:00","GAS":12156.0,"COAL":0.0,"NUCLEAR":4923.0,"WIND":6866.0,"WIND_EMB":960.0,"HYDRO":465,"IMPORTS":4476.0,"BIOMASS":3123.0,"OTHER":547.0,"SOLAR":5327.0,"STORAGE":0,"GENERATION":38843.0,"CARBON_INTENSITY":152.0},{"_id":23571370,"DATETIME":"2026-10-19T13:00:00","GAS":12491.0,"COAL":0.0,"NUCLEAR":4923.0,"WIND":6935.0,"WIND_EMB":969.0,"HYDRO":615,"IMPORTS":4374.0,"BIOMASS":3119.0,"OTHER":295.0,"SOLAR":4909.0,"STORAGE":0,"GENERATION":38630.0,"CARBON_INTENSITY":154.0},{"_id":23575929,"DATETIME":"2026-10-19T13:30:00","GAS":12582.0,"COAL":0.0,"NUCLEAR":4921.0,"WIND":6955.0,"WIND_EMB":985.0,"HYDRO":623,"IMPORTS":4364.0,"BIOMASS":3115.0,"OTHER":269.0,"SOLAR":4150.0,"STORAGE":214,"GENERATION":38178.0,"CARBON_INTENSITY":159.0},{"_id":23575930,"DATETIME":"2026-10-19T14:00:00","GAS":12782.0,"COAL":0.0,"NUCLEAR":4918.0,"WIND":7330.0,"WIND_EMB":1024.0,"HYDRO":527,"IMPORTS":3514.0,"BIOMASS":3123.0,"OTHER":328.0,"SOLAR":3654.0,"STORAGE":226,"GENERATION":37426.0,"CARBON_INTENSITY":163.0},{"_id":23580489,"DATETIME":"2026-10-19T14:30:00","GAS":13365.0,"COAL":0.0,"NUCLEAR":4919.0,"WIND":7235.0,"WIND_EMB":1029.0,"HYDRO":650,"IMPORTS":3490.0,"BIOMASS":3115.0,"OTHER":363.0,"SOLAR":2977.0,"STORAGE":126,"GENERATION":37269.0,"CARBON_INTENSITY":171.0},{"_id":23580490,"DATETIME":"2026-10-19T15:00:00","GAS":13926.0,"COAL":0.0,"NUCLEAR":4922.0,"WIND":7590.0,"WIND_EMB":1031.0,"HYDRO":722,"IMPORTS":2844.0,"BIOMASS":3116.0,"OTHER":608.0,"SOLAR":2311.0,"STORAGE":98,"GENERATION":37168.0,"CARBON_INTENSITY":185.0},{"_id":23585049,"DATETIME":"2026-10-19T15:30:00","GAS":14432.0,"COAL":0.0,"NUCLEAR":4917.0,"WIND":8005.0,"WIND_EMB":975.0,"HYDRO":761,"IMPORTS":2830.0,"BIOMASS":3128.0,"OTHER":1071.0,"SOLAR":1608.0,"STORAGE":216,"GENERATION":37943.0,"CARBON_INTENSITY":190.0},{"_id":23585050,"DATETIME":"2026-10-19T16:00:00","GAS":14933.0,"COAL":0.0,"NUCLEAR":4915.0,"WIND":8016.0,"WIND_EMB":888.0,"HYDRO":746,"IMPORTS":2059.0,"BIOMASS":3112.0,"OTHER":2415.0,"SOLAR":584.0,"STORAGE":858,"GENERATION":38526.0,"CARBON_INTENSITY":190.0},{"_id":23589609,"DATETIME":"2026-10-19T16:30:00","GAS":15066.0,"COAL":0.0,"NUCLEAR":4919.0,"WIND":8075.0,"WIND_EMB":873.0,"HYDRO":749,"IMPORTS":1982.0,"BIOMASS":3111.0,"OTHER":3102.0,"SOLAR":76.0,"STORAGE":682,"GENERATION":38635.0,"CARBON_INTENSITY":188.0},{"_id":23589610,"DATETIME":"2026-10-19T17:00:00","GAS":15299.0,"COAL":0.0,"NUCLEAR":4923.0,"WIND":8152.0,"WIND_EMB":892.0,"HYDRO":768,"IMPORTS":3112.0,"BIOMASS":3103.0,"OTHER":3233.0,"SOLAR":0.0,"STORAGE":744,"GENERATION":40226.0,"CARBON_INTENSITY":190.0},{"_id":23594169,"DATETIME":"2026-10-19T17:30:00","GAS":15489.0,"COAL":0.0,"NUCLEAR":4922.0,"WIND":8618.0,"WIND_EMB":966.0,"HYDRO":770,"IMPORTS":3196.0,"BIOMASS":3099.0,"OTHER":3233.0,"SOLAR":0.0,"STORAGE":770,"GENERATION":41063.0,"CARBON_INTENSITY":189.0},{"_id":23594170,"DATETIME":"2026-10-19T18:00:00","GAS":15088.0,"COAL":0.0,"NUCLEAR":4923.0,"WIND":9094.0,"WIND_EMB":1026.0,"HYDRO":630,"IMPORTS":3738.0,"BIOMASS":3111.0,"OTHER":1853.0,"SOLAR":0.0,"STORAGE":974,"GENERATION":40437.0,"CARBON_INTENSITY":182.0},{"_id":23598727,"DATETIME":"2026-10-19T18:30:00","GAS":14819.0,"COAL":0.0,"NUCLEAR":4933.0,"WIND":9570.0,"WIND_EMB":1080.0,"HYDRO":621,"IMPORTS":3774.0,"BIOMASS":3100.0,"OTHER":769.0,"SOLAR":0.0,"STORAGE":812,"GENERATION":39478.0,"CARBON_INTENSITY":176.0},{"_id":23598728,"DATETIME":"2026-10-19T19:00:00","GAS":13867.0,"COAL":0.0,"NUCLEAR":4929.0,"WIND":9742.0,"WIND_EMB":1127.0,"HYDRO":616,"IMPORTS":4092.0,"BIOMASS":3102.0,"OTHER":455.0,"SOLAR":0.0,"STORAGE":576,"GENERATION":38506.0,"CARBON_INTENSITY":197.0},{"_id":23598729,"DATETIME":"2026-10-19T19:30:00","GAS":11907.0,"COAL":0.0,"NUCLEAR":4926.0,"WIND":10022.0,"WIND_EMB":1124.0,"HYDRO":593,"IMPORTS":4114.0,"BIOMASS":3103.0,"OTHER":614.0,"SOLAR":0.0,"STORAGE":248,"GENERATION":36651.0,"CARBON_INTENSITY":189.0},{"_id":23598730,"DATETIME":"2026-10-19T20:00:00","GAS":10660.0,"COAL":0.0,"NUCLEAR":4934.0,"WIND":10108.0,"WIND_EMB":1116.0,"HYDRO":550,"IMPORTS":3878.0,"BIOMASS":3103.0,"OTHER":467.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":34816.0,"CARBON_INTENSITY":165.0},{"_id":23603289,"DATETIME":"2026-10-19T20:30:00","GAS":9224.0,"COAL":0.0,"NUCLEAR":4928.0,"WIND":10418.0,"WIND_EMB":1117.0,"HYDRO":540,"IMPORTS":3864.0,"BIOMASS":3097.0,"OTHER":348.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":33536.0,"CARBON_INTENSITY":152.0},{"_id":23603290,"DATETIME":"2026-10-19T21:00:00","GAS":7349.0,"COAL":0.0,"NUCLEAR":4929.0,"WIND":10133.0,"WIND_EMB":1144.0,"HYDRO":490,"IMPORTS":3764.0,"BIOMASS":3112.0,"OTHER":718.0,"SOLAR":0.0,"STORAGE":94,"GENERATION":31733.0,"CARBON_INTENSITY":126.0},{"_id":23607847,"DATETIME":"2026-10-19T21:30:00","GAS":5706.0,"COAL":0.0,"NUCLEAR":4930.0,"WIND":9861.0,"WIND_EMB":1160.0,"HYDRO":476,"IMPORTS":3766.0,"BIOMASS":3122.0,"OTHER":949.0,"SOLAR":0.0,"STORAGE":180,"GENERATION":30150.0,"CARBON_INTENSITY":113.0},{"_id":23607848,"DATETIME":"2026-10-19T22:00:00","GAS":5467.0,"COAL":0.0,"NUCLEAR":4928.0,"WIND":9562.0,"WIND_EMB":1154.0,"HYDRO":428,"IMPORTS":3790.0,"BIOMASS":3128.0,"OTHER":943.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":29400.0,"CARBON_INTENSITY":113.0},{"_id":23607849,"DATETIME":"2026-10-19T22:30:00","GAS":5439.0,"COAL":0.0,"NUCLEAR":4926.0,"WIND":9465.0,"WIND_EMB":1156.0,"HYDRO":423,"IMPORTS":3788.0,"BIOMASS":3172.0,"OTHER":1115.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":29484.0,"CARBON_INTENSITY":114.0},{"_id":23607850,"DATETIME":"2026-10-19T23:00:00","GAS":5314.0,"COAL":0.0,"NUCLEAR":4927.0,"WIND":9658.0,"WIND_EMB":1138.0,"HYDRO":421,"IMPORTS":3694.0,"BIOMASS":3178.0,"OTHER":849.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":29179.0,"CARBON_INTENSITY":110.0},{"_id":23612410,"DATETIME":"2026-10-19T23:30:00","GAS":5277.0,"COAL":0.0,"NUCLEAR":4925.0,"WIND":9745.0,"WIND_EMB":1140.0,"HYDRO":420,"IMPORTS":3690.0,"BIOMASS":3169.0,"OTHER":647.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":29013.0,"CARBON_INTENSITY":108.0},{"_id":23644316,"DATETIME":"2026-10-20T00:00:00","GAS":4843.0,"COAL":0.0,"NUCLEAR":4929.0,"WIND":9675.0,"WIND_EMB":1112.0,"HYDRO":421,"IMPORTS":3628.0,"BIOMASS":3160.0,"OTHER":436.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28204.0,"CARBON_INTENSITY":99.0},{"_id":23644317,"DATETIME":"2026-10-20T00:30:00","GAS":4664.0,"COAL":0.0,"NUCLEAR":4928.0,"WIND":9564.0,"WIND_EMB":1108.0,"HYDRO":421,"IMPORTS":3612.0,"BIOMASS":3163.0,"OTHER":469.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":27929.0,"CARBON_INTENSITY":98.0},{"_id":23644318,"DATETIME":"2026-10-20T01:00:00","GAS":4689.0,"COAL":0.0,"NUCLEAR":4933.0,"WIND":9769.0,"WIND_EMB":1208.0,"HYDRO":419,"IMPORTS":3696.0,"BIOMASS":3155.0,"OTHER":322.0,"SOLAR":0.0,"STORAGE":82,"GENERATION":28273.0,"CARBON_INTENSITY":93.0},{"_id":23644319,"DATETIME":"2026-10-20T01:30:00","GAS":4460.0,"COAL":0.0,"NUCLEAR":4931.0,"WIND":9901.0,"WIND_EMB":1250.0,"HYDRO":421,"IMPORTS":3752.0,"BIOMASS":3196.0,"OTHER":299.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28210.0,"CARBON_INTENSITY":90.0},{"_id":23644320,"DATETIME":"2026-10-20T02:00:00","GAS":4666.0,"COAL":0.0,"NUCLEAR":4935.0,"WIND":9888.0,"WIND_EMB":1354.0,"HYDRO":405,"IMPORTS":3736.0,"BIOMASS":3202.0,"OTHER":245.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28431.0,"CARBON_INTENSITY":91.0},{"_id":23644321,"DATETIME":"2026-10-20T02:30:00","GAS":4613.0,"COAL":0.0,"NUCLEAR":4939.0,"WIND":10077.0,"WIND_EMB":1375.0,"HYDRO":397,"IMPORTS":3698.0,"BIOMASS":3194.0,"OTHER":290.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28583.0,"CARBON_INTENSITY":90.0},{"_id":23644322,"DATETIME":"2026-10-20T03:00:00","GAS":5091.0,"COAL":0.0,"NUCLEAR":4937.0,"WIND":10280.0,"WIND_EMB":1375.0,"HYDRO":392,"IMPORTS":2762.0,"BIOMASS":3197.0,"OTHER":303.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28337.0,"CARBON_INTENSITY":93.0},{"_id":23644323,"DATETIME":"2026-10-20T03:30:00","GAS":5243.0,"COAL":0.0,"NUCLEAR":4944.0,"WIND":10709.0,"WIND_EMB":1323.0,"HYDRO":390,"IMPORTS":2736.0,"BIOMASS":3177.0,"OTHER":214.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28736.0,"CARBON_INTENSITY":92.0},{"_id":23644324,"DATETIME":"2026-10-20T04:00:00","GAS":5140.0,"COAL":0.0,"NUCLEAR":4942.0,"WIND":11357.0,"WIND_EMB":1247.0,"HYDRO":410,"IMPORTS":2202.0,"BIOMASS":3174.0,"OTHER":223.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":28695.0,"CARBON_INTENSITY":88.0},{"_id":23644325,"DATETIME":"2026-10-20T04:30:00","GAS":5592.0,"COAL":0.0,"NUCLEAR":4940.0,"WIND":11592.0,"WIND_EMB":1241.0,"HYDRO":413,"IMPORTS":2180.0,"BIOMASS":3083.0,"OTHER":223.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":29264.0,"CARBON_INTENSITY":92.0},{"_id":23644326,"DATETIME":"2026-10-20T05:00:00","GAS":6970.0,"COAL":0.0,"NUCLEAR":4939.0,"WIND":11775.0,"WIND_EMB":1301.0,"HYDRO":427,"IMPORTS":2020.0,"BIOMASS":2794.0,"OTHER":300.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":30526.0,"CARBON_INTENSITY":105.0},{"_id":23644327,"DATETIME":"2026-10-20T05:30:00","GAS":8180.0,"COAL":0.0,"NUCLEAR":4938.0,"WIND":11826.0,"WIND_EMB":1365.0,"HYDRO":427,"IMPORTS":2012.0,"BIOMASS":2976.0,"OTHER":484.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":32208.0,"CARBON_INTENSITY":117.0},{"_id":23644328,"DATETIME":"2026-10-20T06:00:00","GAS":9593.0,"COAL":0.0,"NUCLEAR":4934.0,"WIND":12207.0,"WIND_EMB":1478.0,"HYDRO":467,"IMPORTS":2006.0,"BIOMASS":3008.0,"OTHER":996.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":34689.0,"CARBON_INTENSITY":129.0},{"_id":23644329,"DATETIME":"2026-10-20T06:30:00","GAS":9941.0,"COAL":0.0,"NUCLEAR":4932.0,"WIND":12695.0,"WIND_EMB":1534.0,"HYDRO":481,"IMPORTS":2016.0,"BIOMASS":3040.0,"OTHER":1763.0,"SOLAR":0.0,"STORAGE":0,"GENERATION":36402.0,"CARBON_INTENSITY":133.0},{"_id":23644330,"DATETIME":"2026-10-20T07:00:00","GAS":9956.0,"COAL":0.0,"NUCLEAR":4932.0,"WIND":12919.0,"WIND_EMB":1480.0,"HYDRO":481,"IMPORTS":3000.0,"BIOMASS":3182.0,"OTHER":805.0,"SOLAR":27.0,"STORAGE":350,"GENERATION":37132.0,"CARBON_INTENSITY":131.0},{"_id":23648889,"DATETIME":"2026-10-20T07:30:00","GAS":9991.0,"COAL":0.0,"NUCLEAR":4926.0,"WIND":13112.0,"WIND_EMB":1519.0,"HYDRO":478,"IMPORTS":3150.0,"BIOMASS":3205.0,"OTHER":933.0,"SOLAR":142.0,"STORAGE":484,"GENERATION":37940.0,"CARBON_INTENSITY":130.0},{"_id":23648890,"DATETIME":"2026-10-20T08:00:00","GAS":9670.0,"COAL":0.0,"NUCLEAR":4930.0,"WIND":13131.0,"WIND_EMB":1625.0,"HYDRO":479,"IMPORTS":3762.0,"BIOMASS":3200.0,"OTHER":526.0,"SOLAR":408.0,"STORAGE":16,"GENERATION":37747.0,"CARBON_INTENSITY":132.0},{"_id":23653449,"DATETIME":"2026-10-20T08:30:00","GAS":9653.0,"COAL":0.0,"NUCLEAR":4931.0,"WIND":13163.0,"WIND_EMB":1643.0,"HYDRO":463,"IMPORTS":3782.0,"BIOMASS":3202.0,"OTHER":401.0,"SOLAR":563.0,"STORAGE":0,"GENERATION":37801.0,"CARBON_INTENSITY":131.0},{"_id":23653450,"DATETIME":"2026-10-20T09:00:00","GAS":9361.0,"COAL":0.0,"NUCLEAR":4927.0,"WIND":13279.0,"WIND_EMB":1726.0,"HYDRO":472,"IMPORTS":3566.0,"BIOMASS":3206.0,"OTHER":516.0,"SOLAR":893.0,"STORAGE":22,"GENERATION":37968.0,"CARBON_INTENSITY":122.0},{"_id":23658009,"DATETIME":"2026-10-20T09:30:00","GAS":9219.0,"COAL":0.0,"NUCLEAR":4928.0,"WIND":13549.0,"WIND_EMB":1762.0,"HYDRO":469,"IMPORTS":3568.0,"BIOMASS":3203.0,"OTHER":597.0,"SOLAR":1249.0,"STORAGE":0,"GENERATION":38544.0,"CARBON_INTENSITY":119.0},{"_id":23658010,"DATETIME":"2026-10-20T10:00:00","GAS":10183.0,"COAL":0.0,"NUCLEAR":4929.0,"WIND":13486.0,"WIND_EMB":1745.0,"HYDRO":430,"IMPORTS":3706.0,"BIOMASS":3197.0,"OTHER":723.0,"SOLAR":1451.0,"STORAGE":24,"GENERATION":39874.0,"CARBON_INTENSITY":126.0},{"_id":23662569,"DATETIME":"2026-10-20T10:30:00","GAS":10082.0,"COAL":0.0,"NUCLEAR":4928.0,"WIND":13620.0,"WIND_EMB":1798.0,"HYDRO":415,"IMPORTS":3704.0,"BIOMASS":3204.0,"OTHER":564.0,"SOLAR":1655.0,"STORAGE":0,"GENERATION":39970.0,"CARBON_INTENSITY":124.0},{"_id":23662570,"DATETIME":"2026-10-20T11:00:00","GAS":9393.0,"COAL":0.0,"NUCLEAR":4933.0,"WIND":13687.0,"WIND_EMB":1791.0,"HYDRO":402,"IMPORTS":3390.0,"BIOMASS":3202.0,"OTHER":651.0,"SOLAR":1675.0,"STORAGE":0,"GENERATION":39124.0,"CARBON_INTENSITY":120.0},{"_id":23667129,"DATETIME":"2026-10-20T11:30:00","GAS":9594.0,"COAL":0.0,"NUCLEAR":4931.0,"WIND":13568.0,"WIND_EMB":1842.0,"HYDRO":403,"IMPORTS":3392.0,"BIOMASS":3203.0,"OTHER":535.0,"SOLAR":1637.0,"STORAGE":4,"GENERATION":39109.0,"CARBON_INTENSITY":121.0},{"_id":23667130,"DATETIME":"2026-10-20T12:00:00","GAS":9645.0,"COAL":0.0,"NUCLEAR":4936.0,"WIND":13540.0,"WIND_EMB":1831.0,"HYDRO":403,"IMPORTS":3718.0,"BIOMASS":3200.0,"OTHER":438.0,"SOLAR":1734.0,"STORAGE":12,"GENERATION":39457.0,"CARBON_INTENSITY":120.0}];
+const GEO={
+icGeo:[
+ {key:'IFA_FLOW',reg:'IFA Interconnector',name:'IFA',short:'IFA',cty:'France',cap:1988,gb:[51.106,0.98],far:[50.75,1.75],lab:[50.55,1.55],bend:10},
+ {key:'IFA2_FLOW',reg:'IFA2 Interconnector',name:'IFA2',short:'IFA2',cty:'France',cap:1100,gb:[50.83,-1.28],far:[49.25,-0.25],lab:[49.35,-0.6],bend:0},
+ {key:'ELECLINK_FLOW',reg:'ElecLink',name:'ElecLink',short:'ElecLink',cty:'France',cap:1000,gb:[51.09,1.10],far:[50.92,1.80],lab:[50.95,2.25],anchor:'start',bend:-6},
+ {key:'NEMO_FLOW',reg:'Nemo Link',name:'Nemo Link',short:'Nemo',cty:'Belgium',cap:1020,gb:[51.30,1.35],far:[51.33,3.20],lab:[51.15,3.0],bend:0},
+ {key:'BRITNED_FLOW',reg:'Britned',name:'BritNed',short:'BritNed',cty:'Netherlands',cap:1200,gb:[51.44,0.72],far:[51.96,4.00],lab:[52.2,3.8],bend:-8},
+ {key:'VIKING_FLOW',reg:'Viking Link Denmark Interconnector',name:'Viking Link',short:'Viking',cty:'Denmark',cap:1500,gb:[52.93,-0.19],far:[55.52,8.60],lab:[55.15,7.2],bend:-20},
+ {key:'NSL_FLOW',reg:'NS Link',name:'North Sea Link',short:'NSL',cty:'Norway',cap:1400,gb:[55.13,-1.51],far:[59.35,6.10],lab:[59.6,4.3],bend:-20},
+ {key:'MOYLE_FLOW',reg:'Auchencrosh (interconnector CCT)',name:'Moyle',short:'Moyle',cty:'Northern Ireland',cap:500,gb:[55.07,-4.98],far:[54.84,-5.78],lab:[55.15,-6.6],bend:0},
+ {key:'EAST_WEST_FLOW',reg:'East West Interconnector',name:'East West (EWIC)',short:'EWIC',cty:'Ireland',cap:505,gb:[53.22,-3.05],far:[53.47,-6.30],lab:[53.75,-6.6],bend:0},
+ {key:'GREENLINK_FLOW',reg:'Greenlink',name:'Greenlink',short:'Greenlink',cty:'Ireland',cap:504,gb:[51.68,-4.99],far:[52.25,-6.90],lab:[52.0,-7.6],bend:0}
+],
+siteGeo:{
+ 'Drax Power Station':[53.736,-0.997],'Heysham Power Station':[54.029,-2.916],'Pembroke Power Station':[51.684,-4.990],'Staythorpe C':[53.073,-0.857],
+ 'Dinorwig':[53.119,-4.114],'Grain':[51.444,0.716],'Didcot B':[51.623,-1.267],"Connah's Quay":[53.231,-3.081],'South Humber Bank':[53.598,-0.141],
+ 'West Burton B':[53.360,-0.810],'Sofia Offshore Wind Farm':[54.95,1.95],'Immingham':[53.633,-0.235],'Torness':[55.968,-2.408],'Seabank':[51.539,-2.669],
+ 'Sizewell B':[52.214,1.620],'Dogger Bank Project 4 (Dogger Bank B)':[55.05,2.35],'Dogger Bank Project A':[54.78,1.75],'Hartlepool':[54.635,-1.181],
+ 'Peterhead':[57.478,-1.789],'Saltend':[53.737,-0.247],'Seagreen 1 Offshore Wind Farm':[56.60,-1.75],'Spalding':[52.810,-0.150],'Marchwood':[50.900,-1.430],
+ 'Carrington Power Station':[53.437,-2.410],'Keadby':[53.595,-0.743],'Langage':[50.390,-4.020],'Moray East Offshore Wind Farm':[58.19,-2.72],
+ 'Moray West Offshore Windfarm':[58.08,-3.10],'Severn Power':[51.548,-2.975],'Sutton Bridge':[52.760,0.190],'Triton Knoll Offshore Wind Farm':[53.50,0.80],
+ 'Damhead Creek':[51.424,0.600],'Rocksavage':[53.315,-2.720],'Coryton':[51.512,0.512],'Elmya Dalry BESS & PV':[55.71,-4.72],'Keadby South Power Station':[53.585,-0.735],
+ 'Little Barford':[52.200,-0.270],'Medway Power Station':[51.437,0.700],'Rye House':[51.763,0.010],'East Anglia One':[52.23,2.50],'Keadby II':[53.600,-0.750]
+}};
+
+const fmtN=(v,d=0)=>Number(v).toLocaleString('en-GB',{maximumFractionDigits:d,minimumFractionDigits:d});
+const CONTENT=Object.assign({},GEO,{liveFallback:LIVEFB,
+networks:`
+<p class="intro">Great Britain has one system operator and three onshore transmission owners. NESO (the National Energy System Operator, publicly owned since 1 October 2024) balances the system in real time, runs the connections queue and plans the network. National Grid Electricity Transmission (NGET) owns the network in England and Wales. In Scotland, SP Transmission (ScottishPower) owns the south and SSEN Transmission (SSE) owns the north.</p>
+<div class="grid3">
+ <div class="card"><h3>The B6 boundary: Scotland to England</h3>
+  <ul class="factlist">
+   <li>Current capability is <strong>6.7 GW</strong>. The limit is a thermal constraint on the Harker–Moffat 400 kV circuit (NESO ETYS).</li>
+   <li>In 2025 the half-hourly transfer reached 6,586 MW and averaged 2,114 MW. When Scottish wind output exceeds what the boundary can carry, NESO pays generators to reduce output.</li>
+   <li>Existing paths are the onshore AC circuits on the east and west coasts, plus the <strong>Western Link</strong> HVDC from Hunterston to Flintshire Bridge (about 2.2 GW, operating since 2019, SPT/NGET).</li>
+  </ul></div>
+ <div class="card"><h3>Eastern Green Links (under construction)</h3>
+  <ul class="factlist">
+   <li><strong>EGL1:</strong> 2 GW HVDC from Torness (East Lothian) to Hawthorn Pit (County Durham), about 196 km. A joint venture of SP Energy Networks and NGET, costing about £2.5bn. Construction began February 2025; target 2029.</li>
+   <li><strong>EGL2:</strong> 2 GW, 525 kV HVDC from Peterhead to Drax (North Yorkshire), about 436 km subsea. A joint venture of SSEN Transmission and NGET, costing £4.3bn. Construction began September 2024; target 2029. As of August 2026 the first converter building frame at Peterhead was complete.</li>
+   <li>Together the two links add 4 GW of north–south capacity.</li>
+  </ul></div>
+ <div class="card"><h3>Cost of constraints</h3>
+  <ul class="factlist">
+   <li>NESO balancing costs were <strong>£3,093m in 2025-26</strong>, against a benchmark of £2,936m (excluding Winter Contingency costs).</li>
+   <li>In 2024-25 they were £2.7bn, of which thermal constraints were £1.7bn. Thermal constraints are about 60% of balancing costs (NESO, July 2026).</li>
+  </ul></div>
+</div>
+<div class="grid2">
+ <div class="card"><h3>Investment plans, RIIO-T3 (April 2026 to March 2031)</h3>
+  <table><thead><tr><th>Owner</th><th>Area</th><th>Plan</th></tr></thead><tbody>
+   <tr><td>SSEN Transmission (SSE)</td><td>North of Scotland</td><td>About £22.3bn total expenditure, of which about £16bn on strategic (ASTI/LOTI) projects, with a further potential £9.4bn. It accepted Ofgem's Final Determination in March 2026. "Pathway to 2030" is over £20bn.</td></tr>
+   <tr><td>SP Transmission (ScottishPower)</td><td>Central and southern Scotland</td><td>More than £11.6bn nominal submitted. At draft determination (July 2025) Ofgem endorsed 95% of it. EGL1, EGL4 and Western Link 2 make up about a third.</td></tr>
+   <tr><td>NGET (National Grid)</td><td>England and Wales</td><td>The "Great Grid Upgrade" programme of onshore reinforcements and HVDC links.</td></tr>
+  </tbody></table>
+  <p class="note">NESO's Clean Power 2030 advice put network investment at up to £60bn to 2030. That covers nearly 1,000 km of new onshore and over 4,500 km of offshore network.</p></div>
+ <div class="card"><h3>Security of supply</h3>
+  <ul class="factlist">
+   <li>NESO's <strong>Winter Outlook 2026/27</strong> Early View (June 2026) gives a base-case de-rated margin of <strong>5.5 GW</strong>, which is 8.8% of Average Cold Spell peak demand. Loss of load expectation is below 0.1 hours a year, against a 3-hour standard. The full Outlook had not been published at the time of compilation.</li>
+   <li>The T-1 Capacity Market auction for 2026/27 secured 7.2 GW.</li>
+   <li>DUKES 2026 gives UK de-rated capacity of 74.5 GW (renewables 27.7 GW) and winter peak demand of 51.5 GW. NESO's transmission-level national demand peaked at 47,382 MW on 5 January 2026.</li>
+  </ul></div>
+</div>
+<div class="src">Sources: NESO ETYS Scottish boundaries; NESO BP3 End-Scheme Reported Metrics Annex (May 2026); NESO Winter Outlook Early View (June 2026); NESO Clean Power 2030 advice (Nov 2024); EGL1 project updates (SPEN/NGET); SSEN Transmission EGL2 progress note (Aug 2026) and RIIO-T3 statement (Mar 2026); SP Energy Networks RIIO-T3 documents.</div>`,
+utilities:D=>{
+ const tec=(n)=>{const t=D.tec.top.find(x=>x.name===n);return t?fmtN(t.mw):'—';};
+ return `
+<p class="intro">SSE and ScottishPower are the two vertically integrated groups based in Scotland. Each owns a transmission network (SHET and SPT) and a large renewable generation fleet. The figures below come from each company's disclosures and from the TEC register.</p>
+<div class="grid2">
+ <div class="card"><h3>SSE plc</h3>
+  <p class="note">Installed capacity at 31 March 2026, SSE share of joint ventures (FY26 preliminary results, 28 May 2026).</p>
+  <table><tbody>
+   <tr><td>Offshore wind</td><td class="n">1,014 MW</td></tr><tr><td>Onshore wind</td><td class="n">2,570 MW</td></tr>
+   <tr><td>Conventional hydro</td><td class="n">1,164 MW</td></tr><tr><td>Pumped storage (Foyers)</td><td class="n">300 MW</td></tr>
+   <tr><td>Batteries and solar</td><td class="n">231 MW</td></tr><tr><td><strong>Renewables total</strong></td><td class="n"><strong>5,279 MW</strong></td></tr>
+   <tr><td>Gas thermal</td><td class="n">6,210 MW</td></tr><tr><td>Energy from waste and biomass</td><td class="n">43 MW</td></tr>
+  </tbody></table>
+  <h3 style="margin-top:14px">Key assets (gross TEC, MW)</h3>
+  <ul class="factlist">
+   <li><strong>Dogger Bank A and B</strong>: 1,200 MW each. SSE 40%, Equinor 40%, Vårgrønn 20%. A completed turbine installation in February 2026; B delivered first power in March 2026. Dogger Bank C (1,200 MW) completed its foundations in November 2025.</li>
+   <li><strong>Seagreen</strong>: ${tec('Seagreen 1 Offshore Wind Farm')} MW, SSE 49%, operating. Seagreen 1A (500 MW) is under construction on the register.</li>
+   <li><strong>Beatrice</strong>: ${tec('Beatrice Wind Farm')} MW, SSE 40%. <strong>Viking</strong> (Shetland): 443 MW, completed August 2024.</li>
+   <li><strong>Peterhead CCGT</strong>: ${tec('Peterhead')} MW TEC. <strong>Keadby 2</strong>: ${tec('Keadby II')} MW TEC. Peterhead carbon capture (910 MW on the register) has no investment decision yet.</li>
+   <li><strong>Berwick Bank</strong>: consented July 2025 for up to 4.1 GW. Berwick Bank B won 1.4 GW in CfD Allocation Round 7 (January 2026); final investment decision expected 2027.</li>
+   <li><strong>Coire Glas</strong>: 1.4 GW pumped storage, at Ofgem cap-and-floor project assessment.</li>
+   <li>Group investment plan: £33bn over five years to 2029/30, of which about £22bn is SSEN Transmission.</li>
+  </ul></div>
+ <div class="card"><h3>ScottishPower (Iberdrola)</h3>
+  <p class="note">ScottishPower Renewables holds ${fmtN(D.spr.conn/1000,2)} GW of connected TEC under its own name on the register, almost all onshore wind in SPT's area. Offshore projects are held by project companies.</p>
+  <h3 style="margin-top:6px">Key assets</h3>
+  <ul class="factlist">
+   <li><strong>East Anglia ONE</strong>: ${tec('East Anglia One')} MW TEC, operating.</li>
+   <li><strong>East Anglia THREE</strong>: 1,400 MW, 95 turbines, about £4bn, joint venture with Masdar. The first turbine was installed on 21 April 2026 and all foundations by August 2026; full operation is expected by the end of 2026. The register shows 1,200 MW plus 100 MW of TEC still at "Consents Approved".</li>
+   <li><strong>East Anglia TWO</strong>: 963 MW (company figure), with a CfD from Allocation Round 6, due 2028/29. <strong>East Anglia ONE North</strong>: 860 MW on the register, awaiting consents.</li>
+   <li><strong>Whitelee</strong> (East Renfrewshire): 305 MW plus a 206 MW extension on the register, the UK's largest onshore wind farm. <strong>Kilgallioch</strong>: 274 MW.</li>
+   <li>Pipeline on the register includes <strong>Machair</strong> offshore wind (2,000 MW, SPT, 2033).</li>
+   <li>SP Energy Networks is a co-owner of EGL1 and Western Link.</li>
+  </ul>
+  <p class="note">Cruachan pumped storage (440 MW, Argyll) is owned by Drax, not ScottishPower. Drax's Cruachan II expansion (up to 600 MW) was consented in July 2023.</p></div>
+</div>
+<div class="src">Sources: SSE FY26 preliminary results (RNS, 28 May 2026); Iberdrola / ScottishPower Renewables project pages; NESO TEC Register (16 Oct 2026); Drax press release.</div>`;},
+policy:D=>{
+ const t=D.tec.conn;const sum=(k)=>Object.values(t).reduce((s,o)=>s+(o[k]||0),0);
+ return `
+<p class="intro">DESNZ's <em>Digest of UK Energy Statistics</em> (DUKES) is the official annual record. It covers the whole UK and all generators, including those on the distribution network. NESO's series above covers GB and transmission-level output plus estimates for embedded wind and solar. The two therefore differ. For example, gas is 93.2 TWh in DUKES and 77.3 TWh in NESO's series for 2025, a gap that reflects the difference in coverage.</p>
+<div class="grid2">
+ <div class="card"><h3>DUKES 2026: UK electricity in 2025</h3>
+  <table><thead><tr><th>Measure</th><th class="n">TWh</th><th class="n">Share of generation</th></tr></thead><tbody>
+   <tr><td>Total generation</td><td class="n">293.6</td><td class="n">100%</td></tr>
+   <tr><td>Renewables</td><td class="n">153.0</td><td class="n">52.1% (record)</td></tr>
+   <tr><td>— Wind (offshore 52.0, onshore 34.4)</td><td class="n">86.4</td><td class="n">29.5%</td></tr>
+   <tr><td>— Bioenergy</td><td class="n">41.0</td><td class="n">14.0%</td></tr>
+   <tr><td>— Solar</td><td class="n">20.1</td><td class="n">6.9%</td></tr>
+   <tr><td>— Hydro</td><td class="n">5.4</td><td class="n">1.8%</td></tr>
+   <tr><td>Gas</td><td class="n">93.2</td><td class="n">31.8%</td></tr>
+   <tr><td>Nuclear</td><td class="n">35.9</td><td class="n">12.2%</td></tr>
+   <tr><td>Coal</td><td class="n">0.0</td><td class="n">0% (first full year)</td></tr>
+   <tr><td>Net imports (imports 43.9, exports 14.2)</td><td class="n">29.7</td><td class="n">—</td></tr>
+   <tr><td>Total demand</td><td class="n">323.0</td><td class="n">—</td></tr>
+  </tbody></table>
+  <p class="note">Low-carbon share 64.3%. Net imports from France were 21.9 TWh, Norway 9.0, Denmark 2.5 and Belgium 2.0. Bioenergy share is calculated here from the DUKES figures (41.0 ÷ 293.6).</p>
+  <p class="note"><strong>Latest quarter (Energy Trends, Sept 2026, Q2 2026):</strong> renewables reached a record 55.8% of generation (38.3 TWh). Wind was 27.9%, gas 26.8% and solar 12.3%. Net imports were 7.6 TWh.</p></div>
+ <div class="card"><h3>Clean Power 2030: targets and today</h3>
+  <table><thead><tr><th>Technology</th><th class="n">UK installed, end-2025 (DUKES)</th><th class="n">2030 range, GB (Action Plan)</th></tr></thead><tbody>
+   <tr><td>Offshore wind</td><td class="n">16.7 GW</td><td class="n">43–50 GW</td></tr>
+   <tr><td>Onshore wind</td><td class="n">16.4 GW</td><td class="n">27–29 GW</td></tr>
+   <tr><td>Solar</td><td class="n">21.9 GW</td><td class="n">45–47 GW</td></tr>
+   <tr><td>Battery storage</td><td class="n">${fmtN(sum('Battery storage')/1000,1)} GW*</td><td class="n">23–27 GW</td></tr>
+   <tr><td>Long-duration storage (incl. pumped hydro)</td><td class="n">2.9 GW</td><td class="n">4–6 GW</td></tr>
+   <tr><td>Nuclear</td><td class="n">5.9 GW</td><td class="n">3–4 GW</td></tr>
+   <tr><td>Unabated gas</td><td class="n">36.6 GW</td><td class="n">35 GW (kept for back-up)</td></tr>
+   <tr><td>Low-carbon dispatchable</td><td class="n">—</td><td class="n">2–7 GW</td></tr>
+   <tr><td>Interconnectors</td><td class="n">10.7 GW†</td><td class="n">12–14 GW</td></tr>
+  </tbody></table>
+  <p class="note">The target is for clean sources to produce at least 95% of GB generation in a typical weather year. NESO's advice (November 2024) set two pathways: 50 GW offshore wind with no new dispatchable plant, or 43 GW offshore plus 2.7 GW of new dispatchable plant. Investment needed is £40bn or more a year.<br>* Battery figure is transmission-connected TEC only (NESO register, Oct 2026); DUKES Table 5.12 excludes batteries. † NESO Interconnector Register, operating import capacity.</p></div>
+</div>
+<div class="src">Sources: DESNZ DUKES 2026 Chapter 5 and Tables 5.12 and 6.2 (30 July 2026); DESNZ Energy Trends (29 September 2026); DESNZ Clean Power 2030 Action Plan (December 2024, updated April 2025); NESO Clean Power 2030 advice (5 November 2024).</div>`;},
+sources:`
+<div class="grid2"><div>
+<h3>Primary data used</h3>
+<ul class="factlist">
+ <li><strong>NESO Data Portal</strong> (api.neso.energy): Historic GB Generation Mix (half-hourly, 2009 to the present; the live panel queries this on page load); Historic Demand Data 2024–2026 (interconnector flows and SCOTTISH_TRANSFER); TEC Register (16 Oct 2026); Interconnector Register.</li>
+ <li><strong>NESO publications</strong>: ETYS Scottish boundaries; Winter Outlook Early View 2026/27; Clean Power 2030 advice; BP3 balancing cost metrics.</li>
+ <li><strong>DESNZ</strong>: DUKES 2026 Chapters 5 and 6; Energy Trends, September 2026; Clean Power 2030 Action Plan.</li>
+ <li><strong>National Grid / SP Energy Networks / SSEN Transmission</strong>: EGL1 and EGL2 project updates; RIIO-T3 statements.</li>
+ <li><strong>SSE plc</strong>: FY26 preliminary results. <strong>ScottishPower / Iberdrola</strong>: East Anglia project pages and CfD announcements.</li>
+</ul></div><div>
+<h3>Definitions and caveats</h3>
+<ul class="factlist">
+ <li><strong>TEC</strong> (Transmission Entry Capacity) is the contracted maximum export to the transmission system. It is not the same as nameplate or de-rated capacity.</li>
+ <li>"Connected" in the TEC charts means rows with MW Connected above zero, de-duplicated by project and site. "Pipeline" means rows not marked Built that have a positive MW increase. Contracted dates are not delivery forecasts.</li>
+ <li>The NESO generation mix converts half-hourly MW to energy (MWh = MW × 0.5). Its "Imports" is gross imports. Net imports are calculated from the per-link flows.</li>
+ <li>Interconnector flow sign: positive means into GB. Moyle connects GB to Northern Ireland, which is part of the UK but not GB.</li>
+ <li>Site locations on the map are approximate and for illustration only.</li>
+ <li>The Alvarez &amp; Marsal colours and fonts used here are approximations. They come from a third-party template, not A&amp;M's own brand guidelines, and should be checked against the official brand kit before external use.</li>
+</ul></div></div>`
+});
+
+</script>
+<script>
+(function(){
+const $=s=>document.querySelector(s);
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const fmt=(v,d=0)=>Number(v).toLocaleString('en-GB',{maximumFractionDigits:d,minimumFractionDigits:d});
+const tip=$('#tip');
+function showTip(e,html){tip.innerHTML=html;tip.style.display='block';const w=tip.offsetWidth,h=tip.offsetHeight;let x=e.clientX+14,y=e.clientY+14;if(x+w>innerWidth-8)x=e.clientX-w-14;if(y+h>innerHeight-8)y=e.clientY-h-14;tip.style.left=Math.max(8,x)+'px';tip.style.top=Math.max(8,y)+'px';}
+function hideTip(){tip.style.display='none';}
+document.addEventListener('scroll',hideTip,{passive:true});
+
+/* Theme */
+const root=document.documentElement;
+try{const t=localStorage.getItem('gbpf-theme');if(t)root.dataset.theme=t;}catch(e){}
+$('#themeBtn').onclick=()=>{const dark=root.dataset.theme? root.dataset.theme==='dark' : matchMedia('(prefers-color-scheme: dark)').matches;root.dataset.theme=dark?'light':'dark';try{localStorage.setItem('gbpf-theme',root.dataset.theme)}catch(e){};renderAll();};
+
+/* Fuel series: fixed order = palette slot order */
+const FUELS=[
+ {k:'wind',n:'Wind',c:'--s-wind',f:r=>(+r.WIND||0)+(+r.WIND_EMB||0)},
+ {k:'gas',n:'Gas',c:'--s-gas',f:r=>+r.GAS||0},
+ {k:'hydro',n:'Hydro, storage & other',c:'--s-hydro',f:r=>(+r.HYDRO||0)+(+r.STORAGE||0)+(+r.OTHER||0)},
+ {k:'solar',n:'Solar',c:'--s-solar',f:r=>+r.SOLAR||0},
+ {k:'imports',n:'Imports',c:'--s-imports',f:r=>+r.IMPORTS||0},
+ {k:'biomass',n:'Biomass',c:'--s-biomass',f:r=>+r.BIOMASS||0},
+ {k:'nuclear',n:'Nuclear',c:'--s-nuclear',f:r=>+r.NUCLEAR||0},
+ {k:'coal',n:'Coal',c:'--s-coal',f:r=>+r.COAL||0}];
+const legend=(el,items)=>{el.innerHTML=items.map(i=>`<span><i style="background:var(${i.c})"></i>${i.n}</span>`).join('');};
+
+/* KPIs */
+function kpis(){
+  const a=DATA.annual['2025'];const wind=a.WIND+a.WIND_EMB;const g=a.GENERATION;
+  const f=DATA.flows['2025'];let net=0;Object.keys(f).filter(k=>k.endsWith('_FLOW')).forEach(k=>net+=f[k].net);
+  const K=[
+    {v:fmt(g,0)+' TWh',l:'GB generation incl. imports, 2025',s:'NESO generation mix'},
+    {v:fmt(wind/g*100,1)+'%',l:'Wind share, 2025',s:fmt(wind,1)+' TWh, largest single source'},
+    {v:fmt(a.GAS/g*100,1)+'%',l:'Gas share, 2025',s:fmt(a.GAS,1)+' TWh'},
+    {v:fmt(net,1)+' TWh',l:'Net imports, 2025',s:'Gross imports '+fmt(a.IMPORTS,1)+' TWh'},
+    {v:a.CI+' g',l:'Average carbon intensity, 2025',s:'gCO₂/kWh · 445 g in 2009'},
+    {v:fmt(DATA.tec.pipeTotal/1000,0)+' GW',l:'TEC pipeline not yet built',s:fmt(DATA.tec.pipeN,0)+' agreements · Oct 2026'}];
+  $('#kpis').innerHTML=K.map(k=>`<div class="kpi"><div class="v">${k.v}</div><div class="l">${k.l}</div><div class="s">${k.s}</div></div>`).join('');
+}
+
+/* Generic helpers */
+function svgFor(el,w,h){el.innerHTML='';return d3.select(el).append('svg').attr('viewBox',`0 0 ${w} ${h}`).attr('role','img');}
+function W(el){return Math.max(300,Math.min(1100,el.clientWidth||600));}
+
+/* Annual mix */
+let mixUnit='twh';
+function mixChart(){
+  const el=$('#mixChart');const w=W(el),h=Math.round(Math.min(420,w*0.6));const m={t:10,r:8,b:28,l:44};
+  const years=Object.keys(DATA.annual);
+  const rows=years.map(y=>{const a=DATA.annual[y];const o={y:y==='2026'?'2026*':y,total:0};FUELS.forEach(F=>{o[F.k]=F.f(a);o.total+=o[F.k];});return o;});
+  const vals=rows.map(r=>{const o={y:r.y,total:r.total};FUELS.forEach(F=>o[F.k]=mixUnit==='pct'?r[F.k]/r.total*100:r[F.k]);return o;});
+  const svg=svgFor(el,w,h).attr('aria-label','Stacked columns of annual GB generation by fuel 2009 to 2026');
+  const x=d3.scaleBand().domain(vals.map(d=>d.y)).range([m.l,w-m.r]).padding(.18);
+  const ymax=mixUnit==='pct'?100:d3.max(vals,d=>d.total);
+  const y=d3.scaleLinear().domain([0,ymax]).nice().range([h-m.b,m.t]);
+  svg.append('g').attr('class','grid').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickSize(-(w-m.l-m.r)).tickFormat(''));
+  const st=d3.stack().keys(FUELS.map(F=>F.k))(vals);
+  svg.append('g').selectAll('g').data(st).join('g').attr('fill',(d,i)=>css(FUELS[i].c)).selectAll('rect').data(d=>d).join('rect')
+    .attr('x',d=>x(d.data.y)).attr('width',x.bandwidth()).attr('y',d=>y(d[1])).attr('height',d=>Math.max(0,y(d[0])-y(d[1])-(y(d[0])-y(d[1])>3?1.5:0)));
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${h-m.b})`).call(d3.axisBottom(x).tickValues(x.domain().filter((d,i)=>w>620||i%2===0)).tickSizeOuter(0));
+  svg.append('g').attr('class','axis').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d=>mixUnit==='pct'?d+'%':d)).call(g=>g.select('.domain').remove());
+  svg.append('text').attr('x',m.l).attr('y',m.t-0).attr('dy','-0.2em').attr('fill',css('--muted')).attr('font-size',11).text(mixUnit==='pct'?'% of total':'TWh');
+  svg.append('g').selectAll('rect').data(vals).join('rect').attr('x',d=>x(d.y)-x.step()*x.padding()/2).attr('width',x.step()).attr('y',m.t).attr('height',h-m.b-m.t).attr('fill','transparent')
+   .on('mousemove',(e,d)=>showTip(e,`<b>${d.y==='2026*'?'2026 (to 20 Oct)':d.y}</b>`+FUELS.slice().reverse().map(F=>`<div class="row"><span><i style="background:var(${F.c})"></i>${F.n}</span><span>${mixUnit==='pct'?fmt(d[F.k],1)+'%':fmt(d[F.k],1)+' TWh'}</span></div>`).join('')+(mixUnit==='twh'?`<div class="row"><span>Total</span><span>${fmt(d.total,1)} TWh</span></div>`:'')))
+   .on('mouseleave',hideTip);
+  // table
+  $('#mixTable').innerHTML='<table><thead><tr><th>Year</th>'+FUELS.map(F=>`<th class="n">${F.n}</th>`).join('')+'<th class="n">Total</th></tr></thead><tbody>'+rows.map(r=>`<tr><td>${r.y}</td>`+FUELS.map(F=>`<td class="n">${fmt(r[F.k],1)}</td>`).join('')+`<td class="n">${fmt(r.total,1)}</td></tr>`).join('')+'</tbody></table><p class="note">TWh. * 2026 to 20 October.</p>';
+}
+document.querySelectorAll('#mix .toggle button').forEach(b=>b.onclick=()=>{mixUnit=b.dataset.u;document.querySelectorAll('#mix .toggle button').forEach(x=>x.setAttribute('aria-pressed',x===b));mixChart();});
+
+/* Live */
+let LIVE=null;
+async function loadLive(){
+  try{
+    const u='https://api.neso.energy/api/3/action/datastore_search?resource_id=f93d1835-75bc-43e5-84ad-12472b180a98&limit=96&sort=_id%20desc';
+    const r=await fetch(u);const j=await r.json();LIVE=j.result.records.reverse();
+  }catch(e){LIVE=null;}
+  if(!LIVE||!LIVE.length){LIVE=CONTENT.liveFallback;$('#liveMeta').innerHTML='Live feed unavailable. Showing the stored half-hour of 20 Oct 2026 12:00.';}
+  renderLive();
+}
+function renderLive(){
+  if(!LIVE)return;
+  const last=LIVE[LIVE.length-1];const tot=FUELS.reduce((s,F)=>s+F.f(last),0);
+  const t=new Date(last.DATETIME+'Z');
+  if(!$('#liveMeta').textContent.startsWith('Live feed unavailable'))
+   $('#liveMeta').innerHTML=`<strong>${t.toLocaleString('en-GB',{timeZone:'Europe/London',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}</strong> (UK time) · total ${fmt(tot/1000,1)} GW · carbon intensity <strong>${last.CARBON_INTENSITY} gCO₂/kWh</strong>`;
+  const el=$('#liveBars');const w=W(el),rowH=30,h=FUELS.length*rowH+10;const m={l:150,r:70};
+  const data=FUELS.map(F=>({F,v:F.f(last)})).sort((a,b)=>b.v-a.v);
+  const svg=svgFor(el,w,h).attr('aria-label','Current generation by fuel');
+  const x=d3.scaleLinear().domain([0,d3.max(data,d=>d.v)||1]).range([m.l,w-m.r]);
+  const g=svg.selectAll('g').data(data).join('g').attr('transform',(d,i)=>`translate(0,${i*rowH+6})`);
+  g.append('text').attr('x',m.l-8).attr('y',rowH/2).attr('dy','.1em').attr('text-anchor','end').attr('fill',css('--text-2')).attr('font-size',13).text(d=>d.F.n);
+  g.append('rect').attr('x',m.l).attr('y',rowH/2-8).attr('height',14).attr('rx',3).attr('width',d=>Math.max(2,x(d.v)-m.l)).attr('fill',d=>css(d.F.c));
+  g.append('text').attr('x',d=>Math.max(m.l+2,x(d.v))+6).attr('y',rowH/2).attr('dy','.1em').attr('fill',css('--text')).attr('font-size',12).text(d=>fmt(d.v/1000,1)+' GW · '+fmt(d.v/tot*100,0)+'%');
+  // 48h stacked area
+  legend($('#liveLegend'),FUELS);
+  const el2=$('#live48');const w2=W(el2),h2=240;const m2={t:8,r:8,b:24,l:36};
+  const rows=LIVE.map(r=>{const o={t:new Date(r.DATETIME+'Z')};FUELS.forEach(F=>o[F.k]=F.f(r)/1000);return o;});
+  const s2=svgFor(el2,w2,h2).attr('aria-label','Generation by fuel over the last 48 hours');
+  const x2=d3.scaleTime().domain(d3.extent(rows,d=>d.t)).range([m2.l,w2-m2.r]);
+  const st=d3.stack().keys(FUELS.map(F=>F.k))(rows);
+  const y2=d3.scaleLinear().domain([0,d3.max(st[st.length-1],d=>d[1])]).nice().range([h2-m2.b,m2.t]);
+  s2.append('g').attr('class','grid').attr('transform',`translate(${m2.l},0)`).call(d3.axisLeft(y2).ticks(4).tickSize(-(w2-m2.l-m2.r)).tickFormat(''));
+  s2.append('g').selectAll('path').data(st).join('path').attr('fill',(d,i)=>css(FUELS[i].c)).attr('stroke',css('--surface')).attr('stroke-width',1).attr('d',d3.area().x(d=>x2(d.data.t)).y0(d=>y2(d[0])).y1(d=>y2(d[1])));
+  s2.append('g').attr('class','axis').attr('transform',`translate(0,${h2-m2.b})`).call(d3.axisBottom(x2).ticks(w2>500?8:4).tickFormat(d3.timeFormat('%a %H:%M')));
+  s2.append('g').attr('class','axis').attr('transform',`translate(${m2.l},0)`).call(d3.axisLeft(y2).ticks(4)).call(g=>g.select('.domain').remove());
+  const cross=s2.append('line').attr('stroke',css('--text-2')).attr('y1',m2.t).attr('y2',h2-m2.b).style('display','none');
+  s2.append('rect').attr('x',m2.l).attr('y',m2.t).attr('width',w2-m2.l-m2.r).attr('height',h2-m2.t-m2.b).attr('fill','transparent')
+   .on('mousemove',e=>{const [px]=d3.pointer(e);const t=x2.invert(px);const i=d3.bisector(d=>d.t).center(rows,t);const d=rows[i];cross.attr('x1',x2(d.t)).attr('x2',x2(d.t)).style('display',null);
+     showTip(e,`<b>${d.t.toLocaleString('en-GB',{timeZone:'Europe/London',weekday:'short',hour:'2-digit',minute:'2-digit'})}</b>`+FUELS.slice().reverse().map(F=>`<div class="row"><span><i style="background:var(${F.c})"></i>${F.n}</span><span>${fmt(d[F.k],1)} GW</span></div>`).join(''));})
+   .on('mouseleave',()=>{cross.style('display','none');hideTip();});
+}
+
+/* Map */
+let WORLD=null;const layers={sites:true,flows:true};
+const TYPEC={'Gas & thermal':'--s-gas','Offshore wind':'--s-wind','Onshore wind':'--s-wind','Nuclear':'--s-nuclear','Biomass & waste':'--s-biomass','Pumped storage':'--s-hydro','Hydro':'--s-hydro','Battery storage':'--s-solar','Solar':'--s-solar','Other':'--s-coal'};
+async function loadWorld(){try{WORLD=await (await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json')).json();}catch(e){WORLD=null;}mapChart();}
+function mapChart(){
+  const el=$('#map');const w=W(el),h=Math.round(w*1.25);
+  const svg=svgFor(el,w,h).attr('aria-label','Map of Great Britain with major power stations and electricity flows');
+  const proj=d3.geoTransverseMercator().rotate([2,0]).fitExtent([[4,4],[w-4,h-4]],{type:'MultiPoint',coordinates:[[-8.6,49.8],[6.5,61.0],[-8.6,61.0],[6.5,49.8]]});
+  const path=d3.geoPath(proj);
+  if(WORLD){const fc=topojson.feature(WORLD,WORLD.objects.countries);
+    const EU=new Set(['826','372','250','056','528','276','208','578','752','442','620','724']);
+    svg.append('defs').append('clipPath').attr('id','mapclip').append('rect').attr('width',w).attr('height',h);
+    svg.append('g').attr('clip-path','url(#mapclip)').selectAll('path').data(fc.features.filter(f=>EU.has(f.id))).join('path').attr('class',d=>'land'+(d.id==='826'?' gb':'')).attr('d',path);}
+  else svg.append('text').attr('x',10).attr('y',20).attr('fill',css('--muted')).text('Base map unavailable offline');
+  const defs=svg.append('defs');
+  ['pos','neg','scot'].forEach(k=>defs.append('marker').attr('id','ar-'+k).attr('viewBox','0 0 10 10').attr('refX',7).attr('refY',5).attr('markerUnits','userSpaceOnUse').attr('markerWidth',12).attr('markerHeight',12).attr('orient','auto-start-reverse').append('path').attr('d','M0,0L10,5L0,10z').attr('fill',k==='scot'?css('--brand-2'):css('--'+k)));
+  if(layers.flows){
+    const g=svg.append('g');
+    const f=DATA.flows['2025'];
+    const ws=d3.scaleSqrt().domain([0,11]).range([1.5,9]);
+    CONTENT.icGeo.forEach(ic=>{
+      const v=f[ic.key]?f[ic.key].net:0;const a=proj([ic.gb[1],ic.gb[0]]),b=proj([ic.far[1],ic.far[0]]);
+      const imp=v>=0;const from=imp?b:a,to=imp?a:b;
+      const mx=(from[0]+to[0])/2+(ic.bend||0),my=(from[1]+to[1])/2-(ic.bend||0)*.3;
+      g.append('path').attr('d',`M${from[0]},${from[1]}Q${mx},${my} ${to[0]},${to[1]}`).attr('fill','none').attr('stroke',css(imp?'--pos':'--neg')).attr('stroke-width',ws(Math.abs(v))).attr('stroke-opacity',.85).attr('stroke-linecap','round').attr('marker-end',`url(#ar-${imp?'pos':'neg'})`)
+        .on('mousemove',e=>showTip(e,`<b>${ic.name}</b>${ic.cty} · ${fmt(ic.cap,0)} MW import capacity<br>2025: imports ${fmt(f[ic.key].imp,2)} TWh, exports ${fmt(f[ic.key].exp,2)} TWh<br><strong>Net ${imp?'import':'export'} ${fmt(Math.abs(v),2)} TWh</strong>`)).on('mouseleave',hideTip);
+      const lp=ic.lab?proj([ic.lab[1],ic.lab[0]]):b;
+      g.append('text').attr('class','flowlabel').attr('x',lp[0]).attr('y',lp[1]).attr('text-anchor',ic.anchor||'middle').text(`${ic.short} ${imp?'+':'−'}${fmt(Math.abs(v),1)}`);
+    });
+    // Scotland-England
+    const s=DATA.flows['2025'].SCOT;const a=proj([-3.0,56.2]),b=proj([-2.2,54.3]);
+    g.append('path').attr('d',`M${a[0]},${a[1]}L${b[0]},${b[1]}`).attr('stroke',css('--brand-2')).attr('stroke-width',ws(s.twh)).attr('stroke-opacity',.9).attr('marker-end','url(#ar-scot)').attr('fill','none')
+      .on('mousemove',e=>showTip(e,`<b>Scotland → England transfer, 2025</b>${fmt(s.twh,1)} TWh net southward<br>Average ${fmt(s.avg,0)} MW · peak ${fmt(s.max,0)} MW<br>Northward at times (min ${fmt(s.min,0)} MW)`)).on('mouseleave',hideTip);
+    const lp=proj([-1.2,55.4]);g.append('text').attr('class','flowlabel').attr('x',lp[0]).attr('y',lp[1]).text(`Scot→Eng ${fmt(s.twh,1)} TWh`);
+  }
+  if(layers.sites){
+    const r=d3.scaleSqrt().domain([0,4000]).range([0,w/38]);
+    const sites=DATA.tec.top.map(t=>({...t,geo:CONTENT.siteGeo[t.name]})).filter(d=>d.geo).sort((a,b)=>b.mw-a.mw);
+    svg.append('g').selectAll('circle').data(sites).join('circle').attr('class','sitecircle').attr('cx',d=>proj([d.geo[1],d.geo[0]])[0]).attr('cy',d=>proj([d.geo[1],d.geo[0]])[1]).attr('r',d=>Math.max(3,r(d.mw))).attr('fill',d=>css(TYPEC[d.type]||'--muted')).attr('fill-opacity',.85).attr('stroke-width',1.5)
+     .on('mousemove',(e,d)=>showTip(e,`<b>${d.name}</b>${d.type} · ${fmt(d.mw,0)} MW TEC<br>${d.owner}<br><span class="note">${d.site} · ${d.to}</span>`)).on('mouseleave',hideTip);
+  }
+  const tl=[{n:'Gas',c:'--s-gas'},{n:'Wind',c:'--s-wind'},{n:'Nuclear',c:'--s-nuclear'},{n:'Biomass',c:'--s-biomass'},{n:'Hydro / pumped storage',c:'--s-hydro'},{n:'Battery',c:'--s-solar'}];
+  $('#mapLegend').innerHTML=(layers.sites?tl.map(i=>`<span><i style="background:var(${i.c});border-radius:50%"></i>${i.n}</span>`).join(''):'')+(layers.flows?`<span><i style="background:var(--pos)"></i>Net import (TWh)</span><span><i style="background:var(--neg)"></i>Net export (TWh)</span><span><i style="background:var(--brand-2)"></i>Scotland→England</span>`:'');
+}
+document.querySelectorAll('#map-s .toggle button').forEach(b=>b.onclick=()=>{layers[b.dataset.l]=!layers[b.dataset.l];b.setAttribute('aria-pressed',layers[b.dataset.l]);mapChart();});
+function topTable(){
+  $('#topTable').innerHTML='<table><thead><tr><th>Station</th><th>Type</th><th class="n">MW</th></tr></thead><tbody>'+DATA.tec.top.map(t=>`<tr><td>${t.name}<br><span class="note">${t.owner} · ${t.to}</span></td><td>${t.type}</td><td class="n">${fmt(t.mw)}</td></tr>`).join('')+'</tbody></table>';
+}
+
+/* Interconnectors */
+function icChart(){
+  const f=DATA.flows['2025'];
+  const el=$('#icChart');const w=W(el);const narrow=w<520;
+  const data=CONTENT.icGeo.map(ic=>({n:narrow?ic.short+' ('+ic.cty.replace('Northern Ireland','NI')+')':ic.name+' ('+ic.cty+')',v:f[ic.key].net,ic})).sort((a,b)=>b.v-a.v);
+  const _w=w,rowH=28,h=data.length*rowH+30;const m={l:narrow?118:190,r:40};
+  const svg=svgFor(el,w,h).attr('aria-label','Net interconnector flows 2025');
+  const x=d3.scaleLinear().domain([d3.min(data,d=>d.v)-1.4,d3.max(data,d=>d.v)+0.5]).range([m.l,w-m.r]);
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${h-22})`).call(d3.axisBottom(x).ticks(5));
+  svg.append('line').attr('x1',x(0)).attr('x2',x(0)).attr('y1',0).attr('y2',h-22).attr('stroke',css('--muted'));
+  const g=svg.selectAll('g.r').data(data).join('g').attr('class','r').attr('transform',(d,i)=>`translate(0,${i*rowH})`);
+  g.append('text').attr('x',m.l-8).attr('y',rowH/2+4).attr('text-anchor','end').attr('font-size',12).attr('fill',css('--text-2')).text(d=>d.n);
+  g.append('rect').attr('x',d=>x(Math.min(0,d.v))).attr('width',d=>Math.abs(x(d.v)-x(0))).attr('y',rowH/2-7).attr('height',14).attr('rx',3).attr('fill',d=>css(d.v>=0?'--pos':'--neg'));
+  g.append('text').attr('x',d=>d.v>=0?x(d.v)+5:x(d.v)-5).attr('text-anchor',d=>d.v>=0?'start':'end').attr('y',rowH/2+4).attr('font-size',12).attr('fill',css('--text')).text(d=>(d.v>=0?'+':'−')+fmt(Math.abs(d.v),1));
+  g.append('rect').attr('x',0).attr('width',w).attr('height',rowH).attr('fill','transparent').on('mousemove',(e,d)=>showTip(e,`<b>${d.n}</b>Imports ${fmt(f[d.ic.key].imp,2)} TWh · exports ${fmt(f[d.ic.key].exp,2)} TWh<br>Max import ${fmt(f[d.ic.key].maxImp)} MW · max export ${fmt(-f[d.ic.key].maxExp)} MW`)).on('mouseleave',hideTip);
+}
+function icTable(){
+  const f25=DATA.flows['2025'],f26=DATA.flows['2026'];const byName={};CONTENT.icGeo.forEach(i=>byName[i.reg]=i);
+  const seen=new Set();const rows=DATA.ic.slice().reverse().filter(r=>{if(seen.has(r.name))return false;seen.add(r.name);return true;}).sort((a,b)=>(a.status==='Built'?0:1)-(b.status==='Built'?0:1)||(a.date||'').localeCompare(b.date||''));
+  $('#icTable').innerHTML='<table><thead><tr><th>Project</th><th>Status</th><th>GB connection</th><th class="n">Import MW</th><th class="n">Export MW</th><th>From</th><th class="n">2025 net TWh</th><th class="n">2026 YTD net</th></tr></thead><tbody>'+rows.map((r,i)=>{const g=byName[r.name];const brk=(r.status!=='Built'&&i>0&&rows[i-1].status==='Built')?'<tr><td colspan="8" style="background:var(--surface-2);font-weight:600">Pipeline (not yet operating)</td></tr>':'';return brk+(`<tr><td>${r.name}<br><span class="note">${r.owner}</span></td><td><span class="pill">${r.status}</span></td><td>${r.site} (${r.to})</td><td class="n">${fmt(r.imp)}</td><td class="n">${fmt(r.exp)}</td><td>${r.status==='Built'?'Operating':(r.date||'')}</td><td class="n">${g?fmt(f25[g.key].net,2):''}</td><td class="n">${g?fmt(f26[g.key].net,2):''}</td></tr>`)}).join('')+'</tbody></table><p class="note">Positive = net import to GB. 2026 YTD = 1 Jan to 29 Sep 2026. Isle of Man link (74 MW, 132 kV) is not reported in the NESO flow series.</p>';
+}
+function scotChart(){
+  const mf=DATA.monthflows;const rows=Object.keys(mf).map(k=>({k,d:new Date(k+'-15'),v:mf[k][0]}));
+  const el=$('#scotChart');const w=W(el),h=240;const m={t:12,r:12,b:24,l:44};
+  const svg=svgFor(el,w,h).attr('aria-label','Monthly average Scotland to England transfer');
+  const x=d3.scaleTime().domain(d3.extent(rows,d=>d.d)).range([m.l,w-m.r]);
+  const y=d3.scaleLinear().domain([0,d3.max(rows,d=>d.v)*1.1]).nice().range([h-m.b,m.t]);
+  svg.append('g').attr('class','grid').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w-m.l-m.r)).tickFormat(''));
+  svg.append('path').datum(rows).attr('fill','none').attr('stroke',css('--brand-2')).attr('stroke-width',2).attr('d',d3.line().x(d=>x(d.d)).y(d=>y(d.v)));
+  svg.append('g').selectAll('circle').data(rows).join('circle').attr('cx',d=>x(d.d)).attr('cy',d=>y(d.v)).attr('r',4).attr('fill',css('--brand-2')).attr('stroke',css('--surface')).attr('stroke-width',2)
+    .on('mousemove',(e,d)=>showTip(e,`<b>${d.d.toLocaleString('en-GB',{month:'long',year:'numeric'})}</b>Average ${fmt(d.v)} MW southward`)).on('mouseleave',hideTip);
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${h-m.b})`).call(d3.axisBottom(x).ticks(w>500?10:5).tickFormat(d3.timeFormat('%b %y')));
+  svg.append('g').attr('class','axis').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4)).call(g=>g.select('.domain').remove());
+  const s=DATA.flows;
+  $('#scotNote').innerHTML=`2025: ${fmt(s['2025'].SCOT.twh,1)} TWh net southward, average ${fmt(s['2025'].SCOT.avg)} MW, half-hourly peak ${fmt(s['2025'].SCOT.max)} MW. Transfer exceeded 5 GW in ${fmt(s['2025'].SCOT.p_gt5,1)}% of half-hours. 2026 to 29 Sept: ${fmt(s['2026'].SCOT.twh,1)} TWh, average ${fmt(s['2026'].SCOT.avg)} MW, peak ${fmt(s['2026'].SCOT.max)} MW.`;
+}
+
+/* TEC */
+const TECCATS=[{n:'Battery storage',c:'--s-solar'},{n:'Solar',c:'--s-hydro'},{n:'Offshore wind',c:'--s-wind'},{n:'Onshore wind',c:'--s-imports'},{n:'Gas & thermal',c:'--s-gas'},{n:'Nuclear',c:'--s-nuclear'},{n:'Pumped storage',c:'--s-biomass'},{n:'Other',c:'--s-coal',lab:'Other (incl. biomass, hydro)'}];
+const tecCat=k=>TECCATS.find(c=>c.n===k)?k:'Other';
+const STATUSES=['Under Construction/Commissioning','Consents Approved','Awaiting Consents','Scoping'];
+function tecIntro(){
+  const t=DATA.tec;const g=t.pipeGate;
+  $('#tecIntro').innerHTML=`The register lists every agreement to connect directly to the transmission network, plus large embedded projects. At 16 October 2026 it held <strong>${fmt(t.connTotal/1000,1)} GW</strong> of connected TEC across ${t.connN} sites and <strong>${fmt(t.pipeTotal/1000,0)} GW</strong> of contracted capacity not yet built — about seven times the connected total. Under the Connections Reform ("Gate 2 to whole queue") process, ${fmt(g['2']/1000,1)} GW has been classified Gate 2 (firm connection date) and ${fmt(g['1']/1000,0)} GW Gate 1 (indicative only); ${fmt(g['Not yet classified']/1000,0)} GW is not yet classified in the published register.`;
+}
+function toChart(){
+  const c=DATA.tec.conn;const tos=['NGET','SHET','SPT','OFTO'];
+  const cats=['Gas & thermal','Offshore wind','Onshore wind','Nuclear','Biomass & waste','Battery storage','Pumped storage','Hydro','Other','Solar'];
+  const CC={'Gas & thermal':'--s-gas','Offshore wind':'--s-wind','Onshore wind':'--s-hydro','Nuclear':'--s-nuclear','Biomass & waste':'--s-biomass','Battery storage':'--s-solar','Pumped storage':'--s-imports','Hydro':'--s-imports','Other':'--s-coal','Solar':'--s-solar'};
+  const LC=[{n:'Gas & thermal',c:'--s-gas'},{n:'Offshore wind',c:'--s-wind'},{n:'Onshore wind',c:'--s-hydro'},{n:'Nuclear',c:'--s-nuclear'},{n:'Biomass',c:'--s-biomass'},{n:'Battery & solar',c:'--s-solar'},{n:'Hydro & pumped storage',c:'--s-imports'},{n:'Other',c:'--s-coal'}];
+  legend($('#toLegend'),LC);
+  const rows=tos.map(t=>{const o={t};cats.forEach(k=>o[k]=(c[t]||{})[k]||0);o.total=cats.reduce((s,k)=>s+o[k],0);return o;});
+  const el=$('#toChart');const w=W(el),rowH=40,h=rows.length*rowH+28;const m={l:50,r:60};
+  const svg=svgFor(el,w,h);const x=d3.scaleLinear().domain([0,d3.max(rows,d=>d.total)]).range([m.l,w-m.r]);
+  const st=d3.stack().keys(cats)(rows);
+  svg.append('g').selectAll('g').data(st).join('g').attr('fill',d=>css(CC[d.key])).selectAll('rect').data(d=>d.map(v=>({v,key:d.key}))).join('rect')
+   .attr('y',(d,i)=>i*rowH+8).attr('height',22).attr('x',d=>x(d.v[0])).attr('width',d=>Math.max(0,x(d.v[1])-x(d.v[0])-1))
+   .on('mousemove',(e,d)=>showTip(e,`<b>${d.v.data.t} · ${d.key}</b>${fmt(d.v[1]-d.v[0])} MW`)).on('mouseleave',hideTip);
+  svg.selectAll('text.l').data(rows).join('text').attr('x',m.l-6).attr('y',(d,i)=>i*rowH+23).attr('text-anchor','end').attr('font-size',13).attr('fill',css('--text-2')).text(d=>d.t);
+  svg.selectAll('text.v').data(rows).join('text').attr('x',d=>x(d.total)+5).attr('y',(d,i)=>i*rowH+23).attr('font-size',12).attr('fill',css('--text')).text(d=>fmt(d.total/1000,1)+' GW');
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${h-22})`).call(d3.axisBottom(x).ticks(4).tickFormat(d=>d/1000+' GW'));
+}
+function pipeChart(){
+  const pc=DATA.tec.pipeCat;const agg={};Object.keys(pc).forEach(k=>{const c=tecCat(k);agg[c]=agg[c]||{};STATUSES.forEach(s=>agg[c][s]=(agg[c][s]||0)+(pc[k][s]||0));});
+  const rows=TECCATS.map(c=>({n:c.n,...agg[c.n]})).map(r=>{r.total=STATUSES.reduce((s,k)=>s+(r[k]||0),0);return r;});
+  const SC=['--brand','--brand-2','--accent','--line'];const SN=['Under construction / commissioning','Consents approved','Awaiting consents','Scoping'];
+  $('#pipeLegend').innerHTML=SN.map((n,i)=>`<span><i style="background:var(${SC[i]})"></i>${n}</span>`).join('');
+  const el=$('#pipeChart');const w=W(el),rowH=32,h=rows.length*rowH+28;const m={l:120,r:56};
+  const svg=svgFor(el,w,h);const x=d3.scaleLinear().domain([0,d3.max(rows,d=>d.total)]).range([m.l,w-m.r]);
+  const st=d3.stack().keys(STATUSES).value((d,k)=>d[k]||0)(rows);
+  svg.append('g').selectAll('g').data(st).join('g').attr('fill',(d,i)=>css(SC[i])).selectAll('rect').data(d=>d.map(v=>({v,key:d.key}))).join('rect')
+   .attr('y',(d,i)=>i*rowH+6).attr('height',20).attr('x',d=>x(d.v[0])).attr('width',d=>Math.max(0,x(d.v[1])-x(d.v[0])-(x(d.v[1])-x(d.v[0])>3?1.5:0)))
+   .on('mousemove',(e,d)=>showTip(e,`<b>${d.v.data.n}</b>${d.key}: ${fmt((d.v[1]-d.v[0])/1000,1)} GW<br>Total pipeline ${fmt(d.v.data.total/1000,1)} GW`)).on('mouseleave',hideTip);
+  svg.selectAll('text.l').data(rows).join('text').attr('x',m.l-6).attr('y',(d,i)=>i*rowH+20).attr('text-anchor','end').attr('font-size',12).attr('fill',css('--text-2')).text(d=>d.n);
+  svg.selectAll('text.v').data(rows).join('text').attr('x',d=>x(d.total)+5).attr('y',(d,i)=>i*rowH+20).attr('font-size',12).attr('fill',css('--text')).text(d=>fmt(d.total/1000,0)+' GW');
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${h-22})`).call(d3.axisBottom(x).ticks(4).tickFormat(d=>d/1000+' GW'));
+}
+function yearChart(){
+  const py=DATA.tec.pipeYear;const years=Object.keys(py).filter(y=>y&&y!=='').sort((p,q)=>p==='≤2026'?-1:q==='≤2026'?1:p.localeCompare(q));
+  const rows=years.map(y=>{const o={y};TECCATS.forEach(c=>o[c.n]=0);Object.keys(py[y]).forEach(k=>o[tecCat(k)]+=py[y][k]/1000);o.total=TECCATS.reduce((s,c)=>s+o[c.n],0);return o;});
+  const el=$('#yearChart');const w=W(el),h=260;const m={t:10,r:8,b:26,l:36};
+  const svg=svgFor(el,w,h);const x=d3.scaleBand().domain(years).range([m.l,w-m.r]).padding(.2);
+  const y=d3.scaleLinear().domain([0,d3.max(rows,d=>d.total)]).nice().range([h-m.b,m.t]);
+  svg.append('g').attr('class','grid').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(w-m.l-m.r)).tickFormat(''));
+  const st=d3.stack().keys(TECCATS.map(c=>c.n))(rows);
+  svg.append('g').selectAll('g').data(st).join('g').attr('fill',(d,i)=>css(TECCATS[i].c)).selectAll('rect').data(d=>d).join('rect').attr('x',d=>x(d.data.y)).attr('width',x.bandwidth()).attr('y',d=>y(d[1])).attr('height',d=>Math.max(0,y(d[0])-y(d[1])-(y(d[0])-y(d[1])>3?1.5:0)));
+  svg.append('g').selectAll('rect').data(rows).join('rect').attr('x',d=>x(d.y)).attr('width',x.bandwidth()).attr('y',m.t).attr('height',h-m.b-m.t).attr('fill','transparent')
+   .on('mousemove',(e,d)=>showTip(e,`<b>${d.y}</b>`+TECCATS.slice().reverse().filter(c=>d[c.n]>0.05).map(c=>`<div class="row"><span><i style="background:var(${c.c})"></i>${c.n}</span><span>${fmt(d[c.n],1)} GW</span></div>`).join('')+`<div class="row"><span>Total</span><span>${fmt(d.total,1)} GW</span></div>`)).on('mouseleave',hideTip);
+  svg.append('g').attr('class','axis').attr('transform',`translate(0,${h-m.b})`).call(d3.axisBottom(x).tickValues(years.filter((d,i)=>w>560||i%2===0)).tickFormat(d=>d.replace('20',"'")));
+  svg.append('g').attr('class','axis').attr('transform',`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4)).call(g=>g.select('.domain').remove());
+  const lg=document.createElement('div');lg.className='legend';el.prepend(lg);legend(lg,TECCATS);
+}
+function ucTable(){
+  $('#ucTable').innerHTML='<table><thead><tr><th>Project</th><th>Type</th><th class="n">MW</th><th>TEC date</th></tr></thead><tbody>'+DATA.tec.uc.map(u=>`<tr><td>${u.name}<br><span class="note">${u.site} · ${u.to}</span></td><td>${u.type}</td><td class="n">${fmt(u.mw)}</td><td>${u.date||''}</td></tr>`).join('')+'</tbody></table><p class="note">Status as recorded on the register. Some dates are already past; the register records the contracted date until it is formally changed.</p>';
+}
+
+/* Static content blocks */
+function blocks(){
+  $('#netContent').innerHTML=CONTENT.networks;
+  $('#utilContent').innerHTML=CONTENT.utilities(DATA);
+  $('#policyContent').innerHTML=CONTENT.policy(DATA);
+  $('#sourcesContent').innerHTML=CONTENT.sources;
+}
+
+function renderAll(){legend($('#mixLegend'),FUELS);mixChart();renderLive();mapChart();icChart();scotChart();toChart();pipeChart();yearChart();}
+kpis();topTable();icTable();tecIntro();ucTable();blocks();renderAll();loadLive();loadWorld();
+let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(renderAll,200);});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',renderAll);
+})();
+
+</script>
+</body>
+</html>
